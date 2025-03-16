@@ -1,37 +1,35 @@
 {
-    "project": {
-        "name": "Construction Quantity Estimator",
-        "version": "0.1.0"
-    },
-    {
-        "estimation": {
-          "default_tier": "Premium",
-          "tiers": {
-            "Premium": {
+  "project": {
+      "name": "Construction Quantity Estimator",
+      "version": "0.1.0"
+  },
+  "estimation": {
+      "default_tier": "Premium",
+      "tiers": {
+          "Premium": {
               "min_sf": 4000,
               "max_sf": 6000,
               "description": "High-quality finishes and fixtures"
-            },
-            "Luxury": {
+          },
+          "Luxury": {
               "min_sf": 6000,
               "max_sf": 10000,
               "description": "Premium finishes and advanced systems"
-            },
-            "Ultra-Luxury": {
+          },
+          "Ultra-Luxury": {
               "min_sf": 10000,
               "max_sf": null,
               "description": "Exotic materials and maximum amenities"
-            }
           }
-        },
-        "data": {
-          "catalog_path": "data/catalog.csv",
-          "estimations_path": "data/estimations"
-        },
-        "api": {
-          "host": "127.0.0.1",
-          "port": 5000,
-          "debug": true
-        }
       }
+  },
+  "data": {
+      "catalog_path": "data/catalog.csv",
+      "estimations_path": "data/estimations"
+  },
+  "api": {
+      "host": "127.0.0.1",
+      "port": 5000,
+      "debug": true
+  }
 }

@@ -1,0 +1,116 @@
+Category,Item,Item ID,Quantity,Unit,Unit Cost,Total Cost,Markup %,Note
+structural,Framing of Liveable Space,fr1,12480.0,Sq Ft,47.5,592800.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,5200.0,Sq Ft,47.5,247000.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,3120.0,Sq Ft,47.5,148200.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,11677.0,Sq Ft,47.5,554657.5,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,16.0,Sq Ft,47.5,760.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,1297.0,Sq Ft,47.5,61607.5,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,1560.0,Sq Ft,47.5,74100.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,39.0,Sq Ft,47.5,1852.5,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,14950.0,Sq Ft,47.5,710125.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,5980.0,Sq Ft,47.5,284050.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,5232.0,Sq Ft,47.5,248520.0,70.0,Approximate cost - item matched by category
+structural,Framing of Liveable Space,fr1,3737.0,Sq Ft,47.5,177507.5,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,9.0,Each,525.0,4725.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,10.0,Each,525.0,5250.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,5.0,Each,525.0,2625.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,10.0,Each,525.0,5250.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,30.0,Each,525.0,15750.0,70.0,Approximate cost - item matched by category
+hvac,HVAC New 2 Ton Package Unit,me1,13.0,Each,9150.0,118950.0,70.0,Approximate cost - item matched by category
+hvac,HVAC New 2 Ton Package Unit,me1,4.0,Each,9150.0,36600.0,70.0,Approximate cost - item matched by category
+hvac,HVAC New 2 Ton Package Unit,me1,14.0,Each,9150.0,128100.0,70.0,Approximate cost - item matched by category
+hvac,HVAC New 2 Ton Package Unit,me1,182.0,Each,9150.0,1665300.0,70.0,Approximate cost - item matched by category
+hvac,HVAC New 2 Ton Package Unit,me1,78.0,Each,9150.0,713700.0,70.0,Approximate cost - item matched by category
+hvac,HVAC Registers,me9,59.0,Each ,190.0,11210.0,70.0,Direct match found
+hvac,HVAC Returns,me10,22.0,Each ,190.0,4180.0,70.0,Direct match found
+roofing,Roofing Recoat Flat Roof,ro1,8775.0,Sq Ft,2.3,20182.5,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,20182.0,Sq Ft,2.3,46418.6,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,6500.0,Sq Ft,2.3,14949.999999999998,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,49.0,Sq Ft,2.3,112.69999999999999,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,439.0,Sq Ft,2.3,1009.6999999999999,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,1404.0,Sq Ft,2.3,3229.2,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,1040.0,Sq Ft,2.3,2392.0,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,1430.0,Sq Ft,2.3,3288.9999999999995,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,274.0,Sq Ft,2.3,630.1999999999999,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,7.0,Sq Ft,2.3,16.099999999999998,70.0,Approximate cost - item matched by category
+roofing,Roofing Recoat Flat Roof,ro1,1.0,Sq Ft,2.3,2.3,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,2.0,Sq Ft,1.5,3.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,50.0,Sq Ft,1.5,75.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,320.0,Sq Ft,1.5,480.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,240.0,Sq Ft,1.5,360.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,10.0,Sq Ft,1.5,15.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,160.0,Sq Ft,1.5,240.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,620.0,Sq Ft,1.5,930.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,3.0,Sq Ft,1.5,4.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,48.0,Sq Ft,1.5,72.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,300.0,Sq Ft,1.5,450.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,180.0,Sq Ft,1.5,270.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,9.0,Sq Ft,1.5,13.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,150.0,Sq Ft,1.5,225.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,537.0,Sq Ft,1.5,805.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,2.0,Sq Ft,1.5,3.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,70.0,Sq Ft,1.5,105.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,30.0,Sq Ft,1.5,45.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,20.0,Sq Ft,1.5,30.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,100.0,Sq Ft,1.5,150.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,106.0,Sq Ft,1.5,159.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,25.0,Sq Ft,1.5,37.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,75.0,Sq Ft,1.5,112.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,60.0,Sq Ft,1.5,90.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,150.0,Sq Ft,1.5,225.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,1257.0,Sq Ft,1.5,1885.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,131.0,Sq Ft,1.5,196.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,285.0,Sq Ft,1.5,427.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,1673.0,Sq Ft,1.5,2509.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,330.0,Sq Ft,1.5,495.0,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,1725.0,Sq Ft,1.5,2587.5,70.0,Approximate cost - item matched by category
+tile,Tile Float Floor,ti1,330.0,Sq Ft,1.5,495.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,43.0,Sq Ft,80.0,3440.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,36.5,Sq Ft,80.0,2920.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,17.5,Sq Ft,80.0,1400.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,13.0,Sq Ft,80.0,1040.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,15.8,Sq Ft,80.0,1264.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,5.0,Sq Ft,80.0,400.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,6.0,Sq Ft,80.0,480.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,8.0,Sq Ft,80.0,640.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,110.0,Sq Ft,80.0,8800.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,50.8,Sq Ft,80.0,4064.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,14.0,Sq Ft,80.0,1120.0,70.0,Approximate cost - item matched by category
+cabinetry,Countertop Fabrication/Installation,co1,174.8,Sq Ft,80.0,13984.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,91.0,Sq Ft,80.0,7280.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,8.0,Sq Ft,80.0,640.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,96.0,Sq Ft,80.0,7680.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,54.0,Sq Ft,80.0,4320.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,24.0,Sq Ft,80.0,1920.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,133.0,Sq Ft,80.0,10640.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,74.0,Sq Ft,80.0,5920.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,50.0,Sq Ft,80.0,4000.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,38.0,Sq Ft,80.0,3040.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,121.0,Sq Ft,80.0,9680.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,174.0,Sq Ft,80.0,13920.0,70.0,Approximate cost - item matched by category
+countertops,Countertop Fabrication/Installation,co1,295.0,Sq Ft,80.0,23600.0,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,40.0,Sq Ft,0.35,14.0,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,130.0,Sq Ft,0.35,45.5,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,13.0,Sq Ft,0.35,4.55,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,1.0,Sq Ft,0.35,0.35,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,6500.0,Sq Ft,0.35,2275.0,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,195.0,Sq Ft,0.35,68.25,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,52.0,Sq Ft,0.35,18.2,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,39.0,Sq Ft,0.35,13.649999999999999,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,4550.0,Sq Ft,0.35,1592.5,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,1950.0,Sq Ft,0.35,682.5,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,13.0,Sq Ft,0.35,4.55,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,260.0,Sq Ft,0.35,91.0,70.0,Approximate cost - item matched by category
+cleaning,Rough Clean,cl1,130.0,Sq Ft,0.35,45.5,70.0,Approximate cost - item matched by category

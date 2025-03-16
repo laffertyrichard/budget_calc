@@ -12,7 +12,7 @@ class DataLoader:
     def __init__(self, config_path: str = 'config/settings.json'):
         """Initialize with path to configuration file"""
         self.config = self._load_json(config_path)
-        self.mappings = self._load_json(os.path.join('config', 'mappings.json'))
+        self.mappings = self._load_json(os.path.join('config', 'catalog_mappings.json'))
         self.catalog = None
     
     def _load_json(self, path: str) -> Dict[str, Any]:
@@ -29,7 +29,7 @@ class DataLoader:
     
     def load_catalog(self, path: str = None) -> pd.DataFrame:
         """Load the cost catalog CSV file with proper data typing and validation"""
-        catalog_path = path or self.config.get('data', {}).get('catalog_path', 'data/catalog.csv')
+        catalog_path = path or self.config.get('data', {}).get('catalog_path', 'data/catalog_enhanced.csv')
         
         try:
             # Define column types for better data handling

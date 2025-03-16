@@ -29,6 +29,7 @@ def main():
     parser.add_argument('--output', type=str, default='estimation_results.json', help='Output file for results')
     parser.add_argument('--report', type=str, default='estimation_report.txt', help='Output file for text report')
     parser.add_argument('--csv', type=str, help='Output CSV file for costed items')
+    parser.add_argument('--estimator_report', type=str, default='estimator_report.txt', help='Output file for estimator module report')
     args = parser.parse_args()
     
     # Load input data
@@ -38,6 +39,11 @@ def main():
     # Initialize estimator and generate results
     estimator = EstimationEngine()
     results = estimator.estimate_project(project_data)
+    
+    # Log and print all estimator module outputs
+    for category, output in results.get('categories', {}).items():
+        logger.info(f"Category: {category}, Output: {output}")
+        print(f"Category: {category}, Output: {output}")
     
     # Save results to JSON
     with open(args.output, 'w') as f:
@@ -64,6 +70,29 @@ def main():
     print("\n" + "=" * 80)
     print(summary)
     print("=" * 80)
+    
+    # Generate and save estimator module report
+    estimator_report = generate_estimator_report(results)
+    with open(args.estimator_report, 'w') as f:
+        f.write(estimator_report)
+        print(f"Estimator report saved to {args.estimator_report}")
+
+def generate_estimator_report(results):
+    """Generate a report for estimator module outputs"""
+    report_lines = []
+    report_lines.append("ESTIMATOR MODULE OUTPUTS")
+    report_lines.append("=" * 80)
+    
+    for category, output in results.get('categories', {}).items():
+        report_lines.append(f"Category: {category}")
+        report_lines.append("-" * 80)
+        report_lines.append(json.dumps(output, indent=2))
+        report_lines.append("=" * 80)
+    
+    logger.info("Generated estimator module report")
+    print("Generated estimator module report")
+    
+    return "\n".join(report_lines)
 
 if __name__ == "__main__":
     main()

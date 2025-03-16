@@ -69,7 +69,7 @@
                 "countertops_sf": "calculate_countertops"
             }
         },
-        "doors_windows": {
+        "windows_doors": {
             "catalog_categories": ["Doors", "Windows"],
             "description": "Doors and windows",
             "estimation_formulas": {
@@ -85,7 +85,7 @@
                 "siding_sf": "calculate_siding"
             }
         },
-        "landscape": {
+        "landscape_hardscape": {
             "catalog_categories": ["Landscape", "Hardscape"],
             "description": "Landscaping and hardscaping",
             "estimation_formulas": {

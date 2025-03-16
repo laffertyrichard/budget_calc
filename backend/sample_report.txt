@@ -1,0 +1,572 @@
+================================================================================
+DETAILED CONSTRUCTION ESTIMATION REPORT
+Generated: 2025-03-16 14:32:44
+================================================================================
+
+PROJECT INFORMATION
+--------------------------------------------------
+Square Footage: 6,500 sq ft
+Project Tier: Luxury
+
+FOUNDATION
+--------------------------------------------------
+
+Quantities:
+  Slab Concrete Cy: 110
+  Footing Concrete Cy: 33
+  Foundation Wall Cy: 94
+  Total Concrete Cy: 238
+  Foundation Waterproofing Sf: 3250
+  Below Grade Drainage Lf: 975
+  Roof Drainage Lf: 520
+  Sump Pumps: 2
+
+Category Total: $0.00
+
+STRUCTURAL
+--------------------------------------------------
+
+Quantities:
+  Conventional Lumber Bf: 12480
+  Engineered Lumber Bf: 5200
+  Steel Framing Equivalent Bf: 3120
+  Stud Quantity: 11677
+  Stud Spacing Inches: 16
+  Wall Linear Feet: 1297
+  Steel Framing Weight Lbs: 1560
+  Steel Connections: 39
+  Total Sheathing Sf: 14950
+  Roof Sheathing Sf: 5980
+  Wall Sheathing Sf: 5232
+  Floor Sheathing Sf: 3737
+
+Costed Items:
+  Framing of Liveable Space: 12480 Sq Ft at $47.50 each = $592,800.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 5200 Sq Ft at $47.50 each = $247,000.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 3120 Sq Ft at $47.50 each = $148,200.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 11677 Sq Ft at $47.50 each = $554,657.50
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 16 Sq Ft at $47.50 each = $760.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 1297 Sq Ft at $47.50 each = $61,607.50
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 1560 Sq Ft at $47.50 each = $74,100.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 39 Sq Ft at $47.50 each = $1,852.50
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 14950 Sq Ft at $47.50 each = $710,125.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 5980 Sq Ft at $47.50 each = $284,050.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 5232 Sq Ft at $47.50 each = $248,520.00
+    Note: Approximate cost - item matched by category
+  Framing of Liveable Space: 3737 Sq Ft at $47.50 each = $177,507.50
+    Note: Approximate cost - item matched by category
+
+Category Total: $3,101,180.00
+
+ELECTRICAL
+--------------------------------------------------
+
+Quantities:
+  Standard Outlets: 143
+  Gfci Outlets: 32
+  Usb Outlets: 20
+  Floor Outlets: 13
+  Single Pole Switches: 98
+  Three Way Switches: 39
+  Dimmer Switches: 46
+  Smart Switches: 20
+  Total Outlets Switches: 455
+  Recessed Lights: 98
+  Pendants: 8
+  Chandeliers: 6
+  Under Cabinet Lights: 65
+  Toe Kick Lights: 32
+  Closet Lights: 20
+  Total Light Fixtures: 228
+  Total Specialty Systems: 52
+  Lighting Control Panels: 1
+  Audio Visual Drops: 13
+  Security System Components: 6
+  Main Panel Size: 400
+  Sub Panels: 2
+  Total Circuits: 56
+  Romex Lf: 19500
+  Units: {'standard_outlets': 'EA', 'gfci_outlets': 'EA', 'usb_outlets': 'EA', 'floor_outlets': 'EA', 'single_pole_switches': 'EA', 'three_way_switches': 'EA', 'dimmer_switches': 'EA', 'smart_switches': 'EA', 'total_outlets_switches': 'EA', 'recessed_lights': 'EA', 'pendants': 'EA', 'chandeliers': 'EA', 'under_cabinet_lights': 'LF', 'toe_kick_lights': 'LF', 'closet_lights': 'EA', 'total_light_fixtures': 'EA', 'total_specialty_systems': 'EA', 'lighting_control_panels': 'EA', 'audio_visual_drops': 'EA', 'security_system_components': 'EA', 'main_panel_size': 'AMP', 'sub_panels': 'EA', 'total_circuits': 'EA', 'romex_lf': 'LF'}
+
+Category Total: $0.00
+
+PLUMBING
+--------------------------------------------------
+
+Quantities:
+  Primary Bath Count: 2
+  Primary Shower Valves: 9
+  Primary Sinks: 10
+  Primary Bathtubs: 3
+  Primary Toilets: 5
+  Secondary Bath Count: 3
+  Secondary Shower Valves: 3
+  Secondary Sinks: 10
+  Secondary Bathtubs: 2
+  Secondary Toilets: 3
+  Powder Room Count: 2
+  Powder Room Sinks: 2
+  Powder Room Toilets: 2
+  Tankless Water Heaters: 2
+  Total Plumbing Fixtures: 30
+
+Costed Items:
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 9 Each at $525.00 each = $4,725.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 10 Each at $525.00 each = $5,250.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 3 Each at $525.00 each = $1,575.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 5 Each at $525.00 each = $2,625.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 3 Each at $525.00 each = $1,575.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 3 Each at $525.00 each = $1,575.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 10 Each at $525.00 each = $5,250.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 3 Each at $525.00 each = $1,575.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 2 Each at $525.00 each = $1,050.00
+    Note: Approximate cost - item matched by category
+  Plumbing Shower Valve(s) (Rough-in): 30 Each at $525.00 each = $15,750.00
+    Note: Approximate cost - item matched by category
+
+Category Total: $46,200.00
+
+HVAC
+--------------------------------------------------
+
+Quantities:
+  Tonnage: 13.0
+  Systems: 4
+  Zones: 14
+  Flex Duct Linear Feet: 182
+  Hard Duct Linear Feet: 78
+  Registers: 59
+  Returns: 22
+
+Costed Items:
+  HVAC New 2 Ton Package Unit: 13.0 Each at $9,150.00 each = $118,950.00
+    Note: Approximate cost - item matched by category
+  HVAC New 2 Ton Package Unit: 4 Each at $9,150.00 each = $36,600.00
+    Note: Approximate cost - item matched by category
+  HVAC New 2 Ton Package Unit: 14 Each at $9,150.00 each = $128,100.00
+    Note: Approximate cost - item matched by category
+  HVAC New 2 Ton Package Unit: 182 Each at $9,150.00 each = $1,665,300.00
+    Note: Approximate cost - item matched by category
+  HVAC New 2 Ton Package Unit: 78 Each at $9,150.00 each = $713,700.00
+    Note: Approximate cost - item matched by category
+  HVAC Registers: 59 Each  at $190.00 each = $11,210.00
+    Note: Direct match found
+  HVAC Returns: 22 Each  at $190.00 each = $4,180.00
+    Note: Direct match found
+
+Category Total: $2,678,040.00
+
+DRYWALL INTERIOR
+--------------------------------------------------
+Status: error
+Message: name 'drywall_factor' is not defined
+
+ROOFING
+--------------------------------------------------
+
+Quantities:
+  Roof Area Sf: 8775
+  Underlayment Area Sf: 20182
+  Ceiling Insulation Sf: 6500
+  Insulation R Value: 49
+  Ridge Vent Lf: 439
+  Drip Edge Lf: 1404
+  Fascia Lf: 1040
+  Soffit Sf: 1430
+  Gutters Lf: 274
+  Downspouts Count: 7
+  Rain Chains: 1
+  Decorative Scuppers: 0
+
+Costed Items:
+  Roofing Recoat Flat Roof: 8775 Sq Ft at $2.30 each = $20,182.50
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 20182 Sq Ft at $2.30 each = $46,418.60
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 6500 Sq Ft at $2.30 each = $14,950.00
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 49 Sq Ft at $2.30 each = $112.70
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 439 Sq Ft at $2.30 each = $1,009.70
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 1404 Sq Ft at $2.30 each = $3,229.20
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 1040 Sq Ft at $2.30 each = $2,392.00
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 1430 Sq Ft at $2.30 each = $3,289.00
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 274 Sq Ft at $2.30 each = $630.20
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 7 Sq Ft at $2.30 each = $16.10
+    Note: Approximate cost - item matched by category
+  Roofing Recoat Flat Roof: 1 Sq Ft at $2.30 each = $2.30
+    Note: Approximate cost - item matched by category
+
+Category Total: $92,232.30
+
+WINDOWS DOORS
+--------------------------------------------------
+
+Quantities:
+  Window Count: 52
+  Window Area Sf: 780
+  Window Efficiency: Low-E Triple Pane
+  Window Trim Lf: 806
+  Exterior Door Count: 3
+  Patio Door Sets: 2
+  Door Hardware Sets: 4
+  Exterior Door Type: Premium Wood/Steel
+  Garage Door Count: 3
+  Garage Door Openers: 3
+
+Category Total: $0.00
+
+FLOORING
+--------------------------------------------------
+Status: not_implemented
+Message: Estimator for flooring is not yet implemented
+
+TILE
+--------------------------------------------------
+
+Quantities:
+  Primary Bath Count: 2
+  Primary Bath Shower Floor Sf: 50
+  Primary Bath Shower Walls Sf: 320
+  Primary Bath Floor Sf: 240
+  Primary Bath Niches Sf: 10
+  Primary Bath Schluter Lf: 160
+  Primary Bath Tile Sf: 620
+  Secondary Bath Count: 3
+  Secondary Bath Shower Floor Sf: 48
+  Secondary Bath Shower Walls Sf: 300
+  Secondary Bath Floor Sf: 180
+  Secondary Bath Niches Sf: 9
+  Secondary Bath Schluter Lf: 150
+  Secondary Bath Tile Sf: 537
+  Powder Room Count: 2
+  Powder Room Floor Sf: 70
+  Powder Room Accent Wall Sf: 30
+  Powder Room Schluter Lf: 20
+  Powder Room Tile Sf: 100
+  Kitchen Backsplash Tile Sf: 106
+  Butlers Kitchen Tile Sf: 25
+  Laundry Room Tile Sf: 75
+  Mudroom Tile Sf: 60
+  Entry Foyer Tile Sf: 150
+  Total Bathroom Tile Sf: 1257
+  Total Kitchen Tile Sf: 131
+  Total Other Tile Sf: 285
+  Total Tile Sf: 1673
+  Total Schluter Lf: 330
+  Simplified Total Tile Sf: 1725
+  Simplified Total Schluter Lf: 330
+
+Costed Items:
+  Tile Float Floor: 2 Sq Ft at $1.50 each = $3.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 50 Sq Ft at $1.50 each = $75.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 320 Sq Ft at $1.50 each = $480.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 240 Sq Ft at $1.50 each = $360.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 10 Sq Ft at $1.50 each = $15.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 160 Sq Ft at $1.50 each = $240.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 620 Sq Ft at $1.50 each = $930.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 3 Sq Ft at $1.50 each = $4.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 48 Sq Ft at $1.50 each = $72.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 300 Sq Ft at $1.50 each = $450.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 180 Sq Ft at $1.50 each = $270.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 9 Sq Ft at $1.50 each = $13.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 150 Sq Ft at $1.50 each = $225.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 537 Sq Ft at $1.50 each = $805.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 2 Sq Ft at $1.50 each = $3.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 70 Sq Ft at $1.50 each = $105.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 30 Sq Ft at $1.50 each = $45.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 20 Sq Ft at $1.50 each = $30.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 100 Sq Ft at $1.50 each = $150.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 106 Sq Ft at $1.50 each = $159.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 25 Sq Ft at $1.50 each = $37.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 75 Sq Ft at $1.50 each = $112.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 60 Sq Ft at $1.50 each = $90.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 150 Sq Ft at $1.50 each = $225.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 1257 Sq Ft at $1.50 each = $1,885.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 131 Sq Ft at $1.50 each = $196.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 285 Sq Ft at $1.50 each = $427.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 1673 Sq Ft at $1.50 each = $2,509.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 330 Sq Ft at $1.50 each = $495.00
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 1725 Sq Ft at $1.50 each = $2,587.50
+    Note: Approximate cost - item matched by category
+  Tile Float Floor: 330 Sq Ft at $1.50 each = $495.00
+    Note: Approximate cost - item matched by category
+
+Category Total: $13,497.00
+
+PAINTING COATINGS
+--------------------------------------------------
+Status: not_implemented
+Message: Estimator for painting_coatings is not yet implemented
+
+FINISH CARPENTRY
+--------------------------------------------------
+
+Quantities:
+  Single Doors: 26
+  Double Doors: 4
+  Pocket Doors: 4
+  Barn Doors: 2
+  Garage Man Doors: 2
+  Exterior Utility Doors: 2
+  Baseboard Lf: 5140
+  Crown Molding Lf: 3084
+  Door Casing Lf: 320
+  Window Casing Lf: 832
+  Total Trim Lf: 9376
+  Simplified Single Doors: 36
+  Simplified Double Doors: 2
+  Simplified Baseboard Lf: 5525
+
+Category Total: $0.00
+
+CABINETRY
+--------------------------------------------------
+
+Quantities:
+  Kitchen Base Cabinets Lf: 43.0
+  Kitchen Wall Cabinets Lf: 36.5
+  Kitchen Island Lf: 17.5
+  Kitchen Full Height Cabinets Lf: 13.0
+  Primary Bath Vanity Lf: 30.0
+  Secondary Bath Vanity Lf: 15.8
+  Powder Room Vanity Lf: 5.0
+  Office Cabinetry Lf: 6
+  Butlers Pantry Lf: 8
+  Total Kitchen Cabinets Lf: 110.0
+  Total Bathroom Cabinets Lf: 50.8
+  Total Specialty Cabinets Lf: 14
+  Total Cabinetry Lf: 174.8
+
+Costed Items:
+  Countertop Fabrication/Installation: 43.0 Sq Ft at $80.00 each = $3,440.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 36.5 Sq Ft at $80.00 each = $2,920.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 17.5 Sq Ft at $80.00 each = $1,400.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 13.0 Sq Ft at $80.00 each = $1,040.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 30.0 Sq Ft at $80.00 each = $2,400.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 15.8 Sq Ft at $80.00 each = $1,264.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 5.0 Sq Ft at $80.00 each = $400.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 6 Sq Ft at $80.00 each = $480.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 8 Sq Ft at $80.00 each = $640.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 110.0 Sq Ft at $80.00 each = $8,800.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 50.8 Sq Ft at $80.00 each = $4,064.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 14 Sq Ft at $80.00 each = $1,120.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 174.8 Sq Ft at $80.00 each = $13,984.00
+    Note: Approximate cost - item matched by category
+
+Category Total: $41,952.00
+
+COUNTERTOPS
+--------------------------------------------------
+
+Quantities:
+  Kitchen Countertops Sf: 91
+  Butlers Pantry Countertops Sf: 30
+  Waterfall Edges Lf: 8
+  Primary Bath Countertops Sf: 96
+  Secondary Bath Countertops Sf: 54
+  Powder Room Countertops Sf: 24
+  Quartz Countertops Sf: 133
+  Granite Countertops Sf: 74
+  Marble Countertops Sf: 50
+  Quartzite Countertops Sf: 38
+  Total Kitchen Countertops Sf: 121
+  Total Bathroom Countertops Sf: 174
+  Total Countertops Sf: 295
+
+Costed Items:
+  Countertop Fabrication/Installation: 91 Sq Ft at $80.00 each = $7,280.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 30 Sq Ft at $80.00 each = $2,400.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 8 Sq Ft at $80.00 each = $640.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 96 Sq Ft at $80.00 each = $7,680.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 54 Sq Ft at $80.00 each = $4,320.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 24 Sq Ft at $80.00 each = $1,920.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 133 Sq Ft at $80.00 each = $10,640.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 74 Sq Ft at $80.00 each = $5,920.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 50 Sq Ft at $80.00 each = $4,000.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 38 Sq Ft at $80.00 each = $3,040.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 121 Sq Ft at $80.00 each = $9,680.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 174 Sq Ft at $80.00 each = $13,920.00
+    Note: Approximate cost - item matched by category
+  Countertop Fabrication/Installation: 295 Sq Ft at $80.00 each = $23,600.00
+    Note: Approximate cost - item matched by category
+
+Category Total: $95,040.00
+
+EXTERIOR
+--------------------------------------------------
+Status: not_implemented
+Message: Estimator for exterior is not yet implemented
+
+LANDSCAPE HARDSCAPE
+--------------------------------------------------
+
+Quantities:
+  Lot Size Sf: 17333
+  House Footprint Sf: 4333
+  Non House Area Sf: 13000
+  Hardscape Area Sf: 3900
+  Lawn Area Sf: 5200
+  Planting Bed Area Sf: 3250
+  Other Area Sf: 650
+  Tree Count: 8
+  Shrub Count: 156
+  Ornamental Tree Count: 2
+  Specialty Shrub Count: 23
+  Perennial Count: 468
+  Patio Area Sf: 1560
+  Walkway Area Sf: 975
+  Driveway Area Sf: 975
+  Outdoor Kitchen Area Sf: 195
+  Pool Deck Area Sf: 195
+  Irrigation Area Sf: 7605
+  Lawn Sprinklers: 35
+  Drip Emitters: 812
+  Irrigation Valves: 7
+  Fire Pit Count: 1
+  Water Feature Count: 0
+  Outdoor Lighting Count: 20
+
+Category Total: $0.00
+
+CLEANING
+--------------------------------------------------
+
+Quantities:
+  Rough Cleaning Occurrences: 40
+  Rough Cleaning Labor Hours: 130
+  Construction Waste Cy: 13
+  Construction Dumpsters: 1
+  Final Cleaning Sf: 6500
+  Final Cleaning Labor Hours: 195
+  Window Cleaning Count: 52
+  Window Cleaning Labor Hours: 39
+  Floor Cleaning Sf: 4550
+  Power Washing Sf: 1950
+  Fixture Cleaning Count: 13
+  Countertop Sealing Sf: 260
+  Cabinet Cleaning Lf: 130
+
+Costed Items:
+  Rough Clean: 40 Sq Ft at $0.35 each = $14.00
+    Note: Approximate cost - item matched by category
+  Rough Clean: 130 Sq Ft at $0.35 each = $45.50
+    Note: Approximate cost - item matched by category
+  Rough Clean: 13 Sq Ft at $0.35 each = $4.55
+    Note: Approximate cost - item matched by category
+  Rough Clean: 1 Sq Ft at $0.35 each = $0.35
+    Note: Approximate cost - item matched by category
+  Rough Clean: 6500 Sq Ft at $0.35 each = $2,275.00
+    Note: Approximate cost - item matched by category
+  Rough Clean: 195 Sq Ft at $0.35 each = $68.25
+    Note: Approximate cost - item matched by category
+  Rough Clean: 52 Sq Ft at $0.35 each = $18.20
+    Note: Approximate cost - item matched by category
+  Rough Clean: 39 Sq Ft at $0.35 each = $13.65
+    Note: Approximate cost - item matched by category
+  Rough Clean: 4550 Sq Ft at $0.35 each = $1,592.50
+    Note: Approximate cost - item matched by category
+  Rough Clean: 1950 Sq Ft at $0.35 each = $682.50
+    Note: Approximate cost - item matched by category
+  Rough Clean: 13 Sq Ft at $0.35 each = $4.55
+    Note: Approximate cost - item matched by category
+  Rough Clean: 260 Sq Ft at $0.35 each = $91.00
+    Note: Approximate cost - item matched by category
+  Rough Clean: 130 Sq Ft at $0.35 each = $45.50
+    Note: Approximate cost - item matched by category
+
+Category Total: $4,855.55
+
+SPECIALTY
+--------------------------------------------------
+Status: no_quantities
+Message: No quantities calculated for specialty
+
+==================================================
+TOTAL ESTIMATED COST: $6,072,996.85
+==================================================

@@ -1,26 +1,12 @@
 {
-    "name": "Sample Luxury Home",
-    "square_footage": 7500,
-    "bedrooms": 4,
-    "bathrooms": 4.5,
-    "primary_bath_count": 1,
-    "secondary_bath_count": 3,
-    "powder_room_count": 1,
-    "tier": "Luxury",
-    "floors": 2,
-    "foundation_type": "Concrete Slab",
-    "framing_type": "Wood",
-    "roofing": "Tile",
-    "siding": "Stucco",
-    "flooring": {
-        "hardwood": 60,
-        "tile": 30,
-        "carpet": 10
-    },
-    "special_features": [
-        "Custom Exterior Sliders",
-        "Fireplace",
-        "Smart Home System"
-    ],
-    "notes": "High-end finishes throughout"
+  "square_footage": 6500,
+  "tier": "Luxury",
+  "bedroom_count": 5,
+  "primary_bath_count": 2,
+  "secondary_bath_count": 3,
+  "powder_room_count": 2,
+  "additional_parameters": {
+    "project_duration_months": 14,
+    "lot_size_acres": 0.75
+  }
 }

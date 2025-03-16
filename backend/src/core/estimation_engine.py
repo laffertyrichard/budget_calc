@@ -43,10 +43,12 @@ class EstimationEngine:
             try:
                 # Dynamically import the estimator module
                 module_name = f"src.estimators.{category}"
+                logger.info(f"Attempting to load module: {module_name}")
                 try:
                     module = importlib.import_module(module_name)
                     # Get the estimator class (assumed to be named CategoryEstimator)
                     class_name = f"{category.title().replace('_', '')}Estimator"
+                    logger.info(f"Attempting to load class: {class_name} from module: {module_name}")
                     estimator_class = getattr(module, class_name)
                     estimator = estimator_class()
                     
@@ -64,6 +66,7 @@ class EstimationEngine:
                 logger.error(f"Error initializing estimator for {category}: {str(e)}")
                 estimators[category] = None
         
+        logger.info(f"Initialized estimators: {list(estimators.keys())}")
         return estimators
     
     def validate_project_data(self, project_data):
@@ -189,6 +192,8 @@ class EstimationEngine:
             logger.warning(f"Error pre-filtering electrical catalog: {str(e)}")
         
         for category, estimator in self.estimators.items():
+            logger.info(f"Estimating category: {category}")
+            print(f"Estimating category: {category}")
             if estimator is None:
                 results['categories'][category] = {
                     'status': 'not_implemented',
@@ -206,11 +211,15 @@ class EstimationEngine:
                         tier=project_data.get('tier', 'Premium'),
                         **{k: v for k, v in project_data.items() if k not in ['square_footage', 'tier']}  # Pass remaining project data as kwargs
                     )
+                    logger.info(f"Calculated quantities for {category}: {quantities}")
+                    print(f"Calculated quantities for {category}: {quantities}")
                     
                     # Match with catalog costs if quantities were calculated
                     if quantities:
                         try:
                             costed_items = self._apply_costs_electrical(quantities)
+                            logger.info(f"Costed items for {category}: {costed_items}")
+                            print(f"Costed items for {category}: {costed_items}")
                             
                             # Check for missing matches
                             quantity_keys = set(quantities.keys())
@@ -266,10 +275,14 @@ class EstimationEngine:
                         tier=project_data.get('tier', 'Premium'),
                         **{k: v for k, v in project_data.items() if k not in ['square_footage', 'tier']}  # Pass remaining project data as kwargs
                     )
+                    logger.info(f"Calculated quantities for {category}: {quantities}")
+                    print(f"Calculated quantities for {category}: {quantities}")
                     
                     # Match with catalog costs if quantities were calculated
                     if quantities:
                         costed_items = self._apply_costs(category, quantities)
+                        logger.info(f"Costed items for {category}: {costed_items}")
+                        print(f"Costed items for {category}: {costed_items}")
                         
                         # Check for missing matches
                         quantity_keys = set(quantities.keys())
@@ -324,7 +337,7 @@ class EstimationEngine:
         self._match_cache = {}
         
         return results
-    
+
     def _determine_tier(self, square_footage):
         """Determine project tier based on square footage"""
         tiers = self.config.get('estimation', {}).get('tiers', {})
@@ -351,6 +364,7 @@ class EstimationEngine:
     def _apply_costs(self, category, quantities):
         """Apply costs from catalog to calculated quantities with enhanced matching and caching"""
         if not quantities:
+            logger.warning(f"No quantities provided for category: {category}")
             return []
             
         costed_items = []
@@ -432,6 +446,8 @@ class EstimationEngine:
                     'original_quantity_value': quantity_value,
                     'original_unit': unit
                 })
+                logger.info(f"Costed item: {costed_items[-1]}")
+                print(f"Costed item: {costed_items[-1]}")
         else:
             # Fall back to original matching method if enhanced catalog not available
             # Pre-filter the catalog for this category to avoid repeated filtering
@@ -463,6 +479,8 @@ class EstimationEngine:
                             'original_quantity_name': quantity_name,
                             'original_quantity_value': quantity_value
                         })
+                        logger.info(f"Costed item (fallback): {costed_items[-1]}")
+                        print(f"Costed item (fallback): {costed_items[-1]}")
                 else:
                     # For each matching item, add it to costed items
                     for _, item in matching_items.iterrows():
@@ -479,6 +497,8 @@ class EstimationEngine:
                             'original_quantity_name': quantity_name,
                             'original_quantity_value': quantity_value
                         })
+                        logger.info(f"Costed item (direct match): {costed_items[-1]}")
+                        print(f"Costed item (direct match): {costed_items[-1]}")
         
         return costed_items
     

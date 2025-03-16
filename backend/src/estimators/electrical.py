@@ -43,6 +43,9 @@ class ElectricalEstimator:
     
     def calculate_quantities(self, square_footage, tier, **kwargs):
         """Calculate electrical quantities with standardized units"""
+        logger.info(f"Calculating electrical quantities for {square_footage} sq ft, tier: {tier}")
+        print(f"Calculating electrical quantities for {square_footage} sq ft, tier: {tier}")
+
         if not square_footage:
             return {}
             
@@ -64,6 +67,9 @@ class ElectricalEstimator:
         results["units"] = {key: self.standard_units.get(key, "EA") for key in results.keys() 
                             if key != "units"}
         
+        logger.info(f"Calculated quantities: {results}")
+        print(f"Calculated quantities: {results}")
+
         return results
         
     def _calculate_outlets_switches(self, square_footage, tier):
