@@ -1,0 +1,270 @@
+Item,Cost (Low),Cost (High),Cost(Mid),Unit,Qty,Markup Percentage,Cost Code,Category,ID,OriginalUnit,SearchItem,Keywords,Subcategory,Phase,EstimatorModule,QualityTier,ConstructionTier
+Portable Toilet,350,350,350,MONTHLY,,70,1500,Preparations And Prelimanaries,pr1,Monthly,portable toilet,portable toilet,General,Other,,Economy,Premium
+Dumpster,610,610,610,MONTHLY,,70,1741,Preparations And Prelimanaries,pr2,Monthly,dumpster,dumpster,General,Other,,Economy,Premium
+Dumpster Additional Pickups,250,250,250,EA,,70,1741,Preparations And Prelimanaries,pr3,Each,dumpster additional pickups,additional dumpster pickups,General,Other,,Economy,Premium
+Protection Material,1250,2500,1875,EA,,70,1760,Preparations And Prelimanaries,pr4,Each,protection material,material protection,General,Other,,Premium,Ultra-Luxury
+Project Manager,2600,2600,2600,MONTHLY,,0,1010,Preparations And Prelimanaries,pr5,Monthly,project manager,manager project,General,Other,,Premium,Ultra-Luxury
+Project Coordinator,,,,EA,,,1011,Preparations And Prelimanaries,pr6,EA,project coordinator,coordinator project,General,Other,,Standard,Luxury
+Superintendent,2600,3900,3250,MONTHLY,,0,1012,Preparations And Prelimanaries,pr7,Monthly,superintendent,superintendent,General,Other,,Premium,Ultra-Luxury
+Project Administrator,1750,1750,1750,MONTHLY,,0,1013,Preparations And Prelimanaries,pr8,Monthly,project administrator,administrator project,General,Other,,Standard,Luxury
+Construction Manager,,,,EA,,,1014,Preparations And Prelimanaries,pr9,EA,construction manager,construction manager,General,Other,,Standard,Luxury
+Carpenter / Tool Person,1400,1400,1400,MONTHLY,,0,1016,Preparations And Prelimanaries,pr10,Monthly,carpenter tool person,carpenter person tool,General,Other,,Standard,Luxury
+Construction Site Tech ,900,900,900,MONTHLY,,0,1015,Preparations And Prelimanaries,pr11,Monthly,construction site tech,construction site tech,General,Other,,Standard,Luxury
+Estimator,,,,EA,,,1017,Preparations And Prelimanaries,pr12,EA,estimator,estimator,General,Other,,Standard,Luxury
+Demo Interior Walls,1,1,1,SF,,70,2220,Demo,de1,Sq Ft,demo interior walls,demo interior walls,General,Other,,Economy,Premium
+Demo Strip Drywall,1,1,1,SF,,70,2220,Demo,de2,Sq Ft,demo strip drywall,demo drywall strip,General,Other,,Economy,Premium
+Demo Doors/Frame/Trim,50,75,62.5,EA,,70,2220,Demo,de3,Each,demo doors frame trim,demo doors frame trim,General,Other,,Standard,Luxury
+Demo Stucco,5,5,5,SF,,70,2220,Demo,de4,Sq Ft,demo stucco,demo stucco,General,Other,,Standard,Luxury
+Demo Stone Veneer,2,2,2,SF,,70,2220,Demo,de5,Sq Ft,demo stone veneer,demo stone veneer,General,Other,,Economy,Premium
+Demo Windows,100,150,125,EA,,70,2220,Demo,de6,Each,demo windows,demo windows,General,Other,,Premium,Ultra-Luxury
+Demo Sliding Glass Doors,200,400,300,EA,,70,2220,Demo,de7,Each,demo sliding glass doors,demo doors glass sliding,General,Other,,Premium,Ultra-Luxury
+Demo Baseboards,400,600,500,WHOLE HOUSE,,70,2220,Demo,de8,Whole House,demo baseboards,baseboards demo,General,Other,,Premium,Ultra-Luxury
+Demo Ceramic Tile,2,2,2,SF,,70,2220,Demo,de9,Sq Ft,demo ceramic tile,ceramic demo tile,General,Other,,Economy,Premium
+Demo Slate Tile,3,3,3,SF,,70,2220,Demo,de10,Sq Ft,demo slate tile,demo slate tile,General,Other,,Economy,Premium
+Demo Travertine,2,2,2,SF,,70,2220,Demo,de11,Sq Ft,demo travertine,demo travertine,General,Other,,Economy,Premium
+Demo Flagstone,2,2,2,SF,,70,2220,Demo,de12,Sq Ft,demo flagstone,demo flagstone,General,Other,,Economy,Premium
+Demo Carpet,1,1,1,SF,,70,2220,Demo,de13,Sq Ft,demo carpet,carpet demo,General,Other,,Economy,Premium
+Demo Saltillo Tile,4,4,4,SF,,70,2220,Demo,de14,Sq Ft,demo saltillo tile,demo saltillo tile,General,Other,,Standard,Luxury
+Demo Laminate Wood,1,1,1,SF,,70,2220,Demo,de15,Sq Ft,demo laminate wood,demo laminate wood,General,Other,,Economy,Premium
+Demo Glue Down Wood,5,5,5,SF,,70,2220,Demo,de16,Sq Ft,demo glue down wood,demo down glue wood,General,Other,,Standard,Luxury
+Demo Wood with Subfloor,3.5,3.5,3.5,SF,,70,2220,Demo,de17,Sq Ft,demo wood with subfloor,demo subfloor wood,General,Other,,Standard,Luxury
+Demo Full Kitchen (Tract),600,1200,900,WHOLE HOUSE,,70,2220,Demo,de18,Whole House,demo full kitchen tract,demo full kitchen tract,General,Other,,Premium,Ultra-Luxury
+Demo Full Kitchen (Custom),1500,2500,2000,WHOLE HOUSE,,70,2220,Demo,de19,Whole House,demo full kitchen custom,custom demo full kitchen,General,Other,,Premium,Ultra-Luxury
+Bathrooms,,,,EA,,70,2220,Demo,de20,EA,bathrooms,bathrooms,General,Other,,Standard,Luxury
+Demo Toilet(s),75,75,75,EA,,70,2220,Demo,de21,Each,demo toilet s,demo toilet,General,Other,,Standard,Luxury
+Demo Sink(s),50,50,50,EA,,70,2220,Demo,de22,Each,demo sink s,demo sink,General,Other,,Standard,Luxury
+Demo Vanity(ies),100,100,100,EA,,70,2220,Demo,de23,Each,demo vanity ies,demo ies vanity,General,Other,,Premium,Ultra-Luxury
+Demo Full Master Bathroom (Small),800,1200,1000,WHOLE HOUSE,,70,2220,Demo,de24,Whole House,demo full master bathroom small,bathroom demo full master small,General,Other,,Premium,Ultra-Luxury
+Demo Full Master Bathroom (Custom),1500,3000,2250,WHOLE HOUSE,,70,2220,Demo,de25,Whole House,demo full master bathroom custom,bathroom custom demo full master,General,Other,,Premium,Ultra-Luxury
+Demo Platform Tub/Surround,800,800,800,EA,,70,2220,Demo,de26,Each,demo platform tub surround,demo platform surround tub,General,Other,,Premium,Ultra-Luxury
+Demo Powder Bath,250,400,325,EA,,70,2220,Demo,de27,Each,demo powder bath,bath demo powder,General,Other,,Premium,Ultra-Luxury
+Demo Secondary Bath,600,800,700,EA,,70,2220,Demo,de28,Each,demo secondary bath,bath demo secondary,General,Other,,Premium,Ultra-Luxury
+"Demo Accessories (Mirrors, Lights, Etc.)",100,100,100,EA,,70,2220,Demo,de29,Each,demo accessories mirrors lights etc,accessories demo etc lights mirrors,General,Other,,Premium,Ultra-Luxury
+Demo Drywall Lid and Insulation,5,5,5,SF,,70,2220,Demo,de30,Sq Ft,demo drywall lid and insulation,demo drywall insulation lid,General,Other,,Standard,Luxury
+Demo Drywall Lid Commercial,2,2,2,SF,,70,2220,Demo,de31,Sq Ft,demo drywall lid commercial,commercial demo drywall lid,General,Other,,Economy,Premium
+Demo Grid Celing with Duct and Lighting,1,1,1,SF,,70,2220,Demo,de32,Sq Ft,demo grid celing with duct and lighting,celing demo duct grid lighting,General,Other,,Economy,Premium
+Demo Popcorn Ceiling,2,2,2,SF,,70,2220,Demo,de33,Sq Ft,demo popcorn ceiling,ceiling demo popcorn,General,Other,,Economy,Premium
+Demo Soffits,5,12,8.5,LF,,70,2220,Demo,de34,LF,demo soffits,demo soffits,General,Other,,Standard,Luxury
+Demo Hanging Lights/Fans,25,25,25,EA,,70,2220,Demo,de35,Each,demo hanging lights fans,demo fans hanging lights,General,Other,,Standard,Luxury
+Demo Concrete Pad,3,6,4.5,SF,,70,2220,Demo,de36,Sq Ft,demo concrete pad,concrete demo pad,General,Other,,Standard,Luxury
+Saw Cut Concrete (Add $100 for Blade),5,5,5,LF,,70,2220,Demo,de37,LF,saw cut concrete add 100 for blade,100 add blade concrete cut saw,General,Other,,Standard,Luxury
+Masonry 8x8x16 CMU Material,2.5,8.5,5.5,SF,,70,4200,Concrete/Masonry,cm1,Sq Ft,masonry 8x8x16 cmu material,8x8x16 cmu masonry material,General,Structure,foundation,Economy,Premium
+Masonry 8x8x16 CMU Installation,7.5,15,11.25,SF,,70,4200,Concrete/Masonry,cm2,Sq Ft,masonry 8x8x16 cmu installation,8x8x16 cmu installation masonry,General,Structure,foundation,Standard,Luxury
+"Masonry Additional Materials (grout, mortar, rebar, wire)",7.75,12.75,10.25,SF,,70,4200,Concrete/Masonry,cm3,Sq Ft,masonry additional materials grout mortar rebar wire,additional grout masonry materials mortar rebar wire,General,Structure,foundation,Economy,Premium
+Scaffold (walls above 6'),3.4,5.4,4.4,SF,,70,1542,Concrete/Masonry,cm4,Sq Ft,scaffold walls above 6,above scaffold walls,Walls,Structure,foundation,Economy,Premium
+Iron (Lintils),18,21,19.5,LF,,70,4200,Concrete/Masonry,cm5,LF,iron lintils,iron lintils,General,Structure,foundation,Standard,Luxury
+CMU Non-Structural (>10' H),17.75,20,18.88,SF,,70,4200,Concrete/Masonry,cm6,Sq Ft,cmu non structural 10 h,cmu non structural,General,Structure,foundation,Standard,Luxury
+CMU Non-Structural (<10' H),20,25,22.5,SF,,70,4200,Concrete/Masonry,cm7,Sq Ft,cmu non structural 10 h,cmu non structural,General,Structure,foundation,Standard,Luxury
+CMU Structural,25,40,32.5,SF,,70,4200,Concrete/Masonry,cm8,Sq Ft,cmu structural,cmu structural,General,Structure,foundation,Premium,Ultra-Luxury
+"Equipment (Forkilfts, Booms, Etc.)",2500,35000,18750,EA,,70,4200,Concrete/Masonry,cm9,Each,equipment forkilfts booms etc,booms equipment etc forkilfts,General,Structure,foundation,Premium,Ultra-Luxury
+"Concrete Footers 18""",32,32,32,LF,,70,3300,Concrete/Masonry,cm10,LF,concrete footers 18,concrete footers,Footings,Structure,foundation,Premium,Ultra-Luxury
+"Concrete Footers 24""",38,38,38,LF,,70,3300,Concrete/Masonry,cm11,LF,concrete footers 24,concrete footers,Footings,Structure,foundation,Premium,Ultra-Luxury
+Concrete Pier Footing(s) 3' x 3',400,400,400,EA,,70,3300,Concrete/Masonry,cm12,Each,concrete pier footing s 3 x 3,concrete footing pier,Footings,Structure,foundation,Premium,Ultra-Luxury
+"Concrete 4"" Slab (Minimum $1150)",8,10,9,SF,,70,3320,Concrete/Masonry,cm13,Sq Ft,concrete 4 slab minimum 1150,1150 concrete minimum slab,Slab,Structure,foundation,Economy,Premium
+"Concrete 6"" Slab (Minimum $1150)",10,12,11,SF,,70,3320,Concrete/Masonry,cm14,Sq Ft,concrete 6 slab minimum 1150,1150 concrete minimum slab,Slab,Structure,foundation,Economy,Premium
+Stone Veneer Materials and Install,25,25,25,SF,,70,4700,Concrete/Masonry,cm15,Sq Ft,stone veneer materials and install,install materials stone veneer,General,Structure,foundation,Standard,Luxury
+Framing of Liveable Space,40,55,47.5,SF,,70,6100,Framing,fr1,Sq Ft,framing of liveable space,framing liveable space,General,Structure,structural,Premium,Ultra-Luxury
+Framing of Garage Space,25,30,27.5,SF,,70,6100,Framing,fr2,Sq Ft,framing of garage space,framing garage space,General,Structure,structural,Standard,Luxury
+Framing of Patio,15,25,20,SF,,70,6100,Framing,fr3,Sq Ft,framing of patio,framing patio,General,Structure,structural,Economy,Premium
+Electrical Remove and Replace (Outlets),45,55,50,EA,,70,16100,Electrical,el1,Each,electrical remove and replace outlets,electrical outlets remove replace,Outlets,MEP,electrical,Economy,Premium
+Electrical Remove and Replace (Can Lights),75,150,112.5,EA,,70,16100,Electrical,el2,Each,electrical remove and replace can lights,can electrical lights remove replace,General,MEP,electrical,Economy,Premium
+Electrical Remove and Replace (Switches),30,45,37.5,EA,,70,16100,Electrical,el3,Each,electrical remove and replace switches,electrical remove replace switches,Switches,MEP,electrical,Economy,Premium
+Electrical Remove and Replace (Ceiling Fans),125,250,187.5,EA,,70,16100,Electrical,el4,Each,electrical remove and replace ceiling fans,ceiling electrical fans remove replace,General,MEP,electrical,Standard,Luxury
+Electrical Remove and Replace (Fixtures),125,350,237.5,EA,,70,16100,Electrical,el5,Each,electrical remove and replace fixtures,electrical fixtures remove replace,General,MEP,electrical,Standard,Luxury
+Electrical GFCI/USB Outlet,70,125,97.5,EA,,70,16100,Electrical,el6,Each,electrical gfci usb outlet,electrical gfci outlet usb,Outlets,MEP,electrical,Economy,Premium
+Electrical New (Outlets 120),65,135,100,EA,,70,16100,Electrical,el7,Each,electrical new outlets 120,120 electrical new outlets,Outlets,MEP,electrical,Economy,Premium
+Electrical New (Outlets 240),100,150,125,EA,,70,16100,Electrical,el8,Each,electrical new outlets 240,240 electrical new outlets,Outlets,MEP,electrical,Standard,Luxury
+Electrical New (Can Lights),100,200,150,EA,,70,16100,Electrical,el9,Each,electrical new can lights,can electrical lights new,General,MEP,electrical,Standard,Luxury
+Electrical New (Switch Leg),100,200,150,EA,,70,16100,Electrical,el10,Each,electrical new switch leg,electrical leg new switch,Switches,MEP,electrical,Standard,Luxury
+Electrical Tape Light,55,65,60,LF,,70,16100,Electrical,el11,LF,electrical tape light,electrical light tape,General,MEP,electrical,Economy,Premium
+Electrical Tape Light Driver,150,250,200,EA,,70,16100,Electrical,el12,Each,electrical tape light driver,driver electrical light tape,General,MEP,electrical,Standard,Luxury
+Electrical Install New Fixtures,250,350,300,EA,,70,16100,Electrical,el13,Each,electrical install new fixtures,electrical fixtures install new,General,MEP,electrical,Standard,Luxury
+Electrical New 200 Amp Service,4000,6000,5000,EA,,70,16100,Electrical,el14,Each,electrical new 200 amp service,200 amp electrical new service,General,MEP,electrical,Premium,Ultra-Luxury
+Electrical New 400 Amp Service,6000,7000,6500,EA,,70,16100,Electrical,el15,Each,electrical new 400 amp service,400 amp electrical new service,General,MEP,electrical,Premium,Ultra-Luxury
+Electrical New 600 Amp Service,10000,12000,11000,EA,,70,16100,Electrical,el16,Each,electrical new 600 amp service,600 amp electrical new service,General,MEP,electrical,Premium,Ultra-Luxury
+Electrical New 125 Amp Sub-Panel,1800,2500,2150,EA,,70,16100,Electrical,el17,Each,electrical new 125 amp sub panel,125 amp electrical new panel sub,Panels,MEP,electrical,Premium,Ultra-Luxury
+Electrical New 200 Amp Sub-Panel,2400,3200,2800,EA,,70,16100,Electrical,el18,Each,electrical new 200 amp sub panel,200 amp electrical new panel sub,Panels,MEP,electrical,Premium,Ultra-Luxury
+Electrical New Dedicated Circuit 240,195,750,472.5,EA,,70,16100,Electrical,el19,Each,electrical new dedicated circuit 240,240 circuit dedicated electrical new,General,MEP,electrical,Premium,Ultra-Luxury
+Electrical New Dedicated Circuit 120,150,650,400,EA,,70,16100,Electrical,el20,Each,electrical new dedicated circuit 120,120 circuit dedicated electrical new,General,MEP,electrical,Standard,Luxury
+Electrical Full House Surge Protection,400,400,400,EA,,70,16100,Electrical,el21,Each,electrical full house surge protection,electrical full house protection surge,General,MEP,electrical,Standard,Luxury
+Electrical New Underground Conduit,10,40,25,LF,,70,16100,Electrical,el22,LF,electrical new underground conduit,conduit electrical new underground,General,MEP,electrical,Economy,Premium
+Plumbing Shower Valve(s) (Rough-in),400,650,525,EA,,70,15100,Plumbing,pl1,Each,plumbing shower valve s rough in,plumbing rough shower valve,General,MEP,plumbing,Standard,Luxury
+Plumbing Shower Valve(s) W/ Diverter (Rough-in),500,750,625,EA,,70,15100,Plumbing,pl2,Each,plumbing shower valve s w diverter rough in,diverter plumbing rough shower valve,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Sink(s) (Rough-in),350,750,550,EA,,70,15100,Plumbing,pl3,Each,plumbing sink s rough in,plumbing rough sink,General,MEP,plumbing,Standard,Luxury
+Plumbing Bathtub(s) (Rough-in),450,1200,825,EA,,70,15100,Plumbing,pl4,Each,plumbing bathtub s rough in,bathtub plumbing rough,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Tub Filler(s) (Floor Mounted) (Rough-in),650,1000,825,EA,,70,15100,Plumbing,pl5,Each,plumbing tub filler s floor mounted rough in,filler floor mounted plumbing rough tub,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),350,950,650,EA,,70,15100,Plumbing,pl6,Each,plumbing tub filler s wall mounted rough in,filler mounted plumbing rough tub wall,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Tub Filler(s) (Deck Mounted) (Rough-in),650,1200,925,EA,,70,15100,Plumbing,pl7,Each,plumbing tub filler s deck mounted rough in,deck filler mounted plumbing rough tub,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Convert Water Heater to Tankless (Rough-in),450,2000,1225,EA,,70,15100,Plumbing,pl8,Each,plumbing convert water heater to tankless rough in,convert heater plumbing rough tankless water,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Move Shower/Tub Drain Location (Rough-in),550,1500,1025,EA,,70,15100,Plumbing,pl9,Each,plumbing move shower tub drain location rough in,drain location move plumbing rough shower tub,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Tie into Existing Drain for New Location (Rough-in),150,250,200,LF,,70,15100,Plumbing,pl10,LF,plumbing tie into existing drain for new location rough in,drain existing into location new plumbing rough tie,General,MEP,plumbing,Economy,Premium
+Plumbing Run Hot/Cold Water to New Location (Underground)(Rough-in),75,200,137.5,LF,,70,15100,Plumbing,pl11,LF,plumbing run hot cold water to new location underground rough in,cold hot location new plumbing rough run underground water,General,MEP,plumbing,Economy,Premium
+Plumbing Run Hot/Cold Water to New Location (Overhead) (Rough-in),25,50,37.5,LF,,70,15100,Plumbing,pl12,LF,plumbing run hot cold water to new location overhead rough in,cold hot location new overhead plumbing rough run water,General,MEP,plumbing,Economy,Premium
+Plumbing Run Line from Meter to New Water Shutoff (Rough-in),100,300,200,LF,,70,15100,Plumbing,pl13,LF,plumbing run line from meter to new water shutoff rough in,from line meter new plumbing rough run shutoff water,General,MEP,plumbing,Economy,Premium
+Plumbing Run Gas Line From Meter (Underground) (Rough-in),200,500,350,LF,,70,15100,Plumbing,pl14,LF,plumbing run gas line from meter underground rough in,from gas line meter plumbing rough run underground,General,MEP,plumbing,Standard,Luxury
+Plumbing Run Gas Line From Meter (Overhead) (Rough-in),100,400,250,LF,,70,15100,Plumbing,pl15,LF,plumbing run gas line from meter overhead rough in,from gas line meter overhead plumbing rough run,General,MEP,plumbing,Standard,Luxury
+Plumbing Pot Filler (Rough-in),250,400,325,EA,,70,15100,Plumbing,pl16,Each,plumbing pot filler rough in,filler plumbing pot rough,General,MEP,plumbing,Standard,Luxury
+Plumbing Shower (Trim),89,125,107,EA,,70,15400,Plumbing,pl17,Each,plumbing shower trim,plumbing shower trim,General,MEP,plumbing,Economy,Premium
+Plumbing Shower w/ Handheld (Trim),125,325,225,EA,,70,15400,Plumbing,pl18,Each,plumbing shower w handheld trim,handheld plumbing shower trim,General,MEP,plumbing,Economy,Premium
+Plumbing Tub Filler (Trim),125,650,387.5,EA,,70,15400,Plumbing,pl19,Each,plumbing tub filler trim,filler plumbing trim tub,General,MEP,plumbing,Standard,Luxury
+Plumbing New Water Heater (Electric),1500,4000,2750,EA,,70,15400,Plumbing,pl20,Each,plumbing new water heater electric,electric heater new plumbing water,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing New Water Heater (Tankless),4000,10000,7000,EA,,70,15400,Plumbing,pl21,Each,plumbing new water heater tankless,heater new plumbing tankless water,General,MEP,plumbing,Premium,Ultra-Luxury
+Plumbing Toilet (Trim),125,450,287.5,EA,,70,15400,Plumbing,pl22,Each,plumbing toilet trim,plumbing toilet trim,General,MEP,plumbing,Standard,Luxury
+Plumbing Vanity Sink/Faucet (Trim),125,250,187.5,EA,,70,15400,Plumbing,pl23,Each,plumbing vanity sink faucet trim,faucet plumbing sink trim vanity,General,MEP,plumbing,Economy,Premium
+Plumbing Kitchen Faucet (Trim),125,250,187.5,EA,,70,15400,Plumbing,pl24,Each,plumbing kitchen faucet trim,faucet kitchen plumbing trim,General,MEP,plumbing,Economy,Premium
+Plumbing Kitchen RO (Trim),250,500,375,EA,,70,15400,Plumbing,pl25,Each,plumbing kitchen ro trim,kitchen plumbing trim,General,MEP,plumbing,Standard,Luxury
+Plumbing Kitchen Pot Filler (Trim),125,250,187.5,EA,,70,15400,Plumbing,pl26,Each,plumbing kitchen pot filler trim,filler kitchen plumbing pot trim,General,MEP,plumbing,Economy,Premium
+Plumbing Connect Heat Pump (Furnace) (Trim),125,400,262.5,EA,,70,15400,Plumbing,pl27,Each,plumbing connect heat pump furnace trim,connect furnace heat plumbing pump trim,General,MEP,plumbing,Standard,Luxury
+Plumbing Connect Fire Pit/BBQ/Fireplace (Trim),125,500,312.5,EA,,70,15400,Plumbing,pl28,Each,plumbing connect fire pit bbq fireplace trim,bbq connect fire fireplace pit plumbing trim,General,MEP,plumbing,Standard,Luxury
+Industrial Sprinkler Drops,1200,1700,,EA,,70,7800,Fire Protection,fs1,Each,industrial sprinkler drops,drops industrial sprinkler,General,Other,,Standard,Luxury
+Regualr Drops,280,320,,EA,,70,7800,Fire Protection,fs2,Each,regualr drops,drops regualr,General,Other,,Standard,Luxury
+HVAC New 2 Ton Package Unit,7800,10500,9150,EA,,70,15700,Hvac,me1,Each,hvac new 2 ton package unit,hvac new package ton unit,General,Other,hvac,Standard,Luxury
+HVAC New 3 Ton Package Unit,8800,11800,10300,EA,,70,15700,Hvac,me2,Each,hvac new 3 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
+HVAC New 4 Ton Package Unit,9500,12000,10750,EA,,70,15700,Hvac,me3,Each,hvac new 4 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
+HVAC New 5 Ton Package Unit,9885,13500,11692.5,EA,,70,15700,Hvac,me4,Each,hvac new 5 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
+HVAC New Mini-Split,3500,6500,5000,EA,,70,15700,Hvac,me5,Each,hvac new mini split,hvac mini new split,General,Other,hvac,Standard,Luxury
+HVAC Thermostats,150,650,400,EA,,70,15700,Hvac,me6,Each,hvac thermostats,hvac thermostats,General,Other,hvac,Economy,Premium
+HVAC Flex Duct,,,,LF ,,70,15700,Hvac,me7,LF ,hvac flex duct,duct flex hvac,General,Other,hvac,Standard,Luxury
+HVAC Hard Duct,,,,LF ,,70,15700,Hvac,me8,LF ,hvac hard duct,duct hard hvac,General,Other,hvac,Standard,Luxury
+HVAC Registers,170,210,190,EACH ,,70,15700,Hvac,me9,Each ,hvac registers,hvac registers,General,Other,hvac,Economy,Premium
+HVAC Returns,170,210,190,EACH ,,70,15700,Hvac,me10,Each ,hvac returns,hvac returns,General,Other,hvac,Economy,Premium
+HVAC Exhaust Fans,355,545,450,EACH ,,70,15700,Hvac,me11,Each ,hvac exhaust fans,exhaust fans hvac,General,Other,hvac,Standard,Luxury
+HVAC Range Hood Exhaust ,360,540,450,EACH ,,70,15700,Hvac,me12,Each ,hvac range hood exhaust,exhaust hood hvac range,General,Other,hvac,Standard,Luxury
+Drywall Allowance,,,,EA,,70,9250,Drywall,dr1,Each,drywall allowance,allowance drywall,General,Interior,drywall_interior,Standard,Luxury
+Drywall Patching,100,100,100,EA,,70,9250,Drywall,dr2,Each,drywall patching,drywall patching,General,Interior,drywall_interior,Economy,Premium
+"Drwyall New 4x12x1/2"" sheetrock",100,150,125,EA,,70,9250,Drywall,dr3,Each,drwyall new 4x12x1 2 sheetrock,4x12x1 drwyall new sheetrock,General,Interior,drywall_interior,Premium,Ultra-Luxury
+Roofing Recoat Flat Roof,1.1,3.5,2.3,SF,,70,7400,Roofing,ro1,Sq Ft,roofing recoat flat roof,flat recoat roof roofing,General,Envelope,roofing,Economy,Premium
+Roofing Repair Flat Roof,1800,2500,2150,SF,,70,7400,Roofing,ro2,Sq Ft,roofing repair flat roof,flat repair roof roofing,General,Envelope,roofing,Premium,Ultra-Luxury
+Roofing Tear Off and Replace Flat Roof,4.8,6.5,5.65,SF,,70,7400,Roofing,ro3,Sq Ft,roofing tear off and replace flat roof,flat off replace roof roofing tear,General,Envelope,roofing,Standard,Luxury
+Roofing New Flat Roof,4.5,6.2,5.35,SF,,70,7400,Roofing,ro4,Sq Ft,roofing new flat roof,flat new roof roofing,General,Envelope,roofing,Standard,Luxury
+Roofing Repair/Replace Asphalt Shingle Roofing,500,1500,1000,SF,,70,7400,Roofing,ro5,Sq Ft,roofing repair replace asphalt shingle roofing,asphalt repair replace roofing shingle,General,Envelope,roofing,Premium,Ultra-Luxury
+Roofing Tear Off and Replace Asphalt Shingle Roofing,4.2,5.5,4.85,SF,,70,7400,Roofing,ro6,Sq Ft,roofing tear off and replace asphalt shingle roofing,asphalt off replace roofing shingle tear,General,Envelope,roofing,Economy,Premium
+Roofing New Asphalt Shingle Roofing,3.9,5.2,4.55,SF,,70,7400,Roofing,ro7,Sq Ft,roofing new asphalt shingle roofing,asphalt new roofing shingle,General,Envelope,roofing,Economy,Premium
+Roofing Repair/Replace Sandcast Roofing,500,1500,1000,SF,,70,7400,Roofing,ro8,Sq Ft,roofing repair replace sandcast roofing,repair replace roofing sandcast,General,Envelope,roofing,Premium,Ultra-Luxury
+Roofing Tear Off and Replace Sandcast Tile Roofing,9.5,12.5,11,SF,,70,7400,Roofing,ro9,Sq Ft,roofing tear off and replace sandcast tile roofing,off replace roofing sandcast tear tile,General,Envelope,roofing,Standard,Luxury
+Roofing New Sandcast Tile Roofing,9,12,10.5,SF,,70,7400,Roofing,ro10,Sq Ft,roofing new sandcast tile roofing,new roofing sandcast tile,General,Envelope,roofing,Standard,Luxury
+Roofing Repair/Replace Concrete Tile Roofing,500,1500,1000,SF,,70,7400,Roofing,ro11,Sq Ft,roofing repair replace concrete tile roofing,concrete repair replace roofing tile,General,Envelope,roofing,Premium,Ultra-Luxury
+Roofing Tear Off and Replace Concrete Tile Roofing,3.6,5.4,4.5,SF,,70,7400,Roofing,ro12,Sq Ft,roofing tear off and replace concrete tile roofing,concrete off replace roofing tear tile,General,Envelope,roofing,Economy,Premium
+Roofing New Concrete Tile Roofing,3.2,5,4.1,SF,,70,7400,Roofing,ro13,Sq Ft,roofing new concrete tile roofing,concrete new roofing tile,General,Envelope,roofing,Economy,Premium
+Roofing New Corrugated Roofing,9,14,11.5,SF,,70,7400,Roofing,ro14,Sq Ft,roofing new corrugated roofing,corrugated new roofing,General,Envelope,roofing,Standard,Luxury
+Roofing New Standing Seam Roofing,10,15,12.5,SF,,70,7400,Roofing,ro15,Sq Ft,roofing new standing seam roofing,new roofing seam standing,General,Envelope,roofing,Premium,Ultra-Luxury
+Stucco Smooth Synthetic Whole House/Addition,6.25,7,6.63,SF,,70,9240,Stucco,st1,Sq Ft,stucco smooth synthetic whole house addition,addition house smooth stucco synthetic whole,General,Other,,Economy,Premium
+Stucco Smooth Synthetic Patches Around Windows,1160,1700,1430,EA,,70,9240,Stucco,st2,Each,stucco smooth synthetic patches around windows,around patches smooth stucco synthetic windows,General,Other,,Standard,Luxury
+Stucco Smooth Synthetic Patches around Sliding Doors,2150,3000,2575,EA,,70,9240,Stucco,st3,Each,stucco smooth synthetic patches around sliding doors,around doors patches sliding smooth stucco synthetic,General,Other,,Premium,Ultra-Luxury
+Stucco Smooth Sand Whole House/Addition,4,4.5,4.25,SF,,70,9240,Stucco,st4,Sq Ft,stucco smooth sand whole house addition,addition house sand smooth stucco whole,General,Other,,Economy,Premium
+Stucco Smooth Sand Patches around Windows,620,1000,810,EA,,70,9240,Stucco,st5,Each,stucco smooth sand patches around windows,around patches sand smooth stucco windows,General,Other,,Standard,Luxury
+Stucco Smooth Sand Patches around Sliding Doors,1160,2000,1580,EA,,70,9240,Stucco,st6,Each,stucco smooth sand patches around sliding doors,around doors patches sand sliding smooth stucco,General,Other,,Premium,Ultra-Luxury
+Stucco Cat Eye Whole House/Addition,4.5,4.75,4.63,SF,,70,9240,Stucco,st7,Sq Ft,stucco cat eye whole house addition,addition cat eye house stucco whole,General,Other,,Economy,Premium
+Stucco Cat Eye Patches around Windows,720,1250,985,EA,,70,9240,Stucco,st8,Each,stucco cat eye patches around windows,around cat eye patches stucco windows,General,Other,,Standard,Luxury
+Stucco Cat Eye Patches around Sliding Doors,1340,2350,1845,EA,,70,9240,Stucco,st9,Each,stucco cat eye patches around sliding doors,around cat doors eye patches sliding stucco,General,Other,,Premium,Ultra-Luxury
+Window Install,250,500,375,EA,,70,8050,Windows And Specialty Doors,wd1,Each,window install,install window,General,Envelope,windows_doors,Economy,Premium
+Slider Door Install,1000,2500,1750,EA,,70,8050,Windows And Specialty Doors,wd2,Each,slider door install,door install slider,General,Envelope,windows_doors,Standard,Luxury
+Window Cost,,,,EA,,50,8050,Windows And Specialty Doors,wd3,EA,window cost,cost window,General,Envelope,windows_doors,Standard,Luxury
+Slider Door Cost/Steel Door,5500,10000,7750,EA,,50,8050,Windows And Specialty Doors,wd4,Each,slider door cost steel door,cost door slider steel,General,Envelope,windows_doors,Premium,Ultra-Luxury
+Engineered Hardwood Install,4,4.5,4.25,SF,,70,9600,Flooring,fl1,Sq Ft,engineered hardwood install,engineered hardwood install,General,Interior,flooring,Standard,Luxury
+Engineered Hardwood Material,8,12,10,SF,0,30,9600,Flooring,fl2,Sq Ft,engineered hardwood material,engineered hardwood material,General,Interior,flooring,Premium,Ultra-Luxury
+Engineered Hardwood Stair(s) Labor,120,120,120,EA,,70,9600,Flooring,fl3,Each,engineered hardwood stair s labor,engineered hardwood labor stair,General,Interior,flooring,Premium,Ultra-Luxury
+Engineered Hardwood Stair(s) Nosing Material,120,120,120,EA,,30,9600,Flooring,fl4,Each,engineered hardwood stair s nosing material,engineered hardwood material nosing stair,General,Interior,flooring,Premium,Ultra-Luxury
+Engineered Hardwood Floor Prep (Allowance),1,2.5,1.75,SF,,70,9600,Flooring,fl5,Sq Ft,engineered hardwood floor prep allowance,allowance engineered floor hardwood prep,General,Interior,flooring,Economy,Premium
+LVP Install,2.5,3.5,3,SF,,70,9600,Flooring,fl6,Sq Ft,lvp install,install lvp,General,Interior,flooring,Economy,Premium
+LVP Material,3,6,4.5,SF,0,30,9600,Flooring,fl7,Sq Ft,lvp material,lvp material,General,Interior,flooring,Standard,Luxury
+LVP Stair(s) Nosing Labor,120,120,120,EA,,70,9600,Flooring,fl8,Each,lvp stair s nosing labor,labor lvp nosing stair,General,Interior,flooring,Premium,Ultra-Luxury
+LVP Stair(s) Nosing Material,65,65,65,EA,,30,9600,Flooring,fl9,Each,lvp stair s nosing material,lvp material nosing stair,General,Interior,flooring,Premium,Ultra-Luxury
+LVP Floor Prep (Allowance),1,2.5,1.75,SF,,70,9600,Flooring,fl10,Sq Ft,lvp floor prep allowance,allowance floor lvp prep,General,Interior,flooring,Economy,Premium
+Carpet Install and Material,45,65,55,SQ YARD,,70,9680,Flooring,fl11,Sq Yard,carpet install and material,carpet install material,General,Interior,flooring,Premium,Ultra-Luxury
+Flooring Glue Removal,1,1.5,1.25,SF,,70,9600,Flooring,fl12,Sq Ft,flooring glue removal,flooring glue removal,General,Interior,flooring,Economy,Premium
+Flooring Thinset Removal,1,2,1.5,SF,,70,9600,Flooring,fl13,Sq Ft,flooring thinset removal,flooring removal thinset,General,Interior,flooring,Economy,Premium
+Flooring Epoxy Quartz System Removal ,1.5,2.5,2,SF,,70,9600,Flooring,fl14,Sq Ft,flooring epoxy quartz system removal,epoxy flooring quartz removal system,General,Interior,flooring,Economy,Premium
+Flooring Basic Concrete Prep,1,1,1,SF,,70,9600,Flooring,fl15,Sq Ft,flooring basic concrete prep,basic concrete flooring prep,General,Interior,flooring,Economy,Premium
+Flooring Cut Out Existing Control Joint Filler,1,1.5,1.25,LF,,70,9600,Flooring,fl16,LF,flooring cut out existing control joint filler,control cut existing filler flooring joint out,General,Interior,flooring,Economy,Premium
+Flooring Fill 2 Part Polyurethane Control Joints,3,3,3,LF,,70,9600,Flooring,fl17,LF,flooring fill 2 part polyurethane control joints,control fill flooring joints part polyurethane,General,Interior,flooring,Economy,Premium
+Flooring Grind and Seal 2 Coats Water Based Acrylic,3.5,3.5,3.5,EA,,70,9600,Flooring,fl18,EA,flooring grind and seal 2 coats water based acrylic,acrylic based coats flooring grind seal water,General,Interior,flooring,Standard,Luxury
+Flooring Grind and Seal 1 Coat Water Based Acrylic,4.5,4.5,4.5,EA,,70,9600,Flooring,fl19,EA,flooring grind and seal 1 coat water based acrylic,acrylic based coat flooring grind seal water,General,Interior,flooring,Standard,Luxury
+Flooring Grind and Seal Water Based Epoxy/Urethane,5,5,5,EA,,70,9600,Flooring,fl20,EA,flooring grind and seal water based epoxy urethane,based epoxy flooring grind seal urethane water,General,Interior,flooring,Standard,Luxury
+Flooring Polished Concrete (Salt and Pepper),4.5,4.5,4.5,SF,,70,9600,Flooring,fl21,Sq Ft,flooring polished concrete salt and pepper,concrete flooring pepper polished salt,General,Interior,flooring,Standard,Luxury
+Flooring Polished Concrete (Medium Aggregate),6.5,6.5,6.5,SF,,70,9600,Flooring,fl22,Sq Ft,flooring polished concrete medium aggregate,aggregate concrete flooring medium polished,General,Interior,flooring,Premium,Ultra-Luxury
+Flooring Polished Concrete (Full Aggregate),8.5,8.5,8.5,SF,,70,9600,Flooring,fl23,Sq Ft,flooring polished concrete full aggregate,aggregate concrete flooring full polished,General,Interior,flooring,Premium,Ultra-Luxury
+Flooring Epoxy (Schroeder),5.5,9,7.25,SF,,70,9600,Flooring,fl24,Sq Ft,flooring epoxy schroeder,epoxy flooring schroeder,General,Interior,flooring,Premium,Ultra-Luxury
+Flooring Solid Color Epoxy (Ground Control),4,4,4,SF,,70,9600,Flooring,fl25,Sq Ft,flooring solid color epoxy ground control,color control epoxy flooring ground solid,General,Interior,flooring,Standard,Luxury
+Flooring Partial Flake Epoxy (Ground Control),4.5,4.5,4.5,SF,,70,9600,Flooring,fl26,Sq Ft,flooring partial flake epoxy ground control,control epoxy flake flooring ground partial,General,Interior,flooring,Standard,Luxury
+Flooring Full Flake Epoxy (Ground Control),5.5,5.5,5.5,SF,,70,9600,Flooring,fl27,Sq Ft,flooring full flake epoxy ground control,control epoxy flake flooring full ground,General,Interior,flooring,Standard,Luxury
+Flooring Metallic Epoxy (Ground Control),6.5,8.5,7.5,SF,,70,9600,Flooring,fl28,Sq Ft,flooring metallic epoxy ground control,control epoxy flooring ground metallic,General,Interior,flooring,Premium,Ultra-Luxury
+Flooring Steam Clean and Seal Pavers 2 Coats,4.5,4.5,4.5,SF,,70,9600,Flooring,fl29,Sq Ft,flooring steam clean and seal pavers 2 coats,clean coats flooring pavers seal steam,General,Interior,flooring,Standard,Luxury
+Flooring Steam Clean Pavers/Concrete,1,1.5,1.25,SF,,70,9600,Flooring,fl30,Sq Ft,flooring steam clean pavers concrete,clean concrete flooring pavers steam,General,Interior,flooring,Economy,Premium
+Tile Float Floor,0.5,2.5,1.5,SF,,70,9300,Tile,ti1,Sq Ft,tile float floor,float floor tile,General,Other,tile,Economy,Premium
+Tile Floor Installation,4.3,6,5.15,SF,,70,9300,Tile,ti2,Sq Ft,tile floor installation,floor installation tile,General,Other,tile,Economy,Premium
+Tile Floor Material,6,15,10.5,SF,0,30,9300,Tile,ti3,Sq Ft,tile floor material,floor material tile,General,Other,tile,Standard,Luxury
+Tile Upstairs Tile Floor Installation,7.5,10.5,9,EA,,70,9300,Tile,ti4,EA,tile upstairs tile floor installation,floor installation tile upstairs,General,Other,tile,Standard,Luxury
+Tile Installation Walls,21.4,30,25.7,SF,,70,9300,Tile,ti5,Sq Ft,tile installation walls,installation tile walls,General,Other,tile,Standard,Luxury
+Tile Installation Shower Pan,29,32,30.5,SF,,70,9300,Tile,ti6,Sq Ft,tile installation shower pan,installation pan shower tile,General,Other,tile,Premium,Ultra-Luxury
+Tile Metal Schluter,8,8,8,LF,,70,9300,Tile,ti7,LF,tile metal schluter,metal schluter tile,General,Other,tile,Economy,Premium
+Tile Shampoo Niche,115,350,232.5,EA,,70,9300,Tile,ti8,Each,tile shampoo niche,niche shampoo tile,General,Other,tile,Premium,Ultra-Luxury
+Tile Build Shower Curb,29,30,29.5,LF,,70,9300,Tile,ti9,LF,tile build shower curb,build curb shower tile,General,Other,tile,Premium,Ultra-Luxury
+Tile Sealing of Material,2,2.85,2.43,SF,,70,9300,Tile,ti10,Sq Ft,tile sealing of material,material sealing tile,General,Other,tile,Economy,Premium
+Tile Wall/Shower Material,10,25,17.5,SF,0,30,9300,Tile,ti11,Sq Ft,tile wall shower material,material shower tile wall,General,Other,tile,Standard,Luxury
+Tile Installation Ebbe/Linear Drain,105,250,177.5,EA,,70,9300,Tile,ti12,Each,tile installation ebbe linear drain,drain ebbe installation linear tile,General,Other,tile,Premium,Ultra-Luxury
+Shower Glass (See Shower Pricing Sheet),2500,5500,4000,EA,,70,10280,Shower Glass,sh1,Each,shower glass see shower pricing sheet,glass pricing see sheet shower,General,Other,,Standard,Luxury
+Finish Carpentry Base Install,2,4,3,LF,,70,6200,Finish Carpentry,fc1,LF,finish carpentry base install,base carpentry finish install,General,Other,,Economy,Premium
+Finish Carpentry Case Install,75,125,100,EA,,70,6200,Finish Carpentry,fc2,Each,finish carpentry case install,carpentry case finish install,General,Other,,Economy,Premium
+Finish Carpentry Door Install (Paint Single Prehung),200,300,250,EA,,70,6200,Finish Carpentry,fc3,Each,finish carpentry door install paint single prehung,carpentry door finish install paint prehung single,General,Other,,Standard,Luxury
+Finish Carpentry Door Install (Paint Double Prehung),300,350,325,EA,,70,6200,Finish Carpentry,fc4,Each,finish carpentry door install paint double prehung,carpentry door double finish install paint prehung,General,Other,,Premium,Ultra-Luxury
+Finish Carpentry Door Install (Paint Exterior),350,350,350,EA,,70,6200,Finish Carpentry,fc5,Each,finish carpentry door install paint exterior,carpentry door exterior finish install paint,General,Other,,Premium,Ultra-Luxury
+Finish Carpentry Door Install (Stain Single Prehung),100,100,100,EA,,70,6200,Finish Carpentry,fc6,EA,finish carpentry door install stain single prehung,carpentry door finish install prehung single stain,General,Other,,Economy,Premium
+Finish Carpentry Door Install (Stain Double Prehung),225,275,250,EA,,70,6200,Finish Carpentry,fc7,EA,finish carpentry door install stain double prehung,carpentry door double finish install prehung stain,General,Other,,Standard,Luxury
+Finish Carpentry Door Install (Stain Exterior),350,450,400,EA,,70,6200,Finish Carpentry,fc8,EA,finish carpentry door install stain exterior,carpentry door exterior finish install stain,General,Other,,Premium,Ultra-Luxury
+Finish Carpentry Base Material,1,5.5,3.25,LF,0,30,6200,Finish Carpentry,fc9,LF,finish carpentry base material,base carpentry finish material,General,Other,,Economy,Premium
+Finish Carpentry Case Material,1,5.5,3.25,LF,0,30,6200,Finish Carpentry,fc10,LF,finish carpentry case material,carpentry case finish material,General,Other,,Economy,Premium
+Finish Carpentry Doors Material,300,500,400,EA,,30,6200,Finish Carpentry,fc11,Each,finish carpentry doors material,carpentry doors finish material,General,Other,,Premium,Ultra-Luxury
+Roman Clay / Venetian,5,5,5,SF,,70,9900,Painting And Coatings,pc1,Sq Ft,roman clay venetian,clay roman venetian,General,Interior,painting_coatings,Standard,Luxury
+Interior Paint Allowance,4,5,4.5,SF,,70,9900,Painting And Coatings,pc2,Sq Ft,interior paint allowance,allowance interior paint,General,Interior,painting_coatings,Standard,Luxury
+Paint Primer (Walls & Lids),1,1,1,SF,,70,9900,Painting And Coatings,pc3,Sq Ft,paint primer walls lids,lids paint primer walls,General,Interior,painting_coatings,Economy,Premium
+Paint Walls,1,1,1,SF,,70,9900,Painting And Coatings,pc4,Sq Ft,paint walls,paint walls,General,Interior,painting_coatings,Economy,Premium
+Paint Lids,1,1,1,SF,,70,9900,Painting And Coatings,pc5,Sq Ft,paint lids,lids paint,General,Interior,painting_coatings,Economy,Premium
+Paint Exterior,1.5,1.5,1.5,SF,,70,9900,Painting And Coatings,pc6,Sq Ft,paint exterior,exterior paint,General,Interior,painting_coatings,Standard,Luxury
+Paint Exterior Primer,1,1,1,SF,,70,9900,Painting And Coatings,pc7,Sq Ft,paint exterior primer,exterior paint primer,General,Interior,painting_coatings,Economy,Premium
+Paint/Stain Doors,250,500,375,EA,,70,9900,Painting And Coatings,pc8,Each,paint stain doors,doors paint stain,General,Interior,painting_coatings,Premium,Ultra-Luxury
+Paint Window Casing ,75,75,75,EA,,70,9900,Painting And Coatings,pc9,Each,paint window casing,casing paint window,General,Interior,painting_coatings,Premium,Ultra-Luxury
+Paint Exterior Doors,250,350,300,EA,,70,9900,Painting And Coatings,pc10,Each,paint exterior doors,doors exterior paint,General,Interior,painting_coatings,Premium,Ultra-Luxury
+Cabinets Custom Paint Grade,650,850,750,LF,,50,6415,Cabinets,ca1,LF,cabinets custom paint grade,cabinets custom grade paint,General,Interior,cabinetry,Economy,Premium
+Cabinets Custom Stain Grade,850,1200,1025,LF,,50,6415,Cabinets,ca2,LF,cabinets custom stain grade,cabinets custom grade stain,General,Interior,cabinetry,Standard,Luxury
+Cabinets Custom Full-Height,1000,1500,1250,LF,,50,6415,Cabinets,ca3,LF,cabinets custom full height,cabinets custom full height,General,Interior,cabinetry,Premium,Ultra-Luxury
+Countertop Fabrication/Installation,65,95,80,SF,,70,9380,Countertops,co1,Sq Ft,countertop fabrication installation,countertop fabrication installation,General,Interior,countertops,Economy,Premium
+Countertop Fabrication Mitered Edge,40,40,40,LF,,70,9380,Countertops,co2,LF,countertop fabrication mitered edge,countertop edge fabrication mitered,General,Interior,countertops,Economy,Premium
+Countertop Fabrication Kitchen Sink,300,300,300,EA,,70,9380,Countertops,co3,Each,countertop fabrication kitchen sink,countertop fabrication kitchen sink,General,Interior,countertops,Standard,Luxury
+Countertop Fabrication Farm Sink,500,500,500,EA,,70,9380,Countertops,co4,Each,countertop fabrication farm sink,countertop fabrication farm sink,General,Interior,countertops,Premium,Ultra-Luxury
+Countertop Fabrication Vanity(ies),200,200,200,EA,,70,9380,Countertops,co5,Each,countertop fabrication vanity ies,countertop fabrication ies vanity,General,Interior,countertops,Standard,Luxury
+Countertop Material,2000,3500,2750,EA,0,30,9380,Countertops,co6,Each,countertop material,countertop material,General,Interior,countertops,Premium,Ultra-Luxury
+Metal Fabrication Handrail (Powder Coated Steel Tube Stock),100,125,112.5,LF,,70,5500,Metal Fabrications,mf1,LF,metal fabrication handrail powder coated steel tube stock,coated fabrication handrail metal powder steel stock tube,General,Other,,Standard,Luxury
+Metal Fabrication Handrail (Powder Coated with Steel Tension Cables),245,335,290,LF,,70,5500,Metal Fabrications,mf2,LF,metal fabrication handrail powder coated with steel tension cables,cables coated fabrication handrail metal powder steel tension,General,Other,,Standard,Luxury
+Metal Fabrication Kitchen Hood,8500,12000,10250,EA,,70,5500,Metal Fabrications,mf3,Each,metal fabrication kitchen hood,fabrication hood kitchen metal,General,Other,,Premium,Ultra-Luxury
+Metal Fabrication Metal Facade,50,125,87.5,SF,,70,5500,Metal Fabrications,mf4,Sq Ft,metal fabrication metal facade,fabrication facade metal,General,Other,,Economy,Premium
+Tree Demo,,,,EA,,,2900,Landscaping,la1,Each,tree demo,demo tree,General,Exterior,landscape_hardscape,Standard,Luxury
+Ground Cover Demo,,,,EA,,,2900,Landscaping,la2,Each,ground cover demo,cover demo ground,General,Exterior,landscape_hardscape,Standard,Luxury
+Irrigation (Lines),,,,LF,,,2900,Landscaping,la3,LF,irrigation lines,irrigation lines,General,Exterior,landscape_hardscape,Standard,Luxury
+Irrigation (Timer Box),,,,EA,,,2900,Landscaping,la4,Each,irrigation timer box,box irrigation timer,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscape Lighting,,,,EA,,,2900,Landscaping,la5,Each,landscape lighting,landscape lighting,General,Exterior,landscape_hardscape,Standard,Luxury
+Water Feature,,,,EA,,,2900,Landscaping,la6,Each,water feature,feature water,General,Exterior,landscape_hardscape,Standard,Luxury
+Fire Feature,,,,EA,,,2900,Landscaping,la7,Each,fire feature,feature fire,General,Exterior,landscape_hardscape,Standard,Luxury
+Gas Line,,,,LF,,,2900,Landscaping,la8,LF,gas line,gas line,General,Exterior,landscape_hardscape,Standard,Luxury
+Electrical Line,,,,LF,,,2900,Landscaping,la9,LF,electrical line,electrical line,General,Exterior,landscape_hardscape,Standard,Luxury
+Pavers,,,,EA,,,2900,Landscaping,la10,EA,pavers,pavers,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscaping Concrete Pavers,7.99,10,9,EA,,70,2900,Landscaping,la11,EA,landscaping concrete pavers,concrete landscaping pavers,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscaping Travertine 3 Pc,18,18,18,EA,,70,2900,Landscaping,la12,EA,landscaping travertine 3 pc,landscaping travertine,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscaping Travertine 4 Pc,24,24,24,EA,,70,2900,Landscaping,la13,EA,landscaping travertine 4 pc,landscaping travertine,General,Exterior,landscape_hardscape,Premium,Ultra-Luxury
+Turf,,,,EA,,,2900,Landscaping,la14,EA,turf,turf,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscaping 65oz Turf,8,8,8,EA,,70,2900,Landscaping,la15,EA,landscaping 65oz turf,65oz landscaping turf,General,Exterior,landscape_hardscape,Economy,Premium
+Demo Pebble Tec,,,,SF,,,13150,Pool,po1,Sq Ft,demo pebble tec,demo pebble tec,General,Other,,Standard,Luxury
+Demo Pool Decking,,,,SF,,,13150,Pool,po2,Sq Ft,demo pool decking,decking demo pool,General,Other,,Standard,Luxury
+Pool Equipment Lines,,,,LF,,,13150,Pool,po3,LF,pool equipment lines,equipment lines pool,General,Other,,Standard,Luxury
+Pool Equipment,,,,EA,,,13150,Pool,po4,Each,pool equipment,equipment pool,General,Other,,Standard,Luxury
+New Pebble Tech,,,,SF,,,13150,Pool,po5,Sq Ft,new pebble tech,new pebble tech,General,Other,,Standard,Luxury
+Pool Coping,20,20,20,LF,,,13150,Pool,po6,LF,pool coping,coping pool,General,Other,,Premium,Ultra-Luxury
+Pool Water Line Tile,16,16,16,LF,,,13150,Pool,po7,LF,pool water line tile,line pool tile water,General,Other,,Economy,Premium
+Coping (Material),,,,LF,,,13150,Pool,po8,LF,coping material,coping material,General,Other,,Standard,Luxury
+Pebble Tech (Material),,,,SF,,,13150,Pool,po9,Sq Ft,pebble tech material,material pebble tech,General,Other,,Standard,Luxury
+Water Line Tile (Material),,,,LF,,,13150,Pool,po10,LF,water line tile material,line material tile water,General,Other,,Standard,Luxury
+Rough Clean,0.25,0.25,0.35,SF,,70,1740,Cleaning,cl1,Sq Ft,rough clean,clean rough,General,Other,cleaning,Economy,Premium
+Final Clean,0.5,0.5,0.65,SF,,70,1740,Cleaning,cl2,Sq Ft,final clean,clean final,General,Other,cleaning,Economy,Premium
+Windows,25,25,25,EA,,70,1740,Cleaning,cl3,Each,windows,windows,General,Other,cleaning,Standard,Luxury
+Power Wash,250,250,350,EA,,70,1740,Cleaning,cl4,Each,power wash,power wash,General,Other,cleaning,Premium,Ultra-Luxury
+Duct Cleaning,610,610,610,EA,,70,1740,Cleaning,cl5,Each,duct cleaning,cleaning duct,General,Other,cleaning,Premium,Ultra-Luxury

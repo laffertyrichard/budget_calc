@@ -1,0 +1,105 @@
+{
+    "category_mappings": {
+        "foundation": {
+            "catalog_categories": ["Foundation", "Concrete", "Excavation"],
+            "description": "Foundation and concrete work",
+            "estimation_formulas": {
+                "concrete_cy": "calculate_concrete",
+                "waterproofing_sf": "calculate_waterproofing"
+            },
+            "item_mappings": {
+                "slab_concrete_cy": {
+                    "item_ids": [],
+                    "search_terms": ["slab", "concrete", "foundation"]
+                },
+                "footing_concrete_cy": {
+                    "item_ids": [],
+                    "search_terms": ["footing", "footer", "foundation"]
+                }
+            }
+        },
+        "structural": {
+            "catalog_categories": ["Framing", "Structural Steel", "Trusses"],
+            "description": "Structural framework including framing and steel",
+            "estimation_formulas": {
+                "framing_bf": "calculate_framing",
+                "steel_lbs": "calculate_steel"
+            }
+        },
+        "electrical": {
+            "catalog_categories": ["Electrical", "Lighting"],
+            "description": "Electrical systems and lighting",
+            "estimation_formulas": {
+                "outlets_switches": "calculate_electrical"
+            },
+            "item_mappings": {
+                "recessed_lights": {
+                    "search_terms": ["recessed", "can light", "pot light"]
+                }
+            }
+        },
+        "plumbing": {
+            "catalog_categories": ["Plumbing", "Fixtures"],
+            "description": "Plumbing systems and fixtures",
+            "estimation_formulas": {
+                "plumbing_fixtures": "calculate_plumbing"
+            }
+        },
+        "hvac": {
+            "catalog_categories": ["HVAC", "Mechanical"],
+            "description": "Heating, ventilation and air conditioning",
+            "estimation_formulas": {
+                "hvac_tonnage": "calculate_hvac"
+            }
+        },
+        "interior_finishes": {
+            "catalog_categories": ["Drywall", "Paint", "Flooring", "Interior Trim"],
+            "description": "Interior finishes including drywall, paint and flooring",
+            "estimation_formulas": {
+                "drywall_sf": "calculate_drywall",
+                "paint_gallons": "calculate_paint",
+                "flooring_sf": "calculate_flooring"
+            }
+        },
+        "cabinetry": {
+            "catalog_categories": ["Cabinetry", "Millwork", "Countertops"],
+            "description": "Cabinetry and countertops",
+            "estimation_formulas": {
+                "cabinets_lf": "calculate_cabinetry",
+                "countertops_sf": "calculate_countertops"
+            }
+        },
+        "doors_windows": {
+            "catalog_categories": ["Doors", "Windows"],
+            "description": "Doors and windows",
+            "estimation_formulas": {
+                "doors_count": "calculate_doors",
+                "windows_count": "calculate_windows"
+            }
+        },
+        "exterior": {
+            "catalog_categories": ["Siding", "Roofing", "Exterior Trim"],
+            "description": "Exterior systems including roofing and siding",
+            "estimation_formulas": {
+                "roofing_sf": "calculate_roofing",
+                "siding_sf": "calculate_siding"
+            }
+        },
+        "landscape": {
+            "catalog_categories": ["Landscape", "Hardscape"],
+            "description": "Landscaping and hardscaping",
+            "estimation_formulas": {
+                "landscape_sf": "calculate_landscape",
+                "hardscape_sf": "calculate_hardscape"
+            }
+        },
+        "specialty": {
+            "catalog_categories": ["Security", "Audio/Video", "Specialty"],
+            "description": "Specialty systems and features",
+            "estimation_formulas": {
+                "security": "calculate_security",
+                "av_systems": "calculate_av"
+            }
+        }
+    }
+}

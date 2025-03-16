@@ -1,0 +1,127 @@
+{
+  "electrical": {
+    "standard_outlets": {
+      "search_terms": [
+        "standard",
+        "standards",
+        "outlets",
+        "outlet"
+      ],
+      "suggested_items": [
+        {
+          "id": "el8",
+          "name": "Electrical New (Outlets 240)"
+        }
+      ],
+      "tier_item_ids": {
+        "Premium": [],
+        "Luxury": [
+          "el8"
+        ],
+        "Ultra-Luxury": []
+      }
+    },
+    "gfci_outlets": {
+      "search_terms": [
+        "gfci",
+        "gfcis",
+        "outlets",
+        "outlet"
+      ],
+      "suggested_items": [
+        {
+          "id": "el8",
+          "name": "Electrical New (Outlets 240)"
+        }
+      ],
+      "tier_item_ids": {
+        "Premium": [],
+        "Luxury": [
+          "el8"
+        ],
+        "Ultra-Luxury": []
+      }
+    },
+    "recessed_lights": {
+      "search_terms": [
+        "recessed",
+        "recesseds",
+        "lights",
+        "light"
+      ],
+      "suggested_items": [
+        {
+          "id": "el9",
+          "name": "Electrical New (Can Lights)"
+        },
+        {
+          "id": "el12",
+          "name": "Electrical Tape Light Driver"
+        }
+      ],
+      "tier_item_ids": {
+        "Premium": [],
+        "Luxury": [
+          "el9"
+        ],
+        "Ultra-Luxury": []
+      }
+    },
+    "chandeliers": {
+      "search_terms": [
+        "chandeliers",
+        "chandelier"
+      ],
+      "suggested_items": [
+        {
+          "id": "el4",
+          "name": "Electrical Remove and Replace (Ceiling Fans)"
+        },
+        {
+          "id": "el5",
+          "name": "Electrical Remove and Replace (Fixtures)"
+        },
+        {
+          "id": "el8",
+          "name": "Electrical New (Outlets 240)"
+        }
+      ],
+      "tier_item_ids": {
+        "Premium": [],
+        "Luxury": [
+          "el4"
+        ],
+        "Ultra-Luxury": []
+      }
+    },
+    "switches_dimmer": {
+      "search_terms": [
+        "switches",
+        "switche",
+        "dimmer",
+        "dimmers"
+      ],
+      "suggested_items": [
+        {
+          "id": "el4",
+          "name": "Electrical Remove and Replace (Ceiling Fans)"
+        },
+        {
+          "id": "el5",
+          "name": "Electrical Remove and Replace (Fixtures)"
+        },
+        {
+          "id": "el8",
+          "name": "Electrical New (Outlets 240)"
+        }
+      ],
+      "tier_item_ids": {
+        "Premium": [],
+        "Luxury": [
+          "el4"
+        ],
+        "Ultra-Luxury": []
+      }
+    }
+  }
+}

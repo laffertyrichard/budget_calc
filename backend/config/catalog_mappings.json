@@ -1,0 +1,65 @@
+{
+  "version": "1.0",
+  "unit_conversions": {
+    "SF": {
+      "SY": 0.1111111111111111,
+      "SQFT": 1
+    },
+    "LF": {
+      "FT": 1
+    },
+    "CY": {
+      "CF": 27
+    },
+    "EA": {
+      "EACH": 1
+    }
+  },
+  "estimator_modules": {
+    "foundation": {
+      "quantity_mappings": {}
+    },
+    "structural": {
+      "quantity_mappings": {}
+    },
+    "electrical": {
+      "quantity_mappings": {}
+    },
+    "plumbing": {
+      "quantity_mappings": {}
+    },
+    "hvac": {
+      "quantity_mappings": {}
+    },
+    "drywall_interior": {
+      "quantity_mappings": {}
+    },
+    "roofing": {
+      "quantity_mappings": {}
+    },
+    "windows_doors": {
+      "quantity_mappings": {}
+    },
+    "flooring": {
+      "quantity_mappings": {}
+    },
+    "tile": {
+      "quantity_mappings": {}
+    },
+    "painting_coatings": {
+      "quantity_mappings": {}
+    },
+    "cabinetry": {
+      "quantity_mappings": {}
+    },
+    "countertops": {
+      "quantity_mappings": {}
+    },
+    "landscape_hardscape": {
+      "quantity_mappings": {}
+    },
+    "cleaning": {
+      "quantity_mappings": {}
+    }
+  }
+}

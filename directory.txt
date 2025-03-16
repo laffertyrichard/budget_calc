@@ -1,0 +1,56 @@
+budget_calc/
+├── backend/                      # Renamed from existing root structure
+│   ├── config/
+│   │   ├── settings.json
+│   │   ├── mappings.json
+│   │   ├── catalog_mappings.json
+│   │   └── electrical_mappings.json
+│   ├── data/
+│   │   ├── catalog.csv
+│   │   ├── catalog_enhanced.csv
+│   │   ├── estimations/
+│   │   └── templates/
+│   ├── src/
+│   │   ├── api/
+│   │   ├── core/
+│   │   ├── estimators/
+│   │   └── utils/
+│   ├── tests/                    
+│   ├── requirements.txt          
+│   └── main.py                   
+│
+├── frontend/                     # New Next.js frontend
+│   ├── public/                   
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── globals.css       
+│   │   │   ├── layout.tsx        
+│   │   │   └── page.tsx          
+│   │   ├── api/
+│   │   │   ├── client.ts         
+│   │   │   └── queries.ts        
+│   │   ├── components/
+│   │   │   ├── ui/               
+│   │   │   ├── forms/            
+│   │   │   └── results/          
+│   │   ├── lib/
+│   │   │   ├── utils.ts          
+│   │   │   └── schemas.ts        
+│   │   └── types/
+│   │       └── api.ts            
+│   ├── cypress/
+│   │   └── e2e/
+│   │       └── estimation.cy.js  
+│   ├── .env.local                
+│   ├── components.json           
+│   ├── cypress.config.js         
+│   ├── jest.config.js            
+│   ├── jest.setup.js             
+│   ├── next.config.js            
+│   ├── package.json              
+│   ├── tailwind.config.js        
+│   └── tsconfig.json             
+│
+├── docker-compose.yml            
+├── .gitignore                    
+└── README.md

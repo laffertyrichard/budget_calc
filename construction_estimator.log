@@ -1,0 +1,1022 @@
+2025-02-27 21:54:05,830 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-02-27 21:54:05,830 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-02-27 21:54:05,833 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for structural: No module named 'src.estimators.structural'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for electrical: No module named 'src.estimators.electrical'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for plumbing: No module named 'src.estimators.plumbing'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for hvac: No module named 'src.estimators.hvac'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for cabinetry: No module named 'src.estimators.cabinetry'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-02-27 21:54:05,833 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-02-27 21:54:05,833 - __main__ - ERROR - Project file not found: sample_project.json
+2025-03-01 12:26:09,644 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-03-01 12:26:09,645 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-03-01 12:26:09,647 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 12:26:09,648 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 12:26:09,648 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 12:26:09,649 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 12:26:09,650 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 12:26:09,650 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 12:26:09,651 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 12:26:09,651 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 12:26:09,651 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 12:26:09,651 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 12:26:09,651 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 12:26:09,651 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 12:27:55,648 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-03-01 12:27:55,648 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-03-01 12:27:55,649 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 12:27:55,650 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 12:27:55,650 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 12:27:55,650 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 12:27:55,651 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 12:27:55,651 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 12:27:55,651 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 12:27:55,651 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 12:27:55,651 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 12:27:55,651 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 12:27:55,651 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 12:27:55,651 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 12:29:10,389 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-03-01 12:29:10,390 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-03-01 12:29:10,391 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 12:29:10,391 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 12:29:10,392 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 12:29:10,392 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 12:29:10,392 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 12:29:10,392 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 12:29:10,392 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 12:29:10,392 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 12:29:10,393 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 12:29:10,393 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 12:29:10,393 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 12:29:10,393 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 12:38:50,491 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-03-01 12:38:50,491 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-03-01 12:38:50,492 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 12:38:50,493 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 12:38:50,493 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 12:38:50,493 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 12:38:50,494 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 12:38:50,494 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 12:38:50,494 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 12:38:50,494 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 12:38:50,494 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 12:38:50,494 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 12:38:50,494 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 12:38:50,494 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 12:47:50,392 - src.core.data_loader - ERROR - File not found: config/settings.json
+2025-03-01 12:47:50,393 - src.core.data_loader - ERROR - Catalog file not found: data/catalog.csv
+2025-03-01 12:47:50,394 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 12:47:50,394 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 12:47:50,394 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 12:47:50,395 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 12:47:50,395 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 12:47:50,395 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 12:47:50,395 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 12:47:50,395 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 12:47:50,395 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 12:47:50,395 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 12:47:50,395 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 12:47:50,395 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:31:11,864 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:31:11,869 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:31:11,870 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:31:11,870 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:31:11,870 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:31:11,870 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:31:11,870 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:31:11,871 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:31:11,871 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:31:11,871 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:31:11,871 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:31:11,871 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:31:11,871 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:31:11,871 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:37:27,259 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:37:27,264 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:37:27,265 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:37:27,265 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:37:27,266 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:37:27,266 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:37:27,266 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:37:27,266 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:37:27,266 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:37:27,266 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:37:27,266 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:37:27,266 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:37:27,266 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:37:27,266 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:37:27,346 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:37:27,348 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:37:27,348 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:37:27,348 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:37:27,348 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:37:27,348 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:37:27,349 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:37:27,349 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:37:27,349 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:37:27,349 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:37:27,349 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:37:27,349 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:37:27,349 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:37:27,349 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:38:47,954 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:38:47,959 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:38:47,959 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:38:47,960 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:38:47,960 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:38:47,960 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:38:47,961 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:38:47,961 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:38:47,961 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:38:47,961 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:38:47,961 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:38:47,961 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:38:47,961 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:38:47,961 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:38:48,031 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:38:48,033 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:38:48,033 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:38:48,033 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:38:48,033 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:38:48,033 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:38:48,033 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:38:48,033 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:38:48,034 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:19,518 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:19,523 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:19,525 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:19,525 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:19,526 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:19,527 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:19,528 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:19,528 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:19,529 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:19,529 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:19,529 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:19,529 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:19,529 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:19,529 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:19,598 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:19,600 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:19,600 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:19,600 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:19,600 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:19,600 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:19,600 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:19,600 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:19,600 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:22,636 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:22,638 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:22,638 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:22,638 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:22,639 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:22,639 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:22,639 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:22,639 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:22,639 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:22,639 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:22,639 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:22,639 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:22,639 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:22,639 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:25,663 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:25,665 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:25,665 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:25,665 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:25,665 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:25,665 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:25,666 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:25,666 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:25,666 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:25,666 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:25,666 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:25,666 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:25,666 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:25,666 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:28,690 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:28,692 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:28,692 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:28,692 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:28,692 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:28,692 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:28,692 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:28,692 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:28,693 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:31,715 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:31,716 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:31,717 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:31,717 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:31,717 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:31,717 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:31,717 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:31,717 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:31,717 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:34,719 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:34,721 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:34,722 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:34,722 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:34,722 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:34,722 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:34,722 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:34,722 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:34,722 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:37,733 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:37,735 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:37,735 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:37,735 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:37,735 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:37,735 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:37,735 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:37,735 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:37,736 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:37,736 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:37,736 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:37,736 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:37,736 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:37,736 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:40,738 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:40,741 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:40,741 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:40,741 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:40,741 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:40,742 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:40,742 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:40,742 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:40,742 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:40,742 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:40,742 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:40,742 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:40,742 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:40,742 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:43,759 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:43,761 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:43,761 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:43,761 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:43,761 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:43,761 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:43,762 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:43,762 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:43,762 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:43,762 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:43,762 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:43,762 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:43,762 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:43,762 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:46,782 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:46,784 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:46,785 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:46,785 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:46,785 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:46,785 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:46,785 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:46,785 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:46,785 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:49,792 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:49,794 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:49,794 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:49,794 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:49,794 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:49,794 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:49,794 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:49,794 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:49,795 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:52,820 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:52,823 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:52,823 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:52,823 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:52,823 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:52,823 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:52,823 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:52,823 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:52,824 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:52,824 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:52,824 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:52,824 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:52,824 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:52,824 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:55,823 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:55,825 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:55,825 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:55,825 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:55,825 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:55,825 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:55,825 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:55,825 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:55,825 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:51:58,845 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:51:58,848 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:51:58,848 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:51:58,848 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:51:58,848 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:51:58,848 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:51:58,848 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:51:58,849 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:51:58,849 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:51:58,849 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:51:58,849 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:51:58,849 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:51:58,849 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:51:58,849 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:01,863 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:01,865 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:01,865 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:01,865 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:01,865 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:01,865 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:01,865 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:01,866 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:01,866 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:01,866 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:01,866 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:01,866 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:01,866 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:01,866 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:04,865 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:04,867 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:04,867 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:04,867 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:04,867 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:04,868 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:04,868 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:04,868 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:04,868 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:04,868 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:04,868 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:04,868 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:04,868 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:04,868 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:07,865 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:07,867 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:07,867 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:07,867 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:07,867 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:07,867 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:07,867 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:07,867 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:07,868 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:07,868 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:07,868 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:07,868 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:07,868 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:07,868 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:10,877 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:10,879 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:10,879 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:10,879 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:10,879 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:10,879 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:10,880 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:10,880 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:10,880 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:10,880 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:10,880 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:10,880 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:10,880 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:10,880 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:13,884 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:13,886 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:13,886 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:13,886 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:13,887 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:13,887 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:13,887 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:13,887 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:13,887 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:13,887 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:13,887 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:13,887 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:13,887 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:13,887 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:16,900 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:16,902 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:16,902 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:16,902 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:16,902 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:16,902 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:16,902 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:16,902 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:16,902 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:19,895 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:19,897 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:19,897 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:19,897 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:19,898 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:19,898 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:19,898 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:19,898 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:19,898 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:19,898 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:19,898 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:19,898 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:19,898 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:19,898 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:22,917 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:22,919 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:22,919 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:22,919 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:22,919 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:22,920 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:22,920 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:22,920 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:22,920 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:22,920 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:22,920 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:22,920 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:22,920 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:22,920 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:25,942 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:25,944 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:25,944 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:25,945 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:25,945 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:25,945 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:25,945 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:25,945 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:25,945 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:25,945 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:25,945 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:25,945 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:25,945 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:25,945 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:28,951 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:28,953 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:28,954 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:28,954 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:28,954 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:28,954 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:28,954 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:28,954 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:28,954 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:31,950 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:31,953 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:31,953 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:31,953 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:31,953 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:31,953 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:31,954 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:31,954 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:31,954 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:34,988 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:34,990 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:34,990 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:34,990 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:34,990 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:34,990 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:34,990 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:34,990 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:34,990 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:37,986 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:37,988 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:37,989 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:37,989 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:37,989 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:37,989 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:37,989 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:37,989 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:37,989 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:41,007 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:41,009 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:41,009 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:41,010 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:41,010 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:41,010 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:41,010 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:41,010 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:41,010 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:41,010 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:41,010 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:41,010 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:41,010 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:41,010 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:44,006 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:44,008 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:44,008 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:44,008 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:44,008 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:44,008 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:44,009 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:44,009 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:44,009 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:47,035 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:47,038 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:47,038 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:47,038 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:47,038 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:47,038 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:47,038 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:47,038 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:47,039 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:47,039 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:47,039 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:47,039 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:47,039 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:47,039 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:50,033 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:50,035 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:50,035 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:50,035 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:50,035 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:50,036 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:50,036 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:50,036 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:50,036 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:50,036 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:50,036 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:50,036 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:50,036 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:50,036 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:53,049 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:53,051 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:53,051 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:53,052 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:53,052 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:53,052 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:53,052 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:53,052 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:53,052 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:53,052 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:53,052 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:53,052 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:53,052 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:53,052 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:56,078 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:56,080 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:56,081 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:56,081 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:56,081 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:56,081 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:56,081 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:56,081 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:56,081 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:52:59,094 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:52:59,097 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:52:59,097 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:52:59,097 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:52:59,097 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:52:59,097 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:52:59,097 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:52:59,097 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:52:59,097 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:02,119 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:02,121 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:02,121 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:02,122 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:02,122 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:02,122 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:02,122 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:02,122 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:02,122 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:02,122 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:02,122 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:02,122 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:02,122 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:02,122 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:05,119 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:05,121 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:05,121 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:05,121 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:05,121 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:05,121 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:05,121 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:05,121 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:05,121 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:08,144 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:08,146 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:08,146 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:08,146 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:08,147 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:08,147 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:08,147 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:08,147 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:08,147 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:08,147 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:08,147 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:08,147 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:08,147 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:08,147 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:11,146 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:11,148 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:11,148 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:11,148 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:11,149 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:11,149 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:11,149 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:11,149 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:11,149 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:11,149 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:11,149 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:11,149 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:11,149 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:11,149 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:14,169 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:14,171 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:14,172 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:14,172 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:14,172 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:14,172 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:14,172 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:14,172 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:14,172 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:17,184 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:17,186 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:17,186 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:17,187 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:17,187 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:17,187 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:17,187 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:17,187 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:17,187 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:17,187 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:17,187 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:17,187 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:17,187 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:17,187 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:20,207 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:20,209 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:20,209 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:20,209 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:20,209 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:20,209 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:20,209 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:20,210 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:20,210 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:23,217 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:23,219 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:23,220 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:23,220 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:23,220 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:23,220 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:23,220 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:23,220 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:23,220 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:26,231 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:26,234 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:26,235 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:26,235 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:26,235 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:26,235 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:26,235 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:26,235 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:26,236 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:26,236 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:26,236 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:26,236 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:26,236 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:26,236 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:29,297 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:29,299 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:29,299 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:29,299 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:29,299 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:29,299 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:29,299 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:29,300 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:29,300 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:29,300 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:29,300 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:29,300 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:29,300 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:29,300 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:32,273 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:32,276 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:32,276 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:32,276 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:32,276 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:32,276 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:32,277 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:32,277 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:32,277 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:53:35,267 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:53:35,270 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:53:35,270 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:53:35,270 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:53:35,270 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:53:35,271 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:53:35,271 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:53:35,271 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:53:35,271 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:53:35,271 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:53:35,271 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:53:35,271 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:53:35,271 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:53:35,271 - __main__ - ERROR - Either --project or --load must be specified
+2025-03-01 13:59:17,076 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 13:59:17,080 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 13:59:17,081 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 13:59:17,081 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 13:59:17,081 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 13:59:17,082 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 13:59:17,082 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 13:59:17,082 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 13:59:17,082 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 13:59:17,082 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 13:59:17,082 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 13:59:17,082 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 13:59:17,082 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 13:59:17,082 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:01:49,754 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:01:49,758 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:01:49,759 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:01:49,759 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:01:49,759 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:01:49,760 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:01:49,760 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:01:49,760 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:01:49,760 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:01:49,760 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:01:49,760 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:01:49,760 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:01:49,760 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:01:49,760 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:01:52,612 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:01:52,614 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:01:52,614 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:01:52,614 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:01:52,615 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:01:52,615 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:01:52,615 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:01:52,615 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:01:52,615 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:01:52,615 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:01:52,615 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:01:52,615 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:01:52,615 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:01:52,615 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:01:55,605 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:01:55,607 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:01:55,608 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:01:55,608 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:01:55,608 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:01:55,608 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:01:55,608 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:01:55,608 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:01:55,608 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:01:58,637 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:01:58,639 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:01:58,639 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:01:58,639 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:01:58,640 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:01:58,640 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:01:58,640 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:01:58,640 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:01:58,640 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:01,659 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:01,661 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:01,662 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:01,662 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:01,662 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:01,662 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:01,662 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:01,662 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:01,662 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:04,661 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:04,663 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:04,664 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:04,664 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:04,664 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:04,664 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:04,664 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:04,664 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:04,664 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:07,694 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:07,696 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:07,696 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:07,696 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:07,696 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:07,696 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:07,696 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:07,696 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:07,696 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:10,680 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:10,682 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:10,682 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:10,682 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:10,682 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:10,682 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:10,682 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:10,683 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:10,683 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:13,706 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:13,708 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:13,708 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:13,708 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:13,709 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:13,709 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:13,709 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:13,709 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:13,709 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:16,724 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:16,727 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:16,727 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:16,727 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:16,727 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:16,727 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:16,727 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:16,727 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:16,727 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:19,747 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:19,749 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:19,749 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:19,749 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:19,749 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:19,750 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:19,750 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:19,750 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:19,750 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:19,750 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:19,750 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:19,750 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:19,750 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:19,750 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:22,765 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:22,767 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:22,767 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:22,768 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:22,768 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:22,768 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:22,768 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:22,768 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:22,768 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:22,768 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:22,768 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:22,768 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:22,768 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:22,768 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:25,789 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:25,791 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:25,791 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:25,791 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:25,792 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:25,792 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:25,792 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:25,792 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:25,792 - __main__ - ERROR - Project file not found: default_project
+2025-03-01 14:02:28,796 - src.core.data_loader - ERROR - Invalid JSON format in: config/settings.json
+2025-03-01 14:02:28,798 - src.core.data_loader - INFO - Loaded catalog with 1034 items
+2025-03-01 14:02:28,798 - src.core.estimation_engine - INFO - Loaded estimator for foundation
+2025-03-01 14:02:28,798 - src.core.estimation_engine - INFO - Loaded estimator for structural
+2025-03-01 14:02:28,798 - src.core.estimation_engine - INFO - Loaded estimator for electrical
+2025-03-01 14:02:28,798 - src.core.estimation_engine - INFO - Loaded estimator for plumbing
+2025-03-01 14:02:28,798 - src.core.estimation_engine - INFO - Loaded estimator for hvac
+2025-03-01 14:02:28,798 - src.core.estimation_engine - WARNING - Could not load estimator for interior_finishes: No module named 'src.estimators.interior_finishes'
+2025-03-01 14:02:28,799 - src.core.estimation_engine - INFO - Loaded estimator for cabinetry
+2025-03-01 14:02:28,799 - src.core.estimation_engine - WARNING - Could not load estimator for doors_windows: No module named 'src.estimators.doors_windows'
+2025-03-01 14:02:28,799 - src.core.estimation_engine - WARNING - Could not load estimator for exterior: No module named 'src.estimators.exterior'
+2025-03-01 14:02:28,799 - src.core.estimation_engine - WARNING - Could not load estimator for landscape: No module named 'src.estimators.landscape'
+2025-03-01 14:02:28,799 - src.core.estimation_engine - WARNING - Could not load estimator for specialty: No module named 'src.estimators.specialty'
+2025-03-01 14:02:28,799 - __main__ - ERROR - Project file not found: default_project
