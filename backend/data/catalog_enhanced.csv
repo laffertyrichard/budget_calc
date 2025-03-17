@@ -4,13 +4,13 @@ Dumpster,610,610,610,MONTHLY,,70,1741,Preparations And Prelimanaries,pr2,Monthly
 Dumpster Additional Pickups,250,250,250,EA,,70,1741,Preparations And Prelimanaries,pr3,Each,dumpster additional pickups,additional dumpster pickups,General,Other,,Economy,Premium
 Protection Material,1250,2500,1875,EA,,70,1760,Preparations And Prelimanaries,pr4,Each,protection material,material protection,General,Other,,Premium,Ultra-Luxury
 Project Manager,2600,2600,2600,MONTHLY,,0,1010,Preparations And Prelimanaries,pr5,Monthly,project manager,manager project,General,Other,,Premium,Ultra-Luxury
-Project Coordinator,,,,EA,,,1011,Preparations And Prelimanaries,pr6,EA,project coordinator,coordinator project,General,Other,,Standard,Luxury
+Project Coordinator,0,0,0,EA,,,1011,Preparations And Prelimanaries,pr6,EA,project coordinator,coordinator project,General,Other,,Standard,Luxury
 Superintendent,2600,3900,3250,MONTHLY,,0,1012,Preparations And Prelimanaries,pr7,Monthly,superintendent,superintendent,General,Other,,Premium,Ultra-Luxury
 Project Administrator,1750,1750,1750,MONTHLY,,0,1013,Preparations And Prelimanaries,pr8,Monthly,project administrator,administrator project,General,Other,,Standard,Luxury
-Construction Manager,,,,EA,,,1014,Preparations And Prelimanaries,pr9,EA,construction manager,construction manager,General,Other,,Standard,Luxury
+Construction Manager,0,0,0,EA,,,1014,Preparations And Prelimanaries,pr9,EA,construction manager,construction manager,General,Other,,Standard,Luxury
 Carpenter / Tool Person,1400,1400,1400,MONTHLY,,0,1016,Preparations And Prelimanaries,pr10,Monthly,carpenter tool person,carpenter person tool,General,Other,,Standard,Luxury
 Construction Site Tech ,900,900,900,MONTHLY,,0,1015,Preparations And Prelimanaries,pr11,Monthly,construction site tech,construction site tech,General,Other,,Standard,Luxury
-Estimator,,,,EA,,,1017,Preparations And Prelimanaries,pr12,EA,estimator,estimator,General,Other,,Standard,Luxury
+Estimator,0,0,0,EA,,,1017,Preparations And Prelimanaries,pr12,EA,estimator,estimator,General,Other,,Standard,Luxury
 Demo Interior Walls,1,1,1,SF,,70,2220,Demo,de1,Sq Ft,demo interior walls,demo interior walls,General,Other,,Economy,Premium
 Demo Strip Drywall,1,1,1,SF,,70,2220,Demo,de2,Sq Ft,demo strip drywall,demo drywall strip,General,Other,,Economy,Premium
 Demo Doors/Frame/Trim,50,75,62.5,EA,,70,2220,Demo,de3,Each,demo doors frame trim,demo doors frame trim,General,Other,,Standard,Luxury
@@ -30,7 +30,7 @@ Demo Glue Down Wood,5,5,5,SF,,70,2220,Demo,de16,Sq Ft,demo glue down wood,demo d
 Demo Wood with Subfloor,3.5,3.5,3.5,SF,,70,2220,Demo,de17,Sq Ft,demo wood with subfloor,demo subfloor wood,General,Other,,Standard,Luxury
 Demo Full Kitchen (Tract),600,1200,900,WHOLE HOUSE,,70,2220,Demo,de18,Whole House,demo full kitchen tract,demo full kitchen tract,General,Other,,Premium,Ultra-Luxury
 Demo Full Kitchen (Custom),1500,2500,2000,WHOLE HOUSE,,70,2220,Demo,de19,Whole House,demo full kitchen custom,custom demo full kitchen,General,Other,,Premium,Ultra-Luxury
-Bathrooms,,,,EA,,70,2220,Demo,de20,EA,bathrooms,bathrooms,General,Other,,Standard,Luxury
+Bathrooms,0,0,0,EA,,70,2220,Demo,de20,EA,bathrooms,bathrooms,General,Other,,Standard,Luxury
 Demo Toilet(s),75,75,75,EA,,70,2220,Demo,de21,Each,demo toilet s,demo toilet,General,Other,,Standard,Luxury
 Demo Sink(s),50,50,50,EA,,70,2220,Demo,de22,Each,demo sink s,demo sink,General,Other,,Standard,Luxury
 Demo Vanity(ies),100,100,100,EA,,70,2220,Demo,de23,Each,demo vanity ies,demo ies vanity,General,Other,,Premium,Ultra-Luxury
@@ -116,21 +116,21 @@ Plumbing Kitchen RO (Trim),250,500,375,EA,,70,15400,Plumbing,pl25,Each,plumbing 
 Plumbing Kitchen Pot Filler (Trim),125,250,187.5,EA,,70,15400,Plumbing,pl26,Each,plumbing kitchen pot filler trim,filler kitchen plumbing pot trim,General,MEP,plumbing,Economy,Premium
 Plumbing Connect Heat Pump (Furnace) (Trim),125,400,262.5,EA,,70,15400,Plumbing,pl27,Each,plumbing connect heat pump furnace trim,connect furnace heat plumbing pump trim,General,MEP,plumbing,Standard,Luxury
 Plumbing Connect Fire Pit/BBQ/Fireplace (Trim),125,500,312.5,EA,,70,15400,Plumbing,pl28,Each,plumbing connect fire pit bbq fireplace trim,bbq connect fire fireplace pit plumbing trim,General,MEP,plumbing,Standard,Luxury
-Industrial Sprinkler Drops,1200,1700,,EA,,70,7800,Fire Protection,fs1,Each,industrial sprinkler drops,drops industrial sprinkler,General,Other,,Standard,Luxury
-Regualr Drops,280,320,,EA,,70,7800,Fire Protection,fs2,Each,regualr drops,drops regualr,General,Other,,Standard,Luxury
+Industrial Sprinkler Drops,1200,1700,0,EA,,70,7800,Fire Protection,fs1,Each,industrial sprinkler drops,drops industrial sprinkler,General,Other,,Standard,Luxury
+Regualr Drops,280,320,0,EA,,70,7800,Fire Protection,fs2,Each,regualr drops,drops regualr,General,Other,,Standard,Luxury
 HVAC New 2 Ton Package Unit,7800,10500,9150,EA,,70,15700,Hvac,me1,Each,hvac new 2 ton package unit,hvac new package ton unit,General,Other,hvac,Standard,Luxury
 HVAC New 3 Ton Package Unit,8800,11800,10300,EA,,70,15700,Hvac,me2,Each,hvac new 3 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
 HVAC New 4 Ton Package Unit,9500,12000,10750,EA,,70,15700,Hvac,me3,Each,hvac new 4 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
 HVAC New 5 Ton Package Unit,9885,13500,11692.5,EA,,70,15700,Hvac,me4,Each,hvac new 5 ton package unit,hvac new package ton unit,General,Other,hvac,Premium,Ultra-Luxury
 HVAC New Mini-Split,3500,6500,5000,EA,,70,15700,Hvac,me5,Each,hvac new mini split,hvac mini new split,General,Other,hvac,Standard,Luxury
 HVAC Thermostats,150,650,400,EA,,70,15700,Hvac,me6,Each,hvac thermostats,hvac thermostats,General,Other,hvac,Economy,Premium
-HVAC Flex Duct,,,,LF ,,70,15700,Hvac,me7,LF ,hvac flex duct,duct flex hvac,General,Other,hvac,Standard,Luxury
-HVAC Hard Duct,,,,LF ,,70,15700,Hvac,me8,LF ,hvac hard duct,duct hard hvac,General,Other,hvac,Standard,Luxury
+HVAC Flex Duct,0,0,0,LF ,,70,15700,Hvac,me7,LF ,hvac flex duct,duct flex hvac,General,Other,hvac,Standard,Luxury
+HVAC Hard Duct,0,0,0,LF ,,70,15700,Hvac,me8,LF ,hvac hard duct,duct hard hvac,General,Other,hvac,Standard,Luxury
 HVAC Registers,170,210,190,EACH ,,70,15700,Hvac,me9,Each ,hvac registers,hvac registers,General,Other,hvac,Economy,Premium
 HVAC Returns,170,210,190,EACH ,,70,15700,Hvac,me10,Each ,hvac returns,hvac returns,General,Other,hvac,Economy,Premium
 HVAC Exhaust Fans,355,545,450,EACH ,,70,15700,Hvac,me11,Each ,hvac exhaust fans,exhaust fans hvac,General,Other,hvac,Standard,Luxury
 HVAC Range Hood Exhaust ,360,540,450,EACH ,,70,15700,Hvac,me12,Each ,hvac range hood exhaust,exhaust hood hvac range,General,Other,hvac,Standard,Luxury
-Drywall Allowance,,,,EA,,70,9250,Drywall,dr1,Each,drywall allowance,allowance drywall,General,Interior,drywall_interior,Standard,Luxury
+Drywall Allowance,0,0,0,EA,,70,9250,Drywall,dr1,Each,drywall allowance,allowance drywall,General,Interior,drywall_interior,Standard,Luxury
 Drywall Patching,100,100,100,EA,,70,9250,Drywall,dr2,Each,drywall patching,drywall patching,General,Interior,drywall_interior,Economy,Premium
 "Drwyall New 4x12x1/2"" sheetrock",100,150,125,EA,,70,9250,Drywall,dr3,Each,drwyall new 4x12x1 2 sheetrock,4x12x1 drwyall new sheetrock,General,Interior,drywall_interior,Premium,Ultra-Luxury
 Roofing Recoat Flat Roof,1.1,3.5,2.3,SF,,70,7400,Roofing,ro1,Sq Ft,roofing recoat flat roof,flat recoat roof roofing,General,Envelope,roofing,Economy,Premium
@@ -159,7 +159,7 @@ Stucco Cat Eye Patches around Windows,720,1250,985,EA,,70,9240,Stucco,st8,Each,s
 Stucco Cat Eye Patches around Sliding Doors,1340,2350,1845,EA,,70,9240,Stucco,st9,Each,stucco cat eye patches around sliding doors,around cat doors eye patches sliding stucco,General,Other,,Premium,Ultra-Luxury
 Window Install,250,500,375,EA,,70,8050,Windows And Specialty Doors,wd1,Each,window install,install window,General,Envelope,windows_doors,Economy,Premium
 Slider Door Install,1000,2500,1750,EA,,70,8050,Windows And Specialty Doors,wd2,Each,slider door install,door install slider,General,Envelope,windows_doors,Standard,Luxury
-Window Cost,,,,EA,,50,8050,Windows And Specialty Doors,wd3,EA,window cost,cost window,General,Envelope,windows_doors,Standard,Luxury
+Window Cost,0,0,0,EA,,50,8050,Windows And Specialty Doors,wd3,EA,window cost,cost window,General,Envelope,windows_doors,Standard,Luxury
 Slider Door Cost/Steel Door,5500,10000,7750,EA,,50,8050,Windows And Specialty Doors,wd4,Each,slider door cost steel door,cost door slider steel,General,Envelope,windows_doors,Premium,Ultra-Luxury
 Engineered Hardwood Install,4,4.5,4.25,SF,,70,9600,Flooring,fl1,Sq Ft,engineered hardwood install,engineered hardwood install,General,Interior,flooring,Standard,Luxury
 Engineered Hardwood Material,8,12,10,SF,0,30,9600,Flooring,fl2,Sq Ft,engineered hardwood material,engineered hardwood material,General,Interior,flooring,Premium,Ultra-Luxury
@@ -238,31 +238,31 @@ Metal Fabrication Handrail (Powder Coated Steel Tube Stock),100,125,112.5,LF,,70
 Metal Fabrication Handrail (Powder Coated with Steel Tension Cables),245,335,290,LF,,70,5500,Metal Fabrications,mf2,LF,metal fabrication handrail powder coated with steel tension cables,cables coated fabrication handrail metal powder steel tension,General,Other,,Standard,Luxury
 Metal Fabrication Kitchen Hood,8500,12000,10250,EA,,70,5500,Metal Fabrications,mf3,Each,metal fabrication kitchen hood,fabrication hood kitchen metal,General,Other,,Premium,Ultra-Luxury
 Metal Fabrication Metal Facade,50,125,87.5,SF,,70,5500,Metal Fabrications,mf4,Sq Ft,metal fabrication metal facade,fabrication facade metal,General,Other,,Economy,Premium
-Tree Demo,,,,EA,,,2900,Landscaping,la1,Each,tree demo,demo tree,General,Exterior,landscape_hardscape,Standard,Luxury
-Ground Cover Demo,,,,EA,,,2900,Landscaping,la2,Each,ground cover demo,cover demo ground,General,Exterior,landscape_hardscape,Standard,Luxury
-Irrigation (Lines),,,,LF,,,2900,Landscaping,la3,LF,irrigation lines,irrigation lines,General,Exterior,landscape_hardscape,Standard,Luxury
-Irrigation (Timer Box),,,,EA,,,2900,Landscaping,la4,Each,irrigation timer box,box irrigation timer,General,Exterior,landscape_hardscape,Standard,Luxury
-Landscape Lighting,,,,EA,,,2900,Landscaping,la5,Each,landscape lighting,landscape lighting,General,Exterior,landscape_hardscape,Standard,Luxury
-Water Feature,,,,EA,,,2900,Landscaping,la6,Each,water feature,feature water,General,Exterior,landscape_hardscape,Standard,Luxury
-Fire Feature,,,,EA,,,2900,Landscaping,la7,Each,fire feature,feature fire,General,Exterior,landscape_hardscape,Standard,Luxury
-Gas Line,,,,LF,,,2900,Landscaping,la8,LF,gas line,gas line,General,Exterior,landscape_hardscape,Standard,Luxury
-Electrical Line,,,,LF,,,2900,Landscaping,la9,LF,electrical line,electrical line,General,Exterior,landscape_hardscape,Standard,Luxury
-Pavers,,,,EA,,,2900,Landscaping,la10,EA,pavers,pavers,General,Exterior,landscape_hardscape,Standard,Luxury
+Tree Demo,0,0,0,EA,,,2900,Landscaping,la1,Each,tree demo,demo tree,General,Exterior,landscape_hardscape,Standard,Luxury
+Ground Cover Demo,0,0,0,EA,,,2900,Landscaping,la2,Each,ground cover demo,cover demo ground,General,Exterior,landscape_hardscape,Standard,Luxury
+Irrigation (Lines),0,0,0,LF,,,2900,Landscaping,la3,LF,irrigation lines,irrigation lines,General,Exterior,landscape_hardscape,Standard,Luxury
+Irrigation (Timer Box),0,0,0,EA,,,2900,Landscaping,la4,Each,irrigation timer box,box irrigation timer,General,Exterior,landscape_hardscape,Standard,Luxury
+Landscape Lighting,0,0,0,EA,,,2900,Landscaping,la5,Each,landscape lighting,landscape lighting,General,Exterior,landscape_hardscape,Standard,Luxury
+Water Feature,0,0,0,EA,,,2900,Landscaping,la6,Each,water feature,feature water,General,Exterior,landscape_hardscape,Standard,Luxury
+Fire Feature,0,0,0,EA,,,2900,Landscaping,la7,Each,fire feature,feature fire,General,Exterior,landscape_hardscape,Standard,Luxury
+Gas Line,0,0,0,LF,,,2900,Landscaping,la8,LF,gas line,gas line,General,Exterior,landscape_hardscape,Standard,Luxury
+Electrical Line,0,0,0,LF,,,2900,Landscaping,la9,LF,electrical line,electrical line,General,Exterior,landscape_hardscape,Standard,Luxury
+Pavers,0,0,0,EA,,,2900,Landscaping,la10,EA,pavers,pavers,General,Exterior,landscape_hardscape,Standard,Luxury
 Landscaping Concrete Pavers,7.99,10,9,EA,,70,2900,Landscaping,la11,EA,landscaping concrete pavers,concrete landscaping pavers,General,Exterior,landscape_hardscape,Standard,Luxury
 Landscaping Travertine 3 Pc,18,18,18,EA,,70,2900,Landscaping,la12,EA,landscaping travertine 3 pc,landscaping travertine,General,Exterior,landscape_hardscape,Standard,Luxury
 Landscaping Travertine 4 Pc,24,24,24,EA,,70,2900,Landscaping,la13,EA,landscaping travertine 4 pc,landscaping travertine,General,Exterior,landscape_hardscape,Premium,Ultra-Luxury
-Turf,,,,EA,,,2900,Landscaping,la14,EA,turf,turf,General,Exterior,landscape_hardscape,Standard,Luxury
+Turf,0,0,0,EA,,,2900,Landscaping,la14,EA,turf,turf,General,Exterior,landscape_hardscape,Standard,Luxury
 Landscaping 65oz Turf,8,8,8,EA,,70,2900,Landscaping,la15,EA,landscaping 65oz turf,65oz landscaping turf,General,Exterior,landscape_hardscape,Economy,Premium
-Demo Pebble Tec,,,,SF,,,13150,Pool,po1,Sq Ft,demo pebble tec,demo pebble tec,General,Other,,Standard,Luxury
-Demo Pool Decking,,,,SF,,,13150,Pool,po2,Sq Ft,demo pool decking,decking demo pool,General,Other,,Standard,Luxury
-Pool Equipment Lines,,,,LF,,,13150,Pool,po3,LF,pool equipment lines,equipment lines pool,General,Other,,Standard,Luxury
-Pool Equipment,,,,EA,,,13150,Pool,po4,Each,pool equipment,equipment pool,General,Other,,Standard,Luxury
-New Pebble Tech,,,,SF,,,13150,Pool,po5,Sq Ft,new pebble tech,new pebble tech,General,Other,,Standard,Luxury
+Demo Pebble Tec,0,0,0,SF,,,13150,Pool,po1,Sq Ft,demo pebble tec,demo pebble tec,General,Other,,Standard,Luxury
+Demo Pool Decking,0,0,0,SF,,,13150,Pool,po2,Sq Ft,demo pool decking,decking demo pool,General,Other,,Standard,Luxury
+Pool Equipment Lines,0,0,0,LF,,,13150,Pool,po3,LF,pool equipment lines,equipment lines pool,General,Other,,Standard,Luxury
+Pool Equipment,0,0,0,EA,,,13150,Pool,po4,Each,pool equipment,equipment pool,General,Other,,Standard,Luxury
+New Pebble Tech,0,0,0,SF,,,13150,Pool,po5,Sq Ft,new pebble tech,new pebble tech,General,Other,,Standard,Luxury
 Pool Coping,20,20,20,LF,,,13150,Pool,po6,LF,pool coping,coping pool,General,Other,,Premium,Ultra-Luxury
 Pool Water Line Tile,16,16,16,LF,,,13150,Pool,po7,LF,pool water line tile,line pool tile water,General,Other,,Economy,Premium
-Coping (Material),,,,LF,,,13150,Pool,po8,LF,coping material,coping material,General,Other,,Standard,Luxury
-Pebble Tech (Material),,,,SF,,,13150,Pool,po9,Sq Ft,pebble tech material,material pebble tech,General,Other,,Standard,Luxury
-Water Line Tile (Material),,,,LF,,,13150,Pool,po10,LF,water line tile material,line material tile water,General,Other,,Standard,Luxury
+Coping (Material),0,0,0,LF,,,13150,Pool,po8,LF,coping material,coping material,General,Other,,Standard,Luxury
+Pebble Tech (Material),0,0,0,SF,,,13150,Pool,po9,Sq Ft,pebble tech material,material pebble tech,General,Other,,Standard,Luxury
+Water Line Tile (Material),0,0,0,LF,,,13150,Pool,po10,LF,water line tile material,line material tile water,General,Other,,Standard,Luxury
 Rough Clean,0.25,0.25,0.35,SF,,70,1740,Cleaning,cl1,Sq Ft,rough clean,clean rough,General,Other,cleaning,Economy,Premium
 Final Clean,0.5,0.5,0.65,SF,,70,1740,Cleaning,cl2,Sq Ft,final clean,clean final,General,Other,cleaning,Economy,Premium
 Windows,25,25,25,EA,,70,1740,Cleaning,cl3,Each,windows,windows,General,Other,cleaning,Standard,Luxury
