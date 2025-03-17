@@ -3,6 +3,7 @@
 import logging
 import importlib
 import os
+import pandas as pd 
 from typing import Dict, Any, Union, List, Optional
 from datetime import datetime
 from src.core.data_loader import DataLoader
@@ -322,6 +323,24 @@ class EstimationEngine:
                 }
                 results['summary']['warnings'].append(f"Error in category '{category}': {str(e)}")
         
+        # Add this function to sanitize NaN values
+        def sanitize_cost(cost):
+            """Replace NaN values with 0 for cost calculations"""
+            if pd.isna(cost):
+                return 0
+            return cost
+        
+        # Sanitize category costs
+        category_costs = {}
+        for category, data in results['categories'].items():
+            if data.get('status') == 'success':
+                # Get the total cost, default to 0 if NaN
+                cost = sanitize_cost(data.get('total_cost', 0))
+                category_costs[category] = cost
+        
+        # Calculate the total cost
+        total_cost = sum(sanitize_cost(cost) for cost in category_costs.values())
+        
         # Add summary data
         results['summary']['cost_breakdown'] = category_costs
         results['total_cost'] = total_cost
@@ -329,7 +348,7 @@ class EstimationEngine:
         # Add percentage breakdown
         if total_cost > 0:
             results['summary']['percentage_breakdown'] = {
-                category: (cost / total_cost) * 100 
+                category: (sanitize_cost(cost) / total_cost) * 100 
                 for category, cost in category_costs.items()
             }
         
@@ -829,4 +848,41 @@ class EstimationEngine:
         return {
             'category_breakdown': category_breakdown,
             'benchmark_comparison': comparison_data
+        }
+
+    def _calculate_cost_for_item(self, item, quantity, markup_percentage=None):
+        """Calculate the cost for a specific item with the given quantity."""
+        unit_cost = item.get('Cost (Mid)')
+        
+        # Handle NaN, None or empty cost values
+        if pd.isna(unit_cost) or unit_cost is None or unit_cost == '':
+            # For allowance items, default to 0 instead of NaN
+            if 'allowance' in item.get('Item', '').lower():
+                unit_cost = 0
+            # Try to use Low cost if available
+            elif item.get('Cost (Low)') and not pd.isna(item.get('Cost (Low)')):
+                unit_cost = item.get('Cost (Low)')
+            # Otherwise just use 0
+            else:
+                unit_cost = 0
+        
+        # Convert to float if it's a string
+        if isinstance(unit_cost, str):
+            try:
+                unit_cost = float(unit_cost.replace('$', '').replace(',', ''))
+            except ValueError:
+                unit_cost = 0
+                
+        # Calculate total cost
+        total_cost = quantity * unit_cost
+        
+        # Get markup percentage
+        if markup_percentage is None:
+            markup_percentage = item.get('Markup Percentage', 0)
+            
+        # Return the calculated values
+        return {
+            'unit_cost': unit_cost,
+            'total_cost': total_cost,
+            'markup': markup_percentage
         }

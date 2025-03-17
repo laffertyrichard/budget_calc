@@ -121,7 +121,12 @@ class DrywallInteriorEstimator:
         
         # Calculate mud and tape
         mud_coverage = 300  # SF per gallon
-        mud_gallons = (self._calculate_drywall(square_footage, tier)["drywall_area_sf"]) / mud_coverage
+        drywall_factor = {
+            "Premium": 2.8,
+            "Luxury": 3.1,
+            "Ultra-Luxury": 3.5
+        }
+        mud_gallons = (square_footage * drywall_factor[tier]) / mud_coverage
         
         tape_lf_per_sf = 0.15
         tape_length = square_footage * drywall_factor[tier] * tape_lf_per_sf

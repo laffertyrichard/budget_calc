@@ -1,0 +1,1287 @@
+{
+  "version": "1.1",
+  "unit_conversions": {
+    "SF": { "SY": 0.1111111111111111, "SQFT": 1 },
+    "LF": { "FT": 1, "FEET": 1, "LINEAR FEET": 1 },
+    "CY": { "CF": 27, "CUBIC FEET": 27 },
+    "EA": { "EACH": 1, "PCS": 1 },
+    "GAL": { "GALLON": 1, "GALLONS": 1 },
+    "AMP": { "AMPS": 1 }
+  },
+  "category_mappings": {
+    "foundation": {
+      "catalog_categories": ["Foundation", "Concrete", "Excavation"],
+      "description": "Foundation and concrete work",
+      "estimation_formulas": {
+        "concrete_cy": "calculate_concrete",
+        "waterproofing_sf": "calculate_waterproofing"
+      },
+      "item_mappings": {
+        "slab_concrete_cy": {
+          "search_terms": ["slab", "concrete slab", "foundation slab", "concrete foundation"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "footing_concrete_cy": {
+          "search_terms": ["footing", "footer", "concrete footing", "foundation footing"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "foundation_wall_cy": {
+          "search_terms": ["foundation wall", "concrete wall", "basement wall", "retaining wall"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_concrete_cy": {
+          "search_terms": ["concrete", "ready mix", "concrete mix", "cement mix"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "foundation_waterproofing_sf": {
+          "search_terms": ["waterproofing", "foundation waterproofing", "moisture barrier", "damp proofing"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "below_grade_drainage_lf": {
+          "search_terms": ["drainage", "french drain", "foundation drain", "footer drain"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "roof_drainage_lf": {
+          "search_terms": ["downspout", "gutter", "drainage", "rainwater"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "sump_pumps": {
+          "search_terms": ["sump pump", "sump", "pump", "basement pump"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "structural": {
+      "catalog_categories": ["Framing", "Structural Steel", "Trusses"],
+      "description": "Structural framework including framing and steel",
+      "estimation_formulas": {
+        "framing_bf": "calculate_framing",
+        "steel_lbs": "calculate_steel"
+      },
+      "item_mappings": {
+        "conventional_lumber_bf": {
+          "search_terms": ["lumber", "framing lumber", "dimensional lumber", "stud"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "engineered_lumber_bf": {
+          "search_terms": ["engineered lumber", "lvl", "laminated", "glulam", "truss"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "steel_framing_equivalent_bf": {
+          "search_terms": ["steel framing", "metal stud", "steel joist", "metal framing"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "stud_quantity": {
+          "search_terms": ["stud", "wall stud", "framing stud", "wooden stud"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "wall_linear_feet": {
+          "search_terms": ["wall", "framing", "wall framing", "partition"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "steel_framing_weight_lbs": {
+          "search_terms": ["steel beam", "i-beam", "structural steel", "column"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_sheathing_sf": {
+          "search_terms": ["sheathing", "plywood", "osb", "wall sheathing"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "electrical": {
+      "catalog_categories": ["Electrical", "Lighting"],
+      "description": "Electrical systems and lighting",
+      "estimation_formulas": {
+        "outlets_switches": "calculate_electrical"
+      },
+      "item_mappings": {
+        "standard_outlets": {
+          "search_terms": ["standard outlet", "receptacle", "outlet", "plug"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["el8"],
+            "Ultra-Luxury": []
+          }
+        },
+        "gfci_outlets": {
+          "search_terms": ["gfci", "gfcis", "outlets", "ground fault", "kitchen outlet", "bathroom outlet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["el8"],
+            "Ultra-Luxury": []
+          }
+        },
+        "usb_outlets": {
+          "search_terms": ["usb", "charging outlet", "usb receptacle", "usb outlet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "floor_outlets": {
+          "search_terms": ["floor outlet", "floor box", "floor receptacle", "recessed outlet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "single_pole_switches": {
+          "search_terms": ["single pole", "light switch", "wall switch", "toggle switch"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "three_way_switches": {
+          "search_terms": ["three way", "3-way", "three-way switch", "multiple location"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "dimmer_switches": {
+          "search_terms": ["dimmer", "light control", "dimming switch", "light dimmer"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["el4"],
+            "Ultra-Luxury": []
+          }
+        },
+        "smart_switches": {
+          "search_terms": ["smart switch", "wifi switch", "programmable switch", "automated switch"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "recessed_lights": {
+          "search_terms": ["recessed", "can light", "pot light", "downlight", "ceiling light"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["el9"],
+            "Ultra-Luxury": []
+          }
+        },
+        "pendants": {
+          "search_terms": ["pendant", "hanging light", "suspended light", "ceiling light"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "chandeliers": {
+          "search_terms": ["chandelier", "ceiling fixture", "dining light", "entry light"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["el4"],
+            "Ultra-Luxury": []
+          }
+        },
+        "under_cabinet_lights": {
+          "search_terms": ["under cabinet", "task light", "counter light", "kitchen light"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "toe_kick_lights": {
+          "search_terms": ["toe kick", "baseboard light", "cabinet base light", "floor light"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "lighting_control_panels": {
+          "search_terms": ["lighting control", "light panel", "control system", "automation panel"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "audio_visual_drops": {
+          "search_terms": ["av", "audio visual", "media", "entertainment", "speaker"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "main_panel_size": {
+          "search_terms": ["electrical panel", "main panel", "panel box", "breaker panel"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "sub_panels": {
+          "search_terms": ["sub panel", "secondary panel", "distribution panel", "auxiliary panel"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_circuits": {
+          "search_terms": ["circuit", "breaker", "circuit breaker", "electrical circuit"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "romex_lf": {
+          "search_terms": ["romex", "wire", "electrical wire", "nm cable", "wiring"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "plumbing": {
+      "catalog_categories": ["Plumbing", "Fixtures"],
+      "description": "Plumbing systems and fixtures",
+      "estimation_formulas": {
+        "plumbing_fixtures": "calculate_plumbing"
+      },
+      "item_mappings": {
+        "primary_shower_valves": {
+          "search_terms": ["shower valve", "shower faucet", "shower mixer", "shower trim"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_sinks": {
+          "search_terms": ["bathroom sink", "lavatory", "vanity sink", "basin"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_bathtubs": {
+          "search_terms": ["bathtub", "tub", "soaking tub", "whirlpool tub"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_toilets": {
+          "search_terms": ["toilet", "water closet", "commode", "one-piece toilet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "secondary_shower_valves": {
+          "search_terms": ["shower valve", "shower faucet", "shower mixer", "guest bathroom"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "secondary_sinks": {
+          "search_terms": ["bathroom sink", "lavatory", "vanity sink", "guest bathroom"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "secondary_bathtubs": {
+          "search_terms": ["bathtub", "tub", "guest bathroom", "secondary bathroom"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "tankless_water_heaters": {
+          "search_terms": ["tankless", "water heater", "on-demand water heater", "instant hot water"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_plumbing_fixtures": {
+          "search_terms": ["fixture", "plumbing fixture", "bathroom fixture", "sink faucet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "hvac": {
+      "catalog_categories": ["HVAC", "Mechanical"],
+      "description": "Heating, ventilation and air conditioning",
+      "estimation_formulas": {
+        "hvac_tonnage": "calculate_hvac"
+      },
+      "item_mappings": {
+        "tonnage": {
+          "search_terms": ["air conditioner", "ac unit", "cooling system", "central ac"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "systems": {
+          "search_terms": ["hvac system", "furnace", "air handler", "heat pump"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "zones": {
+          "search_terms": ["zone", "zone system", "zone control", "damper"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "flex_duct_linear_feet": {
+          "search_terms": ["flex duct", "flexible duct", "ductwork", "air duct"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "hard_duct_linear_feet": {
+          "search_terms": ["hard duct", "metal duct", "rigid duct", "sheet metal duct"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "registers": {
+          "search_terms": ["register", "air register", "vent", "supply grille"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "returns": {
+          "search_terms": ["return", "return air", "return grille", "air return"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "drywall_interior": {
+      "catalog_categories": ["Drywall", "Plaster"],
+      "description": "Interior drywall, plaster, and wallboard systems",
+      "estimation_formulas": {
+        "drywall_sf": "calculate_drywall",
+        "plaster_sf": "calculate_plaster"
+      },
+      "item_mappings": {
+        "drywall_area_sf": {
+          "search_terms": ["drywall", "sheetrock", "gypsum board", "wallboard"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "ceiling_height_ft": {
+          "search_terms": ["ceiling", "ceiling height", "wall height", "room height"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "textured_area_sf": {
+          "search_terms": ["texture", "wall texture", "drywall texture", "orange peel"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "smooth_area_sf": {
+          "search_terms": ["smooth", "level 5", "smooth finish", "smooth drywall"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "specialty_drywall_sf": {
+          "search_terms": ["moisture resistant", "greenboard", "cement board", "specialty drywall"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "corner_bead_lf": {
+          "search_terms": ["corner bead", "drywall corner", "metal corner", "edge bead"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "drywall_mud_gallons": {
+          "search_terms": ["joint compound", "mud", "drywall mud", "taping compound"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "drywall_tape_lf": {
+          "search_terms": ["drywall tape", "joint tape", "paper tape", "fiberglass tape"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "roofing": {
+      "catalog_categories": ["Roofing"],
+      "description": "Roofing systems and materials",
+      "estimation_formulas": {
+        "roofing_sf": "calculate_roofing"
+      },
+      "item_mappings": {
+        "roof_area_sf": {
+          "search_terms": ["roof", "roofing", "roof area", "roof surface"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "underlayment_area_sf": {
+          "search_terms": ["underlayment", "roof underlayment", "felt", "synthetic underlayment"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "ridge_vent_lf": {
+          "search_terms": ["ridge vent", "roof vent", "attic vent", "ventilation"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "drip_edge_lf": {
+          "search_terms": ["drip edge", "roof edge", "metal edge", "eave flashing"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "fascia_lf": {
+          "search_terms": ["fascia", "fascia board", "roof trim", "eave"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "soffit_sf": {
+          "search_terms": ["soffit", "soffit panel", "eave soffit", "roof soffit"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "gutters_lf": {
+          "search_terms": ["gutter", "rain gutter", "eavestrough", "water collection"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "downspouts_count": {
+          "search_terms": ["downspout", "rain leader", "gutter downspout", "water spout"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "windows_doors": {
+      "catalog_categories": ["Doors", "Windows"],
+      "description": "Doors and windows",
+      "estimation_formulas": {
+        "doors_count": "calculate_doors",
+        "windows_count": "calculate_windows"
+      },
+      "item_mappings": {
+        "window_count": {
+          "search_terms": ["window", "casement", "double hung", "sliding window"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "window_area_sf": {
+          "search_terms": ["window", "window opening", "glass area", "fenestration"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "exterior_door_count": {
+          "search_terms": ["exterior door", "entry door", "front door", "patio door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "single_doors": {
+          "search_terms": ["interior door", "passage door", "bedroom door", "bathroom door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "double_doors": {
+          "search_terms": ["double door", "french door", "office door", "dining room door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "pocket_doors": {
+          "search_terms": ["pocket door", "sliding door", "space-saving door", "concealed door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "barn_doors": {
+          "search_terms": ["barn door", "sliding barn door", "farmhouse door", "track door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "garage_door_count": {
+          "search_terms": ["garage door", "overhead door", "sectional door", "carriage door"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "tile": {
+      "catalog_categories": ["Tile", "Masonry"],
+      "description": "Tile and masonry installation",
+      "estimation_formulas": {
+        "tile_sf": "calculate_tile"
+      },
+      "item_mappings": {
+        "primary_bath_shower_floor_sf": {
+          "search_terms": ["shower floor tile", "shower base tile", "shower pan tile", "master shower"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_bath_shower_walls_sf": {
+          "search_terms": ["shower wall tile", "shower surround", "bathroom wall tile", "master shower"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_bath_floor_sf": {
+          "search_terms": ["bathroom floor tile", "bathroom tile", "floor tile", "master bathroom"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "kitchen_backsplash_tile_sf": {
+          "search_terms": ["backsplash", "kitchen backsplash", "backsplash tile", "kitchen tile"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "entry_foyer_tile_sf": {
+          "search_terms": ["foyer tile", "entry tile", "entryway", "hallway tile"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_schluter_lf": {
+          "search_terms": ["schluter", "tile edge", "tile trim", "edge profile"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "painting_coatings": {
+      "catalog_categories": ["Paint", "Coatings"],
+      "description": "Painting and surface coatings",
+      "estimation_formulas": {
+        "paint_gallons": "calculate_paint"
+      },
+      "item_mappings": {
+        "wall_area_sf": {
+          "search_terms": ["wall paint", "interior paint", "wall surface", "paintable surface"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "ceiling_area_sf": {
+          "search_terms": ["ceiling paint", "ceiling finish", "ceiling surface", "overhead paint"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "wall_ceiling_primer_gallons": {
+          "search_terms": ["primer", "wall primer", "drywall primer", "PVA primer"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "wall_ceiling_paint_gallons": {
+          "search_terms": ["wall paint", "latex paint", "interior paint", "eggshell paint"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "trim_door_paint_gallons": {
+          "search_terms": ["trim paint", "door paint", "molding paint", "semi-gloss paint"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "specialty_finish_area_sf": {
+          "search_terms": ["faux finish", "venetian plaster", "texture coating", "specialty finish"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "exterior_paint_gallons": {
+          "search_terms": ["exterior paint", "outdoor paint", "siding paint", "weather resistant"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "finish_carpentry": {
+      "catalog_categories": ["Millwork", "Trim", "Carpentry"],
+      "description": "Finish carpentry including millwork, baseboards, and molding",
+      "estimation_formulas": {
+        "trim_lf": "calculate_trim",
+        "millwork_lf": "calculate_millwork"
+      },
+      "item_mappings": {
+        "baseboard_lf": {
+          "search_terms": ["baseboard", "base molding", "base trim", "floor trim"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "crown_molding_lf": {
+          "search_terms": ["crown molding", "crown moulding", "ceiling trim", "cornice"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "door_casing_lf": {
+          "search_terms": ["door casing", "door trim", "door frame", "door jamb"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "window_casing_lf": {
+          "search_terms": ["window casing", "window trim", "window frame", "window surround"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_trim_lf": {
+          "search_terms": ["trim", "molding", "moulding", "millwork"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "cabinetry": {
+      "catalog_categories": ["Cabinetry", "Millwork", "Countertops"],
+      "description": "Cabinetry and countertops",
+      "estimation_formulas": {
+        "cabinets_lf": "calculate_cabinetry",
+        "countertops_sf": "calculate_countertops"
+      },
+      "item_mappings": {
+        "kitchen_base_cabinets_lf": {
+          "search_terms": ["base cabinet", "kitchen cabinet", "lower cabinet", "cabinet box"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "kitchen_wall_cabinets_lf": {
+          "search_terms": ["wall cabinet", "upper cabinet", "hanging cabinet", "kitchen storage"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "kitchen_island_lf": {
+          "search_terms": ["island cabinet", "kitchen island", "center island", "island base"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "kitchen_full_height_cabinets_lf": {
+          "search_terms": ["pantry cabinet", "tall cabinet", "utility cabinet", "full height"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_bath_vanity_lf": {
+          "search_terms": ["bathroom vanity", "master bath", "vanity cabinet", "sink base"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "secondary_bath_vanity_lf": {
+          "search_terms": ["bathroom vanity", "guest bath", "small vanity", "bathroom cabinet"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "total_cabinetry_lf": {
+          "search_terms": ["cabinetry", "cabinets", "custom cabinets", "cabinet run"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "countertops": {
+      "catalog_categories": ["Countertops"],
+      "description": "Solid surface and stone countertops",
+      "estimation_formulas": {
+        "countertops_sf": "calculate_countertops"
+      },
+      "item_mappings": {
+        "kitchen_countertops_sf": {
+          "search_terms": ["kitchen countertop", "countertop", "kitchen counter", "work surface"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "primary_bath_countertops_sf": {
+          "search_terms": ["bathroom countertop", "vanity top", "master bath", "lavatory top"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "secondary_bath_countertops_sf": {
+          "search_terms": ["bathroom countertop", "vanity top", "guest bath", "small countertop"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "quartz_countertops_sf": {
+          "search_terms": ["quartz", "engineered stone", "quartz surface", "quartz countertop"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "granite_countertops_sf": {
+          "search_terms": ["granite", "natural stone", "granite countertop", "stone surface"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "marble_countertops_sf": {
+          "search_terms": ["marble", "natural stone", "marble countertop", "luxury stone"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "waterfall_edges_lf": {
+          "search_terms": ["waterfall edge", "waterfall", "stone edge", "vertical edge"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "landscape_hardscape": {
+      "catalog_categories": ["Landscape", "Hardscape"],
+      "description": "Landscaping and hardscaping",
+      "estimation_formulas": {
+        "landscape_sf": "calculate_landscape",
+        "hardscape_sf": "calculate_hardscape"
+      },
+      "item_mappings": {
+        "lawn_area_sf": {
+          "search_terms": ["lawn", "grass", "turf", "sod"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "planting_bed_area_sf": {
+          "search_terms": ["planting bed", "garden bed", "landscape bed", "plant area"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "tree_count": {
+          "search_terms": ["tree", "shade tree", "ornamental tree", "evergreen"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "shrub_count": {
+          "search_terms": ["shrub", "bush", "hedge", "foundation planting"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "patio_area_sf": {
+          "search_terms": ["patio", "paver patio", "stone patio", "outdoor living"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "walkway_area_sf": {
+          "search_terms": ["walkway", "path", "garden path", "sidewalk"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "driveway_area_sf": {
+          "search_terms": ["driveway", "paver drive", "concrete drive", "asphalt"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "irrigation_area_sf": {
+          "search_terms": ["irrigation", "sprinkler", "watering system", "lawn irrigation"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "cleaning": {
+      "catalog_categories": ["Cleaning", "Final Touches"],
+      "description": "Post-construction cleaning and touch-ups",
+      "estimation_formulas": {
+        "cleaning_sf": "calculate_cleaning"
+      },
+      "item_mappings": {
+        "rough_cleaning_occurrences": {
+          "search_terms": ["construction cleanup", "debris removal", "rough clean", "site cleaning"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "final_cleaning_sf": {
+          "search_terms": ["final clean", "move-in ready", "detailed cleaning", "post-construction"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "window_cleaning_count": {
+          "search_terms": ["window cleaning", "glass cleaning", "window washing", "glass polish"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "floor_cleaning_sf": {
+          "search_terms": ["floor cleaning", "hardwood cleaning", "tile cleaning", "floor polish"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "construction_dumpsters": {
+          "search_terms": ["dumpster", "waste container", "debris removal", "construction waste"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        }
+      }
+    },
+    "thermal_fire_suppression": {
+      "item_mappings": {
+        "wall_insulation_sf": {
+          "search_terms": ["wall", "insulation"],
+          "tier_item_ids": {
+            "Premium": ["ins_wall_p"],
+            "Luxury": ["ins_wall_l"],
+            "Ultra-Luxury": ["ins_wall_u"]
+          }
+        },
+        "wall_r_value": {
+          "search_terms": ["wall", "value"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "ceiling_insulation_sf": {
+          "search_terms": ["ceiling", "insulation"],
+          "tier_item_ids": {
+            "Premium": ["ins_ceil_p"],
+            "Luxury": ["ins_ceil_l"],
+            "Ultra-Luxury": ["ins_ceil_u"]
+          }
+        },
+        "ceiling_r_value": {
+          "search_terms": ["ceiling", "value"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "rigid_insulation_sf": {
+          "search_terms": ["rigid", "insulation"],
+          "tier_item_ids": {
+            "Premium": ["ins_rigid_p"],
+            "Luxury": ["ins_rigid_l"],
+            "Ultra-Luxury": ["ins_rigid_u"]
+          }
+        },
+        "acoustic_insulation_sf": {
+          "search_terms": ["acoustic", "insulation"],
+          "tier_item_ids": {
+            "Premium": ["ins_sound_p"],
+            "Luxury": ["ins_sound_l"],
+            "Ultra-Luxury": ["ins_sound_u"]
+          }
+        },
+        "radiant_barrier_sf": {
+          "search_terms": ["radiant", "barrier"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["ins_radiant_l"],
+            "Ultra-Luxury": ["ins_radiant_u"]
+          }
+        },
+        "thermal_break_tape_lf": {
+          "search_terms": ["thermal", "break", "tape"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": ["ins_tape_u"]
+          }
+        },
+        "weather_barrier_sf": {
+          "search_terms": ["weather", "barrier"],
+          "tier_item_ids": {
+            "Premium": ["ins_wb_p"],
+            "Luxury": ["ins_wb_l"],
+            "Ultra-Luxury": ["ins_wb_u"]
+          }
+        },
+        "caulk_tubes": {
+          "search_terms": ["caulk", "tubes"],
+          "tier_item_ids": {
+            "Premium": ["ins_caulk_p"],
+            "Luxury": ["ins_caulk_l"],
+            "Ultra-Luxury": ["ins_caulk_u"]
+          }
+        },
+        "foam_sealant_cans": {
+          "search_terms": ["foam", "sealant", "cans"],
+          "tier_item_ids": {
+            "Premium": ["ins_foam_p"],
+            "Luxury": ["ins_foam_l"],
+            "Ultra-Luxury": ["ins_foam_u"]
+          }
+        },
+        "fire_sprinkler_heads": {
+          "search_terms": ["fire", "sprinkler", "heads"],
+          "tier_item_ids": {
+            "Premium": ["fire_head_p"],
+            "Luxury": ["fire_head_l"],
+            "Ultra-Luxury": ["fire_head_u"]
+          }
+        },
+        "fire_suppression_piping_lf": {
+          "search_terms": ["fire", "suppression", "piping"],
+          "tier_item_ids": {
+            "Premium": ["fire_pipe_p"],
+            "Luxury": ["fire_pipe_l"],
+            "Ultra-Luxury": ["fire_pipe_u"]
+          }
+        },
+        "fire_suppression_covered_area_sf": {
+          "search_terms": ["fire", "suppression", "covered", "area"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": []
+          }
+        },
+        "fire_riser_assembly": {
+          "search_terms": ["fire", "riser", "assembly"],
+          "tier_item_ids": {
+            "Premium": ["fire_riser_p"],
+            "Luxury": ["fire_riser_l"],
+            "Ultra-Luxury": ["fire_riser_u"]
+          }
+        },
+        "flow_switches": {
+          "search_terms": ["flow", "switches"],
+          "tier_item_ids": {
+            "Premium": ["fire_flow_p"],
+            "Luxury": ["fire_flow_l"],
+            "Ultra-Luxury": ["fire_flow_u"]
+          }
+        },
+        "control_valves": {
+          "search_terms": ["control", "valves"],
+          "tier_item_ids": {
+            "Premium": ["fire_valve_p"],
+            "Luxury": ["fire_valve_l"],
+            "Ultra-Luxury": ["fire_valve_u"]
+          }
+        },
+        "fire_suppression_monitor": {
+          "search_terms": ["fire", "suppression", "monitor"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["fire_mon_l"],
+            "Ultra-Luxury": ["fire_mon_u"]
+          }
+        },
+        "inspector_test_connections": {
+          "search_terms": ["inspector", "test", "connections"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": ["fire_test_l"],
+            "Ultra-Luxury": ["fire_test_u"]
+          }
+        },
+        "backup_water_supply": {
+          "search_terms": ["backup", "water", "supply"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": ["fire_backup_u"]
+          }
+        },
+        "concealed_sprinkler_heads": {
+          "search_terms": ["concealed", "sprinkler", "heads"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": ["fire_head_con_u"]
+          }
+        },
+        "fire_suppression_accent_finishes": {
+          "search_terms": ["fire", "suppression", "accent", "finishes"],
+          "tier_item_ids": {
+            "Premium": [],
+            "Luxury": [],
+            "Ultra-Luxury": ["fire_finish_u"]
+          }
+        }
+      }
+    }
+  }
+}

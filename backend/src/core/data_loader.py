@@ -12,7 +12,7 @@ class DataLoader:
     def __init__(self, config_path: str = 'config/settings.json'):
         """Initialize with path to configuration file"""
         self.config = self._load_json(config_path)
-        self.mappings = self._load_json(os.path.join('config', 'catalog_mappings.json'))
+        self.mappings = self._load_json(os.path.join('config', 'enhanced_catalog_mappings.json'))
         self.catalog = None
     
     def _load_json(self, path: str) -> Dict[str, Any]:

@@ -1,0 +1,251 @@
+Module,Quantity,Unit,Sample Value,Search Terms,Premium Catalog ID,Premium Item,Premium Cost,Luxury Catalog ID,Luxury Item,Luxury Cost,Ultra Catalog ID,Ultra Item,Ultra Cost,Selected Premium ID,Selected Luxury ID,Selected Ultra ID
+foundation,slab_concrete_cy,CY,244,"slab, concrete",cm13_P,"Concrete 4"" Slab (Minimum $1150)",8.0,,,,cm10_U,"Concrete Footers 18""",32.0,cm13_P,,cm10_U
+foundation,footing_concrete_cy,CY,85,"footing, concrete",cm13_P,"Concrete 4"" Slab (Minimum $1150)",8.0,,,,cm12_U,Concrete Pier Footing(s) 3' x 3',400.0,cm13_P,,cm12_U
+foundation,foundation_wall_cy,CY,153,"foundation, wall",cm4_P,Scaffold (walls above 6'),3.4,,,,,,,cm4_P,,
+foundation,total_concrete_cy,CY,483,"total, concrete",cm13_P,"Concrete 4"" Slab (Minimum $1150)",8.0,,,,cm10_U,"Concrete Footers 18""",32.0,cm13_P,,cm10_U
+foundation,foundation_waterproofing_sf,SF,7200,"foundation, waterproofing",,,,,,,,,,,,
+foundation,below_grade_drainage_lf,LF,2400,"below, grade, drainage",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,,,,ca1_P,ca2_L,
+foundation,roof_drainage_lf,LF,1200,"roof, drainage",ro1_P,Roofing Recoat Flat Roof,1.1,ro3_L,Roofing Tear Off and Replace Flat Roof,5.65,ro2_U,Roofing Repair Flat Roof,2500.0,ro1_P,ro3_L,ro2_U
+foundation,sump_pumps,EA,3,"sump, pumps",,,,,,,,,,,,
+structural,conventional_lumber_bf,BF,17280,"conventional, lumber",,,,,,,,,,,,
+structural,engineered_lumber_bf,BF,15120,"engineered, lumber",fl5_P,Engineered Hardwood Floor Prep (Allowance),1.0,fl1_L,Engineered Hardwood Install,4.25,fl2_U,Engineered Hardwood Material,12.0,fl5_P,fl1_L,fl2_U
+structural,steel_framing_equivalent_bf,BF,10800,"steel, framing, equivalent",fr3_P,Framing of Patio,15.0,fr2_L,Framing of Garage Space,27.5,fr1_U,Framing of Liveable Space,55.0,fr3_P,fr2_L,fr1_U
+structural,stud_quantity,EA,26858,"stud, quantity",,,,,,,,,,,,
+structural,stud_spacing_inches,EA,12,"stud, spacing, inches",,,,,,,,,,,,
+structural,wall_linear_feet,LF,2238,"wall, linear, feet",de1_P,Demo Interior Walls,1.0,de30_L,Demo Drywall Lid and Insulation,5.0,pl6_U,Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),950.0,de1_P,de30_L,pl6_U
+structural,steel_framing_weight_lbs,EA,5400,"steel, framing, weight, lbs",fr3_P,Framing of Patio,15.0,fr2_L,Framing of Garage Space,27.5,fr1_U,Framing of Liveable Space,55.0,fr3_P,fr2_L,fr1_U
+structural,steel_connections,EA,96,"steel, connections",,,,,,,wd4_U,Slider Door Cost/Steel Door,10000.0,,,wd4_U
+structural,total_sheathing_sf,SF,31200,"total, sheathing",,,,,,,,,,,,
+structural,roof_sheathing_sf,SF,12480,"roof, sheathing",ro1_P,Roofing Recoat Flat Roof,1.1,ro3_L,Roofing Tear Off and Replace Flat Roof,5.65,ro2_U,Roofing Repair Flat Roof,2500.0,ro1_P,ro3_L,ro2_U
+structural,wall_sheathing_sf,SF,10920,"wall, sheathing",de1_P,Demo Interior Walls,1.0,de30_L,Demo Drywall Lid and Insulation,5.0,,,,de1_P,de30_L,
+structural,floor_sheathing_sf,SF,7800,"floor, sheathing",fl5_P,Engineered Hardwood Floor Prep (Allowance),1.0,de17_L,Demo Wood with Subfloor,3.5,fl22_U,Flooring Polished Concrete (Medium Aggregate),6.5,fl5_P,de17_L,fl22_U
+electrical,standard_outlets,EA,300,"standard, outlets",el1_P,Electrical Remove and Replace (Outlets),45.0,el8_L,Electrical New (Outlets 240),125.0,,,,el1_P,el8_L,
+electrical,gfci_outlets,EA,72,"gfci, outlets",el6_P,Electrical GFCI/USB Outlet,70.0,el8_L,Electrical New (Outlets 240),125.0,,,,el6_P,el8_L,
+electrical,usb_outlets,EA,60,"usb, outlets",el6_P,Electrical GFCI/USB Outlet,70.0,el8_L,Electrical New (Outlets 240),125.0,,,,el6_P,el8_L,
+electrical,floor_outlets,EA,48,"floor, outlets",el1_P,Electrical Remove and Replace (Outlets),45.0,el8_L,Electrical New (Outlets 240),125.0,,,,el1_P,el8_L,
+electrical,single_pole_switches,EA,192,"single, pole, switches",el3_P,Electrical Remove and Replace (Switches),30.0,,,,,,,el3_P,,
+electrical,three_way_switches,EA,96,"three, way, switches",el3_P,Electrical Remove and Replace (Switches),30.0,,,,,,,el3_P,,
+electrical,dimmer_switches,EA,120,"dimmer, switches",el3_P,Electrical Remove and Replace (Switches),30.0,,,,,,,el3_P,,
+electrical,smart_switches,EA,84,"smart, switches",el3_P,Electrical Remove and Replace (Switches),30.0,,,,,,,el3_P,,
+electrical,total_outlets_switches,EA,960,"total, outlets, switches",el1_P,Electrical Remove and Replace (Outlets),45.0,el8_L,Electrical New (Outlets 240),125.0,,,,el1_P,el8_L,
+electrical,recessed_lights,EA,216,"recessed, lights",el2_P,Electrical Remove and Replace (Can Lights),75.0,el9_L,Electrical New (Can Lights),150.0,,,,el2_P,el9_L,
+electrical,pendants,EA,24,pendants,,,,,,,,,,,,
+electrical,chandeliers,EA,18,chandeliers,,,,,,,,,,,,
+electrical,under_cabinet_lights,LF,144,"under, cabinet, lights",el22_P,Electrical New Underground Conduit,10.0,,,,,,,el22_P,,
+electrical,toe_kick_lights,LF,120,"toe, kick, lights",el2_P,Electrical Remove and Replace (Can Lights),75.0,el9_L,Electrical New (Can Lights),150.0,,,,el2_P,el9_L,
+electrical,closet_lights,EA,60,"closet, lights",el2_P,Electrical Remove and Replace (Can Lights),75.0,el9_L,Electrical New (Can Lights),150.0,,,,el2_P,el9_L,
+electrical,total_light_fixtures,EA,540,"total, light, fixtures",el2_P,Electrical Remove and Replace (Can Lights),75.0,el9_L,Electrical New (Can Lights),150.0,,,,el2_P,el9_L,
+electrical,total_specialty_systems,EA,144,"total, specialty, systems",,,,,,,,,,,,
+electrical,main_panel_size,AMP,400,"main, panel, size",,,,,,,el17_U,Electrical New 125 Amp Sub-Panel,2500.0,,,el17_U
+electrical,sub_panels,EA,4,"sub, panels",,,,,,,el17_U,Electrical New 125 Amp Sub-Panel,2500.0,,,el17_U
+electrical,total_circuits,EA,120,"total, circuits",,,,,,,,,,,,
+electrical,romex_lf,LF,42000,romex,,,,,,,,,,,,
+electrical,lighting_control_panels,,6,"lighting, control, panels",de32_P,Demo Grid Celing with Duct and Lighting,1.0,la5_L,Landscape Lighting,,fl28_U,Flooring Metallic Epoxy (Ground Control),8.5,de32_P,la5_L,fl28_U
+electrical,audio_visual_drops,,36,"audio, visual, drops",,,,fs1_L,Industrial Sprinkler Drops,,,,,,fs1_L,
+electrical,security_system_components,,24,"security, system, components",fl14_P,Flooring Epoxy Quartz System Removal ,1.5,,,,,,,fl14_P,,
+plumbing,primary_bath_count,EA,2,"primary, bath, count",,,,,,,pl4_U,Plumbing Bathtub(s) (Rough-in),1200.0,,,pl4_U
+plumbing,primary_shower_valves,EA,16,"primary, shower, valves",pl17_P,Plumbing Shower (Trim),89.0,pl1_L,Plumbing Shower Valve(s) (Rough-in),525.0,pl2_U,Plumbing Shower Valve(s) W/ Diverter (Rough-in),750.0,pl17_P,pl1_L,pl2_U
+plumbing,primary_sinks,EA,18,"primary, sinks",,,,,,,,,,,,
+plumbing,primary_bathtubs,EA,5,"primary, bathtubs",,,,,,,,,,,,
+plumbing,primary_toilets,EA,9,"primary, toilets",,,,,,,,,,,,
+plumbing,secondary_bath_count,EA,3,"secondary, bath, count",,,,,,,pl4_U,Plumbing Bathtub(s) (Rough-in),1200.0,,,pl4_U
+plumbing,secondary_shower_valves,EA,3,"secondary, shower, valves",pl17_P,Plumbing Shower (Trim),89.0,pl1_L,Plumbing Shower Valve(s) (Rough-in),525.0,pl2_U,Plumbing Shower Valve(s) W/ Diverter (Rough-in),750.0,pl17_P,pl1_L,pl2_U
+plumbing,secondary_sinks,EA,17,"secondary, sinks",,,,,,,de28_U,Demo Secondary Bath,800.0,,,de28_U
+plumbing,secondary_bathtubs,EA,2,"secondary, bathtubs",,,,,,,de28_U,Demo Secondary Bath,800.0,,,de28_U
+plumbing,secondary_toilets,EA,3,"secondary, toilets",,,,,,,de28_U,Demo Secondary Bath,800.0,,,de28_U
+plumbing,powder_room_count,EA,2,"powder, room, count",,,,de20_L,Bathrooms,,de27_U,Demo Powder Bath,400.0,,de20_L,de27_U
+plumbing,tankless_water_heaters,EA,4,"tankless, water, heaters",,,,,,,pl8_U,Plumbing Convert Water Heater to Tankless (Rough-in),2000.0,,,pl8_U
+plumbing,total_plumbing_fixtures,EA,37,"total, plumbing, fixtures",pl17_P,Plumbing Shower (Trim),89.0,pl1_L,Plumbing Shower Valve(s) (Rough-in),525.0,pl2_U,Plumbing Shower Valve(s) W/ Diverter (Rough-in),750.0,pl17_P,pl1_L,pl2_U
+plumbing,powder_room_sinks,,2,"powder, room, sinks",,,,mf1_L,Metal Fabrication Handrail (Powder Coated Steel Tube Stock),112.5,de27_U,Demo Powder Bath,400.0,,mf1_L,de27_U
+plumbing,powder_room_toilets,,2,"powder, room, toilets",,,,mf1_L,Metal Fabrication Handrail (Powder Coated Steel Tube Stock),112.5,de27_U,Demo Powder Bath,400.0,,mf1_L,de27_U
+hvac,tonnage,TON,26.7,tonnage,,,,,,,,,,,,
+hvac,systems,EA,8,systems,,,,,,,,,,,,
+hvac,zones,EA,40,zones,,,,,,,,,,,,
+hvac,flex_duct_linear_feet,LF,360,"flex, duct, linear, feet",,,,me7_L,HVAC Flex Duct,,,,,,me7_L,
+hvac,hard_duct_linear_feet,LF,180,"hard, duct, linear, feet",,,,me8_L,HVAC Hard Duct,,,,,,me8_L,
+hvac,registers,EA,120,registers,me9_P,HVAC Registers,170.0,,,,,,,me9_P,,
+hvac,returns,EA,57,returns,me10_P,HVAC Returns,170.0,,,,,,,me10_P,,
+insulation,wall_insulation_sf,SF,12600,"wall, insulation",de1_P,Demo Interior Walls,1.0,de30_L,Demo Drywall Lid and Insulation,5.0,,,,de1_P,de30_L,
+insulation,wall_r_value,EA,24,"wall, value",dr2_P,Drywall Patching,100.0,dr1_L,Drywall Allowance,,pl6_U,Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),950.0,dr2_P,dr1_L,pl6_U
+insulation,ceiling_insulation_sf,SF,12000,"ceiling, insulation",de33_P,Demo Popcorn Ceiling,2.0,de30_L,Demo Drywall Lid and Insulation,5.0,,,,de33_P,de30_L,
+insulation,ceiling_r_value,EA,60,"ceiling, value",,,,el4_L,Electrical Remove and Replace (Ceiling Fans),187.5,,,,,el4_L,
+insulation,rigid_insulation_sf,SF,7200,"rigid, insulation",,,,de30_L,Demo Drywall Lid and Insulation,5.0,,,,,de30_L,
+insulation,acoustic_insulation_sf,SF,3600,"acoustic, insulation",,,,de30_L,Demo Drywall Lid and Insulation,5.0,,,,,de30_L,
+insulation,weather_barrier_sf,SF,13860,"weather, barrier",,,,,,,,,,,,
+insulation,caulk_tubes,EA,240,"caulk, tubes",,,,,,,,,,,,
+insulation,foam_sealant_cans,EA,84,"foam, sealant, cans",,,,,,,,,,,,
+insulation,radiant_barrier_sf,,12000,"radiant, barrier",,,,,,,,,,,,
+insulation,thermal_break_tape_lf,,9600,"thermal, break, tape",el11_P,Electrical Tape Light,55.0,el12_L,Electrical Tape Light Driver,200.0,,,,el11_P,el12_L,
+finish_carpentry,single_doors,EA,40,"single, doors",fc6_P,Finish Carpentry Door Install (Stain Single Prehung),100.0,fc3_L,Finish Carpentry Door Install (Paint Single Prehung),250.0,de7_U,Demo Sliding Glass Doors,400.0,fc6_P,fc3_L,de7_U
+finish_carpentry,double_doors,EA,11,"double, doors",,,,fc7_L,Finish Carpentry Door Install (Stain Double Prehung),250.0,fc4_U,Finish Carpentry Door Install (Paint Double Prehung),350.0,,fc7_L,fc4_U
+finish_carpentry,pocket_doors,EA,8,"pocket, doors",,,,de3_L,Demo Doors/Frame/Trim,62.5,de7_U,Demo Sliding Glass Doors,400.0,,de3_L,de7_U
+finish_carpentry,barn_doors,EA,4,"barn, doors",,,,de3_L,Demo Doors/Frame/Trim,62.5,de7_U,Demo Sliding Glass Doors,400.0,,de3_L,de7_U
+finish_carpentry,garage_man_doors,EA,2,"garage, man, doors",,,,pr9_L,Construction Manager,,de7_U,Demo Sliding Glass Doors,400.0,,pr9_L,de7_U
+finish_carpentry,exterior_utility_doors,EA,4,"exterior, utility, doors",,,,de3_L,Demo Doors/Frame/Trim,62.5,fc5_U,Finish Carpentry Door Install (Paint Exterior),350.0,,de3_L,fc5_U
+finish_carpentry,baseboard_lf,LF,10050,baseboard,,,,,,,de8_U,Demo Baseboards,600.0,,,de8_U
+finish_carpentry,crown_molding_lf,LF,8040,"crown, molding",,,,,,,,,,,,
+finish_carpentry,door_casing_lf,LF,600,"door, casing",fc6_P,Finish Carpentry Door Install (Stain Single Prehung),100.0,de3_L,Demo Doors/Frame/Trim,62.5,de7_U,Demo Sliding Glass Doors,400.0,fc6_P,de3_L,de7_U
+finish_carpentry,window_casing_lf,LF,1536,"window, casing",wd1_P,Window Install,250.0,st2_L,Stucco Smooth Synthetic Patches Around Windows,1430.0,de6_U,Demo Windows,150.0,wd1_P,st2_L,de6_U
+finish_carpentry,total_trim_lf,LF,20226,"total, trim",pl17_P,Plumbing Shower (Trim),89.0,de3_L,Demo Doors/Frame/Trim,62.5,,,,pl17_P,de3_L,
+finish_carpentry,simplified_single_doors,EA,64,"simplified, single, doors",fc6_P,Finish Carpentry Door Install (Stain Single Prehung),100.0,fc3_L,Finish Carpentry Door Install (Paint Single Prehung),250.0,de7_U,Demo Sliding Glass Doors,400.0,fc6_P,fc3_L,de7_U
+finish_carpentry,simplified_double_doors,EA,6,"simplified, double, doors",,,,fc7_L,Finish Carpentry Door Install (Stain Double Prehung),250.0,fc4_U,Finish Carpentry Door Install (Paint Double Prehung),350.0,,fc7_L,fc4_U
+finish_carpentry,simplified_baseboard_lf,LF,11400,"simplified, baseboard",,,,,,,de8_U,Demo Baseboards,600.0,,,de8_U
+cabinetry,kitchen_base_cabinets_lf,LF,82.0,"kitchen, base, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,kitchen_wall_cabinets_lf,LF,70.0,"kitchen, wall, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,kitchen_island_lf,LF,38.0,"kitchen, island",pl24_P,Plumbing Kitchen Faucet (Trim),125.0,pl25_L,Plumbing Kitchen RO (Trim),375.0,de18_U,Demo Full Kitchen (Tract),1200.0,pl24_P,pl25_L,de18_U
+cabinetry,kitchen_full_height_cabinets_lf,LF,28.0,"kitchen, full, height, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,primary_bath_vanity_lf,LF,60.0,"primary, bath, vanity",pl23_P,Plumbing Vanity Sink/Faucet (Trim),125.0,de20_L,Bathrooms,,de24_U,Demo Full Master Bathroom (Small),1200.0,pl23_P,de20_L,de24_U
+cabinetry,secondary_bath_vanity_lf,LF,27.0,"secondary, bath, vanity",pl23_P,Plumbing Vanity Sink/Faucet (Trim),125.0,de20_L,Bathrooms,,de28_U,Demo Secondary Bath,800.0,pl23_P,de20_L,de28_U
+cabinetry,powder_room_vanity_lf,LF,6,"powder, room, vanity",,,,mf1_L,Metal Fabrication Handrail (Powder Coated Steel Tube Stock),112.5,,,,,mf1_L,
+cabinetry,total_kitchen_cabinets_lf,LF,218.0,"total, kitchen, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,total_bathroom_cabinets_lf,LF,93.0,"total, bathroom, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,total_specialty_cabinets_lf,LF,33,"total, specialty, cabinets",ca1_P,Cabinets Custom Paint Grade,650.0,ca2_L,Cabinets Custom Stain Grade,1025.0,ca3_U,Cabinets Custom Full-Height,1500.0,ca1_P,ca2_L,ca3_U
+cabinetry,total_cabinetry_lf,LF,344.0,"total, cabinetry",,,,,,,,,,,,
+cabinetry,office_cabinetry_lf,,10,"office, cabinetry",,,,,,,,,,,,
+cabinetry,butlers_pantry_lf,,15,"butlers, pantry",,,,,,,,,,,,
+cabinetry,media_room_cabinetry_lf,,8,"media, room, cabinetry",,,,de20_L,Bathrooms,,de24_U,Demo Full Master Bathroom (Small),1200.0,,de20_L,de24_U
+countertops,kitchen_countertops_sf,SF,140,"kitchen, countertops",,,,co3_L,Countertop Fabrication Kitchen Sink,300.0,,,,,co3_L,
+countertops,butlers_pantry_countertops_sf,SF,50,"butlers, pantry, countertops",,,,,,,,,,,,
+countertops,waterfall_edges_lf,LF,15,"waterfall, edges",,,,,,,,,,,,
+countertops,primary_bath_countertops_sf,SF,150,"primary, bath, countertops",,,,de20_L,Bathrooms,,de24_U,Demo Full Master Bathroom (Small),1200.0,,de20_L,de24_U
+countertops,secondary_bath_countertops_sf,SF,75,"secondary, bath, countertops",,,,de20_L,Bathrooms,,de28_U,Demo Secondary Bath,800.0,,de20_L,de28_U
+countertops,powder_room_countertops_sf,SF,36,"powder, room, countertops",,,,mf1_L,Metal Fabrication Handrail (Powder Coated Steel Tube Stock),112.5,de27_U,Demo Powder Bath,400.0,,mf1_L,de27_U
+countertops,quartz_countertops_sf,SF,158,"quartz, countertops",fl14_P,Flooring Epoxy Quartz System Removal ,1.5,,,,,,,fl14_P,,
+countertops,granite_countertops_sf,SF,77,"granite, countertops",,,,,,,,,,,,
+countertops,marble_countertops_sf,SF,113,"marble, countertops",,,,,,,,,,,,
+countertops,quartzite_countertops_sf,SF,81,"quartzite, countertops",,,,,,,,,,,,
+countertops,total_kitchen_countertops_sf,SF,190,"total, kitchen, countertops",,,,co3_L,Countertop Fabrication Kitchen Sink,300.0,,,,,co3_L,
+countertops,total_bathroom_countertops_sf,SF,261,"total, bathroom, countertops",,,,de20_L,Bathrooms,,de24_U,Demo Full Master Bathroom (Small),1200.0,,de20_L,de24_U
+countertops,total_countertops_sf,SF,451,"total, countertops",,,,,,,,,,,,
+countertops,specialty_countertops_sf,,23,"specialty, countertops",,,,,,,,,,,,
+tile,primary_bath_count,EA,2,"primary, bath, count",,,,de20_L,Bathrooms,,de27_U,Demo Powder Bath,400.0,,de20_L,de27_U
+tile,primary_bath_shower_floor_sf,SF,90,"primary, bath, shower, floor",ti1_P,Tile Float Floor,0.5,ti11_L,Tile Wall/Shower Material,17.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti11_L,ti6_U
+tile,primary_bath_shower_walls_sf,SF,500,"primary, bath, shower, walls",,,,ti11_L,Tile Wall/Shower Material,17.5,ti6_U,Tile Installation Shower Pan,32.0,,ti11_L,ti6_U
+tile,primary_bath_floor_sf,SF,400,"primary, bath, floor",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,,,,ti1_P,ti3_L,
+tile,primary_bath_niches_sf,SF,20,"primary, bath, niches",,,,de20_L,Bathrooms,,de24_U,Demo Full Master Bathroom (Small),1200.0,,de20_L,de24_U
+tile,primary_bath_schluter_lf,LF,300,"primary, bath, schluter",ti7_P,Tile Metal Schluter,8.0,,,,,,,ti7_P,,
+tile,primary_bath_tile_sf,SF,1010,"primary, bath, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,secondary_bath_count,EA,3,"secondary, bath, count",,,,de20_L,Bathrooms,,de28_U,Demo Secondary Bath,800.0,,de20_L,de28_U
+tile,secondary_bath_shower_floor_sf,SF,75,"secondary, bath, shower, floor",ti1_P,Tile Float Floor,0.5,ti11_L,Tile Wall/Shower Material,17.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti11_L,ti6_U
+tile,secondary_bath_shower_walls_sf,SF,450,"secondary, bath, shower, walls",,,,ti11_L,Tile Wall/Shower Material,17.5,ti6_U,Tile Installation Shower Pan,32.0,,ti11_L,ti6_U
+tile,secondary_bath_floor_sf,SF,285,"secondary, bath, floor",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,,,,ti1_P,ti3_L,
+tile,secondary_bath_niches_sf,SF,15,"secondary, bath, niches",,,,de20_L,Bathrooms,,de28_U,Demo Secondary Bath,800.0,,de20_L,de28_U
+tile,secondary_bath_schluter_lf,LF,240,"secondary, bath, schluter",ti7_P,Tile Metal Schluter,8.0,,,,,,,ti7_P,,
+tile,secondary_bath_tile_sf,SF,825,"secondary, bath, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,powder_room_count,EA,2,"powder, room, count",,,,de20_L,Bathrooms,,de27_U,Demo Powder Bath,400.0,,de20_L,de27_U
+tile,kitchen_backsplash_tile_sf,SF,220,"kitchen, backsplash, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,butlers_kitchen_tile_sf,SF,40,"butlers, kitchen, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,laundry_room_tile_sf,SF,120,"laundry, room, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,mudroom_tile_sf,SF,100,"mudroom, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,entry_foyer_tile_sf,SF,300,"entry, foyer, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,total_bathroom_tile_sf,SF,1995,"total, bathroom, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,total_kitchen_tile_sf,SF,260,"total, kitchen, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,total_other_tile_sf,SF,520,"total, other, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,total_tile_sf,SF,2775,"total, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,total_schluter_lf,LF,580,"total, schluter",ti7_P,Tile Metal Schluter,8.0,,,,,,,ti7_P,,
+tile,simplified_total_tile_sf,SF,3100,"simplified, total, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+tile,simplified_total_schluter_lf,LF,580,"simplified, total, schluter",ti7_P,Tile Metal Schluter,8.0,,,,,,,ti7_P,,
+tile,powder_room_floor_sf,,100,"powder, room, floor",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,,,,ti1_P,ti3_L,
+tile,powder_room_accent_wall_sf,,60,"powder, room, accent, wall",,,,ti5_L,Tile Installation Walls,25.7,,,,,ti5_L,
+tile,powder_room_schluter_lf,,40,"powder, room, schluter",ti7_P,Tile Metal Schluter,8.0,,,,,,,ti7_P,,
+tile,powder_room_tile_sf,,160,"powder, room, tile",ti1_P,Tile Float Floor,0.5,ti3_L,Tile Floor Material,10.5,ti6_U,Tile Installation Shower Pan,32.0,ti1_P,ti3_L,ti6_U
+windows_doors,window_count,EA,120,"window, count",wd1_P,Window Install,250.0,wd3_L,Window Cost,,,,,wd1_P,wd3_L,
+windows_doors,window_area_sf,SF,2160,"window, area",wd1_P,Window Install,250.0,wd3_L,Window Cost,,,,,wd1_P,wd3_L,
+windows_doors,window_efficiency,EA,Dynamic Glass/Smart Glass,"window, efficiency",wd1_P,Window Install,250.0,wd3_L,Window Cost,,,,,wd1_P,wd3_L,
+windows_doors,window_trim_lf,LF,2036,"window, trim",wd1_P,Window Install,250.0,wd3_L,Window Cost,,,,,wd1_P,wd3_L,
+windows_doors,exterior_door_count,EA,8,"exterior, door, count",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+windows_doors,patio_door_sets,EA,6,"patio, door, sets",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+windows_doors,door_hardware_sets,EA,11,"door, hardware, sets",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+windows_doors,exterior_door_type,EA,Custom Wood/Steel,"exterior, door, type",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+windows_doors,garage_door_count,EA,4,"garage, door, count",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+windows_doors,garage_door_openers,EA,4,"garage, door, openers",,,,wd2_L,Slider Door Install,1750.0,wd4_U,Slider Door Cost/Steel Door,10000.0,,wd2_L,wd4_U
+roofing,roof_area_sf,SF,18000,"roof, area",ro1_P,Roofing Recoat Flat Roof,1.1,ro3_L,Roofing Tear Off and Replace Flat Roof,5.65,ro2_U,Roofing Repair Flat Roof,2500.0,ro1_P,ro3_L,ro2_U
+roofing,underlayment_area_sf,SF,41400,"underlayment, area",,,,,,,,,,,,
+roofing,ceiling_insulation_sf,SF,12000,"ceiling, insulation",de33_P,Demo Popcorn Ceiling,2.0,de30_L,Demo Drywall Lid and Insulation,5.0,,,,de33_P,de30_L,
+roofing,insulation_r_value,EA,60,"insulation, value",,,,de30_L,Demo Drywall Lid and Insulation,5.0,,,,,de30_L,
+roofing,ridge_vent_lf,LF,1260,"ridge, vent",,,,,,,,,,,,
+roofing,drip_edge_lf,LF,3600,"drip, edge",co2_P,Countertop Fabrication Mitered Edge,40.0,,,,,,,co2_P,,
+roofing,fascia_lf,LF,2400,fascia,,,,,,,,,,,,
+roofing,soffit_sf,SF,3600,soffit,,,,de34_L,Demo Soffits,8.5,,,,,de34_L,
+roofing,gutters_lf,LF,372,gutters,,,,,,,,,,,,
+roofing,downspouts_count,EA,9,"downspouts, count",,,,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,,co3_L,co4_U
+roofing,rain_chains,,2,"rain, chains",pl10_P,Plumbing Tie into Existing Drain for New Location (Rough-in),150.0,,,,pl9_U,Plumbing Move Shower/Tub Drain Location (Rough-in),1500.0,pl10_P,,pl9_U
+roofing,decorative_scuppers,,4,"decorative, scuppers",,,,,,,,,,,,
+landscape_hardscape,lot_size_sf,SF,40000,"lot, size",,,,,,,,,,,,
+landscape_hardscape,house_footprint_sf,SF,8000,"house, footprint",st1_P,Stucco Smooth Synthetic Whole House/Addition,6.25,,,,,,,st1_P,,
+landscape_hardscape,non_house_area_sf,SF,32000,"non, house, area",st1_P,Stucco Smooth Synthetic Whole House/Addition,6.25,cm6_L,CMU Non-Structural (>10' H),18.88,,,,st1_P,cm6_L,
+landscape_hardscape,hardscape_area_sf,SF,11200,"hardscape, area",,,,,,,,,,,,
+landscape_hardscape,lawn_area_sf,SF,9600,"lawn, area",,,,,,,,,,,,
+landscape_hardscape,planting_bed_area_sf,SF,9600,"planting, bed, area",,,,,,,,,,,,
+landscape_hardscape,other_area_sf,SF,1600,"other, area",,,,,,,,,,,,
+landscape_hardscape,tree_count,EA,26,"tree, count",,,,la1_L,Tree Demo,,,,,,la1_L,
+landscape_hardscape,shrub_count,EA,512,"shrub, count",,,,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,,co3_L,co4_U
+landscape_hardscape,patio_area_sf,SF,3920,"patio, area",fr3_P,Framing of Patio,15.0,,,,,,,fr3_P,,
+landscape_hardscape,walkway_area_sf,SF,2240,"walkway, area",,,,,,,,,,,,
+landscape_hardscape,driveway_area_sf,SF,2240,"driveway, area",,,,,,,,,,,,
+landscape_hardscape,irrigation_area_sf,SF,19200,"irrigation, area",,,,la3_L,Irrigation (Lines),,,,,,la3_L,
+landscape_hardscape,lawn_sprinklers,EA,64,"lawn, sprinklers",,,,,,,,,,,,
+landscape_hardscape,drip_emitters,EA,2400,"drip, emitters",,,,,,,,,,,,
+landscape_hardscape,irrigation_valves,EA,16,"irrigation, valves",,,,la4_L,Irrigation (Timer Box),,,,,,la4_L,
+landscape_hardscape,fire_pit_count,EA,1,"fire, pit, count",,,,la7_L,Fire Feature,,,,,,la7_L,
+landscape_hardscape,ornamental_tree_count,,5,"ornamental, tree, count",,,,la1_L,Tree Demo,,,,,,la1_L,
+landscape_hardscape,specialty_shrub_count,,77,"specialty, shrub, count",co1_P,Countertop Fabrication/Installation,65.0,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,co1_P,co3_L,co4_U
+landscape_hardscape,perennial_count,,2560,"perennial, count",co1_P,Countertop Fabrication/Installation,65.0,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,co1_P,co3_L,co4_U
+landscape_hardscape,outdoor_kitchen_area_sf,,896,"outdoor, kitchen, area",pl24_P,Plumbing Kitchen Faucet (Trim),125.0,pl25_L,Plumbing Kitchen RO (Trim),375.0,de18_U,Demo Full Kitchen (Tract),1200.0,pl24_P,pl25_L,de18_U
+landscape_hardscape,pool_deck_area_sf,,1120,"pool, deck, area",po7_P,Pool Water Line Tile,16.0,po2_L,Demo Pool Decking,,po6_U,Pool Coping,20.0,po7_P,po2_L,po6_U
+landscape_hardscape,water_feature_count,,2,"water, feature, count",,,,la6_L,Water Feature,,,,,,la6_L,
+landscape_hardscape,outdoor_lighting_count,,35,"outdoor, lighting, count",,,,la5_L,Landscape Lighting,,,,,,la5_L,
+landscape_hardscape,specialty_hardscape_area_sf,,784,"specialty, hardscape, area",,,,,,,,,,,,
+landscape_hardscape,outdoor_structure_count,,1,"outdoor, structure, count",co1_P,Countertop Fabrication/Installation,65.0,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,co1_P,co3_L,co4_U
+landscape_hardscape,specialty_landscape_features,,2,"specialty, landscape, features",,,,la5_L,Landscape Lighting,,,,,,la5_L,
+cleaning,rough_cleaning_occurrences,EA,112,"rough, cleaning, occurrences",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,rough_cleaning_labor_hours,EA,672,"rough, cleaning, labor, hours",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,construction_waste_cy,CY,30,"construction, waste",,,,pr9_L,Construction Manager,,,,,,pr9_L,
+cleaning,construction_dumpsters,EA,2,"construction, dumpsters",,,,pr9_L,Construction Manager,,,,,,pr9_L,
+cleaning,final_cleaning_sf,SF,12000,"final, cleaning",cl2_P,Final Clean,0.5,,,,,,,cl2_P,,
+cleaning,final_cleaning_labor_hours,EA,480,"final, cleaning, labor, hours",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,window_cleaning_count,EA,96,"window, cleaning, count",,,,cl3_L,Windows,25.0,cl5_U,Duct Cleaning,610.0,,cl3_L,cl5_U
+cleaning,window_cleaning_labor_hours,EA,96,"window, cleaning, labor, hours",,,,cl3_L,Windows,25.0,cl5_U,Duct Cleaning,610.0,,cl3_L,cl5_U
+cleaning,floor_cleaning_sf,SF,8400,"floor, cleaning",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,power_washing_sf,SF,3600,"power, washing",,,,,,,cl4_U,Power Wash,250.0,,,cl4_U
+cleaning,fixture_cleaning_count,,24,"fixture, cleaning, count",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,countertop_sealing_sf,,480,"countertop, sealing",co1_P,Countertop Fabrication/Installation,65.0,co3_L,Countertop Fabrication Kitchen Sink,300.0,co4_U,Countertop Fabrication Farm Sink,500.0,co1_P,co3_L,co4_U
+cleaning,cabinet_cleaning_lf,,240,"cabinet, cleaning",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,specialty_surface_sf,,1200,"specialty, surface",,,,,,,,,,,,
+cleaning,glass_balustrade_cleaning_sf,,240,"glass, balustrade, cleaning",,,,,,,cl5_U,Duct Cleaning,610.0,,,cl5_U
+cleaning,air_scrubber_days,,5,"air, scrubber, days",,,,ti4_L,Tile Upstairs Tile Floor Installation,9.0,ro2_U,Roofing Repair Flat Roof,2500.0,,ti4_L,ro2_U
+preparations_preliminaries,construction_fencing_lf,LF,960,"construction, fencing",,,,pr9_L,Construction Manager,,,,,,pr9_L,
+preparations_preliminaries,site_clearing_sf,SF,16000,"site, clearing",,,,pr11_L,Construction Site Tech ,900.0,,,,,pr11_L,
+preparations_preliminaries,erosion_control_lf,LF,800,"erosion, control",fl16_P,Flooring Cut Out Existing Control Joint Filler,1.0,,,,,,,fl16_P,,
+preparations_preliminaries,construction_entrance,EA,1,"construction, entrance",,,,pr9_L,Construction Manager,,,,,,pr9_L,
+preparations_preliminaries,tree_protection,EA,4,"tree, protection",,,,la1_L,Tree Demo,,pr4_U,Protection Material,2500.0,,la1_L,pr4_U
+preparations_preliminaries,portable_toilets,EA,3,"portable, toilets",pr1_P,Portable Toilet,350.0,,,,,,,pr1_P,,
+preparations_preliminaries,portable_toilet_months,EA,42,"portable, toilet, months",,,,de21_L,Demo Toilet(s),75.0,,,,,de21_L,
+preparations_preliminaries,dumpster_pulls,EA,84,"dumpster, pulls",pr3_P,Dumpster Additional Pickups,250.0,,,,,,,pr3_P,,
+preparations_preliminaries,field_office_sf,SF,400,"field, office",,,,,,,,,,,,
+preparations_preliminaries,field_office_months,EA,14,"field, office, months",,,,,,,,,,,,
+preparations_preliminaries,temp_electrical_months,EA,14,"temp, electrical, months",el1_P,Electrical Remove and Replace (Outlets),45.0,el4_L,Electrical Remove and Replace (Ceiling Fans),187.5,el14_U,Electrical New 200 Amp Service,6000.0,el1_P,el4_L,el14_U
+preparations_preliminaries,temp_water_months,EA,14,"temp, water, months",,,,fl18_L,Flooring Grind and Seal 2 Coats Water Based Acrylic,3.5,pl8_U,Plumbing Convert Water Heater to Tankless (Rough-in),2000.0,,fl18_L,pl8_U
+preparations_preliminaries,superintendent_hours,EA,2425,"superintendent, hours",,,,,,,pr7_U,Superintendent,3900.0,,,pr7_U
+preparations_preliminaries,project_manager_hours,EA,909,"project, manager, hours",,,,pr6_L,Project Coordinator,,,,,,pr6_L,
+preparations_preliminaries,client_meetings,EA,28,"client, meetings",,,,,,,,,,,,
+preparations_preliminaries,subcontractor_meetings,EA,56,"subcontractor, meetings",,,,,,,,,,,,
+preparations_preliminaries,building_permit,EA,1,"building, permit",,,,,,,,,,,,
+preparations_preliminaries,mechanical_permit,EA,1,"mechanical, permit",,,,,,,,,,,,
+preparations_preliminaries,electrical_permit,EA,1,"electrical, permit",el1_P,Electrical Remove and Replace (Outlets),45.0,el4_L,Electrical Remove and Replace (Ceiling Fans),187.5,el14_U,Electrical New 200 Amp Service,6000.0,el1_P,el4_L,el14_U
+preparations_preliminaries,plumbing_permit,EA,1,"plumbing, permit",pl17_P,Plumbing Shower (Trim),89.0,pl1_L,Plumbing Shower Valve(s) (Rough-in),525.0,pl2_U,Plumbing Shower Valve(s) W/ Diverter (Rough-in),750.0,pl17_P,pl1_L,pl2_U
+preparations_preliminaries,foundation_inspections,EA,4,"foundation, inspections",,,,,,,,,,,,
+preparations_preliminaries,framing_inspections,EA,4,"framing, inspections",fr3_P,Framing of Patio,15.0,fr2_L,Framing of Garage Space,27.5,fr1_U,Framing of Liveable Space,55.0,fr3_P,fr2_L,fr1_U
+preparations_preliminaries,mechanical_inspections,EA,4,"mechanical, inspections",,,,,,,,,,,,
+preparations_preliminaries,electrical_inspections,EA,4,"electrical, inspections",el1_P,Electrical Remove and Replace (Outlets),45.0,el4_L,Electrical Remove and Replace (Ceiling Fans),187.5,el14_U,Electrical New 200 Amp Service,6000.0,el1_P,el4_L,el14_U
+preparations_preliminaries,plumbing_inspections,EA,4,"plumbing, inspections",pl17_P,Plumbing Shower (Trim),89.0,pl1_L,Plumbing Shower Valve(s) (Rough-in),525.0,pl2_U,Plumbing Shower Valve(s) W/ Diverter (Rough-in),750.0,pl17_P,pl1_L,pl2_U
+preparations_preliminaries,final_inspections,EA,2,"final, inspections",cl2_P,Final Clean,0.5,,,,,,,cl2_P,,
+preparations_preliminaries,safety_equipment_units,EA,12,"safety, equipment, units",,,,po4_L,Pool Equipment,,cm9_U,"Equipment (Forkilfts, Booms, Etc.)",35000.0,,po4_L,cm9_U
+preparations_preliminaries,dust_barriers_sf,SF,1800,"dust, barriers",,,,fs1_L,Industrial Sprinkler Drops,,,,,,fs1_L,
+preparations_preliminaries,floor_protection_sf,SF,6000,"floor, protection",fl5_P,Engineered Hardwood Floor Prep (Allowance),1.0,de17_L,Demo Wood with Subfloor,3.5,fl22_U,Flooring Polished Concrete (Medium Aggregate),6.5,fl5_P,de17_L,fl22_U
+preparations_preliminaries,window_protection_units,EA,96,"window, protection, units",wd1_P,Window Install,250.0,st2_L,Stucco Smooth Synthetic Patches Around Windows,1430.0,de6_U,Demo Windows,150.0,wd1_P,st2_L,de6_U
+preparations_preliminaries,first_aid_kits,EA,5,"first, aid, kits",,,,,,,,,,,,
+preparations_preliminaries,construction_signage,,1,"construction, signage",,,,pr9_L,Construction Manager,,,,,,pr9_L,
+preparations_preliminaries,temporary_roads_sf,,2000,"temporary, roads",,,,,,,,,,,,
+preparations_preliminaries,pool_permit,,1,"pool, permit",po7_P,Pool Water Line Tile,16.0,po2_L,Demo Pool Decking,,po6_U,Pool Coping,20.0,po7_P,po2_L,po6_U
+preparations_preliminaries,landscape_permit,,1,"landscape, permit",,,,la5_L,Landscape Lighting,,,,,,la5_L,

@@ -1,6 +1,6 @@
 ================================================================================
 DETAILED CONSTRUCTION ESTIMATION REPORT
-Generated: 2025-03-16 14:32:44
+Generated: 2025-03-16 17:52:09
 ================================================================================
 
 PROJECT INFORMATION
@@ -186,8 +186,45 @@ Category Total: $2,678,040.00
 
 DRYWALL INTERIOR
 --------------------------------------------------
-Status: error
-Message: name 'drywall_factor' is not defined
+
+Quantities:
+  Drywall Area Sf: 20150
+  Ceiling Height Ft: 10
+  Textured Area Sf: 8060
+  Smooth Area Sf: 12090
+  Specialty Drywall Sf: 2015
+  Coffered Ceiling Sf: 455
+  Tray Ceiling Sf: 975
+  Corner Bead Lf: 780
+  Control Joint Lf: 260
+  Drywall Mud Gallons: 67
+  Drywall Tape Lf: 3022
+
+Costed Items:
+  Drywall Allowance: 20150 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 10 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 8060 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 12090 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 2015 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 455 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 975 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 780 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 260 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 67 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+  Drywall Allowance: 3022 Each at $nan each = $nan
+    Note: Approximate cost - item matched by category
+
+Category Total: $nan
 
 ROOFING
 --------------------------------------------------
@@ -248,11 +285,6 @@ Quantities:
   Garage Door Openers: 3
 
 Category Total: $0.00
-
-FLOORING
---------------------------------------------------
-Status: not_implemented
-Message: Estimator for flooring is not yet implemented
 
 TILE
 --------------------------------------------------
@@ -358,8 +390,29 @@ Category Total: $13,497.00
 
 PAINTING COATINGS
 --------------------------------------------------
-Status: not_implemented
-Message: Estimator for painting_coatings is not yet implemented
+
+Quantities:
+  Wall Area Sf: 15600
+  Ceiling Area Sf: 6500
+  Total Paintable Area Sf: 22100
+  Wall Ceiling Primer Gallons: 63
+  Wall Ceiling Paint Gallons: 126
+  Total Wall Ceiling Gallons: 189
+  Interior Door Count: 26
+  Trim Lf: 5850
+  Trim Door Primer Gallons: 18
+  Trim Door Paint Gallons: 37
+  Total Trim Door Gallons: 55
+  Specialty Finish Area Sf: 3315
+  Decorative Glaze Gallons: 11
+  Exterior Wall Area Sf: 16250
+  Exterior Primer Gallons: 46
+  Exterior Paint Gallons: 93
+  Total Exterior Gallons: 139
+  Exterior Trim Area Sf: 2438
+  Exterior Trim Paint Gallons: 8
+
+Category Total: $0.00
 
 FINISH CARPENTRY
 --------------------------------------------------
@@ -478,11 +531,6 @@ Costed Items:
 
 Category Total: $95,040.00
 
-EXTERIOR
---------------------------------------------------
-Status: not_implemented
-Message: Estimator for exterior is not yet implemented
-
 LANDSCAPE HARDSCAPE
 --------------------------------------------------
 
@@ -562,10 +610,30 @@ Costed Items:
 
 Category Total: $4,855.55
 
-SPECIALTY
+THERMAL FIRE SUPPRESSION
 --------------------------------------------------
-Status: no_quantities
-Message: No quantities calculated for specialty
+
+Quantities:
+  Wall Insulation Sf: 6175
+  Wall R Value: 21
+  Ceiling Insulation Sf: 6500
+  Ceiling R Value: 49
+  Rigid Insulation Sf: 2600
+  Acoustic Insulation Sf: 975
+  Radiant Barrier Sf: 3250
+  Weather Barrier Sf: 6793
+  Caulk Tubes: 98
+  Foam Sealant Cans: 32
+  Fire Sprinkler Heads: 39
+  Fire Suppression Piping Lf: 4972
+  Fire Suppression Covered Area Sf: 5850
+  Fire Riser Assembly: 1
+  Flow Switches: 3
+  Control Valves: 3
+  Fire Suppression Monitor: 1
+  Inspector Test Connections: 2
+
+Category Total: $0.00
 
 ==================================================
 TOTAL ESTIMATED COST: $6,072,996.85

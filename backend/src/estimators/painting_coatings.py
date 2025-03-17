@@ -2,7 +2,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-class PaintCoatingsEstimator:
+class PaintingCoatingsEstimator:
     """Handles paint and coatings quantity calculations"""
     
     def __init__(self, config=None):
@@ -149,14 +149,52 @@ class PaintCoatingsEstimator:
         """Calculate exterior paint quantities"""
         # Exterior paint gallons per SF of house
         exterior_paint_factor = {
-            "Premium": 0.15,
-            "Luxury": 0.18,
-            "Ultra-Luxury": 0.22
+            "Premium": 0.005,  # 1 gallon per 200 SF
+            "Luxury": 0.006,   # 1 gallon per 167 SF
+            "Ultra-Luxury": 0.0075  # 1 gallon per 133 SF
         }
         
-        # Calculate exterior paint gallons
-        exterior_paint_gallons = square_footage * exterior_paint_factor[tier]
-        
-        return {
-            "exterior_paint_gallons": round(exterior_paint_gallons)
+        # Exterior wall area is typically 2-3x the square footage for 2-story homes
+        exterior_wall_factor = {
+            "Premium": 2.0,
+            "Luxury": 2.5,
+            "Ultra-Luxury": 3.0
         }
+        
+        # Calculate exterior paintable area
+        exterior_wall_area = square_footage * exterior_wall_factor[tier]
+        
+        # Calculate exterior paint gallons (primer + paint coats)
+        # Premium: 1 primer coat, 2 paint coats
+        # Luxury: 1 primer coat, 2 paint coats
+        # Ultra-Luxury: 1 primer coat, 3 paint coats
+        primer_coats = 1
+        paint_coats = 2 if tier != "Ultra-Luxury" else 3
+        
+        # Paint coverage (SF per gallon)
+        coverage = 350  # Same for all tiers
+        
+        exterior_primer_gallons = (exterior_wall_area * primer_coats) / coverage
+        exterior_paint_gallons = (exterior_wall_area * paint_coats) / coverage
+        
+        # Add specialty exterior coatings for luxury tiers
+        result = {
+            "exterior_wall_area_sf": round(exterior_wall_area),
+            "exterior_primer_gallons": round(exterior_primer_gallons),
+            "exterior_paint_gallons": round(exterior_paint_gallons),
+            "total_exterior_gallons": round(exterior_primer_gallons + exterior_paint_gallons)
+        }
+        
+        # Add specialty exterior coatings for luxury tiers
+        if tier in ["Luxury", "Ultra-Luxury"]:
+            # Special trim coatings
+            trim_area = exterior_wall_area * 0.15  # About 15% of wall area is trim
+            result["exterior_trim_area_sf"] = round(trim_area)
+            result["exterior_trim_paint_gallons"] = round(trim_area / 300)  # Lower coverage for trim paint
+            
+            # Specialty coatings for ultra-luxury
+            if tier == "Ultra-Luxury":
+                result["exterior_stain_gallons"] = round(exterior_wall_area * 0.3 / 300)  # 30% might be stained
+                result["exterior_sealer_gallons"] = round(exterior_wall_area * 0.4 / 400)  # 40% needs sealer
+                
+        return result

@@ -33,6 +33,17 @@ hvac,HVAC New 2 Ton Package Unit,me1,182.0,Each,9150.0,1665300.0,70.0,Approximat
 hvac,HVAC New 2 Ton Package Unit,me1,78.0,Each,9150.0,713700.0,70.0,Approximate cost - item matched by category
 hvac,HVAC Registers,me9,59.0,Each ,190.0,11210.0,70.0,Direct match found
 hvac,HVAC Returns,me10,22.0,Each ,190.0,4180.0,70.0,Direct match found
+drywall_interior,Drywall Allowance,dr1,20150.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,10.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,8060.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,12090.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,2015.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,455.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,975.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,780.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,260.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,67.0,Each,,,70.0,Approximate cost - item matched by category
+drywall_interior,Drywall Allowance,dr1,3022.0,Each,,,70.0,Approximate cost - item matched by category
 roofing,Roofing Recoat Flat Roof,ro1,8775.0,Sq Ft,2.3,20182.5,70.0,Approximate cost - item matched by category
 roofing,Roofing Recoat Flat Roof,ro1,20182.0,Sq Ft,2.3,46418.6,70.0,Approximate cost - item matched by category
 roofing,Roofing Recoat Flat Roof,ro1,6500.0,Sq Ft,2.3,14949.999999999998,70.0,Approximate cost - item matched by category
