@@ -12,7 +12,7 @@ class DataLoader:
     def __init__(self, config_path: str = 'config/settings.json'):
         """Initialize with path to configuration file"""
         self.config = self._load_json(config_path)
-        self.mappings = self._load_json(os.path.join('config', 'enhanced_catalog_mappings.json'))
+        self.mappings = self._load_json(os.path.join('config', 'catalog_mappings_03.19.25.json'))
         self.catalog = None
     
     def _load_json(self, path: str) -> Dict[str, Any]:
@@ -93,19 +93,20 @@ class DataLoader:
         
         # Check if we have a direct mapping for this quantity
         if quantity_name in item_mappings:
-            # Use direct mapping if available
+            # Use direct mapping with item_ids if available
             mapped_item_ids = item_mappings[quantity_name].get('item_ids', [])
             if mapped_item_ids:
+                # Return items that match any of the IDs in the list
                 return category_items[category_items['ID'].isin(mapped_item_ids)]
             
-            # If we have search terms, use those
+            # If we have search terms, use those as fallback
             search_terms = item_mappings[quantity_name].get('search_terms', [])
             if search_terms:
                 # Create a regex pattern from all search terms
                 pattern = '|'.join(search_terms)
                 return category_items[category_items['SearchItem'].str.contains(pattern, regex=True, na=False)]
         
-        # No direct mapping, try fuzzy matching with the quantity name
+        # Fall back to existing matching logic for quantities without mappings
         # First, standardize the quantity name for searching
         search_quantity = quantity_name.lower().replace('_', ' ')
         

@@ -31,11 +31,11 @@ class FoundationEstimator:
         perimeter = 4 * math.sqrt(foundationFootprint)
         
         # Tier-specific parameters
-        slab_thickness_inches = {'Premium': 4, 'Luxury': 5, 'Ultra-Luxury': 6}
+        slab_thickness_inches = {'Premium': 4, 'Luxury': 6, 'Ultra-Luxury': 6}
         footing_width_inches = {'Premium': 12, 'Luxury': 16, 'Ultra-Luxury': 24}
         footing_depth_inches = {'Premium': 18, 'Luxury': 24, 'Ultra-Luxury': 30}
         wall_thickness_inches = {'Premium': 8, 'Luxury': 10, 'Ultra-Luxury': 12}
-        wall_height = 9  # feet - same for all tiers for this example
+        wall_height = 1.5  # feet - stem wall height
         
         # Calculate volumes in cubic yards
         slab_volume = (foundationFootprint * slab_thickness_inches[tier] / 12) / 27
@@ -43,6 +43,7 @@ class FoundationEstimator:
         wall_volume = (perimeter * wall_height * (wall_thickness_inches[tier] / 12)) / 27
         
         return {
+            'slab_square_footage_sf': foundationFootprint,
             'slab_concrete_cy': round(slab_volume),
             'footing_concrete_cy': round(footing_volume),
             'foundation_wall_cy': round(wall_volume),

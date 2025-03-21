@@ -18,10 +18,16 @@ class HvacEstimator:
         results = {}
         
         # Calculate system sizing
-        results.update(self._calculate_system_sizing(square_footage, tier))
+        system_sizing = self._calculate_system_sizing(square_footage, tier)
+        results.update(system_sizing)
         
         # Calculate distribution components
-        results.update(self._calculate_distribution(square_footage, tier))
+        distribution = self._calculate_distribution(square_footage, tier)
+        results.update(distribution)
+        
+        # Calculate optimal HVAC unit combination for efficient cooling
+        hvac_system = self.calculate_hvac_system(square_footage, tier)
+        results.update(hvac_system)
         
         return results
         
@@ -29,9 +35,9 @@ class HvacEstimator:
         """Calculate HVAC system sizing"""
         # Tonnage calculation based on square footage and tier
         tonnage_factors = {
-            "Premium": 550,    # 1 ton per 550 sq ft
-            "Luxury": 500,     # 1 ton per 500 sq ft
-            "Ultra-Luxury": 450  # 1 ton per 450 sq ft
+            "Premium": 500,    # 1 ton per 500 sq ft
+            "Luxury": 450,     # 1 ton per 450 sq ft
+            "Ultra-Luxury": 400  # 1 ton per 400 sq ft
         }
         
         # System count calculation
@@ -43,9 +49,9 @@ class HvacEstimator:
         
         # Zones per system vary by tier
         zones_per_system = {
-            "Premium": 2.5,    # Average of 2-3 zones
-            "Luxury": 3.5,     # Average of 3-4 zones
-            "Ultra-Luxury": 5  # Average of 4-6 zones
+            "Premium": 1.5,    # Average 1-2 zone
+            "Luxury": 2.5,     # Average of 2-3 zones
+            "Ultra-Luxury": 3.5  # Average of 3-4 zones
         }
         
         # Calculate tonnage, systems and zones
@@ -100,4 +106,77 @@ class HvacEstimator:
             "hard_duct_linear_feet": round(hard_duct),
             "registers": round(registers),
             "returns": round(returns)
+        }
+    
+    @staticmethod
+    def _calculate_unit_combination(required_tons, available_units=[2, 3, 4, 5]):
+        """
+        Finds the combination of HVAC unit sizes that meets or exceeds the required tonnage
+        with the smallest oversize and fewest units.
+        """
+        # Set an upper bound for capacity calculation
+        max_capacity = required_tons + max(available_units)
+        # dp[cap] holds a tuple: (number_of_units, combination_list) for capacity "cap"
+        dp = [None] * (max_capacity + 1)
+        dp[0] = (0, [])
+        
+        for cap in range(1, max_capacity + 1):
+            for unit in available_units:
+                if cap - unit >= 0 and dp[cap - unit] is not None:
+                    candidate_units = dp[cap - unit][0] + 1
+                    candidate_combo = dp[cap - unit][1] + [unit]
+                    if dp[cap] is None:
+                        dp[cap] = (candidate_units, candidate_combo)
+                    else:
+                        current_units, current_combo = dp[cap]
+                        # Prefer fewer units and lower total capacity to minimize oversize
+                        if candidate_units < current_units or (candidate_units == current_units and sum(candidate_combo) < sum(current_combo)):
+                            dp[cap] = (candidate_units, candidate_combo)
+                            
+        best_combo = None
+        best_units = None
+        best_oversize = None
+        best_total = None
+        
+        # Evaluate combinations for any capacity >= required_tons
+        for cap in range(required_tons, max_capacity + 1):
+            if dp[cap] is not None:
+                oversize = cap - required_tons
+                units = dp[cap][0]
+                if best_combo is None or (oversize < best_oversize) or (oversize == best_oversize and units < best_units):
+                    best_combo = dp[cap][1]
+                    best_units = units
+                    best_oversize = oversize
+                    best_total = cap
+                    
+        return {
+            "units": best_combo,
+            "unit_count": best_units,
+            "total_capacity": best_total,
+            "oversize": best_oversize
+        }
+    
+    def calculate_hvac_system(self, square_footage, tier):
+        """
+        Calculate the required HVAC tonnage and determine the optimal combination of 
+        2, 3, 4, and 5-ton units for efficient cooling.
+        """
+        # Tonnage factors based on tier
+        tonnage_factors = {
+            "Premium": 500,
+            "Luxury": 450,
+            "Ultra-Luxury": 400
+        }
+        
+        # Calculate required tonnage (in tons)
+        required_tonnage = square_footage / tonnage_factors[tier]
+        # Round up to ensure capacity meets requirements
+        required_tonnage_int = math.ceil(required_tonnage)
+        
+        # Determine the optimal HVAC unit combination
+        hvac_units = self._calculate_unit_combination(required_tonnage_int)
+        
+        return {
+            "required_tonnage": round(required_tonnage, 1),
+            "hvac_units": hvac_units
         }

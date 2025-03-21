@@ -1,127 +1,106 @@
 Category,Item,Item ID,Quantity,Unit,Unit Cost,Total Cost,Markup %,Note
-structural,Framing of Liveable Space,fr1,12480.0,Sq Ft,47.5,592800.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,5200.0,Sq Ft,47.5,247000.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,3120.0,Sq Ft,47.5,148200.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,11677.0,Sq Ft,47.5,554657.5,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,16.0,Sq Ft,47.5,760.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,1297.0,Sq Ft,47.5,61607.5,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,1560.0,Sq Ft,47.5,74100.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,39.0,Sq Ft,47.5,1852.5,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,14950.0,Sq Ft,47.5,710125.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,5980.0,Sq Ft,47.5,284050.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,5232.0,Sq Ft,47.5,248520.0,70.0,Approximate cost - item matched by category
-structural,Framing of Liveable Space,fr1,3737.0,Sq Ft,47.5,177507.5,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,9.0,Each,525.0,4725.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,10.0,Each,525.0,5250.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,5.0,Each,525.0,2625.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,10.0,Each,525.0,5250.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,2.0,Each,525.0,1050.0,70.0,Approximate cost - item matched by category
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,30.0,Each,525.0,15750.0,70.0,Approximate cost - item matched by category
-hvac,HVAC New 2 Ton Package Unit,me1,13.0,Each,9150.0,118950.0,70.0,Approximate cost - item matched by category
-hvac,HVAC New 2 Ton Package Unit,me1,4.0,Each,9150.0,36600.0,70.0,Approximate cost - item matched by category
-hvac,HVAC New 2 Ton Package Unit,me1,14.0,Each,9150.0,128100.0,70.0,Approximate cost - item matched by category
-hvac,HVAC New 2 Ton Package Unit,me1,182.0,Each,9150.0,1665300.0,70.0,Approximate cost - item matched by category
-hvac,HVAC New 2 Ton Package Unit,me1,78.0,Each,9150.0,713700.0,70.0,Approximate cost - item matched by category
-hvac,HVAC Registers,me9,59.0,Each ,190.0,11210.0,70.0,Direct match found
-hvac,HVAC Returns,me10,22.0,Each ,190.0,4180.0,70.0,Direct match found
-drywall_interior,Drywall Allowance,dr1,20150.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,10.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,8060.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,12090.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,2015.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,455.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,975.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,780.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,260.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,67.0,Each,,,70.0,Approximate cost - item matched by category
-drywall_interior,Drywall Allowance,dr1,3022.0,Each,,,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,8775.0,Sq Ft,2.3,20182.5,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,20182.0,Sq Ft,2.3,46418.6,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,6500.0,Sq Ft,2.3,14949.999999999998,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,49.0,Sq Ft,2.3,112.69999999999999,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,439.0,Sq Ft,2.3,1009.6999999999999,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,1404.0,Sq Ft,2.3,3229.2,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,1040.0,Sq Ft,2.3,2392.0,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,1430.0,Sq Ft,2.3,3288.9999999999995,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,274.0,Sq Ft,2.3,630.1999999999999,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,7.0,Sq Ft,2.3,16.099999999999998,70.0,Approximate cost - item matched by category
-roofing,Roofing Recoat Flat Roof,ro1,1.0,Sq Ft,2.3,2.3,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,2.0,Sq Ft,1.5,3.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,50.0,Sq Ft,1.5,75.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,320.0,Sq Ft,1.5,480.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,240.0,Sq Ft,1.5,360.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,10.0,Sq Ft,1.5,15.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,160.0,Sq Ft,1.5,240.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,620.0,Sq Ft,1.5,930.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,3.0,Sq Ft,1.5,4.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,48.0,Sq Ft,1.5,72.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,300.0,Sq Ft,1.5,450.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,180.0,Sq Ft,1.5,270.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,9.0,Sq Ft,1.5,13.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,150.0,Sq Ft,1.5,225.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,537.0,Sq Ft,1.5,805.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,2.0,Sq Ft,1.5,3.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,70.0,Sq Ft,1.5,105.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,30.0,Sq Ft,1.5,45.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,20.0,Sq Ft,1.5,30.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,100.0,Sq Ft,1.5,150.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,106.0,Sq Ft,1.5,159.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,25.0,Sq Ft,1.5,37.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,75.0,Sq Ft,1.5,112.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,60.0,Sq Ft,1.5,90.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,150.0,Sq Ft,1.5,225.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,1257.0,Sq Ft,1.5,1885.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,131.0,Sq Ft,1.5,196.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,285.0,Sq Ft,1.5,427.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,1673.0,Sq Ft,1.5,2509.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,330.0,Sq Ft,1.5,495.0,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,1725.0,Sq Ft,1.5,2587.5,70.0,Approximate cost - item matched by category
-tile,Tile Float Floor,ti1,330.0,Sq Ft,1.5,495.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,43.0,Sq Ft,80.0,3440.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,36.5,Sq Ft,80.0,2920.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,17.5,Sq Ft,80.0,1400.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,13.0,Sq Ft,80.0,1040.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,15.8,Sq Ft,80.0,1264.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,5.0,Sq Ft,80.0,400.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,6.0,Sq Ft,80.0,480.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,8.0,Sq Ft,80.0,640.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,110.0,Sq Ft,80.0,8800.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,50.8,Sq Ft,80.0,4064.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,14.0,Sq Ft,80.0,1120.0,70.0,Approximate cost - item matched by category
-cabinetry,Countertop Fabrication/Installation,co1,174.8,Sq Ft,80.0,13984.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,91.0,Sq Ft,80.0,7280.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,8.0,Sq Ft,80.0,640.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,96.0,Sq Ft,80.0,7680.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,54.0,Sq Ft,80.0,4320.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,24.0,Sq Ft,80.0,1920.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,133.0,Sq Ft,80.0,10640.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,74.0,Sq Ft,80.0,5920.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,50.0,Sq Ft,80.0,4000.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,38.0,Sq Ft,80.0,3040.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,121.0,Sq Ft,80.0,9680.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,174.0,Sq Ft,80.0,13920.0,70.0,Approximate cost - item matched by category
-countertops,Countertop Fabrication/Installation,co1,295.0,Sq Ft,80.0,23600.0,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,40.0,Sq Ft,0.35,14.0,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,130.0,Sq Ft,0.35,45.5,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,13.0,Sq Ft,0.35,4.55,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,1.0,Sq Ft,0.35,0.35,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,6500.0,Sq Ft,0.35,2275.0,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,195.0,Sq Ft,0.35,68.25,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,52.0,Sq Ft,0.35,18.2,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,39.0,Sq Ft,0.35,13.649999999999999,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,4550.0,Sq Ft,0.35,1592.5,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,1950.0,Sq Ft,0.35,682.5,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,13.0,Sq Ft,0.35,4.55,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,260.0,Sq Ft,0.35,91.0,70.0,Approximate cost - item matched by category
-cleaning,Rough Clean,cl1,130.0,Sq Ft,0.35,45.5,70.0,Approximate cost - item matched by category
+electrical,Electrical New (Outlets 120),el7,143.0,Each,100.0,14300.0,70.0,Direct match by ID
+electrical,Electrical GFCI/USB Outlet,el6,32.0,Each,97.5,3120.0,70.0,Direct match by ID
+electrical,Electrical GFCI/USB Outlet,el6,20.0,Each,97.5,1950.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,98.0,Each,150.0,14700.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,39.0,Each,150.0,5850.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,46.0,Each,150.0,6900.0,70.0,Direct match by ID
+electrical,Electrical New (Can Lights),el9,98.0,Each,150.0,14700.0,70.0,Direct match by ID
+electrical,Electrical Install New Fixtures,el13,8.0,Each,300.0,2400.0,70.0,Direct match by ID
+electrical,Electrical Install New Fixtures,el13,6.0,Each,300.0,1800.0,70.0,Direct match by ID
+electrical,Electrical Tape Light,el11,32.0,LF,60.0,1920.0,70.0,Direct match by ID
+electrical,Electrical New (Can Lights),el9,20.0,Each,150.0,3000.0,70.0,Direct match by ID
+electrical,Electrical New 200 Amp Service,el14,400.0,Each,5000.0,2000000.0,70.0,Direct match by ID
+electrical,Electrical New 400 Amp Service,el15,400.0,Each,6500.0,2600000.0,70.0,Direct match by ID
+electrical,Electrical New 600 Amp Service,el16,400.0,Each,11000.0,4400000.0,70.0,Direct match by ID
+plumbing,Plumbing Shower Valve(s) W/ Diverter (Rough-in),pl2,9.0,Each,625.0,5625.0,70.0,Direct match by ID
+plumbing,Plumbing Sink(s) (Rough-in),pl3,10.0,Each,550.0,5500.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,10.0,Each,187.5,1875.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,3.0,Each,825.0,2475.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler(s) (Floor Mounted) (Rough-in),pl5,3.0,Each,825.0,2475.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler (Trim),pl19,3.0,Each,387.5,1162.5,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,3.0,Each,287.5,862.5,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,5.0,Each,825.0,4125.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,5.0,Each,287.5,1437.5,70.0,Direct match by ID
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Direct match by ID
+plumbing,Plumbing Sink(s) (Rough-in),pl3,10.0,Each,550.0,5500.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,10.0,Each,187.5,1875.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2.0,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),pl6,2.0,Each,650.0,1300.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler (Trim),pl19,2.0,Each,387.5,775.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,2.0,Each,287.5,575.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,3.0,Each,825.0,2475.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,3.0,Each,287.5,862.5,70.0,Direct match by ID
+plumbing,Plumbing Sink(s) (Rough-in),pl3,2.0,Each,550.0,1100.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,2.0,Each,187.5,375.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2.0,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,2.0,Each,287.5,575.0,70.0,Direct match by ID
+hvac,HVAC Registers,me9,59.0,Each ,190.0,11210.0,70.0,Direct match by ID
+hvac,HVAC Returns,me10,18.0,Each ,190.0,3420.0,70.0,Direct match by ID
+roofing,Roofing Recoat Flat Roof,ro1,8775.0,Sq Ft,2.3,20182.5,70.0,Direct match by ID
+roofing,Roofing Tear Off and Replace Flat Roof,ro3,8775.0,Sq Ft,5.65,49578.75,70.0,Direct match by ID
+roofing,Roofing New Flat Roof,ro4,8775.0,Sq Ft,5.35,46946.25,70.0,Direct match by ID
+roofing,Roofing Tear Off and Replace Asphalt Shingle Roofing,ro6,8775.0,Sq Ft,4.85,42558.75,70.0,Direct match by ID
+roofing,Roofing New Asphalt Shingle Roofing,ro7,8775.0,Sq Ft,4.55,39926.25,70.0,Direct match by ID
+roofing,Roofing Tear Off and Replace Sandcast Tile Roofing,ro9,8775.0,Sq Ft,11.0,96525.0,70.0,Direct match by ID
+roofing,Roofing New Sandcast Tile Roofing,ro10,8775.0,Sq Ft,10.5,92137.5,70.0,Direct match by ID
+roofing,Roofing Tear Off and Replace Concrete Tile Roofing,ro12,8775.0,Sq Ft,4.5,39487.5,70.0,Direct match by ID
+roofing,Roofing New Concrete Tile Roofing,ro13,8775.0,Sq Ft,4.1,35977.5,70.0,Direct match by ID
+roofing,Roofing New Standing Seam Roofing,ro15,8775.0,Sq Ft,12.5,109687.5,70.0,Direct match by ID
+windows_doors,Slider Door Install,wd2,2.0,Each,1750.0,3500.0,70.0,Direct match by ID
+windows_doors,Slider Door Cost/Steel Door,wd4,2.0,Each,7750.0,15500.0,50.0,Direct match by ID
+tile,Tile Installation Shower Pan,ti6,50.0,Sq Ft,30.5,1525.0,70.0,Direct match by ID
+tile,Tile Installation Walls,ti5,320.0,Sq Ft,25.7,8224.0,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,240.0,Sq Ft,5.15,1236.0,70.0,Direct match by ID
+tile,Tile Shampoo Niche,ti8,10.0,Each,232.5,2325.0,70.0,Direct match by ID
+tile,Tile Metal Schluter,ti7,160.0,LF,8.0,1280.0,70.0,Direct match by ID
+tile,Tile Installation Shower Pan,ti6,48.0,Sq Ft,30.5,1464.0,70.0,Direct match by ID
+tile,Tile Installation Walls,ti5,300.0,Sq Ft,25.7,7710.0,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,180.0,Sq Ft,5.15,927.0000000000001,70.0,Direct match by ID
+tile,Tile Shampoo Niche,ti8,9.0,Each,232.5,2092.5,70.0,Direct match by ID
+tile,Tile Metal Schluter,ti7,150.0,LF,8.0,1200.0,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,70.0,Sq Ft,5.15,360.5,70.0,Direct match by ID
+tile,Tile Installation Walls,ti5,30.0,Sq Ft,25.7,771.0,70.0,Direct match by ID
+tile,Tile Metal Schluter,ti7,20.0,LF,8.0,160.0,70.0,Direct match by ID
+tile,Tile Installation Walls,ti5,106.0,Sq Ft,25.7,2724.2,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,25.0,Sq Ft,5.15,128.75,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,75.0,Sq Ft,5.15,386.25,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,60.0,Sq Ft,5.15,309.0,70.0,Direct match by ID
+tile,Tile Floor Installation,ti2,150.0,Sq Ft,5.15,772.5,70.0,Direct match by ID
+painting_coatings,Paint Lids,pc5,6500.0,Sq Ft,1.0,6500.0,70.0,Direct match by ID
+painting_coatings,Paint/Stain Doors,pc8,26.0,Each,375.0,9750.0,70.0,Direct match by ID
+painting_coatings,Roman Clay / Venetian,pc1,3315.0,Sq Ft,5.0,16575.0,70.0,Direct match by ID
+painting_coatings,Paint Exterior,pc6,16250.0,Sq Ft,1.5,24375.0,70.0,Direct match by ID
+cabinetry,Cabinets Custom Stain Grade,ca2,43.0,LF,1025.0,44075.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Stain Grade,ca2,36.5,LF,1025.0,37412.5,50.0,Direct match by ID
+cabinetry,Cabinets Custom Stain Grade,ca2,17.5,LF,1025.0,17937.5,50.0,Direct match by ID
+cabinetry,Cabinets Custom Full-Height,ca3,13.0,LF,1250.0,16250.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Paint Grade,ca1,30.0,LF,750.0,22500.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Paint Grade,ca1,15.8,LF,750.0,11850.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Paint Grade,ca1,5.0,LF,750.0,3750.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Paint Grade,ca1,6.0,LF,750.0,4500.0,50.0,Direct match by ID
+cabinetry,Cabinets Custom Paint Grade,ca1,8.0,LF,750.0,6000.0,50.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,91.0,Sq Ft,80.0,7280.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Direct match by ID
+countertops,Countertop Fabrication Vanity(ies),co5,8.0,Each,200.0,1600.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,96.0,Sq Ft,80.0,7680.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,54.0,Sq Ft,80.0,4320.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,24.0,Sq Ft,80.0,1920.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,133.0,Sq Ft,80.0,10640.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,74.0,Sq Ft,80.0,5920.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,50.0,Sq Ft,80.0,4000.0,70.0,Direct match by ID
+countertops,Countertop Fabrication/Installation,co1,38.0,Sq Ft,80.0,3040.0,70.0,Direct match by ID
+cleaning,Final Clean,cl2,6500.0,Sq Ft,0.65,4225.0,70.0,Direct match by ID
+cleaning,Windows,cl3,52.0,Each,25.0,1300.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Single Prehung),fc3,26.0,Each,250.0,6500.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4.0,Each,325.0,1300.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4.0,Each,325.0,1300.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2.0,Each,350.0,700.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2.0,Each,350.0,700.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Base Install,fc1,5140.0,LF,3.0,15420.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Base Material,fc9,5140.0,LF,3.25,16705.0,30.0,Direct match by ID
+finish_carpentry,Finish Carpentry Case Material,fc10,320.0,LF,3.25,1040.0,30.0,Direct match by ID
+thermal_fire_suppression,Regualr Drops,fs2,39.0,Each,,,70.0,Direct match by ID
+preparations_preliminaries,Portable Toilet,pr1,2.0,Monthly,350.0,700.0,70.0,Direct match by ID
+preparations_preliminaries,Superintendent,pr7,1082.0,Monthly,3250.0,3516500.0,0.0,Direct match by ID
+preparations_preliminaries,Project Manager,pr5,433.0,Monthly,2600.0,1125800.0,0.0,Direct match by ID

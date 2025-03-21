@@ -195,7 +195,7 @@ Tile Float Floor,0.5,2.5,1.5,SF,,70,9300,Tile,ti1,Sq Ft,tile float floor,float f
 Tile Floor Installation,4.3,6,5.15,SF,,70,9300,Tile,ti2,Sq Ft,tile floor installation,floor installation tile,General,Other,tile,Economy,Premium
 Tile Floor Material,6,15,10.5,SF,0,30,9300,Tile,ti3,Sq Ft,tile floor material,floor material tile,General,Other,tile,Standard,Luxury
 Tile Upstairs Tile Floor Installation,7.5,10.5,9,EA,,70,9300,Tile,ti4,EA,tile upstairs tile floor installation,floor installation tile upstairs,General,Other,tile,Standard,Luxury
-Tile Installation Walls,21.4,30,25.7,SF,,70,9300,Tile,ti5,Sq Ft,tile installation walls,installation tile walls,General,Other,tile,Standard,Luxury
+Tile Installation Walls,22,32,26.7,SF,,70,9300,Tile,ti5,Sq Ft,tile installation walls,installation tile walls,General,Other,tile,Standard,Luxury
 Tile Installation Shower Pan,29,32,30.5,SF,,70,9300,Tile,ti6,Sq Ft,tile installation shower pan,installation pan shower tile,General,Other,tile,Premium,Ultra-Luxury
 Tile Metal Schluter,8,8,8,LF,,70,9300,Tile,ti7,LF,tile metal schluter,metal schluter tile,General,Other,tile,Economy,Premium
 Tile Shampoo Niche,115,350,232.5,EA,,70,9300,Tile,ti8,Each,tile shampoo niche,niche shampoo tile,General,Other,tile,Premium,Ultra-Luxury

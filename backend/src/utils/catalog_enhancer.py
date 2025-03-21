@@ -5,6 +5,7 @@ import re
 import os
 import logging
 from pathlib import Path
+from src.core.material_constants import MATERIAL_CATEGORIES
 
 logger = logging.getLogger(__name__)
 
@@ -78,6 +79,9 @@ class CatalogEnhancer:
         
         # 5. Add mapping attributes
         enhanced = self._add_mapping_attributes(enhanced)
+        
+        # 6. Enhance catalog with material information
+        enhanced = self._enhance_catalog(enhanced)
         
         return enhanced
     
@@ -323,6 +327,60 @@ class CatalogEnhancer:
         df['ConstructionTier'] = df['QualityTier'].map(tier_mapping)
         
         return df
+
+    def _enhance_catalog(self, catalog_df):
+        """Enhance catalog with material information"""
+        # Make a copy to avoid modifying the original
+        enhanced = catalog_df.copy()
+        
+        # Add material-related columns
+        enhanced['is_material_only'] = False
+        enhanced['material_cost_pct'] = 0  # % of cost that is material
+        enhanced['MaterialTier'] = None
+        
+        # Identify material-only items in specified categories
+        self._identify_material_items(enhanced)
+        
+        # Classify materials by tier based on cost
+        self._classify_materials_by_tier(enhanced)
+        
+        # Split costs between labor and material
+        self._split_labor_material_costs(enhanced)
+        
+        return enhanced
+
+    def _identify_material_items(self, df):
+        """Identify which items are material-only or have material components"""
+        # Add logic to identify material-only items
+        material_categories = ['Concrete', 'Lumber', 'Steel', 'Insulation', 'Drywall', 'Paint', 'Tile', 'Cabinets', 'Countertops', 'Doors', 'Windows', 'Roofing']
+        df['is_material_only'] = df['Category'].apply(lambda x: x in material_categories)
+        
+    def _classify_materials_by_tier(self, df):
+        """Classify materials into tiers based on cost within each category"""
+        for category in df['Category'].unique():
+            if pd.isna(category):
+                continue
+                
+            category_items = df[df['Category'] == category]
+            
+            if len(category_items) < 2 or 'Cost(Mid)' not in category_items.columns:
+                continue
+                
+            # Calculate percentiles for this category
+            low_threshold = category_items['Cost(Mid)'].quantile(0.33)
+            high_threshold = category_items['Cost(Mid)'].quantile(0.67)
+            
+            # Assign tiers based on cost
+            df.loc[(df['Category'] == category) & (df['Cost(Mid)'] <= low_threshold), 'MaterialTier'] = 'Economy'
+            df.loc[(df['Category'] == category) & (df['Cost(Mid)'] > low_threshold) & 
+                   (df['Cost(Mid)'] <= high_threshold), 'MaterialTier'] = 'Standard'
+            df.loc[(df['Category'] == category) & (df['Cost(Mid)'] > high_threshold), 'MaterialTier'] = 'Premium'
+        
+    def _split_labor_material_costs(self, df):
+        """Split costs between labor and material components"""
+        df['material_cost_pct'] = df['is_material_only'].apply(lambda x: 1.0 if x else 0.5)
+        df['LaborCost'] = df['Cost(Mid)'] * (1 - df['material_cost_pct'])
+        df['MaterialCost'] = df['Cost(Mid)'] * df['material_cost_pct']
 
 def main():
     """Main function when run as a script"""

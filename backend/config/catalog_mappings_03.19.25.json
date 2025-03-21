@@ -1,0 +1,628 @@
+{
+    "category_mappings": {
+        "foundation": {
+            "catalog_categories": ["Foundation", "Concrete", "Excavation"],
+            "description": "Foundation and concrete work",
+            "estimation_formulas": {
+                "concrete_cy": "calculate_concrete",
+                "waterproofing_sf": "calculate_waterproofing"
+            },
+            "item_mappings": {
+                "slab_concrete_cy": {
+                    "item_ids": [],
+                    "search_terms": ["slab", "concrete", "foundation"]
+                },
+                "footing_concrete_cy": {
+                    "item_ids": [],
+                    "search_terms": ["footing", "footer", "foundation"]
+                },
+                "footing18_concrete_lf": {
+                    "item_ids": ["cm10"],
+                    "search_terms": ["footing", "18 inch", "concrete"]
+                },
+                "footing24_concrete_lf": {
+                    "item_ids": ["cm11"],
+                    "search_terms": ["footing", "24 inch", "concrete"]
+                },
+                "slab4_concrete_sf": {
+                    "item_ids": ["cm13"],
+                    "search_terms": ["slab", "4 inch", "concrete"]
+                },
+                "slab6_concrete_sf": {
+                    "item_ids": ["cm14"],
+                    "search_terms": ["slab", "6 inch", "concrete"]
+                }
+            }
+        },
+        "structural": {
+            "catalog_categories": ["Framing", "Structural Steel", "Trusses"],
+            "description": "Structural framework including framing and steel",
+            "estimation_formulas": {
+                "framing_bf": "calculate_framing",
+                "steel_lbs": "calculate_steel"
+            },
+            "item_mappings": {
+                "framing_liveable_sf": {
+                    "item_ids": ["fr1"],
+                    "search_terms": ["framing", "liveable", "living space"]
+                },
+                "framing_garage_sf": {
+                    "item_ids": ["fr2"],
+                    "search_terms": ["framing", "garage"]
+                },
+                "framing_patio_sf": {
+                    "item_ids": ["fr3"],
+                    "search_terms": ["framing", "patio", "outdoor"]
+                }
+            }
+        },
+        "electrical": {
+            "catalog_categories": ["Electrical", "Lighting"],
+            "description": "Electrical systems and lighting",
+            "estimation_formulas": {
+                "outlets_switches": "calculate_electrical"
+            },
+            "item_mappings": {
+                "recessed_lights": {
+                    "item_ids": ["el9"],
+                    "search_terms": ["recessed", "can light", "pot light"]
+                },
+                "recessed_lights_luxury": {
+                    "item_ids": ["el25"],
+                    "search_terms": ["recessed", "luxury", "high-end"]
+                },
+                "recessed_lights_ultra": {
+                    "item_ids": ["el26"],
+                    "search_terms": ["recessed", "ultra", "premium"]
+                },
+                "chandeliers": {
+                    "item_ids": ["el13"],
+                    "search_terms": ["chandelier", "hanging light"]
+                },
+                "pendants": {
+                    "item_ids": ["el13"],
+                    "search_terms": ["pendant", "hanging light"]
+                },
+                "closet_lights": {
+                    "item_ids": ["el9"],
+                    "search_terms": ["closet", "light"]
+                },
+                "standard_outlets": {
+                    "item_ids": ["el7"],
+                    "search_terms": ["outlet", "receptacle", "plug"]
+                },
+                "gfci_outlets": {
+                    "item_ids": ["el6"],
+                    "search_terms": ["gfci", "ground fault", "bathroom outlet", "kitchen outlet"]
+                },
+                "usb_outlets": {
+                    "item_ids": ["el6"],
+                    "search_terms": ["usb", "charging outlet"]
+                },
+                "floor_outlets": {
+                    "item_ids": ["el30"],
+                    "search_terms": ["floor outlet", "floor box"]
+                },
+                "single_pole_switches": {
+                    "item_ids": ["el10"],
+                    "search_terms": ["switch", "single pole"]
+                },
+                "three_way_switches": {
+                    "item_ids": ["el10"],
+                    "search_terms": ["three way", "3-way", "multiple location"]
+                },
+                "dimmer_switches": {
+                    "item_ids": ["el10"],
+                    "search_terms": ["dimmer", "light control"]
+                },
+                "toe_kick_lights": {
+                    "item_ids": ["el11"],
+                    "search_terms": ["toe kick", "baseboard light"]
+                },
+                "main_panel_size": {
+                    "item_ids": ["el14", "el15", "el16"],
+                    "search_terms": ["electrical panel", "main panel", "breaker panel"]
+                },
+                "sub_panels_125amp": {
+                    "item_ids": ["el17"],
+                    "search_terms": ["sub panel", "125 amp"]
+                },
+                "sub_panels_200amp": {
+                    "item_ids": ["el18"],
+                    "search_terms": ["sub panel", "200 amp"]
+                }
+            }
+        },
+        "plumbing": {
+            "catalog_categories": ["Plumbing", "Fixtures"],
+            "description": "Plumbing systems and fixtures",
+            "estimation_formulas": {
+                "plumbing_fixtures": "calculate_plumbing"
+            },
+            "item_mappings": {
+                "primary_shower_valves": {
+                    "item_ids": ["pl2"],
+                    "search_terms": ["shower valve", "shower faucet", "primary bath"]
+                },
+                "secondary_shower_valves": {
+                    "item_ids": ["pl1"],
+                    "search_terms": ["shower valve", "shower faucet", "secondary bath"]
+                },
+                "primary_sinks": {
+                    "item_ids": ["pl3", "pl23"],
+                    "search_terms": ["sink", "lavatory", "vanity sink", "primary bath"]
+                },
+                "secondary_sinks": {
+                    "item_ids": ["pl3", "pl23"],
+                    "search_terms": ["sink", "lavatory", "vanity sink", "secondary bath"]
+                },
+                "powder_room_sinks": {
+                    "item_ids": ["pl3", "pl23"],
+                    "search_terms": ["sink", "lavatory", "powder room"]
+                },
+                "primary_bathtubs": {
+                    "item_ids": ["pl4", "pl5", "pl19", "pl22"],
+                    "search_terms": ["bathtub", "tub", "soaking", "primary bath"]
+                },
+                "secondary_bathtubs": {
+                    "item_ids": ["pl4", "pl6", "pl19", "pl22"],
+                    "search_terms": ["bathtub", "tub", "secondary bath"]
+                },
+                "primary_toilets": {
+                    "item_ids": ["pl4", "pl22"],
+                    "search_terms": ["toilet", "water closet", "primary bath"]
+                },
+                "secondary_toilets": {
+                    "item_ids": ["pl4", "pl22"],
+                    "search_terms": ["toilet", "water closet", "secondary bath"]
+                },
+                "powder_room_toilets": {
+                    "item_ids": ["pl4", "pl22"],
+                    "search_terms": ["toilet", "water closet", "powder room"]
+                },
+                "tankless_water_heaters": {
+                    "item_ids": ["pl34"],
+                    "search_terms": ["tankless", "water heater", "on-demand"]
+                }
+            }
+        },
+        "hvac": {
+            "catalog_categories": ["HVAC", "Mechanical"],
+            "description": "Heating, ventilation and air conditioning",
+            "estimation_formulas": {
+                "hvac_tonnage": "calculate_hvac"
+            },
+            "item_mappings": {
+                "system_2_ton": {
+                    "item_ids": ["me1"],
+                    "search_terms": ["hvac", "2 ton", "system"]
+                },
+                "system_3_ton": {
+                    "item_ids": ["me2"],
+                    "search_terms": ["hvac", "3 ton", "system"]
+                },
+                "system_4_ton": {
+                    "item_ids": ["me3"],
+                    "search_terms": ["hvac", "4 ton", "system"]
+                },
+                "system_5_ton": {
+                    "item_ids": ["me4"],
+                    "search_terms": ["hvac", "5 ton", "system"]
+                },
+                "mini_split": {
+                    "item_ids": ["me5"],
+                    "search_terms": ["mini split", "ductless"]
+                },
+                "thermostats": {
+                    "item_ids": ["me6"],
+                    "search_terms": ["thermostat", "temperature control"]
+                },
+                "registers": {
+                    "item_ids": ["me9"],
+                    "search_terms": ["register", "vent", "air supply"]
+                },
+                "returns": {
+                    "item_ids": ["me10"],
+                    "search_terms": ["return", "return air", "air return"]
+                },
+                "exhaust_fans": {
+                    "item_ids": ["me11"],
+                    "search_terms": ["exhaust fan", "bathroom fan", "ventilation"]
+                },
+                "range_hood_exhaust": {
+                    "item_ids": ["me12"],
+                    "search_terms": ["range hood", "kitchen exhaust", "cooktop ventilation"]
+                },
+                "registers_drywall_flooring": {
+                    "item_ids": ["me13"],
+                    "search_terms": ["floor register", "drywall register"]
+                },
+                "registers_linear": {
+                    "item_ids": ["me14"],
+                    "search_terms": ["linear register", "slot register"]
+                }
+            }
+        },
+        "drywall_interior": {
+            "catalog_categories": ["Drywall", "Plaster"],
+            "description": "Interior drywall, plaster, and wallboard systems",
+            "estimation_formulas": {
+                "drywall_sf": "calculate_drywall",
+                "plaster_sf": "calculate_plaster"
+            },
+            "item_mappings": {
+                "drywall_area_sf": {
+                    "item_ids": ["dr1"],
+                    "search_terms": ["drywall", "sheetrock", "gypsum board"]
+                }
+            }
+        },
+        "roofing": {
+            "catalog_categories": ["Roofing"],
+            "description": "Roofing systems and materials",
+            "estimation_formulas": {
+                "roofing_sf": "calculate_roofing"
+            },
+            "item_mappings": {
+                "roof_area_sf": {
+                    "item_ids": ["ro1", "ro3", "ro4", "ro6", "ro7", "ro9", "ro10", "ro12", "ro13", "ro15"],
+                    "search_terms": ["roof", "roofing", "roof area", "shingles"]
+                }
+            }
+        },
+        "windows_doors": {
+            "catalog_categories": ["Doors", "Windows"],
+            "description": "Doors and windows",
+            "estimation_formulas": {
+                "doors_count": "calculate_doors",
+                "windows_count": "calculate_windows"
+            },
+            "item_mappings": {
+                "patio_door_sets": {
+                    "item_ids": ["wd2", "wd4"],
+                    "search_terms": ["patio door", "sliding door", "french door"]
+                }
+            }
+        },
+        "tile": {
+            "catalog_categories": ["Tile", "Masonry"],
+            "description": "Tile and masonry installation",
+            "estimation_formulas": {
+                "tile_sf": "calculate_tile"
+            },
+            "item_mappings": {
+                "primary_bath_floor_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["tile", "floor", "primary bath", "bathroom floor"]
+                },
+                "secondary_bath_floor_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["tile", "floor", "secondary bath", "bathroom floor"]
+                },
+                "powder_room_floor_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["tile", "floor", "powder room"]
+                },
+                "kitchen_backsplash_tile_sf": {
+                    "item_ids": ["ti5"],
+                    "search_terms": ["backsplash", "kitchen tile", "wall tile"]
+                },
+                "primary_bath_shower_walls_sf": {
+                    "item_ids": ["ti5"],
+                    "search_terms": ["shower wall", "bathroom wall", "tile wall"]
+                },
+                "secondary_bath_shower_walls_sf": {
+                    "item_ids": ["ti5"],
+                    "search_terms": ["shower wall", "bathroom wall", "tile wall"]
+                },
+                "powder_room_accent_wall_sf": {
+                    "item_ids": ["ti5"],
+                    "search_terms": ["accent wall", "powder room", "feature wall"]
+                },
+                "primary_bath_shower_floor_sf": {
+                    "item_ids": ["ti6"],
+                    "search_terms": ["shower floor", "shower pan", "shower base"]
+                },
+                "secondary_bath_shower_floor_sf": {
+                    "item_ids": ["ti6"],
+                    "search_terms": ["shower floor", "shower pan", "shower base"]
+                },
+                "primary_bath_schluter_lf": {
+                    "item_ids": ["ti7"],
+                    "search_terms": ["schluter", "edge trim", "tile edge"]
+                },
+                "secondary_bath_schluter_lf": {
+                    "item_ids": ["ti7"],
+                    "search_terms": ["schluter", "edge trim", "tile edge"]
+                },
+                "powder_room_schluter_lf": {
+                    "item_ids": ["ti7"],
+                    "search_terms": ["schluter", "edge trim", "tile edge"]
+                },
+                "primary_bath_niches_sf": {
+                    "item_ids": ["ti8"],
+                    "search_terms": ["niche", "shower niche", "recessed shelf"]
+                },
+                "secondary_bath_niches_sf": {
+                    "item_ids": ["ti8"],
+                    "search_terms": ["niche", "shower niche", "recessed shelf"]
+                },
+                "entry_foyer_tile_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["entry", "foyer", "entryway", "tile floor"]
+                },
+                "laundry_room_tile_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["laundry", "utility room", "tile floor"]
+                },
+                "mudroom_tile_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["mudroom", "mud room", "entry room", "tile floor"]
+                },
+                "butlers_kitchen_tile_sf": {
+                    "item_ids": ["ti2"],
+                    "search_terms": ["butler's pantry", "butler kitchen", "prep kitchen", "tile floor"]
+                }
+            }
+        },
+        "painting_coatings": {
+            "catalog_categories": ["Paint", "Coatings"],
+            "description": "Painting and surface coatings",
+            "estimation_formulas": {
+                "paint_gallons": "calculate_paint"
+            },
+            "item_mappings": {
+                "ceiling_area_sf": {
+                    "item_ids": ["pc5"],
+                    "search_terms": ["ceiling paint", "ceiling finish", "ceiling coating"]
+                },
+                "exterior_wall_area_sf": {
+                    "item_ids": ["pc6"],
+                    "search_terms": ["exterior paint", "outdoor paint", "siding paint"]
+                },
+                "interior_door_count": {
+                    "item_ids": ["pc8"],
+                    "search_terms": ["door painting", "door finish", "trim paint"]
+                },
+                "specialty_finish_area_sf": {
+                    "item_ids": ["pc1"],
+                    "search_terms": ["faux finish", "specialty coating", "decorative finish"]
+                }
+            }
+        },
+        "cabinetry": {
+            "catalog_categories": ["Cabinetry", "Millwork", "Countertops"],
+            "description": "Cabinetry and countertops",
+            "estimation_formulas": {
+                "cabinets_lf": "calculate_cabinetry",
+                "countertops_sf": "calculate_countertops"
+            },
+            "item_mappings": {
+                "kitchen_base_cabinets_lf": {
+                    "item_ids": ["ca2"],
+                    "search_terms": ["base cabinet", "kitchen cabinet", "lower cabinet"]
+                },
+                "kitchen_wall_cabinets_lf": {
+                    "item_ids": ["ca2"],
+                    "search_terms": ["wall cabinet", "upper cabinet", "kitchen cabinet"]
+                },
+                "kitchen_island_lf": {
+                    "item_ids": ["ca2"],
+                    "search_terms": ["island", "kitchen island", "center island"]
+                },
+                "kitchen_full_height_cabinets_lf": {
+                    "item_ids": ["ca3"],
+                    "search_terms": ["pantry", "tall cabinet", "utility cabinet"]
+                },
+                "primary_bath_vanity_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["vanity", "bathroom cabinet", "sink cabinet"]
+                },
+                "secondary_bath_vanity_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["vanity", "bathroom cabinet", "sink cabinet"]
+                },
+                "powder_room_vanity_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["vanity", "bathroom cabinet", "powder room"]
+                },
+                "butlers_pantry_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["butler's pantry", "serving area", "prep area"]
+                },
+                "office_cabinetry_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["office cabinet", "desk cabinet", "built-in desk"]
+                },
+                "media_room_cabinetry_lf": {
+                    "item_ids": ["ca1"],
+                    "search_terms": ["media cabinet", "entertainment center", "audio cabinet"]
+                }
+            }
+        },
+        "countertops": {
+            "catalog_categories": ["Countertops"],
+            "description": "Solid surface and stone countertops",
+            "estimation_formulas": {
+                "countertops_sf": "calculate_countertops"
+            },
+            "item_mappings": {
+                "kitchen_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["countertop", "kitchen counter", "work surface"]
+                },
+                "butlers_pantry_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["countertop", "butler's pantry", "serving counter"]
+                },
+                "primary_bath_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["countertop", "vanity top", "bathroom counter"]
+                },
+                "secondary_bath_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["countertop", "vanity top", "bathroom counter"]
+                },
+                "powder_room_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["countertop", "vanity top", "powder room"]
+                },
+                "quartz_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["quartz", "engineered stone", "quartz surface"]
+                },
+                "granite_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["granite", "natural stone", "granite countertop"]
+                },
+                "marble_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["marble", "natural stone", "marble countertop"]
+                },
+                "quartzite_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["quartzite", "natural stone", "quartzite countertop"]
+                },
+                "specialty_countertops_sf": {
+                    "item_ids": ["co1"],
+                    "search_terms": ["specialty counter", "custom countertop", "unique material"]
+                },
+                "waterfall_edges_lf": {
+                    "item_ids": ["co5"],
+                    "search_terms": ["waterfall edge", "waterfall counter", "vertical edge"]
+                }
+            }
+        },
+        "landscape_hardscape": {
+            "catalog_categories": ["Landscape", "Hardscape"],
+            "description": "Landscaping and hardscaping",
+            "estimation_formulas": {
+                "landscape_sf": "calculate_landscape",
+                "hardscape_sf": "calculate_hardscape"
+            }
+        },
+        "cleaning": {
+            "catalog_categories": ["Cleaning", "Final Touches"],
+            "description": "Post-construction cleaning and touch-ups",
+            "estimation_formulas": {
+                "cleaning_sf": "calculate_cleaning"
+            },
+            "item_mappings": {
+                "rough_cleaning_sf": {
+                    "item_ids": ["cl1"],
+                    "search_terms": ["rough clean", "construction cleanup", "debris removal"]
+                },
+                "final_cleaning_sf": {
+                    "item_ids": ["cl2"],
+                    "search_terms": ["final clean", "detailed cleaning", "move-in ready"]
+                },
+                "window_cleaning_count": {
+                    "item_ids": ["cl3"],
+                    "search_terms": ["window cleaning", "glass cleaning", "window washing"]
+                },
+                "power_washing_count": {
+                    "item_ids": ["cl4"],
+                    "search_terms": ["power wash", "pressure wash", "exterior cleaning"]
+                },
+                "duct_cleaning_count": {
+                    "item_ids": ["cl5"],
+                    "search_terms": ["duct cleaning", "hvac cleaning", "air system cleaning"]
+                }
+            }
+        },
+        "finish_carpentry": {
+            "catalog_categories": ["Millwork", "Trim", "Carpentry"],
+            "description": "Finish carpentry including millwork, baseboards, and molding",
+            "estimation_formulas": {
+                "trim_lf": "calculate_trim",
+                "millwork_lf": "calculate_millwork"
+            },
+            "item_mappings": {
+                "baseboard_lf": {
+                    "item_ids": ["fc1", "fc9"],
+                    "search_terms": ["baseboard", "base trim", "base molding"]
+                },
+                "door_casing_lf": {
+                    "item_ids": ["fc10"],
+                    "search_terms": ["door casing", "door trim", "door jamb"]
+                },
+                "single_doors": {
+                    "item_ids": ["fc3"],
+                    "search_terms": ["interior door", "single door", "passage door"]
+                },
+                "double_doors": {
+                    "item_ids": ["fc4"],
+                    "search_terms": ["double door", "french door", "double entry"]
+                },
+                "pocket_doors": {
+                    "item_ids": ["fc4"],
+                    "search_terms": ["pocket door", "sliding door", "concealed door"]
+                },
+                "exterior_utility_doors": {
+                    "item_ids": ["fc5"],
+                    "search_terms": ["exterior door", "utility door", "service door"]
+                },
+                "garage_man_doors": {
+                    "item_ids": ["fc5"],
+                    "search_terms": ["garage door", "man door", "garage entry"]
+                }
+            }
+        },
+        "thermal_fire_suppression": {
+            "catalog_categories": ["Insulation", "Fire Protection"],
+            "description": "Thermal insulation and fire suppression systems",
+            "item_mappings": {
+                "fire_sprinkler_heads": {
+                    "item_ids": ["fs2"],
+                    "search_terms": ["sprinkler head", "fire sprinkler", "suppression head"]
+                }
+            }
+        },
+        "preparations_preliminaries": {
+            "catalog_categories": ["Site Prep", "Temporary Facilities"],
+            "description": "Site preparation and temporary facilities",
+            "item_mappings": {
+                "portable_toilets": {
+                    "item_ids": ["pr1"],
+                    "search_terms": ["portable toilet", "porta potty", "job site toilet"]
+                },
+                "protection_material": {
+                    "item_ids": ["pr4"],
+                    "search_terms": ["protection", "floor protection", "material protection"]
+                },
+                "project_manager_hours": {
+                    "item_ids": ["pr5"],
+                    "search_terms": ["project manager", "PM", "management hours"]
+                },
+                "project_coordinator_hours": {
+                    "item_ids": ["pr6"],
+                    "search_terms": ["coordinator", "project coordination", "coordination hours"]
+                },
+                "superintendent_hours": {
+                    "item_ids": ["pr7"],
+                    "search_terms": ["superintendent", "site super", "supervision hours"]
+                },
+                "project_administrator_hours": {
+                    "item_ids": ["pr8"],
+                    "search_terms": ["administrator", "admin", "administration hours"]
+                },
+                "carpenter_tool_person_hours": {
+                    "item_ids": ["pr10"],
+                    "search_terms": ["carpenter", "tool person", "labor hours"]
+                },
+                "construction_site_tech_hours": {
+                    "item_ids": ["pr11"],
+                    "search_terms": ["site tech", "technician", "technical hours"]
+                }
+            }
+        },
+        "specialty": {
+            "catalog_categories": ["Security", "Audio/Video", "Specialty"],
+            "description": "Specialty systems and features",
+            "estimation_formulas": {
+                "security": "calculate_security",
+                "av_systems": "calculate_av"
+            }
+        }
+    }
+}

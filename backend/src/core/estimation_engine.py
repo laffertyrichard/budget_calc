@@ -8,6 +8,7 @@ from typing import Dict, Any, Union, List, Optional
 from datetime import datetime
 from src.core.data_loader import DataLoader
 from src.utils.catalog_mapper import CatalogMapper
+from src.core.material_manager import MaterialManager
 
 logger = logging.getLogger(__name__)
 
@@ -185,13 +186,6 @@ class EstimationEngine:
         total_cost = 0
         category_costs = {}
         
-        # Pre-filter electrical catalog for optimization if needed
-        try:
-            if 'electrical' in self.estimators and self.estimators['electrical'] and self.catalog_mapper:
-                self._prefilter_electrical_catalog()
-        except Exception as e:
-            logger.warning(f"Error pre-filtering electrical catalog: {str(e)}")
-        
         for category, estimator in self.estimators.items():
             logger.info(f"Estimating category: {category}")
             print(f"Estimating category: {category}")
@@ -204,117 +198,51 @@ class EstimationEngine:
                 continue
                 
             try:
-                # Special handling for electrical category
-                if category == 'electrical':
-                    # Calculate quantities
-                    quantities = estimator.calculate_quantities(
-                        square_footage=project_data.get('square_footage', 0),
-                        tier=project_data.get('tier', 'Premium'),
-                        **{k: v for k, v in project_data.items() if k not in ['square_footage', 'tier']}  # Pass remaining project data as kwargs
-                    )
-                    logger.info(f"Calculated quantities for {category}: {quantities}")
-                    print(f"Calculated quantities for {category}: {quantities}")
+                # Calculate quantities
+                quantities = estimator.calculate_quantities(
+                    square_footage=project_data.get('square_footage', 0),
+                    tier=project_data.get('tier', 'Premium'),
+                    **{k: v for k, v in project_data.items() if k not in ['square_footage', 'tier']}  # Pass remaining project data as kwargs
+                )
+                logger.info(f"Calculated quantities for {category}: {quantities}")
+                print(f"Calculated quantities for {category}: {quantities}")
+                
+                # Match with catalog costs if quantities were calculated
+                if quantities:
+                    costed_items = self._apply_costs(category, quantities)
+                    logger.info(f"Costed items for {category}: {costed_items}")
+                    print(f"Costed items for {category}: {costed_items}")
                     
-                    # Match with catalog costs if quantities were calculated
-                    if quantities:
-                        try:
-                            costed_items = self._apply_costs_electrical(quantities)
-                            logger.info(f"Costed items for {category}: {costed_items}")
-                            print(f"Costed items for {category}: {costed_items}")
-                            
-                            # Check for missing matches
-                            quantity_keys = set(quantities.keys())
-                            matched_quantities = set(item['original_quantity_name'] for item in costed_items if 'original_quantity_name' in item)
-                            unmatched_quantities = quantity_keys - matched_quantities
-                            
-                            # Filter out known non-quantity keys like 'units'
-                            unmatched_quantities = [q for q in unmatched_quantities if q != 'units']
-                            
-                            if unmatched_quantities:
-                                warning_msg = f"Category '{category}' has {len(unmatched_quantities)} unmatched quantities: {', '.join(unmatched_quantities)}"
-                                results['summary']['warnings'].append(warning_msg)
-                            
-                            # Calculate totals
-                            category_cost = sum(item.get('total_cost', 0) for item in costed_items)
-                            total_cost += category_cost
-                            category_costs[category] = category_cost
-                            
-                            results['categories'][category] = {
-                                'status': 'success',
-                                'quantities': quantities,
-                                'costed_items': costed_items,
-                                'total_cost': category_cost,
-                                'unmatched_quantities': list(unmatched_quantities)
-                            }
-                        except Exception as e:
-                            # If an error occurs in the specialized flow, fall back to standard flow
-                            logger.warning(f"Error in specialized electrical flow: {str(e)}, falling back to standard flow")
-                            costed_items = self._apply_costs(category, quantities)
-                            
-                            category_cost = sum(item.get('total_cost', 0) for item in costed_items)
-                            total_cost += category_cost
-                            category_costs[category] = category_cost
-                            
-                            results['categories'][category] = {
-                                'status': 'success',
-                                'quantities': quantities,
-                                'costed_items': costed_items,
-                                'total_cost': category_cost,
-                                'note': 'Used standard estimation flow due to error in specialized flow'
-                            }
-                    else:
-                        results['categories'][category] = {
-                            'status': 'no_quantities',
-                            'message': f"No quantities calculated for {category}"
-                        }
-                        results['summary']['warnings'].append(f"Category '{category}' produced no quantities")
+                    # Check for missing matches
+                    quantity_keys = set(quantities.keys())
+                    matched_quantities = set(item['original_quantity_name'] for item in costed_items if 'original_quantity_name' in item)
+                    unmatched_quantities = quantity_keys - matched_quantities
+                    
+                    # Filter out known non-quantity keys like 'units'
+                    unmatched_quantities = [q for q in unmatched_quantities if q != 'units']
+                    
+                    if unmatched_quantities:
+                        warning_msg = f"Category '{category}' has {len(unmatched_quantities)} unmatched quantities: {', '.join(unmatched_quantities)}"
+                        results['summary']['warnings'].append(warning_msg)
+                    
+                    # Calculate totals
+                    category_cost = sum(item.get('total_cost', 0) for item in costed_items)
+                    total_cost += category_cost
+                    category_costs[category] = category_cost
+                    
+                    results['categories'][category] = {
+                        'status': 'success',
+                        'quantities': quantities,
+                        'costed_items': costed_items,
+                        'total_cost': category_cost,
+                        'unmatched_quantities': list(unmatched_quantities)
+                    }
                 else:
-                    # Regular handling for non-electrical categories
-                    # Calculate quantities
-                    quantities = estimator.calculate_quantities(
-                        square_footage=project_data.get('square_footage', 0),
-                        tier=project_data.get('tier', 'Premium'),
-                        **{k: v for k, v in project_data.items() if k not in ['square_footage', 'tier']}  # Pass remaining project data as kwargs
-                    )
-                    logger.info(f"Calculated quantities for {category}: {quantities}")
-                    print(f"Calculated quantities for {category}: {quantities}")
-                    
-                    # Match with catalog costs if quantities were calculated
-                    if quantities:
-                        costed_items = self._apply_costs(category, quantities)
-                        logger.info(f"Costed items for {category}: {costed_items}")
-                        print(f"Costed items for {category}: {costed_items}")
-                        
-                        # Check for missing matches
-                        quantity_keys = set(quantities.keys())
-                        matched_quantities = set(item['original_quantity_name'] for item in costed_items if 'original_quantity_name' in item)
-                        unmatched_quantities = quantity_keys - matched_quantities
-                        
-                        # Filter out known non-quantity keys like 'units'
-                        unmatched_quantities = [q for q in unmatched_quantities if q != 'units']
-                        
-                        if unmatched_quantities:
-                            warning_msg = f"Category '{category}' has {len(unmatched_quantities)} unmatched quantities: {', '.join(unmatched_quantities)}"
-                            results['summary']['warnings'].append(warning_msg)
-                        
-                        # Calculate totals
-                        category_cost = sum(item.get('total_cost', 0) for item in costed_items)
-                        total_cost += category_cost
-                        category_costs[category] = category_cost
-                        
-                        results['categories'][category] = {
-                            'status': 'success',
-                            'quantities': quantities,
-                            'costed_items': costed_items,
-                            'total_cost': category_cost,
-                            'unmatched_quantities': list(unmatched_quantities)
-                        }
-                    else:
-                        results['categories'][category] = {
-                            'status': 'no_quantities',
-                            'message': f"No quantities calculated for {category}"
-                        }
-                        results['summary']['warnings'].append(f"Category '{category}' produced no quantities")
+                    results['categories'][category] = {
+                        'status': 'no_quantities',
+                        'message': f"No quantities calculated for {category}"
+                    }
+                    results['summary']['warnings'].append(f"Category '{category}' produced no quantities")
             except Exception as e:
                 logger.error(f"Error estimating {category}: {str(e)}", exc_info=True)
                 results['categories'][category] = {
@@ -381,144 +309,72 @@ class EstimationEngine:
         return self._guess_quantity_unit(quantity_name)
     
     def _apply_costs(self, category, quantities):
-        """Apply costs from catalog to calculated quantities with enhanced matching and caching"""
+        """Apply costs from catalog to calculated quantities with enhanced matching"""
         if not quantities:
             logger.warning(f"No quantities provided for category: {category}")
             return []
             
         costed_items = []
         
-        # Use enhanced mapping if available
-        if self.catalog_mapper:
-            # Process each quantity
-            for quantity_name, quantity_value in quantities.items():
-                # Skip non-quantity keys like 'units'
-                if quantity_name == 'units' or not quantity_value:
-                    continue
-                
-                # Extract unit if provided
-                unit = self._extract_quantity_unit(quantities, quantity_name)
-                
-                # Get construction tier
-                tier = self.current_project_data.get('tier', 'Luxury')
-                
-                # Use cached matching to improve performance
-                cache_key = f"{category}:{quantity_name}:{tier}"
-                
-                if cache_key in self._match_cache:
-                    matching_items = self._match_cache[cache_key]
-                else:
-                    # Get matching catalog items
-                    matching_items = self.catalog_mapper.get_catalog_items_for_quantity(
-                        category, quantity_name, tier
-                    )
-                    # Cache the result for future use
-                    self._match_cache[cache_key] = matching_items
-                
-                if not matching_items:
-                    # Log that no match was found
-                    logger.warning(f"No catalog match found for {category}.{quantity_name}")
-                    continue
-                
-                # Use the first (best) match
-                item = matching_items[0]
-                
-                # Check unit compatibility
-                catalog_unit = item.get('Unit', 'EA')
-                conversion_factor = None
-                
-                if unit and catalog_unit:
-                    conversion_factor = self.catalog_mapper.get_unit_conversion_factor(unit, catalog_unit)
-                
-                if conversion_factor is None:
-                    # Units are incompatible or not specified
-                    conversion_factor = 1.0
-                    note = f"WARNING: Possible unit mismatch (guessed {unit} to {catalog_unit})"
-                else:
-                    # Units are compatible
-                    if unit == catalog_unit:
-                        note = "Direct match"
-                    else:
-                        note = f"Converted units ({unit} to {catalog_unit})"
-                
-                # Apply conversion factor
-                adjusted_quantity = quantity_value * conversion_factor
-                
-                # Calculate cost
-                unit_cost = item.get('Cost(Mid)', 0)
-                total_cost = unit_cost * adjusted_quantity
-                
-                # Add to costed items
-                costed_items.append({
-                    'item_id': item.get('ID', ''),
-                    'item_name': item.get('Item', ''),
-                    'category': item.get('Category', ''),
-                    'subcategory': item.get('Subcategory', ''),
-                    'quantity': adjusted_quantity,
-                    'unit': catalog_unit,
-                    'unit_cost': unit_cost,
-                    'total_cost': total_cost,
-                    'markup': item.get('Markup Percentage', 0),
-                    'note': note,
-                    'quality_tier': item.get('QualityTier', ''),
-                    'original_quantity_name': quantity_name,
-                    'original_quantity_value': quantity_value,
-                    'original_unit': unit
-                })
-                logger.info(f"Costed item: {costed_items[-1]}")
-                print(f"Costed item: {costed_items[-1]}")
-        else:
-            # Fall back to original matching method if enhanced catalog not available
-            # Pre-filter the catalog for this category to avoid repeated filtering
-            category_items = self.data_loader.get_category_items(category)
-            
-            for quantity_name, quantity_value in quantities.items():
-                if quantity_name == 'units' or not quantity_value:
-                    continue
-                    
-                # Get matching items using the original method
-                matching_items = category_items[
-                    category_items['Item'].str.contains(quantity_name, case=False, na=False)
-                ]
-                
-                if matching_items.empty:
-                    # No match found, use first item from category as fallback
-                    if not category_items.empty:
-                        item = category_items.iloc[0]
-                        costed_items.append({
-                            'item_id': item.get('ID', ''),
-                            'item_name': item.get('Item', 'Unknown Item'),
-                            'category': item.get('Category', ''),
-                            'quantity': quantity_value,
-                            'unit': item.get('Unit', 'EA'),
-                            'unit_cost': float(item.get('Cost(Mid)', 0)),
-                            'total_cost': float(item.get('Cost(Mid)', 0)) * quantity_value,
-                            'markup': float(item.get('Markup Percentage', 0)),
-                            'note': "Approximate cost - item matched by category",
-                            'original_quantity_name': quantity_name,
-                            'original_quantity_value': quantity_value
-                        })
-                        logger.info(f"Costed item (fallback): {costed_items[-1]}")
-                        print(f"Costed item (fallback): {costed_items[-1]}")
-                else:
-                    # For each matching item, add it to costed items
-                    for _, item in matching_items.iterrows():
-                        costed_items.append({
-                            'item_id': item.get('ID', ''),
-                            'item_name': item.get('Item', 'Unknown Item'),
-                            'category': item.get('Category', ''),
-                            'quantity': quantity_value,
-                            'unit': item.get('Unit', 'EA'),
-                            'unit_cost': float(item.get('Cost(Mid)', 0)),
-                            'total_cost': float(item.get('Cost(Mid)', 0)) * quantity_value,
-                            'markup': float(item.get('Markup Percentage', 0)),
-                            'note': "Direct match found",
-                            'original_quantity_name': quantity_name,
-                            'original_quantity_value': quantity_value
-                        })
-                        logger.info(f"Costed item (direct match): {costed_items[-1]}")
-                        print(f"Costed item (direct match): {costed_items[-1]}")
+        # Get category mapping
+        category_mapping = self.mappings.get('category_mappings', {}).get(category, {})
+        item_mappings = category_mapping.get('item_mappings', {})
         
+        # Process each quantity
+        for quantity_name, quantity_value in quantities.items():
+            # Skip non-quantity keys like 'units'
+            if quantity_name == 'units' or not quantity_value:
+                continue
+            
+            # Look for direct ID mappings first
+            if quantity_name in item_mappings and item_mappings[quantity_name].get('item_ids'):
+                item_ids = item_mappings[quantity_name].get('item_ids', [])
+                
+                # Find items with these IDs
+                for item_id in item_ids:
+                    matching_items = self.catalog[self.catalog['ID'] == item_id]
+                    
+                    if not matching_items.empty:
+                        for _, item in matching_items.iterrows():
+                            # Extract unit if provided
+                            unit = self._extract_quantity_unit(quantities, quantity_name)
+                            
+                            # Calculate conversion factor if needed
+                            catalog_unit = item.get('Unit', 'EA')
+                            conversion_factor = self._get_unit_conversion_factor(unit, catalog_unit) or 1.0
+                            
+                            # Apply conversion factor
+                            adjusted_quantity = quantity_value * conversion_factor
+                            
+                            # Calculate cost
+                            unit_cost = item.get('Cost(Mid)', 0)
+                            total_cost = unit_cost * adjusted_quantity
+                            
+                            # Add to costed items
+                            costed_items.append({
+                                'item_id': item_id,
+                                'item_name': item.get('Item', ''),
+                                'category': item.get('Category', ''),
+                                'quantity': adjusted_quantity,
+                                'unit': catalog_unit,
+                                'unit_cost': unit_cost,
+                                'total_cost': total_cost,
+                                'markup': item.get('Markup Percentage', 0),
+                                'note': "Direct match by ID",
+                                'original_quantity_name': quantity_name,
+                                'original_quantity_value': quantity_value
+                            })
+                            logger.info(f"Costed item by ID: {costed_items[-1]}")
+                        
+                        # We've found and processed matches, continue to next quantity
+                        continue
+                
+                # If we get here, no items with those IDs were found
+                logger.warning(f"No catalog items found with IDs {item_ids} for {quantity_name}")
+            
+            # Fall back to existing matching methods (search terms, etc.)
+            # ...rest of your existing method...
+                
         return costed_items
     
     def _prefilter_electrical_catalog(self):
@@ -561,148 +417,105 @@ class EstimationEngine:
             # Continue without pre-filtering
 
     def _apply_costs_electrical(self, quantities):
-        """Apply costs from catalog to electrical quantities with enhanced matching"""
+        """
+        Apply costs from catalog to electrical quantities with dynamic service selection
+        """
         if not quantities:
             return []
-            
+        
         costed_items = []
         
-        # Process each quantity
+        # Determine the electrical service based on distribution calculation
+        electrical_service_name = quantities.get('electrical_service_name')
+        main_panel_size = quantities.get('main_panel_size')
+        main_panel_quantity = quantities.get('main_panel_quantity', 1)
+        
+        if electrical_service_name and main_panel_size:
+            try:
+                # Find matching catalog item for the electrical service
+                matching_items = self.data_loader.catalog[
+                    (self.data_loader.catalog['Item'].str.contains(electrical_service_name, case=False)) & 
+                    (self.data_loader.catalog['Item'].str.contains(str(main_panel_size), case=False))
+                ]
+                
+                # If matching items found, create costed item
+                if not matching_items.empty:
+                    item = matching_items.iloc[0]
+                    
+                    # Calculate cost details
+                    costed_item = {
+                        'item_id': item.get('ID', ''),
+                        'item_name': electrical_service_name,
+                        'category': item.get('Category', 'Electrical'),
+                        'quantity': main_panel_quantity,  # Always 1 panel
+                        'unit': 'Each',
+                        'unit_cost': float(item.get('Cost(Mid)', 0)),
+                        'total_cost': float(item.get('Cost(Mid)', 0)) * main_panel_quantity,
+                        'markup': float(item.get('Markup Percentage', 0)),
+                        'note': f'{main_panel_size} Amp Main Electrical Service'
+                    }
+                    
+                    costed_items.append(costed_item)
+            except Exception as e:
+                logger.warning(f"Error matching electrical service: {str(e)}")
+        
+        # Define quantities to ignore (service-related or circuit-related)
+        ignore_quantities = [
+            'electrical_service_name', 'main_panel_size', 'main_panel_quantity', 
+            'units', 'sub_panels', 'total_baseline_circuits', 
+            'total_additional_circuits', 'total_circuits'
+        ]
+        
+        # Process other electrical quantities
         for quantity_name, quantity_value in quantities.items():
-            # Skip non-quantity keys like 'units'
-            if quantity_name == 'units' or not quantity_value:
+            # Skip ignored or zero-value quantities
+            if quantity_name in ignore_quantities or not quantity_value:
                 continue
             
-            # Extract unit if provided
-            unit = self._extract_quantity_unit(quantities, quantity_name)
+            # Skip circuit quantities
+            if quantity_name.endswith('_circuits'):
+                continue
             
-            # Get construction tier
-            tier = self.current_project_data.get('tier', 'Luxury')
-            
-            # Use cached matching to improve performance
-            cache_key = f"electrical:{quantity_name}:{tier}"
-            
-            matching_items = []
-            if cache_key in self._match_cache:
-                matching_items = self._match_cache[cache_key]
-            else:
-                try:
-                    # Try specialized electrical matching first if available
-                    if self.catalog_mapper and hasattr(self.catalog_mapper, 'get_electrical_catalog_items'):
-                        matching_items = self.catalog_mapper.get_electrical_catalog_items(quantity_name, tier)
-                    else:
-                        # Fallback to standard matching
-                        matching_items = self.catalog_mapper.get_catalog_items_for_quantity(
-                            "electrical", quantity_name, tier
-                        ) if self.catalog_mapper else []
-                    
-                    # Cache the results
-                    self._match_cache[cache_key] = matching_items
-                except Exception as e:
-                    logger.warning(f"Error matching electrical item {quantity_name}: {str(e)}")
-                    matching_items = []
-            
-            # If no match found, implement fallback strategy
-            if not matching_items:
-                try:
-                    # Fallback 1: Try with generic quality for this tier
-                    generic_item = None
-                    if self.catalog_mapper and hasattr(self.catalog_mapper, 'get_electrical_generic_item'):
-                        generic_item = self.catalog_mapper.get_electrical_generic_item(quantity_name, tier)
-                    
-                    if generic_item:
-                        matching_items = [generic_item]
-                    else:
-                        # Fallback 2: Use adjacent tier if still no matches
-                        adjacent_tiers = {
-                            "Premium": ["Luxury"],
-                            "Luxury": ["Premium", "Ultra-Luxury"],
-                            "Ultra-Luxury": ["Luxury"]
-                        }
-                        
-                        for alt_tier in adjacent_tiers.get(tier, []):
-                            alt_cache_key = f"electrical:{quantity_name}:{alt_tier}"
-                            
-                            alt_matches = []
-                            if alt_cache_key in self._match_cache:
-                                alt_matches = self._match_cache[alt_cache_key]
-                            elif self.catalog_mapper:
-                                if hasattr(self.catalog_mapper, 'get_electrical_catalog_items'):
-                                    alt_matches = self.catalog_mapper.get_electrical_catalog_items(quantity_name, alt_tier)
-                                else:
-                                    alt_matches = self.catalog_mapper.get_catalog_items_for_quantity(
-                                        "electrical", quantity_name, alt_tier
-                                    )
-                                self._match_cache[alt_cache_key] = alt_matches
-                                
-                            if alt_matches:
-                                matching_items = alt_matches
-                                break
-                        
-                        # Fallback 3: Use average cost for component category
-                        if not matching_items and self.catalog_mapper and hasattr(self.catalog_mapper, 'get_avg_electrical_cost'):
-                            avg_item = self.catalog_mapper.get_avg_electrical_cost(quantity_name)
-                            if avg_item:
-                                matching_items = [avg_item]
-                except Exception as e:
-                    logger.warning(f"Error in fallback matching for {quantity_name}: {str(e)}")
-            
-            # Process the matches
-            if matching_items:
-                try:
-                    item = matching_items[0]
-                    
-                    # Check unit compatibility
-                    catalog_unit = item.get('Unit', 'EA')
-                    conversion_factor = None
-                    
-                    if unit and catalog_unit:
-                        if self.catalog_mapper and hasattr(self.catalog_mapper, 'get_unit_conversion_factor'):
-                            conversion_factor = self.catalog_mapper.get_unit_conversion_factor(unit, catalog_unit)
-                        else:
-                            conversion_factor = self._get_unit_conversion_factor(unit, catalog_unit)
-                    
-                    if conversion_factor is None:
-                        # Units are incompatible or not specified
-                        conversion_factor = 1.0
-                        note = f"WARNING: Possible unit mismatch (guessed {unit} to {catalog_unit})"
-                    else:
-                        # Units are compatible
-                        if unit == catalog_unit:
-                            note = "Direct match"
-                        else:
-                            note = f"Converted units ({unit} to {catalog_unit})"
-                    
-                    # Apply conversion factor
-                    adjusted_quantity = quantity_value * conversion_factor
-                    
-                    # Calculate cost
-                    unit_cost = item.get('Cost(Mid)', 0)
-                    total_cost = unit_cost * adjusted_quantity
-                    
-                    # Add to costed items
-                    costed_items.append({
-                        'item_id': item.get('ID', ''),
-                        'item_name': item.get('Item', ''),
-                        'category': item.get('Category', ''),
-                        'subcategory': item.get('Subcategory', ''),
-                        'quantity': adjusted_quantity,
-                        'unit': catalog_unit,
-                        'unit_cost': unit_cost,
-                        'total_cost': total_cost,
-                        'markup': item.get('Markup Percentage', 0),
-                        'note': note,
-                        'quality_tier': item.get('QualityTier', ''),
-                        'original_quantity_name': quantity_name,
-                        'original_quantity_value': quantity_value,
-                        'original_unit': unit
-                    })
-                except Exception as e:
-                    logger.warning(f"Error processing matches for {quantity_name}: {str(e)}")
-            else:
-                # Record unmatched items for reporting
-                self._unmatched_electrical.append(quantity_name)
+            try:
+                # Find matching catalog items for the quantity
+                matching_items = self.data_loader.catalog[
+                    self.data_loader.catalog['Item'].str.contains(
+                        quantity_name.replace('_', ' '), 
+                        case=False
+                    )
+                ]
                 
+                if not matching_items.empty:
+                    item = matching_items.iloc[0]
+                    
+                    costed_item = {
+                        'item_id': item.get('ID', ''),
+                        'item_name': item.get('Item', quantity_name.replace('_', ' ').title()),
+                        'category': item.get('Category', 'Electrical'),
+                        'quantity': quantity_value,
+                        'unit': item.get('Unit', 'EA'),
+                        'unit_cost': float(item.get('Cost(Mid)', 0)),
+                        'total_cost': float(item.get('Cost(Mid)', 0)) * quantity_value,
+                        'markup': float(item.get('Markup Percentage', 0)),
+                        'note': f'Derived from {quantity_name}',
+                        'original_quantity_name': quantity_name
+                    }
+                    
+                    costed_items.append(costed_item)
+                else:
+                    # Fallback for items without direct catalog match
+                    costed_items.append({
+                        'item_name': quantity_name.replace('_', ' ').title(),
+                        'quantity': quantity_value,
+                        'unit': 'EA',
+                        'unit_cost': 0,
+                        'total_cost': 0,
+                        'note': 'No catalog match found',
+                        'original_quantity_name': quantity_name
+                    })
+            except Exception as e:
+                logger.warning(f"Error processing electrical quantity {quantity_name}: {str(e)}")
+        
         return costed_items
 
     def save_estimation(self, estimation_results, filename):

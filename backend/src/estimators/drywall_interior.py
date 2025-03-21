@@ -36,12 +36,6 @@ class DrywallInteriorEstimator:
             "Ultra-Luxury": 3.5
         }
         
-        # Texture percentage by tier
-        texture_pct = {
-            "Premium": 0.6,
-            "Luxury": 0.4,
-            "Ultra-Luxury": 0.2
-        }
         
         # Ceiling height by tier
         ceiling_height = {
@@ -52,7 +46,6 @@ class DrywallInteriorEstimator:
         
         # Calculate drywall area and breakdown
         drywall_area = square_footage * drywall_factor[tier]
-        textured_area = drywall_area * texture_pct[tier]
         smooth_area = drywall_area - textured_area
         
         # Calculate specialty drywall (moisture resistant, etc.)
