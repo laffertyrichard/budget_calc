@@ -590,29 +590,41 @@
                     "item_ids": ["pr4"],
                     "search_terms": ["protection", "floor protection", "material protection"]
                 },
-                "project_manager_hours": {
-                    "item_ids": ["pr5"],
-                    "search_terms": ["project manager", "PM", "management hours"]
-                },
-                "project_coordinator_hours": {
-                    "item_ids": ["pr6"],
-                    "search_terms": ["coordinator", "project coordination", "coordination hours"]
-                },
-                "superintendent_hours": {
-                    "item_ids": ["pr7"],
-                    "search_terms": ["superintendent", "site super", "supervision hours"]
-                },
-                "project_administrator_hours": {
-                    "item_ids": ["pr8"],
-                    "search_terms": ["administrator", "admin", "administration hours"]
-                },
-                "carpenter_tool_person_hours": {
-                    "item_ids": ["pr10"],
-                    "search_terms": ["carpenter", "tool person", "labor hours"]
-                },
-                "construction_site_tech_hours": {
+                "construction_site_tech_months": {
                     "item_ids": ["pr11"],
-                    "search_terms": ["site tech", "technician", "technical hours"]
+                    "search_terms": ["site tech", "technician", "technical months"]
+                },
+                "project_manager": {
+                    "item_ids": ["pr5"],
+                    "search_terms": ["project manager"]
+                },
+                "superintendent": {
+                    "item_ids": ["pr7"],
+                    "search_terms": ["superintendent"]
+                },
+                "project_administrator": {
+                    "item_ids": ["pr8"],
+                    "search_terms": ["project administrator"]
+                },
+                "carpenter_tool_person": {
+                    "item_ids": ["pr11"],
+                    "search_terms": ["carpenter", "tool person"]
+                },
+                "project_manager_months": {
+                    "item_ids": ["pr5"],
+                    "search_terms": ["project manager", "months"]
+                },
+                "superintendent_months": {
+                    "item_ids": ["pr7"],
+                    "search_terms": ["superintendent", "months"]
+                },
+                "project_administrator_months": {
+                    "item_ids": ["pr8"],
+                    "search_terms": ["project administrator", "months"]
+                },
+                "carpenter_tool_person_months": {
+                    "item_ids": ["pr11"],
+                    "search_terms": ["carpenter", "tool person", "months"]
                 }
             }
         },

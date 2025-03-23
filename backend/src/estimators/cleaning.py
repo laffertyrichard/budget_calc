@@ -88,6 +88,7 @@ class CleaningEstimator:
         dumpsters_needed = construction_waste_cy / dumpster_capacity_cy
         
         return {
+            "rough_cleaning_sf": square_footage,
             "rough_cleaning_occurrences": round(rough_cleaning_frequency[tier] * project_duration_months),
             "rough_cleaning_labor_hours": round(labor_hours_per_cleaning * rough_cleaning_frequency[tier] * project_duration_months),
             "construction_waste_cy": round(construction_waste_cy),

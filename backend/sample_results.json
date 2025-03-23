@@ -25,19 +25,100 @@
         "roof_drainage_lf": 520,
         "sump_pumps": 2
       },
-      "costed_items": [],
+      "costed_items": [
+        {
+          "item_name": "Slab Square Footage Sf",
+          "quantity": 7150.000000000001,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "slab_square_footage_sf",
+          "original_quantity_value": 7150.000000000001
+        },
+        {
+          "item_name": "Slab Concrete Cy",
+          "quantity": 132,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "slab_concrete_cy",
+          "original_quantity_value": 132
+        },
+        {
+          "item_name": "Footing Concrete Cy",
+          "quantity": 33,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "footing_concrete_cy",
+          "original_quantity_value": 33
+        },
+        {
+          "item_name": "Foundation Wall Cy",
+          "quantity": 16,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "foundation_wall_cy",
+          "original_quantity_value": 16
+        },
+        {
+          "item_name": "Total Concrete Cy",
+          "quantity": 181,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_concrete_cy",
+          "original_quantity_value": 181
+        },
+        {
+          "item_name": "Foundation Waterproofing Sf",
+          "quantity": 3250,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "foundation_waterproofing_sf",
+          "original_quantity_value": 3250
+        },
+        {
+          "item_name": "Below Grade Drainage Lf",
+          "quantity": 975,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "below_grade_drainage_lf",
+          "original_quantity_value": 975
+        },
+        {
+          "item_name": "Roof Drainage Lf",
+          "quantity": 520,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "roof_drainage_lf",
+          "original_quantity_value": 520
+        },
+        {
+          "item_name": "Sump Pumps",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "sump_pumps",
+          "original_quantity_value": 2
+        }
+      ],
       "total_cost": 0,
-      "unmatched_quantities": [
-        "sump_pumps",
-        "footing_concrete_cy",
-        "foundation_waterproofing_sf",
-        "foundation_wall_cy",
-        "slab_square_footage_sf",
-        "roof_drainage_lf",
-        "below_grade_drainage_lf",
-        "slab_concrete_cy",
-        "total_concrete_cy"
-      ]
+      "unmatched_quantities": []
     },
     "structural": {
       "status": "success",
@@ -55,22 +136,130 @@
         "wall_sheathing_sf": 5232,
         "floor_sheathing_sf": 3737
       },
-      "costed_items": [],
+      "costed_items": [
+        {
+          "item_name": "Conventional Lumber Bf",
+          "quantity": 12480,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "conventional_lumber_bf",
+          "original_quantity_value": 12480
+        },
+        {
+          "item_name": "Engineered Lumber Bf",
+          "quantity": 5200,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "engineered_lumber_bf",
+          "original_quantity_value": 5200
+        },
+        {
+          "item_name": "Steel Framing Equivalent Bf",
+          "quantity": 3120,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "steel_framing_equivalent_bf",
+          "original_quantity_value": 3120
+        },
+        {
+          "item_name": "Stud Quantity",
+          "quantity": 11677,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "stud_quantity",
+          "original_quantity_value": 11677
+        },
+        {
+          "item_name": "Stud Spacing Inches",
+          "quantity": 16,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "stud_spacing_inches",
+          "original_quantity_value": 16
+        },
+        {
+          "item_name": "Wall Linear Feet",
+          "quantity": 1297,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_linear_feet",
+          "original_quantity_value": 1297
+        },
+        {
+          "item_name": "Steel Framing Weight Lbs",
+          "quantity": 1560,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "steel_framing_weight_lbs",
+          "original_quantity_value": 1560
+        },
+        {
+          "item_name": "Steel Connections",
+          "quantity": 39,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "steel_connections",
+          "original_quantity_value": 39
+        },
+        {
+          "item_name": "Total Sheathing Sf",
+          "quantity": 14950,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_sheathing_sf",
+          "original_quantity_value": 14950
+        },
+        {
+          "item_name": "Roof Sheathing Sf",
+          "quantity": 5980,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "roof_sheathing_sf",
+          "original_quantity_value": 5980
+        },
+        {
+          "item_name": "Wall Sheathing Sf",
+          "quantity": 5232,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_sheathing_sf",
+          "original_quantity_value": 5232
+        },
+        {
+          "item_name": "Floor Sheathing Sf",
+          "quantity": 3737,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "floor_sheathing_sf",
+          "original_quantity_value": 3737
+        }
+      ],
       "total_cost": 0,
-      "unmatched_quantities": [
-        "steel_connections",
-        "wall_sheathing_sf",
-        "stud_spacing_inches",
-        "roof_sheathing_sf",
-        "steel_framing_equivalent_bf",
-        "stud_quantity",
-        "conventional_lumber_bf",
-        "floor_sheathing_sf",
-        "wall_linear_feet",
-        "steel_framing_weight_lbs",
-        "total_sheathing_sf",
-        "engineered_lumber_bf"
-      ]
+      "unmatched_quantities": []
     },
     "electrical": {
       "status": "success",
@@ -156,6 +345,19 @@
       },
       "costed_items": [
         {
+          "item_id": "el15",
+          "item_name": "Electrical New 400 Amp Service",
+          "category": "Electrical",
+          "quantity": 1,
+          "unit": "Each",
+          "unit_cost": 6500.0,
+          "total_cost": 6500.0,
+          "markup": 70.0,
+          "note": "Direct match for electrical service",
+          "original_quantity_name": "electrical_service",
+          "original_quantity_value": "Electrical New 400 Amp Service"
+        },
+        {
           "item_id": "el7",
           "item_name": "Electrical New (Outlets 120)",
           "category": "Electrical",
@@ -234,6 +436,26 @@
           "original_quantity_value": 46
         },
         {
+          "item_name": "Smart Switches",
+          "quantity": 20,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "smart_switches",
+          "original_quantity_value": 20
+        },
+        {
+          "item_name": "Total Outlets Switches",
+          "quantity": 455,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_outlets_switches",
+          "original_quantity_value": 455
+        },
+        {
           "item_id": "el9",
           "item_name": "Electrical New (Can Lights)",
           "category": "Electrical",
@@ -273,6 +495,16 @@
           "original_quantity_value": 6
         },
         {
+          "item_name": "Under Cabinet Lights",
+          "quantity": 65,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "under_cabinet_lights",
+          "original_quantity_value": 65
+        },
+        {
           "item_id": "el11",
           "item_name": "Electrical Tape Light",
           "category": "Electrical",
@@ -299,211 +531,370 @@
           "original_quantity_value": 20
         },
         {
-          "item_id": "el14",
-          "item_name": "Electrical New 200 Amp Service",
-          "category": "Electrical",
-          "quantity": 400,
-          "unit": "Each",
-          "unit_cost": 5000.0,
-          "total_cost": 2000000.0,
-          "markup": 70.0,
-          "note": "Direct match by ID",
-          "original_quantity_name": "main_panel_size",
-          "original_quantity_value": 400
+          "item_name": "Total Light Fixtures",
+          "quantity": 228,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_light_fixtures",
+          "original_quantity_value": 228
         },
         {
-          "item_id": "el15",
-          "item_name": "Electrical New 400 Amp Service",
-          "category": "Electrical",
-          "quantity": 400,
-          "unit": "Each",
-          "unit_cost": 6500.0,
-          "total_cost": 2600000.0,
-          "markup": 70.0,
-          "note": "Direct match by ID",
-          "original_quantity_name": "main_panel_size",
-          "original_quantity_value": 400
+          "item_name": "Total Specialty Systems",
+          "quantity": 52,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_specialty_systems",
+          "original_quantity_value": 52
         },
         {
-          "item_id": "el16",
-          "item_name": "Electrical New 600 Amp Service",
-          "category": "Electrical",
-          "quantity": 400,
-          "unit": "Each",
-          "unit_cost": 11000.0,
-          "total_cost": 4400000.0,
-          "markup": 70.0,
-          "note": "Direct match by ID",
-          "original_quantity_name": "main_panel_size",
-          "original_quantity_value": 400
+          "item_name": "Lighting Control Panels",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "lighting_control_panels",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Audio Visual Drops",
+          "quantity": 13,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "audio_visual_drops",
+          "original_quantity_value": 13
+        },
+        {
+          "item_name": "Security System Components",
+          "quantity": 6,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "security_system_components",
+          "original_quantity_value": 6
+        },
+        {
+          "item_name": "Sub Panels",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "sub_panels",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Kitchen Circuits",
+          "quantity": 38,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "kitchen_circuits",
+          "original_quantity_value": 38
+        },
+        {
+          "item_name": "Lighting Circuits",
+          "quantity": 31,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "lighting_circuits",
+          "original_quantity_value": 31
+        },
+        {
+          "item_name": "Outlet Circuits",
+          "quantity": 38,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "outlet_circuits",
+          "original_quantity_value": 38
+        },
+        {
+          "item_name": "Mechanical Circuits",
+          "quantity": 16,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "mechanical_circuits",
+          "original_quantity_value": 16
+        },
+        {
+          "item_name": "Exterior Lighting Circuits",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_lighting_circuits",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Garage Circuits",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "garage_circuits",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Emergency Circuits",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "emergency_circuits",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Audio Visual Circuits",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "audio_visual_circuits",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Home Office Circuits",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "home_office_circuits",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Security System Circuits",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "security_system_circuits",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Total Baseline Circuits",
+          "quantity": 123,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_baseline_circuits",
+          "original_quantity_value": 123
+        },
+        {
+          "item_name": "Total Additional Circuits",
+          "quantity": 9,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_additional_circuits",
+          "original_quantity_value": 9
+        },
+        {
+          "item_name": "Total Circuits",
+          "quantity": 132,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_circuits",
+          "original_quantity_value": 132
+        },
+        {
+          "item_name": "Romex Lf",
+          "quantity": 19500,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "romex_lf",
+          "original_quantity_value": 19500
         }
       ],
-      "total_cost": 9070640.0,
+      "total_cost": 77140.0,
       "unmatched_quantities": [
-        "security_system_components",
-        "outlet_circuits",
-        "electrical_service_name",
-        "mechanical_circuits",
-        "garage_circuits",
-        "home_office_circuits",
         "floor_outlets",
-        "security_system_circuits",
-        "romex_lf",
-        "audio_visual_circuits",
-        "smart_switches",
-        "kitchen_circuits",
-        "total_additional_circuits",
-        "emergency_circuits",
-        "exterior_lighting_circuits",
-        "total_light_fixtures",
-        "sub_panels",
-        "under_cabinet_lights",
-        "main_panel_quantity",
-        "total_specialty_systems",
-        "total_baseline_circuits",
-        "lighting_circuits",
-        "lighting_control_panels",
-        "audio_visual_drops",
-        "total_outlets_switches",
-        "total_circuits"
+        "electrical_service_name",
+        "main_panel_size",
+        "main_panel_quantity"
       ]
     },
     "plumbing": {
       "status": "success",
       "quantities": {
         "primary_bath_count": 2,
-        "primary_shower_valves": 9,
-        "primary_sinks": 10,
-        "primary_bathtubs": 3,
-        "primary_toilets": 5,
+        "primary_shower_valves": 4,
+        "primary_sinks": 4,
+        "primary_bathtubs": 2,
+        "primary_toilets": 4,
         "secondary_bath_count": 3,
         "secondary_shower_valves": 3,
-        "secondary_sinks": 10,
+        "secondary_sinks": 3,
         "secondary_bathtubs": 2,
         "secondary_toilets": 3,
         "powder_room_count": 2,
         "powder_room_sinks": 2,
         "powder_room_toilets": 2,
         "tankless_water_heaters": 2,
-        "total_plumbing_fixtures": 30
+        "total_plumbing_fixtures": 25
       },
       "costed_items": [
+        {
+          "item_name": "Primary Bath Count",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "primary_bath_count",
+          "original_quantity_value": 2
+        },
         {
           "item_id": "pl2",
           "item_name": "Plumbing Shower Valve(s) W/ Diverter (Rough-in)",
           "category": "Plumbing",
-          "quantity": 9,
+          "quantity": 4,
           "unit": "Each",
           "unit_cost": 625.0,
-          "total_cost": 5625.0,
+          "total_cost": 2500.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_shower_valves",
-          "original_quantity_value": 9
+          "original_quantity_value": 4
         },
         {
           "item_id": "pl3",
           "item_name": "Plumbing Sink(s) (Rough-in)",
           "category": "Plumbing",
-          "quantity": 10,
+          "quantity": 4,
           "unit": "Each",
           "unit_cost": 550.0,
-          "total_cost": 5500.0,
+          "total_cost": 2200.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_sinks",
-          "original_quantity_value": 10
+          "original_quantity_value": 4
         },
         {
           "item_id": "pl23",
           "item_name": "Plumbing Vanity Sink/Faucet (Trim)",
           "category": "Plumbing",
-          "quantity": 10,
+          "quantity": 4,
           "unit": "Each",
           "unit_cost": 187.5,
-          "total_cost": 1875.0,
+          "total_cost": 750.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_sinks",
-          "original_quantity_value": 10
+          "original_quantity_value": 4
         },
         {
           "item_id": "pl4",
           "item_name": "Plumbing Bathtub(s) (Rough-in)",
           "category": "Plumbing",
-          "quantity": 3,
+          "quantity": 2,
           "unit": "Each",
           "unit_cost": 825.0,
-          "total_cost": 2475.0,
+          "total_cost": 1650.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_bathtubs",
-          "original_quantity_value": 3
+          "original_quantity_value": 2
         },
         {
           "item_id": "pl5",
           "item_name": "Plumbing Tub Filler(s) (Floor Mounted) (Rough-in)",
           "category": "Plumbing",
-          "quantity": 3,
+          "quantity": 2,
           "unit": "Each",
           "unit_cost": 825.0,
-          "total_cost": 2475.0,
+          "total_cost": 1650.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_bathtubs",
-          "original_quantity_value": 3
+          "original_quantity_value": 2
         },
         {
           "item_id": "pl19",
           "item_name": "Plumbing Tub Filler (Trim)",
           "category": "Plumbing",
-          "quantity": 3,
+          "quantity": 2,
           "unit": "Each",
           "unit_cost": 387.5,
-          "total_cost": 1162.5,
+          "total_cost": 775.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_bathtubs",
-          "original_quantity_value": 3
+          "original_quantity_value": 2
         },
         {
           "item_id": "pl22",
           "item_name": "Plumbing Toilet (Trim)",
           "category": "Plumbing",
-          "quantity": 3,
+          "quantity": 2,
           "unit": "Each",
           "unit_cost": 287.5,
-          "total_cost": 862.5,
+          "total_cost": 575.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_bathtubs",
-          "original_quantity_value": 3
+          "original_quantity_value": 2
         },
         {
           "item_id": "pl4",
           "item_name": "Plumbing Bathtub(s) (Rough-in)",
           "category": "Plumbing",
-          "quantity": 5,
+          "quantity": 4,
           "unit": "Each",
           "unit_cost": 825.0,
-          "total_cost": 4125.0,
+          "total_cost": 3300.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_toilets",
-          "original_quantity_value": 5
+          "original_quantity_value": 4
         },
         {
           "item_id": "pl22",
           "item_name": "Plumbing Toilet (Trim)",
           "category": "Plumbing",
-          "quantity": 5,
+          "quantity": 4,
           "unit": "Each",
           "unit_cost": 287.5,
-          "total_cost": 1437.5,
+          "total_cost": 1150.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "primary_toilets",
-          "original_quantity_value": 5
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Secondary Bath Count",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "secondary_bath_count",
+          "original_quantity_value": 3
         },
         {
           "item_id": "pl1",
@@ -522,27 +913,27 @@
           "item_id": "pl3",
           "item_name": "Plumbing Sink(s) (Rough-in)",
           "category": "Plumbing",
-          "quantity": 10,
+          "quantity": 3,
           "unit": "Each",
           "unit_cost": 550.0,
-          "total_cost": 5500.0,
+          "total_cost": 1650.0,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "secondary_sinks",
-          "original_quantity_value": 10
+          "original_quantity_value": 3
         },
         {
           "item_id": "pl23",
           "item_name": "Plumbing Vanity Sink/Faucet (Trim)",
           "category": "Plumbing",
-          "quantity": 10,
+          "quantity": 3,
           "unit": "Each",
           "unit_cost": 187.5,
-          "total_cost": 1875.0,
+          "total_cost": 562.5,
           "markup": 70.0,
           "note": "Direct match by ID",
           "original_quantity_name": "secondary_sinks",
-          "original_quantity_value": 10
+          "original_quantity_value": 3
         },
         {
           "item_id": "pl4",
@@ -623,6 +1014,16 @@
           "original_quantity_value": 3
         },
         {
+          "item_name": "Powder Room Count",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "powder_room_count",
+          "original_quantity_value": 2
+        },
+        {
           "item_id": "pl3",
           "item_name": "Plumbing Sink(s) (Rough-in)",
           "category": "Plumbing",
@@ -673,15 +1074,21 @@
           "note": "Direct match by ID",
           "original_quantity_name": "powder_room_toilets",
           "original_quantity_value": 2
+        },
+        {
+          "item_name": "Total Plumbing Fixtures",
+          "quantity": 25,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_plumbing_fixtures",
+          "original_quantity_value": 25
         }
       ],
-      "total_cost": 45825.0,
+      "total_cost": 29675.0,
       "unmatched_quantities": [
-        "tankless_water_heaters",
-        "secondary_bath_count",
-        "primary_bath_count",
-        "powder_room_count",
-        "total_plumbing_fixtures"
+        "tankless_water_heaters"
       ]
     },
     "hvac": {
@@ -708,6 +1115,56 @@
       },
       "costed_items": [
         {
+          "item_name": "Tonnage",
+          "quantity": 14.4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "tonnage",
+          "original_quantity_value": 14.4
+        },
+        {
+          "item_name": "Systems",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "systems",
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Zones",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "zones",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Flex Duct Linear Feet",
+          "quantity": 182,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "flex_duct_linear_feet",
+          "original_quantity_value": 182
+        },
+        {
+          "item_name": "Hard Duct Linear Feet",
+          "quantity": 78,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "hard_duct_linear_feet",
+          "original_quantity_value": 78
+        },
+        {
           "item_id": "me9",
           "item_name": "HVAC Registers",
           "category": "HVAC",
@@ -732,18 +1189,48 @@
           "note": "Direct match by ID",
           "original_quantity_name": "returns",
           "original_quantity_value": 18
+        },
+        {
+          "item_name": "Required Tonnage",
+          "quantity": 14.4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "required_tonnage",
+          "original_quantity_value": 14.4
+        },
+        {
+          "item_name": "Hvac Units",
+          "quantity": {
+            "units": [
+              5,
+              5,
+              5
+            ],
+            "unit_count": 3,
+            "total_capacity": 15,
+            "oversize": 0
+          },
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "hvac_units",
+          "original_quantity_value": {
+            "units": [
+              5,
+              5,
+              5
+            ],
+            "unit_count": 3,
+            "total_capacity": 15,
+            "oversize": 0
+          }
         }
       ],
       "total_cost": 14630.0,
-      "unmatched_quantities": [
-        "systems",
-        "hard_duct_linear_feet",
-        "hvac_units",
-        "tonnage",
-        "zones",
-        "required_tonnage",
-        "flex_duct_linear_feet"
-      ]
+      "unmatched_quantities": []
     },
     "drywall_interior": {
       "status": "error",
@@ -895,21 +1382,111 @@
           "note": "Direct match by ID",
           "original_quantity_name": "roof_area_sf",
           "original_quantity_value": 8775
+        },
+        {
+          "item_name": "Underlayment Area Sf",
+          "quantity": 20182,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "underlayment_area_sf",
+          "original_quantity_value": 20182
+        },
+        {
+          "item_name": "Ceiling Insulation Sf",
+          "quantity": 6500,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "ceiling_insulation_sf",
+          "original_quantity_value": 6500
+        },
+        {
+          "item_name": "Insulation R Value",
+          "quantity": 49,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "insulation_r_value",
+          "original_quantity_value": 49
+        },
+        {
+          "item_name": "Ridge Vent Lf",
+          "quantity": 439,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "ridge_vent_lf",
+          "original_quantity_value": 439
+        },
+        {
+          "item_name": "Drip Edge Lf",
+          "quantity": 1404,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "drip_edge_lf",
+          "original_quantity_value": 1404
+        },
+        {
+          "item_name": "Fascia Lf",
+          "quantity": 1040,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fascia_lf",
+          "original_quantity_value": 1040
+        },
+        {
+          "item_name": "Soffit Sf",
+          "quantity": 1430,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "soffit_sf",
+          "original_quantity_value": 1430
+        },
+        {
+          "item_name": "Gutters Lf",
+          "quantity": 274,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "gutters_lf",
+          "original_quantity_value": 274
+        },
+        {
+          "item_name": "Downspouts Count",
+          "quantity": 7,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "downspouts_count",
+          "original_quantity_value": 7
+        },
+        {
+          "item_name": "Rain Chains",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "rain_chains",
+          "original_quantity_value": 1
         }
       ],
       "total_cost": 573007.5,
       "unmatched_quantities": [
-        "insulation_r_value",
-        "decorative_scuppers",
-        "downspouts_count",
-        "ridge_vent_lf",
-        "soffit_sf",
-        "fascia_lf",
-        "ceiling_insulation_sf",
-        "gutters_lf",
-        "drip_edge_lf",
-        "rain_chains",
-        "underlayment_area_sf"
+        "decorative_scuppers"
       ]
     },
     "windows_doors": {
@@ -927,6 +1504,56 @@
         "garage_door_openers": 3
       },
       "costed_items": [
+        {
+          "item_name": "Window Count",
+          "quantity": 52,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_count",
+          "original_quantity_value": 52
+        },
+        {
+          "item_name": "Window Area Sf",
+          "quantity": 780,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_area_sf",
+          "original_quantity_value": 780
+        },
+        {
+          "item_name": "Window Efficiency",
+          "quantity": "Low-E Triple Pane",
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_efficiency",
+          "original_quantity_value": "Low-E Triple Pane"
+        },
+        {
+          "item_name": "Window Trim Lf",
+          "quantity": 806,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_trim_lf",
+          "original_quantity_value": 806
+        },
+        {
+          "item_name": "Exterior Door Count",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_door_count",
+          "original_quantity_value": 3
+        },
         {
           "item_id": "wd2",
           "item_name": "Slider Door Install",
@@ -952,20 +1579,50 @@
           "note": "Direct match by ID",
           "original_quantity_name": "patio_door_sets",
           "original_quantity_value": 2
+        },
+        {
+          "item_name": "Door Hardware Sets",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "door_hardware_sets",
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Exterior Door Type",
+          "quantity": "Premium Wood/Steel",
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_door_type",
+          "original_quantity_value": "Premium Wood/Steel"
+        },
+        {
+          "item_name": "Garage Door Count",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "garage_door_count",
+          "original_quantity_value": 3
+        },
+        {
+          "item_name": "Garage Door Openers",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "garage_door_openers",
+          "original_quantity_value": 3
         }
       ],
       "total_cost": 19000.0,
-      "unmatched_quantities": [
-        "door_hardware_sets",
-        "exterior_door_type",
-        "garage_door_openers",
-        "window_trim_lf",
-        "window_count",
-        "exterior_door_count",
-        "garage_door_count",
-        "window_area_sf",
-        "window_efficiency"
-      ]
+      "unmatched_quantities": []
     },
     "tile": {
       "status": "success",
@@ -1003,6 +1660,16 @@
         "simplified_total_schluter_lf": 330
       },
       "costed_items": [
+        {
+          "item_name": "Primary Bath Count",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "primary_bath_count",
+          "original_quantity_value": 2
+        },
         {
           "item_id": "ti6",
           "item_name": "Tile Installation Shower Pan",
@@ -1067,6 +1734,26 @@
           "note": "Direct match by ID",
           "original_quantity_name": "primary_bath_schluter_lf",
           "original_quantity_value": 160
+        },
+        {
+          "item_name": "Primary Bath Tile Sf",
+          "quantity": 620,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "primary_bath_tile_sf",
+          "original_quantity_value": 620
+        },
+        {
+          "item_name": "Secondary Bath Count",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "secondary_bath_count",
+          "original_quantity_value": 3
         },
         {
           "item_id": "ti6",
@@ -1134,6 +1821,26 @@
           "original_quantity_value": 150
         },
         {
+          "item_name": "Secondary Bath Tile Sf",
+          "quantity": 537,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "secondary_bath_tile_sf",
+          "original_quantity_value": 537
+        },
+        {
+          "item_name": "Powder Room Count",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "powder_room_count",
+          "original_quantity_value": 2
+        },
+        {
           "item_id": "ti2",
           "item_name": "Tile Floor Installation",
           "category": "Tile",
@@ -1171,6 +1878,16 @@
           "note": "Direct match by ID",
           "original_quantity_name": "powder_room_schluter_lf",
           "original_quantity_value": 20
+        },
+        {
+          "item_name": "Powder Room Tile Sf",
+          "quantity": 100,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "powder_room_tile_sf",
+          "original_quantity_value": 100
         },
         {
           "item_id": "ti5",
@@ -1236,24 +1953,80 @@
           "note": "Direct match by ID",
           "original_quantity_name": "entry_foyer_tile_sf",
           "original_quantity_value": 150
+        },
+        {
+          "item_name": "Total Bathroom Tile Sf",
+          "quantity": 1257,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_bathroom_tile_sf",
+          "original_quantity_value": 1257
+        },
+        {
+          "item_name": "Total Kitchen Tile Sf",
+          "quantity": 131,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_kitchen_tile_sf",
+          "original_quantity_value": 131
+        },
+        {
+          "item_name": "Total Other Tile Sf",
+          "quantity": 285,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_other_tile_sf",
+          "original_quantity_value": 285
+        },
+        {
+          "item_name": "Total Tile Sf",
+          "quantity": 1673,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_tile_sf",
+          "original_quantity_value": 1673
+        },
+        {
+          "item_name": "Total Schluter Lf",
+          "quantity": 330,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_schluter_lf",
+          "original_quantity_value": 330
+        },
+        {
+          "item_name": "Simplified Total Tile Sf",
+          "quantity": 1725,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "simplified_total_tile_sf",
+          "original_quantity_value": 1725
+        },
+        {
+          "item_name": "Simplified Total Schluter Lf",
+          "quantity": 330,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "simplified_total_schluter_lf",
+          "original_quantity_value": 330
         }
       ],
       "total_cost": 33595.7,
-      "unmatched_quantities": [
-        "total_bathroom_tile_sf",
-        "total_other_tile_sf",
-        "total_schluter_lf",
-        "simplified_total_schluter_lf",
-        "simplified_total_tile_sf",
-        "secondary_bath_count",
-        "powder_room_tile_sf",
-        "primary_bath_count",
-        "secondary_bath_tile_sf",
-        "powder_room_count",
-        "total_kitchen_tile_sf",
-        "primary_bath_tile_sf",
-        "total_tile_sf"
-      ]
+      "unmatched_quantities": []
     },
     "painting_coatings": {
       "status": "success",
@@ -1280,6 +2053,16 @@
       },
       "costed_items": [
         {
+          "item_name": "Wall Area Sf",
+          "quantity": 15600,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_area_sf",
+          "original_quantity_value": 15600
+        },
+        {
           "item_id": "pc5",
           "item_name": "Paint Lids",
           "category": "Painting and Coatings",
@@ -1291,6 +2074,46 @@
           "note": "Direct match by ID",
           "original_quantity_name": "ceiling_area_sf",
           "original_quantity_value": 6500
+        },
+        {
+          "item_name": "Total Paintable Area Sf",
+          "quantity": 22100,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_paintable_area_sf",
+          "original_quantity_value": 22100
+        },
+        {
+          "item_name": "Wall Ceiling Primer Gallons",
+          "quantity": 63,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_ceiling_primer_gallons",
+          "original_quantity_value": 63
+        },
+        {
+          "item_name": "Wall Ceiling Paint Gallons",
+          "quantity": 126,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_ceiling_paint_gallons",
+          "original_quantity_value": 126
+        },
+        {
+          "item_name": "Total Wall Ceiling Gallons",
+          "quantity": 189,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_wall_ceiling_gallons",
+          "original_quantity_value": 189
         },
         {
           "item_id": "pc8",
@@ -1306,6 +2129,46 @@
           "original_quantity_value": 26
         },
         {
+          "item_name": "Trim Lf",
+          "quantity": 5850,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "trim_lf",
+          "original_quantity_value": 5850
+        },
+        {
+          "item_name": "Trim Door Primer Gallons",
+          "quantity": 18,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "trim_door_primer_gallons",
+          "original_quantity_value": 18
+        },
+        {
+          "item_name": "Trim Door Paint Gallons",
+          "quantity": 37,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "trim_door_paint_gallons",
+          "original_quantity_value": 37
+        },
+        {
+          "item_name": "Total Trim Door Gallons",
+          "quantity": 55,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_trim_door_gallons",
+          "original_quantity_value": 55
+        },
+        {
           "item_id": "pc1",
           "item_name": "Roman Clay / Venetian",
           "category": "Painting and Coatings",
@@ -1319,6 +2182,16 @@
           "original_quantity_value": 3315
         },
         {
+          "item_name": "Decorative Glaze Gallons",
+          "quantity": 11,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "decorative_glaze_gallons",
+          "original_quantity_value": 11
+        },
+        {
           "item_id": "pc6",
           "item_name": "Paint Exterior",
           "category": "Painting and Coatings",
@@ -1330,26 +2203,60 @@
           "note": "Direct match by ID",
           "original_quantity_name": "exterior_wall_area_sf",
           "original_quantity_value": 16250
+        },
+        {
+          "item_name": "Exterior Primer Gallons",
+          "quantity": 46,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_primer_gallons",
+          "original_quantity_value": 46
+        },
+        {
+          "item_name": "Exterior Paint Gallons",
+          "quantity": 93,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_paint_gallons",
+          "original_quantity_value": 93
+        },
+        {
+          "item_name": "Total Exterior Gallons",
+          "quantity": 139,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_exterior_gallons",
+          "original_quantity_value": 139
+        },
+        {
+          "item_name": "Exterior Trim Area Sf",
+          "quantity": 2438,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_trim_area_sf",
+          "original_quantity_value": 2438
+        },
+        {
+          "item_name": "Exterior Trim Paint Gallons",
+          "quantity": 8,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "exterior_trim_paint_gallons",
+          "original_quantity_value": 8
         }
       ],
       "total_cost": 57200.0,
-      "unmatched_quantities": [
-        "exterior_paint_gallons",
-        "total_paintable_area_sf",
-        "trim_door_primer_gallons",
-        "decorative_glaze_gallons",
-        "total_exterior_gallons",
-        "total_trim_door_gallons",
-        "wall_ceiling_paint_gallons",
-        "trim_lf",
-        "trim_door_paint_gallons",
-        "exterior_trim_area_sf",
-        "total_wall_ceiling_gallons",
-        "wall_area_sf",
-        "exterior_trim_paint_gallons",
-        "exterior_primer_gallons",
-        "wall_ceiling_primer_gallons"
-      ]
+      "unmatched_quantities": []
     },
     "cabinetry": {
       "status": "success",
@@ -1485,15 +2392,50 @@
           "note": "Direct match by ID",
           "original_quantity_name": "butlers_pantry_lf",
           "original_quantity_value": 8
+        },
+        {
+          "item_name": "Total Kitchen Cabinets Lf",
+          "quantity": 110.0,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_kitchen_cabinets_lf",
+          "original_quantity_value": 110.0
+        },
+        {
+          "item_name": "Total Bathroom Cabinets Lf",
+          "quantity": 50.8,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_bathroom_cabinets_lf",
+          "original_quantity_value": 50.8
+        },
+        {
+          "item_name": "Total Specialty Cabinets Lf",
+          "quantity": 14,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_specialty_cabinets_lf",
+          "original_quantity_value": 14
+        },
+        {
+          "item_name": "Total Cabinetry Lf",
+          "quantity": 174.8,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_cabinetry_lf",
+          "original_quantity_value": 174.8
         }
       ],
       "total_cost": 164275.0,
-      "unmatched_quantities": [
-        "total_bathroom_cabinets_lf",
-        "total_cabinetry_lf",
-        "total_specialty_cabinets_lf",
-        "total_kitchen_cabinets_lf"
-      ]
+      "unmatched_quantities": []
     },
     "countertops": {
       "status": "success",
@@ -1642,14 +2584,40 @@
           "note": "Direct match by ID",
           "original_quantity_name": "quartzite_countertops_sf",
           "original_quantity_value": 38
+        },
+        {
+          "item_name": "Total Kitchen Countertops Sf",
+          "quantity": 121,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_kitchen_countertops_sf",
+          "original_quantity_value": 121
+        },
+        {
+          "item_name": "Total Bathroom Countertops Sf",
+          "quantity": 174,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_bathroom_countertops_sf",
+          "original_quantity_value": 174
+        },
+        {
+          "item_name": "Total Countertops Sf",
+          "quantity": 295,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_countertops_sf",
+          "original_quantity_value": 295
         }
       ],
       "total_cost": 48800.0,
-      "unmatched_quantities": [
-        "total_kitchen_countertops_sf",
-        "total_bathroom_countertops_sf",
-        "total_countertops_sf"
-      ]
+      "unmatched_quantities": []
     },
     "landscape_hardscape": {
       "status": "success",
@@ -1679,38 +2647,247 @@
         "water_feature_count": 0,
         "outdoor_lighting_count": 20
       },
-      "costed_items": [],
+      "costed_items": [
+        {
+          "item_name": "Lot Size Sf",
+          "quantity": 17333,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "lot_size_sf",
+          "original_quantity_value": 17333
+        },
+        {
+          "item_name": "House Footprint Sf",
+          "quantity": 4333,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "house_footprint_sf",
+          "original_quantity_value": 4333
+        },
+        {
+          "item_name": "Non House Area Sf",
+          "quantity": 13000,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "non_house_area_sf",
+          "original_quantity_value": 13000
+        },
+        {
+          "item_name": "Hardscape Area Sf",
+          "quantity": 3900,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "hardscape_area_sf",
+          "original_quantity_value": 3900
+        },
+        {
+          "item_name": "Lawn Area Sf",
+          "quantity": 5200,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "lawn_area_sf",
+          "original_quantity_value": 5200
+        },
+        {
+          "item_name": "Planting Bed Area Sf",
+          "quantity": 3250,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "planting_bed_area_sf",
+          "original_quantity_value": 3250
+        },
+        {
+          "item_name": "Other Area Sf",
+          "quantity": 650,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "other_area_sf",
+          "original_quantity_value": 650
+        },
+        {
+          "item_name": "Tree Count",
+          "quantity": 8,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "tree_count",
+          "original_quantity_value": 8
+        },
+        {
+          "item_name": "Shrub Count",
+          "quantity": 156,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "shrub_count",
+          "original_quantity_value": 156
+        },
+        {
+          "item_name": "Ornamental Tree Count",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "ornamental_tree_count",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Specialty Shrub Count",
+          "quantity": 23,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "specialty_shrub_count",
+          "original_quantity_value": 23
+        },
+        {
+          "item_name": "Perennial Count",
+          "quantity": 468,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "perennial_count",
+          "original_quantity_value": 468
+        },
+        {
+          "item_name": "Patio Area Sf",
+          "quantity": 1560,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "patio_area_sf",
+          "original_quantity_value": 1560
+        },
+        {
+          "item_name": "Walkway Area Sf",
+          "quantity": 975,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "walkway_area_sf",
+          "original_quantity_value": 975
+        },
+        {
+          "item_name": "Driveway Area Sf",
+          "quantity": 975,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "driveway_area_sf",
+          "original_quantity_value": 975
+        },
+        {
+          "item_name": "Outdoor Kitchen Area Sf",
+          "quantity": 195,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "outdoor_kitchen_area_sf",
+          "original_quantity_value": 195
+        },
+        {
+          "item_name": "Pool Deck Area Sf",
+          "quantity": 195,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "pool_deck_area_sf",
+          "original_quantity_value": 195
+        },
+        {
+          "item_name": "Irrigation Area Sf",
+          "quantity": 7605,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "irrigation_area_sf",
+          "original_quantity_value": 7605
+        },
+        {
+          "item_name": "Lawn Sprinklers",
+          "quantity": 35,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "lawn_sprinklers",
+          "original_quantity_value": 35
+        },
+        {
+          "item_name": "Drip Emitters",
+          "quantity": 812,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "drip_emitters",
+          "original_quantity_value": 812
+        },
+        {
+          "item_name": "Irrigation Valves",
+          "quantity": 7,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "irrigation_valves",
+          "original_quantity_value": 7
+        },
+        {
+          "item_name": "Fire Pit Count",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fire_pit_count",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Outdoor Lighting Count",
+          "quantity": 20,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "outdoor_lighting_count",
+          "original_quantity_value": 20
+        }
+      ],
       "total_cost": 0,
       "unmatched_quantities": [
-        "specialty_shrub_count",
-        "shrub_count",
-        "fire_pit_count",
-        "irrigation_valves",
-        "driveway_area_sf",
-        "lot_size_sf",
-        "outdoor_lighting_count",
-        "ornamental_tree_count",
-        "outdoor_kitchen_area_sf",
-        "walkway_area_sf",
-        "pool_deck_area_sf",
-        "perennial_count",
-        "planting_bed_area_sf",
-        "lawn_sprinklers",
-        "house_footprint_sf",
-        "water_feature_count",
-        "non_house_area_sf",
-        "tree_count",
-        "hardscape_area_sf",
-        "irrigation_area_sf",
-        "lawn_area_sf",
-        "other_area_sf",
-        "drip_emitters",
-        "patio_area_sf"
+        "water_feature_count"
       ]
     },
     "cleaning": {
       "status": "success",
       "quantities": {
+        "rough_cleaning_sf": 6500,
         "rough_cleaning_occurrences": 40,
         "rough_cleaning_labor_hours": 130,
         "construction_waste_cy": 13,
@@ -1727,6 +2904,59 @@
       },
       "costed_items": [
         {
+          "item_id": "cl1",
+          "item_name": "Rough Clean",
+          "category": "Cleaning",
+          "quantity": 6500.0,
+          "unit": "Sq Ft",
+          "unit_cost": 0.35,
+          "total_cost": 2275.0,
+          "markup": 70.0,
+          "note": "Direct match by ID",
+          "original_quantity_name": "rough_cleaning_sf",
+          "original_quantity_value": 6500
+        },
+        {
+          "item_name": "Rough Cleaning Occurrences",
+          "quantity": 40,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "rough_cleaning_occurrences",
+          "original_quantity_value": 40
+        },
+        {
+          "item_name": "Rough Cleaning Labor Hours",
+          "quantity": 130,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "rough_cleaning_labor_hours",
+          "original_quantity_value": 130
+        },
+        {
+          "item_name": "Construction Waste Cy",
+          "quantity": 13,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_waste_cy",
+          "original_quantity_value": 13
+        },
+        {
+          "item_name": "Construction Dumpsters",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_dumpsters",
+          "original_quantity_value": 1
+        },
+        {
           "item_id": "cl2",
           "item_name": "Final Clean",
           "category": "Cleaning",
@@ -1740,6 +2970,16 @@
           "original_quantity_value": 6500
         },
         {
+          "item_name": "Final Cleaning Labor Hours",
+          "quantity": 195,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "final_cleaning_labor_hours",
+          "original_quantity_value": 195
+        },
+        {
           "item_id": "cl3",
           "item_name": "Windows",
           "category": "Cleaning",
@@ -1751,22 +2991,70 @@
           "note": "Direct match by ID",
           "original_quantity_name": "window_cleaning_count",
           "original_quantity_value": 52
+        },
+        {
+          "item_name": "Window Cleaning Labor Hours",
+          "quantity": 39,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_cleaning_labor_hours",
+          "original_quantity_value": 39
+        },
+        {
+          "item_name": "Floor Cleaning Sf",
+          "quantity": 4550,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "floor_cleaning_sf",
+          "original_quantity_value": 4550
+        },
+        {
+          "item_name": "Power Washing Sf",
+          "quantity": 1950,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "power_washing_sf",
+          "original_quantity_value": 1950
+        },
+        {
+          "item_name": "Fixture Cleaning Count",
+          "quantity": 13,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fixture_cleaning_count",
+          "original_quantity_value": 13
+        },
+        {
+          "item_name": "Countertop Sealing Sf",
+          "quantity": 260,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "countertop_sealing_sf",
+          "original_quantity_value": 260
+        },
+        {
+          "item_name": "Cabinet Cleaning Lf",
+          "quantity": 130,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "cabinet_cleaning_lf",
+          "original_quantity_value": 130
         }
       ],
-      "total_cost": 5525.0,
-      "unmatched_quantities": [
-        "construction_waste_cy",
-        "floor_cleaning_sf",
-        "fixture_cleaning_count",
-        "rough_cleaning_labor_hours",
-        "window_cleaning_labor_hours",
-        "rough_cleaning_occurrences",
-        "final_cleaning_labor_hours",
-        "cabinet_cleaning_lf",
-        "countertop_sealing_sf",
-        "power_washing_sf",
-        "construction_dumpsters"
-      ]
+      "total_cost": 7800.0,
+      "unmatched_quantities": []
     },
     "finish_carpentry": {
       "status": "success",
@@ -1827,6 +3115,16 @@
           "original_quantity_value": 4
         },
         {
+          "item_name": "Barn Doors",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "barn_doors",
+          "original_quantity_value": 2
+        },
+        {
           "item_id": "fc5",
           "item_name": "Finish Carpentry Door Install (Paint Exterior)",
           "category": "Finish Carpentry",
@@ -1879,6 +3177,16 @@
           "original_quantity_value": 5140
         },
         {
+          "item_name": "Crown Molding Lf",
+          "quantity": 3084,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "crown_molding_lf",
+          "original_quantity_value": 3084
+        },
+        {
           "item_id": "fc10",
           "item_name": "Finish Carpentry Case Material",
           "category": "Finish Carpentry",
@@ -1890,18 +3198,60 @@
           "note": "Direct match by ID",
           "original_quantity_name": "door_casing_lf",
           "original_quantity_value": 320
+        },
+        {
+          "item_name": "Window Casing Lf",
+          "quantity": 832,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_casing_lf",
+          "original_quantity_value": 832
+        },
+        {
+          "item_name": "Total Trim Lf",
+          "quantity": 9376,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "total_trim_lf",
+          "original_quantity_value": 9376
+        },
+        {
+          "item_name": "Simplified Single Doors",
+          "quantity": 36,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "simplified_single_doors",
+          "original_quantity_value": 36
+        },
+        {
+          "item_name": "Simplified Double Doors",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "simplified_double_doors",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Simplified Baseboard Lf",
+          "quantity": 5525,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "simplified_baseboard_lf",
+          "original_quantity_value": 5525
         }
       ],
       "total_cost": 43665.0,
-      "unmatched_quantities": [
-        "barn_doors",
-        "crown_molding_lf",
-        "simplified_double_doors",
-        "window_casing_lf",
-        "simplified_single_doors",
-        "total_trim_lf",
-        "simplified_baseboard_lf"
-      ]
+      "unmatched_quantities": []
     },
     "thermal_fire_suppression": {
       "status": "success",
@@ -1927,6 +3277,106 @@
       },
       "costed_items": [
         {
+          "item_name": "Wall Insulation Sf",
+          "quantity": 6175,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_insulation_sf",
+          "original_quantity_value": 6175
+        },
+        {
+          "item_name": "Wall R Value",
+          "quantity": 21,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "wall_r_value",
+          "original_quantity_value": 21
+        },
+        {
+          "item_name": "Ceiling Insulation Sf",
+          "quantity": 6500,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "ceiling_insulation_sf",
+          "original_quantity_value": 6500
+        },
+        {
+          "item_name": "Ceiling R Value",
+          "quantity": 49,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "ceiling_r_value",
+          "original_quantity_value": 49
+        },
+        {
+          "item_name": "Rigid Insulation Sf",
+          "quantity": 2600,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "rigid_insulation_sf",
+          "original_quantity_value": 2600
+        },
+        {
+          "item_name": "Acoustic Insulation Sf",
+          "quantity": 975,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "acoustic_insulation_sf",
+          "original_quantity_value": 975
+        },
+        {
+          "item_name": "Radiant Barrier Sf",
+          "quantity": 3250,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "radiant_barrier_sf",
+          "original_quantity_value": 3250
+        },
+        {
+          "item_name": "Weather Barrier Sf",
+          "quantity": 6793,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "weather_barrier_sf",
+          "original_quantity_value": 6793
+        },
+        {
+          "item_name": "Caulk Tubes",
+          "quantity": 98,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "caulk_tubes",
+          "original_quantity_value": 98
+        },
+        {
+          "item_name": "Foam Sealant Cans",
+          "quantity": 32,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "foam_sealant_cans",
+          "original_quantity_value": 32
+        },
+        {
           "item_id": "fs2",
           "item_name": "Regualr Drops",
           "category": "Fire Protection",
@@ -1938,28 +3388,80 @@
           "note": "Direct match by ID",
           "original_quantity_name": "fire_sprinkler_heads",
           "original_quantity_value": 39
+        },
+        {
+          "item_name": "Fire Suppression Piping Lf",
+          "quantity": 4972,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fire_suppression_piping_lf",
+          "original_quantity_value": 4972
+        },
+        {
+          "item_name": "Fire Suppression Covered Area Sf",
+          "quantity": 5850,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fire_suppression_covered_area_sf",
+          "original_quantity_value": 5850
+        },
+        {
+          "item_name": "Fire Riser Assembly",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fire_riser_assembly",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Flow Switches",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "flow_switches",
+          "original_quantity_value": 3
+        },
+        {
+          "item_name": "Control Valves",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "control_valves",
+          "original_quantity_value": 3
+        },
+        {
+          "item_name": "Fire Suppression Monitor",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "fire_suppression_monitor",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Inspector Test Connections",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "inspector_test_connections",
+          "original_quantity_value": 2
         }
       ],
       "total_cost": NaN,
-      "unmatched_quantities": [
-        "rigid_insulation_sf",
-        "control_valves",
-        "wall_insulation_sf",
-        "acoustic_insulation_sf",
-        "foam_sealant_cans",
-        "caulk_tubes",
-        "inspector_test_connections",
-        "radiant_barrier_sf",
-        "fire_suppression_monitor",
-        "weather_barrier_sf",
-        "fire_suppression_piping_lf",
-        "ceiling_r_value",
-        "fire_suppression_covered_area_sf",
-        "wall_r_value",
-        "fire_riser_assembly",
-        "ceiling_insulation_sf",
-        "flow_switches"
-      ]
+      "unmatched_quantities": []
     },
     "preparations_preliminaries": {
       "status": "success",
@@ -1982,6 +3484,14 @@
         "project_manager_hours": 433,
         "client_meetings": 20,
         "subcontractor_meetings": 40,
+        "project_administrator_hours": 433,
+        "project_administrator_months": 10,
+        "construction_manager_hours": 866,
+        "construction_manager_months": 10,
+        "carpenter_/_tool_person_hours": 1299,
+        "carpenter_/_tool_person_months": 10,
+        "construction_site_tech_hours": 650,
+        "construction_site_tech_months": 10,
         "building_permit": 1,
         "mechanical_permit": 1,
         "electrical_permit": 1,
@@ -2002,6 +3512,76 @@
       },
       "costed_items": [
         {
+          "item_name": "Construction Fencing Lf",
+          "quantity": 632,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_fencing_lf",
+          "original_quantity_value": 632
+        },
+        {
+          "item_name": "Site Clearing Sf",
+          "quantity": 6500,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "site_clearing_sf",
+          "original_quantity_value": 6500
+        },
+        {
+          "item_name": "Erosion Control Lf",
+          "quantity": 527,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "erosion_control_lf",
+          "original_quantity_value": 527
+        },
+        {
+          "item_name": "Construction Entrance",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_entrance",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Tree Protection",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "tree_protection",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Construction Signage",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_signage",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Temporary Roads Sf",
+          "quantity": 867,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "temporary_roads_sf",
+          "original_quantity_value": 867
+        },
+        {
           "item_id": "pr1",
           "item_name": "Portable Toilet",
           "category": "Preparations and Prelimanaries",
@@ -2015,67 +3595,364 @@
           "original_quantity_value": 2
         },
         {
-          "item_id": "pr7",
-          "item_name": "Superintendent",
-          "category": "Preparations and Prelimanaries",
-          "quantity": 1082.0,
-          "unit": "Monthly",
-          "unit_cost": 3250.0,
-          "total_cost": 3516500.0,
-          "markup": 0.0,
-          "note": "Direct match by ID",
+          "item_name": "Portable Toilet Months",
+          "quantity": 20,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "portable_toilet_months",
+          "original_quantity_value": 20
+        },
+        {
+          "item_name": "Dumpster Pulls",
+          "quantity": 40,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "dumpster_pulls",
+          "original_quantity_value": 40
+        },
+        {
+          "item_name": "Field Office Sf",
+          "quantity": 200,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "field_office_sf",
+          "original_quantity_value": 200
+        },
+        {
+          "item_name": "Field Office Months",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "field_office_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Temp Electrical Months",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "temp_electrical_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Temp Water Months",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "temp_water_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Superintendent Hours",
+          "quantity": 1082,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
           "original_quantity_name": "superintendent_hours",
           "original_quantity_value": 1082
         },
         {
-          "item_id": "pr5",
-          "item_name": "Project Manager",
-          "category": "Preparations and Prelimanaries",
-          "quantity": 433.0,
-          "unit": "Monthly",
-          "unit_cost": 2600.0,
-          "total_cost": 1125800.0,
-          "markup": 0.0,
-          "note": "Direct match by ID",
+          "item_name": "Project Manager Hours",
+          "quantity": 433,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
           "original_quantity_name": "project_manager_hours",
           "original_quantity_value": 433
+        },
+        {
+          "item_name": "Client Meetings",
+          "quantity": 20,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "client_meetings",
+          "original_quantity_value": 20
+        },
+        {
+          "item_name": "Subcontractor Meetings",
+          "quantity": 40,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "subcontractor_meetings",
+          "original_quantity_value": 40
+        },
+        {
+          "item_name": "Project Administrator Hours",
+          "quantity": 433,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "project_administrator_hours",
+          "original_quantity_value": 433
+        },
+        {
+          "item_id": "pr8",
+          "item_name": "Project Administrator",
+          "category": "Preparations and Prelimanaries",
+          "quantity": 10.0,
+          "unit": "Monthly",
+          "unit_cost": 1750.0,
+          "total_cost": 17500.0,
+          "markup": 0.0,
+          "note": "Direct match by ID",
+          "original_quantity_name": "project_administrator_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Construction Manager Hours",
+          "quantity": 866,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_manager_hours",
+          "original_quantity_value": 866
+        },
+        {
+          "item_name": "Construction Manager Months",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_manager_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Carpenter / Tool Person Hours",
+          "quantity": 1299,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "carpenter_/_tool_person_hours",
+          "original_quantity_value": 1299
+        },
+        {
+          "item_name": "Carpenter / Tool Person Months",
+          "quantity": 10,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "carpenter_/_tool_person_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Construction Site Tech Hours",
+          "quantity": 650,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "construction_site_tech_hours",
+          "original_quantity_value": 650
+        },
+        {
+          "item_id": "pr11",
+          "item_name": "Construction Site Tech ",
+          "category": "Preparations and Prelimanaries",
+          "quantity": 10.0,
+          "unit": "Monthly",
+          "unit_cost": 900.0,
+          "total_cost": 9000.0,
+          "markup": 0.0,
+          "note": "Direct match by ID",
+          "original_quantity_name": "construction_site_tech_months",
+          "original_quantity_value": 10
+        },
+        {
+          "item_name": "Building Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "building_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Mechanical Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "mechanical_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Electrical Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "electrical_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Plumbing Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "plumbing_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Foundation Inspections",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "foundation_inspections",
+          "original_quantity_value": 3
+        },
+        {
+          "item_name": "Framing Inspections",
+          "quantity": 3,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "framing_inspections",
+          "original_quantity_value": 3
+        },
+        {
+          "item_name": "Mechanical Inspections",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "mechanical_inspections",
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Electrical Inspections",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "electrical_inspections",
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Plumbing Inspections",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "plumbing_inspections",
+          "original_quantity_value": 4
+        },
+        {
+          "item_name": "Final Inspections",
+          "quantity": 2,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "final_inspections",
+          "original_quantity_value": 2
+        },
+        {
+          "item_name": "Pool Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "pool_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Landscape Permit",
+          "quantity": 1,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "landscape_permit",
+          "original_quantity_value": 1
+        },
+        {
+          "item_name": "Safety Equipment Units",
+          "quantity": 5,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "safety_equipment_units",
+          "original_quantity_value": 5
+        },
+        {
+          "item_name": "Dust Barriers Sf",
+          "quantity": 975,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "dust_barriers_sf",
+          "original_quantity_value": 975
+        },
+        {
+          "item_name": "Floor Protection Sf",
+          "quantity": 3250,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "floor_protection_sf",
+          "original_quantity_value": 3250
+        },
+        {
+          "item_name": "Window Protection Units",
+          "quantity": 52,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "window_protection_units",
+          "original_quantity_value": 52
+        },
+        {
+          "item_name": "First Aid Kits",
+          "quantity": 4,
+          "unit": "EA",
+          "unit_cost": 0,
+          "total_cost": 0,
+          "note": "No catalog match found",
+          "original_quantity_name": "first_aid_kits",
+          "original_quantity_value": 4
         }
       ],
-      "total_cost": 4643000.0,
-      "unmatched_quantities": [
-        "field_office_months",
-        "temporary_roads_sf",
-        "final_inspections",
-        "building_permit",
-        "floor_protection_sf",
-        "electrical_permit",
-        "erosion_control_lf",
-        "site_clearing_sf",
-        "client_meetings",
-        "temp_electrical_months",
-        "foundation_inspections",
-        "construction_signage",
-        "subcontractor_meetings",
-        "dumpster_pulls",
-        "construction_fencing_lf",
-        "construction_entrance",
-        "electrical_inspections",
-        "window_protection_units",
-        "pool_permit",
-        "field_office_sf",
-        "landscape_permit",
-        "mechanical_inspections",
-        "safety_equipment_units",
-        "plumbing_inspections",
-        "mechanical_permit",
-        "temp_water_months",
-        "tree_protection",
-        "plumbing_permit",
-        "framing_inspections",
-        "portable_toilet_months",
-        "first_aid_kits",
-        "dust_barriers_sf"
-      ]
+      "total_cost": 27200.0,
+      "unmatched_quantities": []
     },
     "specialty": {
       "status": "no_quantities",
@@ -2086,8 +3963,8 @@
     "cost_breakdown": {
       "foundation": 0,
       "structural": 0,
-      "electrical": 9070640.0,
-      "plumbing": 45825.0,
+      "electrical": 77140.0,
+      "plumbing": 29675.0,
       "hvac": 14630.0,
       "roofing": 573007.5,
       "windows_doors": 19000.0,
@@ -2096,54 +3973,42 @@
       "cabinetry": 164275.0,
       "countertops": 48800.0,
       "landscape_hardscape": 0,
-      "cleaning": 5525.0,
+      "cleaning": 7800.0,
       "finish_carpentry": 43665.0,
       "thermal_fire_suppression": 0,
-      "preparations_preliminaries": 4643000.0
+      "preparations_preliminaries": 27200.0
     },
     "warnings": [
-      "Category 'foundation' has 9 unmatched quantities: sump_pumps, footing_concrete_cy, foundation_waterproofing_sf, foundation_wall_cy, slab_square_footage_sf, roof_drainage_lf, below_grade_drainage_lf, slab_concrete_cy, total_concrete_cy",
-      "Category 'structural' has 12 unmatched quantities: steel_connections, wall_sheathing_sf, stud_spacing_inches, roof_sheathing_sf, steel_framing_equivalent_bf, stud_quantity, conventional_lumber_bf, floor_sheathing_sf, wall_linear_feet, steel_framing_weight_lbs, total_sheathing_sf, engineered_lumber_bf",
-      "Category 'electrical' has 26 unmatched quantities: security_system_components, outlet_circuits, electrical_service_name, mechanical_circuits, garage_circuits, home_office_circuits, floor_outlets, security_system_circuits, romex_lf, audio_visual_circuits, smart_switches, kitchen_circuits, total_additional_circuits, emergency_circuits, exterior_lighting_circuits, total_light_fixtures, sub_panels, under_cabinet_lights, main_panel_quantity, total_specialty_systems, total_baseline_circuits, lighting_circuits, lighting_control_panels, audio_visual_drops, total_outlets_switches, total_circuits",
-      "Category 'plumbing' has 5 unmatched quantities: tankless_water_heaters, secondary_bath_count, primary_bath_count, powder_room_count, total_plumbing_fixtures",
-      "Category 'hvac' has 7 unmatched quantities: systems, hard_duct_linear_feet, hvac_units, tonnage, zones, required_tonnage, flex_duct_linear_feet",
+      "Category 'electrical' has 4 unmatched quantities: floor_outlets, electrical_service_name, main_panel_size, main_panel_quantity",
+      "Category 'plumbing' has 1 unmatched quantities: tankless_water_heaters",
       "Error in category 'drywall_interior': name 'textured_area' is not defined",
-      "Category 'roofing' has 11 unmatched quantities: insulation_r_value, decorative_scuppers, downspouts_count, ridge_vent_lf, soffit_sf, fascia_lf, ceiling_insulation_sf, gutters_lf, drip_edge_lf, rain_chains, underlayment_area_sf",
-      "Category 'windows_doors' has 9 unmatched quantities: door_hardware_sets, exterior_door_type, garage_door_openers, window_trim_lf, window_count, exterior_door_count, garage_door_count, window_area_sf, window_efficiency",
-      "Category 'tile' has 13 unmatched quantities: total_bathroom_tile_sf, total_other_tile_sf, total_schluter_lf, simplified_total_schluter_lf, simplified_total_tile_sf, secondary_bath_count, powder_room_tile_sf, primary_bath_count, secondary_bath_tile_sf, powder_room_count, total_kitchen_tile_sf, primary_bath_tile_sf, total_tile_sf",
-      "Category 'painting_coatings' has 15 unmatched quantities: exterior_paint_gallons, total_paintable_area_sf, trim_door_primer_gallons, decorative_glaze_gallons, total_exterior_gallons, total_trim_door_gallons, wall_ceiling_paint_gallons, trim_lf, trim_door_paint_gallons, exterior_trim_area_sf, total_wall_ceiling_gallons, wall_area_sf, exterior_trim_paint_gallons, exterior_primer_gallons, wall_ceiling_primer_gallons",
-      "Category 'cabinetry' has 4 unmatched quantities: total_bathroom_cabinets_lf, total_cabinetry_lf, total_specialty_cabinets_lf, total_kitchen_cabinets_lf",
-      "Category 'countertops' has 3 unmatched quantities: total_kitchen_countertops_sf, total_bathroom_countertops_sf, total_countertops_sf",
-      "Category 'landscape_hardscape' has 24 unmatched quantities: specialty_shrub_count, shrub_count, fire_pit_count, irrigation_valves, driveway_area_sf, lot_size_sf, outdoor_lighting_count, ornamental_tree_count, outdoor_kitchen_area_sf, walkway_area_sf, pool_deck_area_sf, perennial_count, planting_bed_area_sf, lawn_sprinklers, house_footprint_sf, water_feature_count, non_house_area_sf, tree_count, hardscape_area_sf, irrigation_area_sf, lawn_area_sf, other_area_sf, drip_emitters, patio_area_sf",
-      "Category 'cleaning' has 11 unmatched quantities: construction_waste_cy, floor_cleaning_sf, fixture_cleaning_count, rough_cleaning_labor_hours, window_cleaning_labor_hours, rough_cleaning_occurrences, final_cleaning_labor_hours, cabinet_cleaning_lf, countertop_sealing_sf, power_washing_sf, construction_dumpsters",
-      "Category 'finish_carpentry' has 7 unmatched quantities: barn_doors, crown_molding_lf, simplified_double_doors, window_casing_lf, simplified_single_doors, total_trim_lf, simplified_baseboard_lf",
-      "Category 'thermal_fire_suppression' has 17 unmatched quantities: rigid_insulation_sf, control_valves, wall_insulation_sf, acoustic_insulation_sf, foam_sealant_cans, caulk_tubes, inspector_test_connections, radiant_barrier_sf, fire_suppression_monitor, weather_barrier_sf, fire_suppression_piping_lf, ceiling_r_value, fire_suppression_covered_area_sf, wall_r_value, fire_riser_assembly, ceiling_insulation_sf, flow_switches",
-      "Category 'preparations_preliminaries' has 32 unmatched quantities: field_office_months, temporary_roads_sf, final_inspections, building_permit, floor_protection_sf, electrical_permit, erosion_control_lf, site_clearing_sf, client_meetings, temp_electrical_months, foundation_inspections, construction_signage, subcontractor_meetings, dumpster_pulls, construction_fencing_lf, construction_entrance, electrical_inspections, window_protection_units, pool_permit, field_office_sf, landscape_permit, mechanical_inspections, safety_equipment_units, plumbing_inspections, mechanical_permit, temp_water_months, tree_protection, plumbing_permit, framing_inspections, portable_toilet_months, first_aid_kits, dust_barriers_sf",
+      "Category 'roofing' has 1 unmatched quantities: decorative_scuppers",
+      "Category 'landscape_hardscape' has 1 unmatched quantities: water_feature_count",
       "Category 'specialty' produced no quantities"
     ],
     "metadata": {
-      "estimation_date": "2025-03-20T18:49:54.644378",
+      "estimation_date": "2025-03-21T12:58:08.100664",
       "catalog_version": "unknown",
       "catalog_item_count": 1034
     },
     "percentage_breakdown": {
       "foundation": 0.0,
       "structural": 0.0,
-      "electrical": 61.624698882338635,
-      "plumbing": 0.31132883967208136,
-      "hvac": 0.09939423730283797,
-      "roofing": 3.89293529947409,
-      "windows_doors": 0.12908342506862075,
-      "tile": 0.2282446328198875,
-      "painting_coatings": 0.38860904810132146,
-      "cabinetry": 1.1160620870077722,
-      "countertops": 0.33154058649203644,
+      "electrical": 7.038396946244495,
+      "plumbing": 2.7076021438916955,
+      "hvac": 1.3348683863567146,
+      "roofing": 52.28226909742276,
+      "windows_doors": 1.733595306956772,
+      "tile": 3.065334097575138,
+      "painting_coatings": 5.219034292522492,
+      "cabinetry": 14.988756265806513,
+      "countertops": 4.452602683131078,
       "landscape_hardscape": 0.0,
-      "cleaning": 0.03753610123705946,
-      "finish_carpentry": 0.2966540924011224,
+      "cleaning": 0.7116864944348854,
+      "finish_carpentry": 3.984075740961445,
       "thermal_fire_suppression": 0.0,
-      "preparations_preliminaries": 31.543912768084535
+      "preparations_preliminaries": 2.481778544696011
     }
   },
-  "total_cost": 14719163.2
+  "total_cost": 1095988.2
 }

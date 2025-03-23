@@ -1,42 +1,95 @@
 Category,Item,Item ID,Quantity,Unit,Unit Cost,Total Cost,Markup %,Note
-electrical,Electrical New (Outlets 120),el7,143.0,Each,100.0,14300.0,70.0,Direct match by ID
-electrical,Electrical GFCI/USB Outlet,el6,32.0,Each,97.5,3120.0,70.0,Direct match by ID
-electrical,Electrical GFCI/USB Outlet,el6,20.0,Each,97.5,1950.0,70.0,Direct match by ID
-electrical,Electrical New (Switch Leg),el10,98.0,Each,150.0,14700.0,70.0,Direct match by ID
-electrical,Electrical New (Switch Leg),el10,39.0,Each,150.0,5850.0,70.0,Direct match by ID
-electrical,Electrical New (Switch Leg),el10,46.0,Each,150.0,6900.0,70.0,Direct match by ID
-electrical,Electrical New (Can Lights),el9,98.0,Each,150.0,14700.0,70.0,Direct match by ID
-electrical,Electrical Install New Fixtures,el13,8.0,Each,300.0,2400.0,70.0,Direct match by ID
-electrical,Electrical Install New Fixtures,el13,6.0,Each,300.0,1800.0,70.0,Direct match by ID
+foundation,Slab Square Footage Sf,,7150.000000000001,EA,0.0,0.0,0.0,No catalog match found
+foundation,Slab Concrete Cy,,132,EA,0.0,0.0,0.0,No catalog match found
+foundation,Footing Concrete Cy,,33,EA,0.0,0.0,0.0,No catalog match found
+foundation,Foundation Wall Cy,,16,EA,0.0,0.0,0.0,No catalog match found
+foundation,Total Concrete Cy,,181,EA,0.0,0.0,0.0,No catalog match found
+foundation,Foundation Waterproofing Sf,,3250,EA,0.0,0.0,0.0,No catalog match found
+foundation,Below Grade Drainage Lf,,975,EA,0.0,0.0,0.0,No catalog match found
+foundation,Roof Drainage Lf,,520,EA,0.0,0.0,0.0,No catalog match found
+foundation,Sump Pumps,,2,EA,0.0,0.0,0.0,No catalog match found
+structural,Conventional Lumber Bf,,12480,EA,0.0,0.0,0.0,No catalog match found
+structural,Engineered Lumber Bf,,5200,EA,0.0,0.0,0.0,No catalog match found
+structural,Steel Framing Equivalent Bf,,3120,EA,0.0,0.0,0.0,No catalog match found
+structural,Stud Quantity,,11677,EA,0.0,0.0,0.0,No catalog match found
+structural,Stud Spacing Inches,,16,EA,0.0,0.0,0.0,No catalog match found
+structural,Wall Linear Feet,,1297,EA,0.0,0.0,0.0,No catalog match found
+structural,Steel Framing Weight Lbs,,1560,EA,0.0,0.0,0.0,No catalog match found
+structural,Steel Connections,,39,EA,0.0,0.0,0.0,No catalog match found
+structural,Total Sheathing Sf,,14950,EA,0.0,0.0,0.0,No catalog match found
+structural,Roof Sheathing Sf,,5980,EA,0.0,0.0,0.0,No catalog match found
+structural,Wall Sheathing Sf,,5232,EA,0.0,0.0,0.0,No catalog match found
+structural,Floor Sheathing Sf,,3737,EA,0.0,0.0,0.0,No catalog match found
+electrical,Electrical New 400 Amp Service,el15,1,Each,6500.0,6500.0,70.0,Direct match for electrical service
+electrical,Electrical New (Outlets 120),el7,143,Each,100.0,14300.0,70.0,Direct match by ID
+electrical,Electrical GFCI/USB Outlet,el6,32,Each,97.5,3120.0,70.0,Direct match by ID
+electrical,Electrical GFCI/USB Outlet,el6,20,Each,97.5,1950.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,98,Each,150.0,14700.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,39,Each,150.0,5850.0,70.0,Direct match by ID
+electrical,Electrical New (Switch Leg),el10,46,Each,150.0,6900.0,70.0,Direct match by ID
+electrical,Smart Switches,,20,EA,0.0,0.0,0.0,No catalog match found
+electrical,Total Outlets Switches,,455,EA,0.0,0.0,0.0,No catalog match found
+electrical,Electrical New (Can Lights),el9,98,Each,150.0,14700.0,70.0,Direct match by ID
+electrical,Electrical Install New Fixtures,el13,8,Each,300.0,2400.0,70.0,Direct match by ID
+electrical,Electrical Install New Fixtures,el13,6,Each,300.0,1800.0,70.0,Direct match by ID
+electrical,Under Cabinet Lights,,65,EA,0.0,0.0,0.0,No catalog match found
 electrical,Electrical Tape Light,el11,32.0,LF,60.0,1920.0,70.0,Direct match by ID
-electrical,Electrical New (Can Lights),el9,20.0,Each,150.0,3000.0,70.0,Direct match by ID
-electrical,Electrical New 200 Amp Service,el14,400.0,Each,5000.0,2000000.0,70.0,Direct match by ID
-electrical,Electrical New 400 Amp Service,el15,400.0,Each,6500.0,2600000.0,70.0,Direct match by ID
-electrical,Electrical New 600 Amp Service,el16,400.0,Each,11000.0,4400000.0,70.0,Direct match by ID
-plumbing,Plumbing Shower Valve(s) W/ Diverter (Rough-in),pl2,9.0,Each,625.0,5625.0,70.0,Direct match by ID
-plumbing,Plumbing Sink(s) (Rough-in),pl3,10.0,Each,550.0,5500.0,70.0,Direct match by ID
-plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,10.0,Each,187.5,1875.0,70.0,Direct match by ID
-plumbing,Plumbing Bathtub(s) (Rough-in),pl4,3.0,Each,825.0,2475.0,70.0,Direct match by ID
-plumbing,Plumbing Tub Filler(s) (Floor Mounted) (Rough-in),pl5,3.0,Each,825.0,2475.0,70.0,Direct match by ID
-plumbing,Plumbing Tub Filler (Trim),pl19,3.0,Each,387.5,1162.5,70.0,Direct match by ID
-plumbing,Plumbing Toilet (Trim),pl22,3.0,Each,287.5,862.5,70.0,Direct match by ID
-plumbing,Plumbing Bathtub(s) (Rough-in),pl4,5.0,Each,825.0,4125.0,70.0,Direct match by ID
-plumbing,Plumbing Toilet (Trim),pl22,5.0,Each,287.5,1437.5,70.0,Direct match by ID
-plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3.0,Each,525.0,1575.0,70.0,Direct match by ID
-plumbing,Plumbing Sink(s) (Rough-in),pl3,10.0,Each,550.0,5500.0,70.0,Direct match by ID
-plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,10.0,Each,187.5,1875.0,70.0,Direct match by ID
-plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2.0,Each,825.0,1650.0,70.0,Direct match by ID
-plumbing,Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),pl6,2.0,Each,650.0,1300.0,70.0,Direct match by ID
-plumbing,Plumbing Tub Filler (Trim),pl19,2.0,Each,387.5,775.0,70.0,Direct match by ID
-plumbing,Plumbing Toilet (Trim),pl22,2.0,Each,287.5,575.0,70.0,Direct match by ID
-plumbing,Plumbing Bathtub(s) (Rough-in),pl4,3.0,Each,825.0,2475.0,70.0,Direct match by ID
-plumbing,Plumbing Toilet (Trim),pl22,3.0,Each,287.5,862.5,70.0,Direct match by ID
-plumbing,Plumbing Sink(s) (Rough-in),pl3,2.0,Each,550.0,1100.0,70.0,Direct match by ID
-plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,2.0,Each,187.5,375.0,70.0,Direct match by ID
-plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2.0,Each,825.0,1650.0,70.0,Direct match by ID
-plumbing,Plumbing Toilet (Trim),pl22,2.0,Each,287.5,575.0,70.0,Direct match by ID
+electrical,Electrical New (Can Lights),el9,20,Each,150.0,3000.0,70.0,Direct match by ID
+electrical,Total Light Fixtures,,228,EA,0.0,0.0,0.0,No catalog match found
+electrical,Total Specialty Systems,,52,EA,0.0,0.0,0.0,No catalog match found
+electrical,Lighting Control Panels,,1,EA,0.0,0.0,0.0,No catalog match found
+electrical,Audio Visual Drops,,13,EA,0.0,0.0,0.0,No catalog match found
+electrical,Security System Components,,6,EA,0.0,0.0,0.0,No catalog match found
+electrical,Sub Panels,,2,EA,0.0,0.0,0.0,No catalog match found
+electrical,Kitchen Circuits,,38,EA,0.0,0.0,0.0,No catalog match found
+electrical,Lighting Circuits,,31,EA,0.0,0.0,0.0,No catalog match found
+electrical,Outlet Circuits,,38,EA,0.0,0.0,0.0,No catalog match found
+electrical,Mechanical Circuits,,16,EA,0.0,0.0,0.0,No catalog match found
+electrical,Exterior Lighting Circuits,,2,EA,0.0,0.0,0.0,No catalog match found
+electrical,Garage Circuits,,2,EA,0.0,0.0,0.0,No catalog match found
+electrical,Emergency Circuits,,1,EA,0.0,0.0,0.0,No catalog match found
+electrical,Audio Visual Circuits,,2,EA,0.0,0.0,0.0,No catalog match found
+electrical,Home Office Circuits,,1,EA,0.0,0.0,0.0,No catalog match found
+electrical,Security System Circuits,,1,EA,0.0,0.0,0.0,No catalog match found
+electrical,Total Baseline Circuits,,123,EA,0.0,0.0,0.0,No catalog match found
+electrical,Total Additional Circuits,,9,EA,0.0,0.0,0.0,No catalog match found
+electrical,Total Circuits,,132,EA,0.0,0.0,0.0,No catalog match found
+electrical,Romex Lf,,19500,EA,0.0,0.0,0.0,No catalog match found
+plumbing,Primary Bath Count,,2,EA,0.0,0.0,0.0,No catalog match found
+plumbing,Plumbing Shower Valve(s) W/ Diverter (Rough-in),pl2,4,Each,625.0,2500.0,70.0,Direct match by ID
+plumbing,Plumbing Sink(s) (Rough-in),pl3,4,Each,550.0,2200.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,4,Each,187.5,750.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler(s) (Floor Mounted) (Rough-in),pl5,2,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler (Trim),pl19,2,Each,387.5,775.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,2,Each,287.5,575.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,4,Each,825.0,3300.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,4,Each,287.5,1150.0,70.0,Direct match by ID
+plumbing,Secondary Bath Count,,3,EA,0.0,0.0,0.0,No catalog match found
+plumbing,Plumbing Shower Valve(s) (Rough-in),pl1,3,Each,525.0,1575.0,70.0,Direct match by ID
+plumbing,Plumbing Sink(s) (Rough-in),pl3,3,Each,550.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,3,Each,187.5,562.5,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler(s) (Wall Mounted) (Rough-in),pl6,2,Each,650.0,1300.0,70.0,Direct match by ID
+plumbing,Plumbing Tub Filler (Trim),pl19,2,Each,387.5,775.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,2,Each,287.5,575.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,3,Each,825.0,2475.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,3,Each,287.5,862.5,70.0,Direct match by ID
+plumbing,Powder Room Count,,2,EA,0.0,0.0,0.0,No catalog match found
+plumbing,Plumbing Sink(s) (Rough-in),pl3,2,Each,550.0,1100.0,70.0,Direct match by ID
+plumbing,Plumbing Vanity Sink/Faucet (Trim),pl23,2,Each,187.5,375.0,70.0,Direct match by ID
+plumbing,Plumbing Bathtub(s) (Rough-in),pl4,2,Each,825.0,1650.0,70.0,Direct match by ID
+plumbing,Plumbing Toilet (Trim),pl22,2,Each,287.5,575.0,70.0,Direct match by ID
+plumbing,Total Plumbing Fixtures,,25,EA,0.0,0.0,0.0,No catalog match found
+hvac,Tonnage,,14.4,EA,0.0,0.0,0.0,No catalog match found
+hvac,Systems,,4,EA,0.0,0.0,0.0,No catalog match found
+hvac,Zones,,10,EA,0.0,0.0,0.0,No catalog match found
+hvac,Flex Duct Linear Feet,,182,EA,0.0,0.0,0.0,No catalog match found
+hvac,Hard Duct Linear Feet,,78,EA,0.0,0.0,0.0,No catalog match found
 hvac,HVAC Registers,me9,59.0,Each ,190.0,11210.0,70.0,Direct match by ID
 hvac,HVAC Returns,me10,18.0,Each ,190.0,3420.0,70.0,Direct match by ID
+hvac,Required Tonnage,,14.4,EA,0.0,0.0,0.0,No catalog match found
+hvac,Hvac Units,,"{'units': [5, 5, 5], 'unit_count': 3, 'total_capacity': 15, 'oversize': 0}",EA,0.0,0.0,0.0,No catalog match found
 roofing,Roofing Recoat Flat Roof,ro1,8775.0,Sq Ft,2.3,20182.5,70.0,Direct match by ID
 roofing,Roofing Tear Off and Replace Flat Roof,ro3,8775.0,Sq Ft,5.65,49578.75,70.0,Direct match by ID
 roofing,Roofing New Flat Roof,ro4,8775.0,Sq Ft,5.35,46946.25,70.0,Direct match by ID
@@ -47,30 +100,77 @@ roofing,Roofing New Sandcast Tile Roofing,ro10,8775.0,Sq Ft,10.5,92137.5,70.0,Di
 roofing,Roofing Tear Off and Replace Concrete Tile Roofing,ro12,8775.0,Sq Ft,4.5,39487.5,70.0,Direct match by ID
 roofing,Roofing New Concrete Tile Roofing,ro13,8775.0,Sq Ft,4.1,35977.5,70.0,Direct match by ID
 roofing,Roofing New Standing Seam Roofing,ro15,8775.0,Sq Ft,12.5,109687.5,70.0,Direct match by ID
-windows_doors,Slider Door Install,wd2,2.0,Each,1750.0,3500.0,70.0,Direct match by ID
-windows_doors,Slider Door Cost/Steel Door,wd4,2.0,Each,7750.0,15500.0,50.0,Direct match by ID
+roofing,Underlayment Area Sf,,20182,EA,0.0,0.0,0.0,No catalog match found
+roofing,Ceiling Insulation Sf,,6500,EA,0.0,0.0,0.0,No catalog match found
+roofing,Insulation R Value,,49,EA,0.0,0.0,0.0,No catalog match found
+roofing,Ridge Vent Lf,,439,EA,0.0,0.0,0.0,No catalog match found
+roofing,Drip Edge Lf,,1404,EA,0.0,0.0,0.0,No catalog match found
+roofing,Fascia Lf,,1040,EA,0.0,0.0,0.0,No catalog match found
+roofing,Soffit Sf,,1430,EA,0.0,0.0,0.0,No catalog match found
+roofing,Gutters Lf,,274,EA,0.0,0.0,0.0,No catalog match found
+roofing,Downspouts Count,,7,EA,0.0,0.0,0.0,No catalog match found
+roofing,Rain Chains,,1,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Window Count,,52,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Window Area Sf,,780,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Window Efficiency,,Low-E Triple Pane,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Window Trim Lf,,806,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Exterior Door Count,,3,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Slider Door Install,wd2,2,Each,1750.0,3500.0,70.0,Direct match by ID
+windows_doors,Slider Door Cost/Steel Door,wd4,2,Each,7750.0,15500.0,50.0,Direct match by ID
+windows_doors,Door Hardware Sets,,4,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Exterior Door Type,,Premium Wood/Steel,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Garage Door Count,,3,EA,0.0,0.0,0.0,No catalog match found
+windows_doors,Garage Door Openers,,3,EA,0.0,0.0,0.0,No catalog match found
+tile,Primary Bath Count,,2,EA,0.0,0.0,0.0,No catalog match found
 tile,Tile Installation Shower Pan,ti6,50.0,Sq Ft,30.5,1525.0,70.0,Direct match by ID
 tile,Tile Installation Walls,ti5,320.0,Sq Ft,25.7,8224.0,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,240.0,Sq Ft,5.15,1236.0,70.0,Direct match by ID
 tile,Tile Shampoo Niche,ti8,10.0,Each,232.5,2325.0,70.0,Direct match by ID
 tile,Tile Metal Schluter,ti7,160.0,LF,8.0,1280.0,70.0,Direct match by ID
+tile,Primary Bath Tile Sf,,620,EA,0.0,0.0,0.0,No catalog match found
+tile,Secondary Bath Count,,3,EA,0.0,0.0,0.0,No catalog match found
 tile,Tile Installation Shower Pan,ti6,48.0,Sq Ft,30.5,1464.0,70.0,Direct match by ID
 tile,Tile Installation Walls,ti5,300.0,Sq Ft,25.7,7710.0,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,180.0,Sq Ft,5.15,927.0000000000001,70.0,Direct match by ID
 tile,Tile Shampoo Niche,ti8,9.0,Each,232.5,2092.5,70.0,Direct match by ID
 tile,Tile Metal Schluter,ti7,150.0,LF,8.0,1200.0,70.0,Direct match by ID
+tile,Secondary Bath Tile Sf,,537,EA,0.0,0.0,0.0,No catalog match found
+tile,Powder Room Count,,2,EA,0.0,0.0,0.0,No catalog match found
 tile,Tile Floor Installation,ti2,70.0,Sq Ft,5.15,360.5,70.0,Direct match by ID
 tile,Tile Installation Walls,ti5,30.0,Sq Ft,25.7,771.0,70.0,Direct match by ID
 tile,Tile Metal Schluter,ti7,20.0,LF,8.0,160.0,70.0,Direct match by ID
+tile,Powder Room Tile Sf,,100,EA,0.0,0.0,0.0,No catalog match found
 tile,Tile Installation Walls,ti5,106.0,Sq Ft,25.7,2724.2,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,25.0,Sq Ft,5.15,128.75,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,75.0,Sq Ft,5.15,386.25,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,60.0,Sq Ft,5.15,309.0,70.0,Direct match by ID
 tile,Tile Floor Installation,ti2,150.0,Sq Ft,5.15,772.5,70.0,Direct match by ID
+tile,Total Bathroom Tile Sf,,1257,EA,0.0,0.0,0.0,No catalog match found
+tile,Total Kitchen Tile Sf,,131,EA,0.0,0.0,0.0,No catalog match found
+tile,Total Other Tile Sf,,285,EA,0.0,0.0,0.0,No catalog match found
+tile,Total Tile Sf,,1673,EA,0.0,0.0,0.0,No catalog match found
+tile,Total Schluter Lf,,330,EA,0.0,0.0,0.0,No catalog match found
+tile,Simplified Total Tile Sf,,1725,EA,0.0,0.0,0.0,No catalog match found
+tile,Simplified Total Schluter Lf,,330,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Wall Area Sf,,15600,EA,0.0,0.0,0.0,No catalog match found
 painting_coatings,Paint Lids,pc5,6500.0,Sq Ft,1.0,6500.0,70.0,Direct match by ID
-painting_coatings,Paint/Stain Doors,pc8,26.0,Each,375.0,9750.0,70.0,Direct match by ID
+painting_coatings,Total Paintable Area Sf,,22100,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Wall Ceiling Primer Gallons,,63,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Wall Ceiling Paint Gallons,,126,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Total Wall Ceiling Gallons,,189,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Paint/Stain Doors,pc8,26,Each,375.0,9750.0,70.0,Direct match by ID
+painting_coatings,Trim Lf,,5850,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Trim Door Primer Gallons,,18,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Trim Door Paint Gallons,,37,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Total Trim Door Gallons,,55,EA,0.0,0.0,0.0,No catalog match found
 painting_coatings,Roman Clay / Venetian,pc1,3315.0,Sq Ft,5.0,16575.0,70.0,Direct match by ID
+painting_coatings,Decorative Glaze Gallons,,11,EA,0.0,0.0,0.0,No catalog match found
 painting_coatings,Paint Exterior,pc6,16250.0,Sq Ft,1.5,24375.0,70.0,Direct match by ID
+painting_coatings,Exterior Primer Gallons,,46,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Exterior Paint Gallons,,93,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Total Exterior Gallons,,139,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Exterior Trim Area Sf,,2438,EA,0.0,0.0,0.0,No catalog match found
+painting_coatings,Exterior Trim Paint Gallons,,8,EA,0.0,0.0,0.0,No catalog match found
 cabinetry,Cabinets Custom Stain Grade,ca2,43.0,LF,1025.0,44075.0,50.0,Direct match by ID
 cabinetry,Cabinets Custom Stain Grade,ca2,36.5,LF,1025.0,37412.5,50.0,Direct match by ID
 cabinetry,Cabinets Custom Stain Grade,ca2,17.5,LF,1025.0,17937.5,50.0,Direct match by ID
@@ -80,6 +180,10 @@ cabinetry,Cabinets Custom Paint Grade,ca1,15.8,LF,750.0,11850.0,50.0,Direct matc
 cabinetry,Cabinets Custom Paint Grade,ca1,5.0,LF,750.0,3750.0,50.0,Direct match by ID
 cabinetry,Cabinets Custom Paint Grade,ca1,6.0,LF,750.0,4500.0,50.0,Direct match by ID
 cabinetry,Cabinets Custom Paint Grade,ca1,8.0,LF,750.0,6000.0,50.0,Direct match by ID
+cabinetry,Total Kitchen Cabinets Lf,,110.0,EA,0.0,0.0,0.0,No catalog match found
+cabinetry,Total Bathroom Cabinets Lf,,50.8,EA,0.0,0.0,0.0,No catalog match found
+cabinetry,Total Specialty Cabinets Lf,,14,EA,0.0,0.0,0.0,No catalog match found
+cabinetry,Total Cabinetry Lf,,174.8,EA,0.0,0.0,0.0,No catalog match found
 countertops,Countertop Fabrication/Installation,co1,91.0,Sq Ft,80.0,7280.0,70.0,Direct match by ID
 countertops,Countertop Fabrication/Installation,co1,30.0,Sq Ft,80.0,2400.0,70.0,Direct match by ID
 countertops,Countertop Fabrication Vanity(ies),co5,8.0,Each,200.0,1600.0,70.0,Direct match by ID
@@ -90,17 +194,119 @@ countertops,Countertop Fabrication/Installation,co1,133.0,Sq Ft,80.0,10640.0,70.
 countertops,Countertop Fabrication/Installation,co1,74.0,Sq Ft,80.0,5920.0,70.0,Direct match by ID
 countertops,Countertop Fabrication/Installation,co1,50.0,Sq Ft,80.0,4000.0,70.0,Direct match by ID
 countertops,Countertop Fabrication/Installation,co1,38.0,Sq Ft,80.0,3040.0,70.0,Direct match by ID
+countertops,Total Kitchen Countertops Sf,,121,EA,0.0,0.0,0.0,No catalog match found
+countertops,Total Bathroom Countertops Sf,,174,EA,0.0,0.0,0.0,No catalog match found
+countertops,Total Countertops Sf,,295,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Lot Size Sf,,17333,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,House Footprint Sf,,4333,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Non House Area Sf,,13000,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Hardscape Area Sf,,3900,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Lawn Area Sf,,5200,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Planting Bed Area Sf,,3250,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Other Area Sf,,650,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Tree Count,,8,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Shrub Count,,156,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Ornamental Tree Count,,2,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Specialty Shrub Count,,23,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Perennial Count,,468,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Patio Area Sf,,1560,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Walkway Area Sf,,975,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Driveway Area Sf,,975,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Outdoor Kitchen Area Sf,,195,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Pool Deck Area Sf,,195,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Irrigation Area Sf,,7605,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Lawn Sprinklers,,35,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Drip Emitters,,812,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Irrigation Valves,,7,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Fire Pit Count,,1,EA,0.0,0.0,0.0,No catalog match found
+landscape_hardscape,Outdoor Lighting Count,,20,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Rough Clean,cl1,6500.0,Sq Ft,0.35,2275.0,70.0,Direct match by ID
+cleaning,Rough Cleaning Occurrences,,40,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Rough Cleaning Labor Hours,,130,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Construction Waste Cy,,13,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Construction Dumpsters,,1,EA,0.0,0.0,0.0,No catalog match found
 cleaning,Final Clean,cl2,6500.0,Sq Ft,0.65,4225.0,70.0,Direct match by ID
-cleaning,Windows,cl3,52.0,Each,25.0,1300.0,70.0,Direct match by ID
-finish_carpentry,Finish Carpentry Door Install (Paint Single Prehung),fc3,26.0,Each,250.0,6500.0,70.0,Direct match by ID
-finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4.0,Each,325.0,1300.0,70.0,Direct match by ID
-finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4.0,Each,325.0,1300.0,70.0,Direct match by ID
-finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2.0,Each,350.0,700.0,70.0,Direct match by ID
-finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2.0,Each,350.0,700.0,70.0,Direct match by ID
+cleaning,Final Cleaning Labor Hours,,195,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Windows,cl3,52,Each,25.0,1300.0,70.0,Direct match by ID
+cleaning,Window Cleaning Labor Hours,,39,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Floor Cleaning Sf,,4550,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Power Washing Sf,,1950,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Fixture Cleaning Count,,13,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Countertop Sealing Sf,,260,EA,0.0,0.0,0.0,No catalog match found
+cleaning,Cabinet Cleaning Lf,,130,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Finish Carpentry Door Install (Paint Single Prehung),fc3,26,Each,250.0,6500.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4,Each,325.0,1300.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Double Prehung),fc4,4,Each,325.0,1300.0,70.0,Direct match by ID
+finish_carpentry,Barn Doors,,2,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2,Each,350.0,700.0,70.0,Direct match by ID
+finish_carpentry,Finish Carpentry Door Install (Paint Exterior),fc5,2,Each,350.0,700.0,70.0,Direct match by ID
 finish_carpentry,Finish Carpentry Base Install,fc1,5140.0,LF,3.0,15420.0,70.0,Direct match by ID
 finish_carpentry,Finish Carpentry Base Material,fc9,5140.0,LF,3.25,16705.0,30.0,Direct match by ID
+finish_carpentry,Crown Molding Lf,,3084,EA,0.0,0.0,0.0,No catalog match found
 finish_carpentry,Finish Carpentry Case Material,fc10,320.0,LF,3.25,1040.0,30.0,Direct match by ID
-thermal_fire_suppression,Regualr Drops,fs2,39.0,Each,,,70.0,Direct match by ID
+finish_carpentry,Window Casing Lf,,832,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Total Trim Lf,,9376,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Simplified Single Doors,,36,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Simplified Double Doors,,2,EA,0.0,0.0,0.0,No catalog match found
+finish_carpentry,Simplified Baseboard Lf,,5525,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Wall Insulation Sf,,6175,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Wall R Value,,21,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Ceiling Insulation Sf,,6500,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Ceiling R Value,,49,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Rigid Insulation Sf,,2600,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Acoustic Insulation Sf,,975,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Radiant Barrier Sf,,3250,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Weather Barrier Sf,,6793,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Caulk Tubes,,98,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Foam Sealant Cans,,32,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Regualr Drops,fs2,39,Each,,,70.0,Direct match by ID
+thermal_fire_suppression,Fire Suppression Piping Lf,,4972,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Fire Suppression Covered Area Sf,,5850,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Fire Riser Assembly,,1,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Flow Switches,,3,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Control Valves,,3,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Fire Suppression Monitor,,1,EA,0.0,0.0,0.0,No catalog match found
+thermal_fire_suppression,Inspector Test Connections,,2,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Fencing Lf,,632,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Site Clearing Sf,,6500,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Erosion Control Lf,,527,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Entrance,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Tree Protection,,2,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Signage,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Temporary Roads Sf,,867,EA,0.0,0.0,0.0,No catalog match found
 preparations_preliminaries,Portable Toilet,pr1,2.0,Monthly,350.0,700.0,70.0,Direct match by ID
-preparations_preliminaries,Superintendent,pr7,1082.0,Monthly,3250.0,3516500.0,0.0,Direct match by ID
-preparations_preliminaries,Project Manager,pr5,433.0,Monthly,2600.0,1125800.0,0.0,Direct match by ID
+preparations_preliminaries,Portable Toilet Months,,20,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Dumpster Pulls,,40,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Field Office Sf,,200,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Field Office Months,,10,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Temp Electrical Months,,10,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Temp Water Months,,10,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Superintendent Hours,,1082,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Project Manager Hours,,433,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Client Meetings,,20,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Subcontractor Meetings,,40,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Project Administrator Hours,,433,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Project Administrator,pr8,10.0,Monthly,1750.0,17500.0,0.0,Direct match by ID
+preparations_preliminaries,Construction Manager Hours,,866,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Manager Months,,10,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Carpenter / Tool Person Hours,,1299,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Carpenter / Tool Person Months,,10,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Site Tech Hours,,650,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Construction Site Tech ,pr11,10.0,Monthly,900.0,9000.0,0.0,Direct match by ID
+preparations_preliminaries,Building Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Mechanical Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Electrical Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Plumbing Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Foundation Inspections,,3,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Framing Inspections,,3,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Mechanical Inspections,,4,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Electrical Inspections,,4,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Plumbing Inspections,,4,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Final Inspections,,2,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Pool Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Landscape Permit,,1,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Safety Equipment Units,,5,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Dust Barriers Sf,,975,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Floor Protection Sf,,3250,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,Window Protection Units,,52,EA,0.0,0.0,0.0,No catalog match found
+preparations_preliminaries,First Aid Kits,,4,EA,0.0,0.0,0.0,No catalog match found

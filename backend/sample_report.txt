@@ -1,6 +1,6 @@
 ================================================================================
 DETAILED CONSTRUCTION ESTIMATION REPORT
-Generated: 2025-03-20 18:49:54
+Generated: 2025-03-21 12:58:08
 ================================================================================
 
 PROJECT INFORMATION
@@ -22,6 +22,26 @@ Quantities:
   Roof Drainage Lf: 520
   Sump Pumps: 2
 
+Costed Items:
+  Slab Square Footage Sf: 7150.000000000001 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Slab Concrete Cy: 132 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Footing Concrete Cy: 33 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Foundation Wall Cy: 16 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Concrete Cy: 181 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Foundation Waterproofing Sf: 3250 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Below Grade Drainage Lf: 975 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Roof Drainage Lf: 520 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Sump Pumps: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+
 Category Total: $0.00
 
 STRUCTURAL
@@ -40,6 +60,32 @@ Quantities:
   Roof Sheathing Sf: 5980
   Wall Sheathing Sf: 5232
   Floor Sheathing Sf: 3737
+
+Costed Items:
+  Conventional Lumber Bf: 12480 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Engineered Lumber Bf: 5200 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Steel Framing Equivalent Bf: 3120 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Stud Quantity: 11677 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Stud Spacing Inches: 16 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Wall Linear Feet: 1297 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Steel Framing Weight Lbs: 1560 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Steel Connections: 39 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Sheathing Sf: 14950 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Roof Sheathing Sf: 5980 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Wall Sheathing Sf: 5232 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Floor Sheathing Sf: 3737 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $0.00
 
@@ -88,6 +134,8 @@ Quantities:
   Units: {'standard_outlets': 'EA', 'gfci_outlets': 'EA', 'usb_outlets': 'EA', 'floor_outlets': 'EA', 'single_pole_switches': 'EA', 'three_way_switches': 'EA', 'dimmer_switches': 'EA', 'smart_switches': 'EA', 'total_outlets_switches': 'EA', 'recessed_lights': 'EA', 'pendants': 'EA', 'chandeliers': 'EA', 'under_cabinet_lights': 'LF', 'toe_kick_lights': 'LF', 'closet_lights': 'EA', 'total_light_fixtures': 'EA', 'total_specialty_systems': 'EA', 'lighting_control_panels': 'EA', 'audio_visual_drops': 'EA', 'security_system_components': 'EA', 'main_panel_size': 'EA', 'main_panel_quantity': 'EA', 'electrical_service_name': 'EA', 'sub_panels': 'EA', 'kitchen_circuits': 'EA', 'lighting_circuits': 'EA', 'outlet_circuits': 'EA', 'mechanical_circuits': 'EA', 'exterior_lighting_circuits': 'EA', 'garage_circuits': 'EA', 'emergency_circuits': 'EA', 'audio_visual_circuits': 'EA', 'home_office_circuits': 'EA', 'security_system_circuits': 'EA', 'total_baseline_circuits': 'EA', 'total_additional_circuits': 'EA', 'total_circuits': 'EA', 'romex_lf': 'LF'}
 
 Costed Items:
+  Electrical New 400 Amp Service: 1 Each at $6,500.00 each = $6,500.00
+    Note: Direct match for electrical service
   Electrical New (Outlets 120): 143 Each at $100.00 each = $14,300.00
     Note: Direct match by ID
   Electrical GFCI/USB Outlet: 32 Each at $97.50 each = $3,120.00
@@ -100,69 +148,113 @@ Costed Items:
     Note: Direct match by ID
   Electrical New (Switch Leg): 46 Each at $150.00 each = $6,900.00
     Note: Direct match by ID
+  Smart Switches: 20 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Outlets Switches: 455 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Electrical New (Can Lights): 98 Each at $150.00 each = $14,700.00
     Note: Direct match by ID
   Electrical Install New Fixtures: 8 Each at $300.00 each = $2,400.00
     Note: Direct match by ID
   Electrical Install New Fixtures: 6 Each at $300.00 each = $1,800.00
     Note: Direct match by ID
+  Under Cabinet Lights: 65 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Electrical Tape Light: 32.0 LF at $60.00 each = $1,920.00
     Note: Direct match by ID
   Electrical New (Can Lights): 20 Each at $150.00 each = $3,000.00
     Note: Direct match by ID
-  Electrical New 200 Amp Service: 400 Each at $5,000.00 each = $2,000,000.00
-    Note: Direct match by ID
-  Electrical New 400 Amp Service: 400 Each at $6,500.00 each = $2,600,000.00
-    Note: Direct match by ID
-  Electrical New 600 Amp Service: 400 Each at $11,000.00 each = $4,400,000.00
-    Note: Direct match by ID
+  Total Light Fixtures: 228 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Specialty Systems: 52 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Lighting Control Panels: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Audio Visual Drops: 13 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Security System Components: 6 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Sub Panels: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Kitchen Circuits: 38 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Lighting Circuits: 31 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Outlet Circuits: 38 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Mechanical Circuits: 16 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Lighting Circuits: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Garage Circuits: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Emergency Circuits: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Audio Visual Circuits: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Home Office Circuits: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Security System Circuits: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Baseline Circuits: 123 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Additional Circuits: 9 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Circuits: 132 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Romex Lf: 19500 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
-Category Total: $9,070,640.00
+Category Total: $77,140.00
 
 PLUMBING
 --------------------------------------------------
 
 Quantities:
   Primary Bath Count: 2
-  Primary Shower Valves: 9
-  Primary Sinks: 10
-  Primary Bathtubs: 3
-  Primary Toilets: 5
+  Primary Shower Valves: 4
+  Primary Sinks: 4
+  Primary Bathtubs: 2
+  Primary Toilets: 4
   Secondary Bath Count: 3
   Secondary Shower Valves: 3
-  Secondary Sinks: 10
+  Secondary Sinks: 3
   Secondary Bathtubs: 2
   Secondary Toilets: 3
   Powder Room Count: 2
   Powder Room Sinks: 2
   Powder Room Toilets: 2
   Tankless Water Heaters: 2
-  Total Plumbing Fixtures: 30
+  Total Plumbing Fixtures: 25
 
 Costed Items:
-  Plumbing Shower Valve(s) W/ Diverter (Rough-in): 9 Each at $625.00 each = $5,625.00
+  Primary Bath Count: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Plumbing Shower Valve(s) W/ Diverter (Rough-in): 4 Each at $625.00 each = $2,500.00
     Note: Direct match by ID
-  Plumbing Sink(s) (Rough-in): 10 Each at $550.00 each = $5,500.00
+  Plumbing Sink(s) (Rough-in): 4 Each at $550.00 each = $2,200.00
     Note: Direct match by ID
-  Plumbing Vanity Sink/Faucet (Trim): 10 Each at $187.50 each = $1,875.00
+  Plumbing Vanity Sink/Faucet (Trim): 4 Each at $187.50 each = $750.00
     Note: Direct match by ID
-  Plumbing Bathtub(s) (Rough-in): 3 Each at $825.00 each = $2,475.00
+  Plumbing Bathtub(s) (Rough-in): 2 Each at $825.00 each = $1,650.00
     Note: Direct match by ID
-  Plumbing Tub Filler(s) (Floor Mounted) (Rough-in): 3 Each at $825.00 each = $2,475.00
+  Plumbing Tub Filler(s) (Floor Mounted) (Rough-in): 2 Each at $825.00 each = $1,650.00
     Note: Direct match by ID
-  Plumbing Tub Filler (Trim): 3 Each at $387.50 each = $1,162.50
+  Plumbing Tub Filler (Trim): 2 Each at $387.50 each = $775.00
     Note: Direct match by ID
-  Plumbing Toilet (Trim): 3 Each at $287.50 each = $862.50
+  Plumbing Toilet (Trim): 2 Each at $287.50 each = $575.00
     Note: Direct match by ID
-  Plumbing Bathtub(s) (Rough-in): 5 Each at $825.00 each = $4,125.00
+  Plumbing Bathtub(s) (Rough-in): 4 Each at $825.00 each = $3,300.00
     Note: Direct match by ID
-  Plumbing Toilet (Trim): 5 Each at $287.50 each = $1,437.50
+  Plumbing Toilet (Trim): 4 Each at $287.50 each = $1,150.00
     Note: Direct match by ID
+  Secondary Bath Count: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Plumbing Shower Valve(s) (Rough-in): 3 Each at $525.00 each = $1,575.00
     Note: Direct match by ID
-  Plumbing Sink(s) (Rough-in): 10 Each at $550.00 each = $5,500.00
+  Plumbing Sink(s) (Rough-in): 3 Each at $550.00 each = $1,650.00
     Note: Direct match by ID
-  Plumbing Vanity Sink/Faucet (Trim): 10 Each at $187.50 each = $1,875.00
+  Plumbing Vanity Sink/Faucet (Trim): 3 Each at $187.50 each = $562.50
     Note: Direct match by ID
   Plumbing Bathtub(s) (Rough-in): 2 Each at $825.00 each = $1,650.00
     Note: Direct match by ID
@@ -176,6 +268,8 @@ Costed Items:
     Note: Direct match by ID
   Plumbing Toilet (Trim): 3 Each at $287.50 each = $862.50
     Note: Direct match by ID
+  Powder Room Count: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Plumbing Sink(s) (Rough-in): 2 Each at $550.00 each = $1,100.00
     Note: Direct match by ID
   Plumbing Vanity Sink/Faucet (Trim): 2 Each at $187.50 each = $375.00
@@ -184,8 +278,10 @@ Costed Items:
     Note: Direct match by ID
   Plumbing Toilet (Trim): 2 Each at $287.50 each = $575.00
     Note: Direct match by ID
+  Total Plumbing Fixtures: 25 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
-Category Total: $45,825.00
+Category Total: $29,675.00
 
 HVAC
 --------------------------------------------------
@@ -202,10 +298,24 @@ Quantities:
   Hvac Units: {'units': [5, 5, 5], 'unit_count': 3, 'total_capacity': 15, 'oversize': 0}
 
 Costed Items:
+  Tonnage: 14.4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Systems: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Zones: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Flex Duct Linear Feet: 182 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Hard Duct Linear Feet: 78 EA at $0.00 each = $0.00
+    Note: No catalog match found
   HVAC Registers: 59.0 Each  at $190.00 each = $11,210.00
     Note: Direct match by ID
   HVAC Returns: 18.0 Each  at $190.00 each = $3,420.00
     Note: Direct match by ID
+  Required Tonnage: 14.4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Hvac Units: {'units': [5, 5, 5], 'unit_count': 3, 'total_capacity': 15, 'oversize': 0} EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $14,630.00
 
@@ -252,6 +362,26 @@ Costed Items:
     Note: Direct match by ID
   Roofing New Standing Seam Roofing: 8775.0 Sq Ft at $12.50 each = $109,687.50
     Note: Direct match by ID
+  Underlayment Area Sf: 20182 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Ceiling Insulation Sf: 6500 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Insulation R Value: 49 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Ridge Vent Lf: 439 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Drip Edge Lf: 1404 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fascia Lf: 1040 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Soffit Sf: 1430 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Gutters Lf: 274 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Downspouts Count: 7 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Rain Chains: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $573,007.50
 
@@ -271,10 +401,28 @@ Quantities:
   Garage Door Openers: 3
 
 Costed Items:
+  Window Count: 52 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Window Area Sf: 780 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Window Efficiency: Low-E Triple Pane EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Window Trim Lf: 806 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Door Count: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Slider Door Install: 2 Each at $1,750.00 each = $3,500.00
     Note: Direct match by ID
   Slider Door Cost/Steel Door: 2 Each at $7,750.00 each = $15,500.00
     Note: Direct match by ID
+  Door Hardware Sets: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Door Type: Premium Wood/Steel EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Garage Door Count: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Garage Door Openers: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $19,000.00
 
@@ -315,6 +463,8 @@ Quantities:
   Simplified Total Schluter Lf: 330
 
 Costed Items:
+  Primary Bath Count: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Tile Installation Shower Pan: 50.0 Sq Ft at $30.50 each = $1,525.00
     Note: Direct match by ID
   Tile Installation Walls: 320.0 Sq Ft at $25.70 each = $8,224.00
@@ -325,6 +475,10 @@ Costed Items:
     Note: Direct match by ID
   Tile Metal Schluter: 160.0 LF at $8.00 each = $1,280.00
     Note: Direct match by ID
+  Primary Bath Tile Sf: 620 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Secondary Bath Count: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Tile Installation Shower Pan: 48.0 Sq Ft at $30.50 each = $1,464.00
     Note: Direct match by ID
   Tile Installation Walls: 300.0 Sq Ft at $25.70 each = $7,710.00
@@ -335,12 +489,18 @@ Costed Items:
     Note: Direct match by ID
   Tile Metal Schluter: 150.0 LF at $8.00 each = $1,200.00
     Note: Direct match by ID
+  Secondary Bath Tile Sf: 537 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Powder Room Count: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Tile Floor Installation: 70.0 Sq Ft at $5.15 each = $360.50
     Note: Direct match by ID
   Tile Installation Walls: 30.0 Sq Ft at $25.70 each = $771.00
     Note: Direct match by ID
   Tile Metal Schluter: 20.0 LF at $8.00 each = $160.00
     Note: Direct match by ID
+  Powder Room Tile Sf: 100 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Tile Installation Walls: 106.0 Sq Ft at $25.70 each = $2,724.20
     Note: Direct match by ID
   Tile Floor Installation: 25.0 Sq Ft at $5.15 each = $128.75
@@ -351,6 +511,20 @@ Costed Items:
     Note: Direct match by ID
   Tile Floor Installation: 150.0 Sq Ft at $5.15 each = $772.50
     Note: Direct match by ID
+  Total Bathroom Tile Sf: 1257 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Kitchen Tile Sf: 131 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Other Tile Sf: 285 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Tile Sf: 1673 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Schluter Lf: 330 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Simplified Total Tile Sf: 1725 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Simplified Total Schluter Lf: 330 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $33,595.70
 
@@ -379,14 +553,44 @@ Quantities:
   Exterior Trim Paint Gallons: 8
 
 Costed Items:
+  Wall Area Sf: 15600 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Paint Lids: 6500.0 Sq Ft at $1.00 each = $6,500.00
     Note: Direct match by ID
+  Total Paintable Area Sf: 22100 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Wall Ceiling Primer Gallons: 63 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Wall Ceiling Paint Gallons: 126 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Wall Ceiling Gallons: 189 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Paint/Stain Doors: 26 Each at $375.00 each = $9,750.00
     Note: Direct match by ID
+  Trim Lf: 5850 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Trim Door Primer Gallons: 18 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Trim Door Paint Gallons: 37 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Trim Door Gallons: 55 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Roman Clay / Venetian: 3315.0 Sq Ft at $5.00 each = $16,575.00
     Note: Direct match by ID
+  Decorative Glaze Gallons: 11 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Paint Exterior: 16250.0 Sq Ft at $1.50 each = $24,375.00
     Note: Direct match by ID
+  Exterior Primer Gallons: 46 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Paint Gallons: 93 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Exterior Gallons: 139 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Trim Area Sf: 2438 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Exterior Trim Paint Gallons: 8 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $57,200.00
 
@@ -427,6 +631,14 @@ Costed Items:
     Note: Direct match by ID
   Cabinets Custom Paint Grade: 8.0 LF at $750.00 each = $6,000.00
     Note: Direct match by ID
+  Total Kitchen Cabinets Lf: 110.0 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Bathroom Cabinets Lf: 50.8 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Specialty Cabinets Lf: 14 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Cabinetry Lf: 174.8 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $164,275.00
 
@@ -469,6 +681,12 @@ Costed Items:
     Note: Direct match by ID
   Countertop Fabrication/Installation: 38.0 Sq Ft at $80.00 each = $3,040.00
     Note: Direct match by ID
+  Total Kitchen Countertops Sf: 121 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Bathroom Countertops Sf: 174 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Countertops Sf: 295 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $48,800.00
 
@@ -501,12 +719,61 @@ Quantities:
   Water Feature Count: 0
   Outdoor Lighting Count: 20
 
+Costed Items:
+  Lot Size Sf: 17333 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  House Footprint Sf: 4333 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Non House Area Sf: 13000 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Hardscape Area Sf: 3900 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Lawn Area Sf: 5200 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Planting Bed Area Sf: 3250 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Other Area Sf: 650 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Tree Count: 8 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Shrub Count: 156 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Ornamental Tree Count: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Specialty Shrub Count: 23 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Perennial Count: 468 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Patio Area Sf: 1560 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Walkway Area Sf: 975 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Driveway Area Sf: 975 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Outdoor Kitchen Area Sf: 195 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Pool Deck Area Sf: 195 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Irrigation Area Sf: 7605 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Lawn Sprinklers: 35 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Drip Emitters: 812 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Irrigation Valves: 7 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fire Pit Count: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Outdoor Lighting Count: 20 EA at $0.00 each = $0.00
+    Note: No catalog match found
+
 Category Total: $0.00
 
 CLEANING
 --------------------------------------------------
 
 Quantities:
+  Rough Cleaning Sf: 6500
   Rough Cleaning Occurrences: 40
   Rough Cleaning Labor Hours: 130
   Construction Waste Cy: 13
@@ -522,12 +789,36 @@ Quantities:
   Cabinet Cleaning Lf: 130
 
 Costed Items:
+  Rough Clean: 6500.0 Sq Ft at $0.35 each = $2,275.00
+    Note: Direct match by ID
+  Rough Cleaning Occurrences: 40 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Rough Cleaning Labor Hours: 130 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Waste Cy: 13 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Dumpsters: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Final Clean: 6500.0 Sq Ft at $0.65 each = $4,225.00
     Note: Direct match by ID
+  Final Cleaning Labor Hours: 195 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Windows: 52 Each at $25.00 each = $1,300.00
     Note: Direct match by ID
+  Window Cleaning Labor Hours: 39 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Floor Cleaning Sf: 4550 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Power Washing Sf: 1950 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fixture Cleaning Count: 13 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Countertop Sealing Sf: 260 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Cabinet Cleaning Lf: 130 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
-Category Total: $5,525.00
+Category Total: $7,800.00
 
 FINISH CARPENTRY
 --------------------------------------------------
@@ -555,6 +846,8 @@ Costed Items:
     Note: Direct match by ID
   Finish Carpentry Door Install (Paint Double Prehung): 4 Each at $325.00 each = $1,300.00
     Note: Direct match by ID
+  Barn Doors: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Finish Carpentry Door Install (Paint Exterior): 2 Each at $350.00 each = $700.00
     Note: Direct match by ID
   Finish Carpentry Door Install (Paint Exterior): 2 Each at $350.00 each = $700.00
@@ -563,8 +856,20 @@ Costed Items:
     Note: Direct match by ID
   Finish Carpentry Base Material: 5140.0 LF at $3.25 each = $16,705.00
     Note: Direct match by ID
+  Crown Molding Lf: 3084 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Finish Carpentry Case Material: 320.0 LF at $3.25 each = $1,040.00
     Note: Direct match by ID
+  Window Casing Lf: 832 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Total Trim Lf: 9376 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Simplified Single Doors: 36 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Simplified Double Doors: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Simplified Baseboard Lf: 5525 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $43,665.00
 
@@ -592,8 +897,42 @@ Quantities:
   Inspector Test Connections: 2
 
 Costed Items:
+  Wall Insulation Sf: 6175 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Wall R Value: 21 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Ceiling Insulation Sf: 6500 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Ceiling R Value: 49 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Rigid Insulation Sf: 2600 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Acoustic Insulation Sf: 975 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Radiant Barrier Sf: 3250 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Weather Barrier Sf: 6793 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Caulk Tubes: 98 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Foam Sealant Cans: 32 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Regualr Drops: 39 Each at $nan each = $nan
     Note: Direct match by ID
+  Fire Suppression Piping Lf: 4972 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fire Suppression Covered Area Sf: 5850 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fire Riser Assembly: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Flow Switches: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Control Valves: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Fire Suppression Monitor: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Inspector Test Connections: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
 Category Total: $nan
 
@@ -619,6 +958,14 @@ Quantities:
   Project Manager Hours: 433
   Client Meetings: 20
   Subcontractor Meetings: 40
+  Project Administrator Hours: 433
+  Project Administrator Months: 10
+  Construction Manager Hours: 866
+  Construction Manager Months: 10
+  Carpenter / Tool Person Hours: 1299
+  Carpenter / Tool Person Months: 10
+  Construction Site Tech Hours: 650
+  Construction Site Tech Months: 10
   Building Permit: 1
   Mechanical Permit: 1
   Electrical Permit: 1
@@ -638,14 +985,94 @@ Quantities:
   First Aid Kits: 4
 
 Costed Items:
+  Construction Fencing Lf: 632 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Site Clearing Sf: 6500 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Erosion Control Lf: 527 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Entrance: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Tree Protection: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Signage: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Temporary Roads Sf: 867 EA at $0.00 each = $0.00
+    Note: No catalog match found
   Portable Toilet: 2.0 Monthly at $350.00 each = $700.00
     Note: Direct match by ID
-  Superintendent: 1082.0 Monthly at $3,250.00 each = $3,516,500.00
+  Portable Toilet Months: 20 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Dumpster Pulls: 40 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Field Office Sf: 200 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Field Office Months: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Temp Electrical Months: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Temp Water Months: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Superintendent Hours: 1082 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Project Manager Hours: 433 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Client Meetings: 20 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Subcontractor Meetings: 40 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Project Administrator Hours: 433 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Project Administrator: 10.0 Monthly at $1,750.00 each = $17,500.00
     Note: Direct match by ID
-  Project Manager: 433.0 Monthly at $2,600.00 each = $1,125,800.00
+  Construction Manager Hours: 866 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Manager Months: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Carpenter / Tool Person Hours: 1299 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Carpenter / Tool Person Months: 10 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Site Tech Hours: 650 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Construction Site Tech : 10.0 Monthly at $900.00 each = $9,000.00
     Note: Direct match by ID
+  Building Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Mechanical Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Electrical Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Plumbing Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Foundation Inspections: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Framing Inspections: 3 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Mechanical Inspections: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Electrical Inspections: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Plumbing Inspections: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Final Inspections: 2 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Pool Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Landscape Permit: 1 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Safety Equipment Units: 5 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Dust Barriers Sf: 975 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Floor Protection Sf: 3250 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  Window Protection Units: 52 EA at $0.00 each = $0.00
+    Note: No catalog match found
+  First Aid Kits: 4 EA at $0.00 each = $0.00
+    Note: No catalog match found
 
-Category Total: $4,643,000.00
+Category Total: $27,200.00
 
 SPECIALTY
 --------------------------------------------------
@@ -653,5 +1080,5 @@ Status: no_quantities
 Message: No quantities calculated for specialty
 
 ==================================================
-TOTAL ESTIMATED COST: $14,719,163.20
+TOTAL ESTIMATED COST: $1,095,988.20
 ==================================================

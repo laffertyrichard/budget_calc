@@ -32,6 +32,9 @@ class PreparationsPreliminariesEstimator:
         # Calculate project management
         results.update(self._calculate_project_management(square_footage, tier, project_duration_months))
         
+        # Calculate additional labor roles
+        results.update(self._calculate_additional_labor(square_footage, tier, project_duration_months))
+        
         # Calculate permits and fees
         results.update(self._calculate_permits_fees(square_footage, tier))
         
@@ -179,6 +182,27 @@ class PreparationsPreliminariesEstimator:
             "client_meetings": round(client_meetings),
             "subcontractor_meetings": round(subcontractor_meetings)
         }
+        
+    def _calculate_additional_labor(self, square_footage, tier, project_duration_months):
+        """Calculate additional labor roles quantities"""
+        # Labor hours per week based on tier
+        labor_hours_per_week = {
+            "Project Administrator": {"Premium": 5, "Luxury": 10, "Ultra-Luxury": 15},
+            "Construction Manager": {"Premium": 10, "Luxury": 20, "Ultra-Luxury": 30},
+            "Carpenter / Tool Person": {"Premium": 20, "Luxury": 30, "Ultra-Luxury": 40},
+            "Construction Site Tech": {"Premium": 10, "Luxury": 15, "Ultra-Luxury": 20}
+        }
+        
+        # Calculate total hours for project duration
+        weeks = project_duration_months * 4.33  # Approximate weeks per month
+        
+        additional_labor = {}
+        for role, hours in labor_hours_per_week.items():
+            total_hours = hours[tier] * weeks
+            additional_labor[f"{role.lower().replace(' ', '_')}_hours"] = round(total_hours)
+            additional_labor[f"{role.lower().replace(' ', '_')}_months"] = project_duration_months
+        
+        return additional_labor
         
     def _calculate_permits_fees(self, square_footage, tier):
         """Calculate permit and fee quantities (not actual costs)"""

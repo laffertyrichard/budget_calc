@@ -236,9 +236,6 @@ class ElectricalEstimator:
         else:
             result["sub_panels"] = 2 if tier == "Premium" else (3 if tier == "Luxury" else 4)
         
-        # Keep existing circuit and wiring logic from the previous implementation
-        # (Circuit calculations, additional circuits, etc. remain the same)
-        
         # Kitchen circuits calculation
         kitchen_circuits = round(square_footage * 0.005)  # ~5 per 1,000 SF
         lighting_circuits = round(square_footage * 0.004)  # ~4 per 1,000 SF

@@ -36,7 +36,6 @@ class DrywallInteriorEstimator:
             "Ultra-Luxury": 3.5
         }
         
-        
         # Ceiling height by tier
         ceiling_height = {
             "Premium": 9,
@@ -46,7 +45,6 @@ class DrywallInteriorEstimator:
         
         # Calculate drywall area and breakdown
         drywall_area = square_footage * drywall_factor[tier]
-        smooth_area = drywall_area - textured_area
         
         # Calculate specialty drywall (moisture resistant, etc.)
         specialty_drywall_pct = {
@@ -60,8 +58,7 @@ class DrywallInteriorEstimator:
         return {
             "drywall_area_sf": round(drywall_area),
             "ceiling_height_ft": ceiling_height[tier],
-            "textured_area_sf": round(textured_area),
-            "smooth_area_sf": round(smooth_area),
+            "smooth_area_sf": round(drywall_area - specialty_drywall),
             "specialty_drywall_sf": round(specialty_drywall)
         }
         
